@@ -1,6 +1,6 @@
 import pickle
 import re
-obj = pickle.load(open('save.p', 'rb'))
+obj = pickle.load(open('sublist.p', 'rb'))
 finaldic={}
 for w in obj:
     fout = open("htmls/"+w+".txt","r")
@@ -10,10 +10,10 @@ for w in obj:
     dic = {}
     for i in ['Course','Title','Instructor','Schedule']:
         q=next(s for s in k if s.startswith(i))
-        #print(q)
+        print(q)
         #p="".join(c for c in q if c != " ").split(":",1)
         p=q.lstrip().split(":",1)
-        #print(p)
+        print(p)
         try:
             dic[p[0].lstrip()]=p[1].lstrip()
         except:
