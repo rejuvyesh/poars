@@ -21,18 +21,20 @@ pickle.dump(cont, open('sublist.p', 'wb'))
 print(cont)
 
 response.close
-
+scrap = 'y'
 obj = pickle.load(open('sublist.p', 'rb'))
-for i in obj:
-    url = "http://172.26.142.75:4040/Utils/CourseInfoPopup2.asp?Course=" + i
-    oars = requests.get(url)
-    soup = BeautifulSoup(oars.content)
-    fout = open(i + ".html", "wt")
-    print((type(soup.prettify)))
-    fout.write(oars.text)
-    #fout.write(soup.get_text())
-    if call("elinks -dump " + i + ".html" + ">" + i + ".txt", shell=True) == 0:
-        print("yay")
-        #call("rm -f " + i + ".html", shell=True)
-    else:
-        print(i)
+if scrap == 'y':
+    for i in obj:
+        url = "http://172.26.142.75:4040/Utils/CourseInfoPopup2.asp?Course=" + i
+        oars = requests.get(url)
+        soup = BeautifulSoup(oars.content)
+        fout = open(i + ".html", "wt")
+        print((type(soup.prettify)))
+        fout.write(oars.text)
+        oars.close
+        #fout.write(soup.get_text())
+        if call("html2text " + i + ".html" + ">" + i + ".txt", shell=True) == 0:
+            print("yay")
+            #call("rm -f " + i + ".html", shell=True)
+        else:
+            print(i)
