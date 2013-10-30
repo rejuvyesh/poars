@@ -5,9 +5,10 @@
 import requests
 import re
 import pickle
+from subprocess import call
 from bs4 import BeautifulSoup
 
-url = 'http://172.26.142.65:4040/Common/CourseListing.asp'
+url = 'http://172.26.142.75:4040/Common/CourseListing.asp'
 
 response = requests.get(url)
 
@@ -20,3 +21,18 @@ pickle.dump(cont, open('sublist.p', 'wb'))
 print(cont)
 
 response.close
+
+obj = pickle.load(open('sublist.p', 'rb'))
+for i in obj:
+    url = "http://172.26.142.75:4040/Utils/CourseInfoPopup2.asp?Course=" + i
+    oars = requests.get(url)
+    soup = BeautifulSoup(oars.content)
+    fout = open(i + ".html", "wt")
+    print((type(soup.prettify)))
+    fout.write(oars.text)
+    #fout.write(soup.get_text())
+    if call("elinks -dump " + i + ".html" + ">" + i + ".txt", shell=True) == 0:
+        print("yay")
+        #call("rm -f " + i + ".html", shell=True)
+    else:
+        print(i)
