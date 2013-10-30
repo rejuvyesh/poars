@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 *.bak
 *.pyc
 =======
@@ -38,4 +37,3 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
->>>>>>> 99e8a41678518298c085f8698b20fb7b4eee287e
