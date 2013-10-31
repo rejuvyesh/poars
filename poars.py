@@ -8,7 +8,7 @@ import pickle
 from subprocess import call
 from bs4 import BeautifulSoup
 
-url = 'http://172.26.142.75:4040/Common/CourseListing.asp'
+url = 'http://172.26.142.66:4040/Common/CourseListing.asp'
 
 response = requests.get(url)
 
@@ -25,14 +25,15 @@ scrap = 'y'
 obj = pickle.load(open('sublist.p', 'rb'))
 if scrap == 'y':
     for i in obj:
-        url = "http://172.26.142.75:4040/Utils/CourseInfoPopup2.asp?Course=" + i
-        oars = requests.get(url)
+        url = "http://172.26.142.66:4040/Utils/CourseInfoPopup2.asp?Course=" + i
+        oars = requests.get(url, timeout=1)
         soup = BeautifulSoup(oars.content)
         fout = open(i + ".html", "wt")
         print((type(soup.prettify)))
         fout.write(oars.text)
         oars.close
         #fout.write(soup.get_text())
+        # Still not working, using zsh for now
         if call("html2text " + i + ".html" + ">" + i + ".txt", shell=True) == 0:
             print("yay")
             #call("rm -f " + i + ".html", shell=True)
