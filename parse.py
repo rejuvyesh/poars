@@ -1,12 +1,13 @@
 import pickle
 import re
+import string
 obj = pickle.load(open('sublist.p', 'rb'))
 finaldic = {}
 for w in obj:
     fout = open("htmls/"+w+".txt", "r")
     lines = fout.readlines()
     j = ''.join(lines).split("\n")
-    k = [x for x in j if x !='']
+    k = [''.join(filter(lambda x: x in string.printable, x)) for x in j if x !='']
     dic = {}
     for i in ['Course', 'Title', 'Instructor', 'Schedule']:
         q = next(s for s in k if s.startswith(i))
