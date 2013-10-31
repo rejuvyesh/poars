@@ -1,13 +1,12 @@
 import pickle
-import re
-import string
 obj = pickle.load(open('sublist.p', 'rb'))
 finaldic = {}
 for w in obj:
-    fout = open("htmls/"+w+".txt", "r")
+    fout = open("data/"+w+".txt", "r")
     lines = fout.readlines()
     j = ''.join(lines).split("\n")
-    k = [''.join(filter(lambda x: x in string.printable, x)) for x in j if x !='']
+    k = [x for x in j if x != '']
+    k = list(map(lambda x: x.strip(), k))
     dic = {}
     for i in ['Course', 'Title', 'Instructor', 'Schedule']:
         q = next(s for s in k if s.startswith(i))
@@ -21,6 +20,5 @@ for w in obj:
             dic[p[0].lstrip] = None
     finaldic[w] = dic
     fout.close()
-
 print(finaldic)
 pickle.dump(finaldic, open('dict.p', 'wb'))

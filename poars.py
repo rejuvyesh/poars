@@ -5,9 +5,10 @@
 import requests
 import re
 import pickle
+import time
 from subprocess import call
 from bs4 import BeautifulSoup
-
+import os
 url = 'http://172.26.142.66:4040/Common/CourseListing.asp'
 
 response = requests.get(url)
@@ -21,21 +22,26 @@ pickle.dump(cont, open('sublist.p', 'wb'))
 print(cont)
 
 response.close
-scrap = 'y'
+scrap = 'n'
 obj = pickle.load(open('sublist.p', 'rb'))
 if scrap == 'y':
     for i in obj:
-        url = "http://172.26.142.66:4040/Utils/CourseInfoPopup2.asp?Course=" + i
-        oars = requests.get(url, timeout=1)
-        soup = BeautifulSoup(oars.content)
-        fout = open(i + ".html", "wt")
-        print((type(soup.prettify)))
-        fout.write(oars.text)
-        oars.close
-        #fout.write(soup.get_text())
-        # Still not working, using zsh for now
-        if call("html2text " + i + ".html" + ">" + i + ".txt", shell=True) == 0:
-            print("yay")
-            #call("rm -f " + i + ".html", shell=True)
+        if os.path.isfile(i + '.html'):
+            continue
         else:
-            print(i)
+            fout = open(i + ".html", "wt")
+            url = "http://172.26.142.75:4040/Utils/CourseInfoPopup2.asp?Course=" + i
+            time.sleep(2)
+            oars = requests.get(url, timeout=1)
+            soup = BeautifulSoup(oars.content)
+
+            print((type(soup.prettify)))
+            fout.write(oars.text)
+            oars.close
+            #fout.write(soup.get_text())
+            # Still not working, using zsh for now
+            if call("elinks -dump " + i + ".html" + ">" + i + ".txt", shell=True) == 0:
+                print("")
+                #call("rm -f " + i + ".html", shell=True)
+            else:
+                print(i)
