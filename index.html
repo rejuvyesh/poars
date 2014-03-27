@@ -1,0 +1,3064 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>newsort</title>
+<!-- 2014-03-27 Thu 16:14 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="generator" content="Org-mode" />
+<meta  name="author" content="Jayesh Kumar Gupta" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: visible;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline;}
+  pre.src-sh:before    { content: 'sh'; }
+  pre.src-bash:before  { content: 'sh'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-R:before     { content: 'R'; }
+  pre.src-perl:before  { content: 'Perl'; }
+  pre.src-java:before  { content: 'Java'; }
+  pre.src-sql:before   { content: 'SQL'; }
+
+
+  table { 
+    width: 100%;
+     margin-bottom: 18px;
+     padding: 0;
+     border-collapse: separate;
+      /* *border-collapse: collapse;
+                IE7, collapse table to remove spacing */
+     font-size: 1.1rem;
+     border: 1px solid #ddd;
+     border-radius: 4px;
+  }
+  table th, table td {
+     padding: 10px 10px 9px;
+     line-height: 18px;
+     text-align: left;
+  }
+  table th {
+     padding-top: 9px;
+     font-weight: bold;
+     vertical-align: middle;
+     border-bottom: 1px solid #ddd;
+  }
+  table td {
+     vertical-align: top;
+  }
+  table th + th, table td + td {
+     border-left: 1px solid #ddd;
+  }
+  table tr + tr td {
+     border-top: 1px solid #ddd;
+  }
+  table tbody tr:first-child td:first-child {
+     border-radius: 4px 0 0 0;
+  }
+  table tbody tr:first-child td:last-child {
+     border-radius: 0 4px 0 0;
+  }
+  table tbody tr:last-child td:first-child {
+     border-radius: 0 0 0 4px;
+  }
+  table tbody tr:last-child td:last-child {
+     border-radius: 0 0 4px 0;
+  }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  tbody tr:nth-child(odd) td {
+     background-color: #f9f9f9;
+  }
+  tbody tr:hover td {
+     background-color: #f5f5f5;
+  }
+  /* Add little icons to tables handled by tablesorter.js
+     to advertise that they are sortable.
+        http://tablesorter.com/docs/#Configuration */
+  th.header {
+     background-image: url(./images/bg.gif);
+     cursor: pointer;
+     font-weight: bold;
+     background-repeat: no-repeat;
+     background-position: center left;
+     padding-left: 20px;
+     border-right: 1px solid #dad9c7;
+     margin-left: -1px;
+  }
+  th.headerSortUp {
+     background-image: url(./images/small_asc.gif);
+     background-color: #79BEDB;
+  }
+  th.headerSortDown {
+     background-image: url(./images/small_desc.gif);
+     background-color: #79BEDB;
+  }
+
+  dt { font-weight: bold; }
+  .footpara:nth-child(2) { display: inline; }
+  .footpara { display: block; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+
+<!-- http://tablesorter.com/docs/ -->
+<script type="text/javascript" src="./js/tablesorter.js"></script>
+<script type="text/javascript" src="./js/table.js"></script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Saner OARS</h1>
+<table>
+  <thead>
+  <tr class="header">
+    <th align="left">Course No.</th>
+    <th align="left">Schedule</th>
+    <th align="left">Title</th>
+  </tr>
+  </thead>
+<tbody>
+<tr>
+<td class="left">CHE801</td>
+<td class="left">LEC: F 08:00-09:00 REQ;</td>
+<td class="left">PHD SEMINAR</td>
+</tr>
+
+<tr>
+<td class="left">AE461A</td>
+<td class="left">LEC: F 15:00-16:00 REQ;</td>
+<td class="left">AIRCRAFT DESIGN-I</td>
+</tr>
+
+<tr>
+<td class="left">PHY315A</td>
+<td class="left">LEC: M 08:00-09:00 REQ;</td>
+<td class="left">MODERN PHYSICS LABORATORY</td>
+</tr>
+
+<tr>
+<td class="left">CS252A</td>
+<td class="left">LEC: M 10:00-11:00 REQ;</td>
+<td class="left">COMPUTING LABORATORY II</td>
+</tr>
+
+<tr>
+<td class="left">CS251A</td>
+<td class="left">LEC: M 12:00-13:00 REQ;</td>
+<td class="left">COMPUTING LABORATORY-I</td>
+</tr>
+
+<tr>
+<td class="left">EE659</td>
+<td class="left">LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;</td>
+<td class="left">COMPUTATIONAL ASPECTS OF TOMOGRAPHIC IMAGING :</td>
+</tr>
+
+<tr>
+<td class="left">EE673</td>
+<td class="left">LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;</td>
+<td class="left">DIGITAL COMMUNICATION NETWORKS</td>
+</tr>
+
+<tr>
+<td class="left">CS425A</td>
+<td class="left">LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;</td>
+<td class="left">COMPUTER NETWORKS</td>
+</tr>
+
+<tr>
+<td class="left">CE677N</td>
+<td class="left">LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;</td>
+<td class="left">GEOSPATIAL DATA PROCESSING</td>
+</tr>
+
+<tr>
+<td class="left">CHM629</td>
+<td class="left">LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;</td>
+<td class="left">PRINCIPLES OF PHYSICAL CHEMISTRY</td>
+</tr>
+
+<tr>
+<td class="left">EE705A</td>
+<td class="left">LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;</td>
+<td class="left">INTELLIGENT SYSTEMS &amp; CONTROL</td>
+</tr>
+
+<tr>
+<td class="left">EE673A</td>
+<td class="left">LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;</td>
+<td class="left">DIGITAL COMMUNICATION NETWORKS</td>
+</tr>
+
+<tr>
+<td class="left">EE705</td>
+<td class="left">LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;</td>
+<td class="left">INTELLIGENT SYSTEMS &amp; CONTROL</td>
+</tr>
+
+<tr>
+<td class="left">EE659A</td>
+<td class="left">LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;</td>
+<td class="left">COMPUTATIONAL ASPECTS OF TOMOGRAPHIC IMAGING :</td>
+</tr>
+
+<tr>
+<td class="left">CHM602A</td>
+<td class="left">LEC: M 17:00-18:00 REQ;WF 15:00-16:00 REQ;</td>
+<td class="left">ADVANCED ORGANIC CHEMISTRY II</td>
+</tr>
+
+<tr>
+<td class="left">CHM602</td>
+<td class="left">LEC: M 17:00-18:00 REQ;WF 15:00-16:00 REQ;</td>
+<td class="left">ADVANCED ORGANIC CHEMISTRY II</td>
+</tr>
+
+<tr>
+<td class="left">CHM691A</td>
+<td class="left">LEC: M 17:00-18:00 REQ;WF 15:00-16:00 REQ;</td>
+<td class="left">FRONTIERS IN INORGANIC CHEMISTRY</td>
+</tr>
+
+<tr>
+<td class="left">CE601</td>
+<td class="left">LEC: M 17:00-18:00 REQ;WF 15:00-16:00 REQ;</td>
+<td class="left">STATISTICAL ANALYSIS FOR CIVIL ENGINEERS</td>
+</tr>
+
+<tr>
+<td class="left">CHM691</td>
+<td class="left">LEC: M 17:00-18:00 REQ;WF 15:00-16:00 REQ;</td>
+<td class="left">FRONTIERS IN INORGANIC CHEMISTRY</td>
+</tr>
+
+<tr>
+<td class="left">MTH736</td>
+<td class="left">LEC: M 17:00-18:00 REQ;WF 15:00-16:00 REQ;</td>
+<td class="left">FOURIER ANALYSIS-I &amp; DISTRIBUTION THEORY</td>
+</tr>
+
+<tr>
+<td class="left">MTH736A</td>
+<td class="left">LEC: M 17:00-18:00 REQ;WF 15:00-16:00 REQ;</td>
+<td class="left">FOURIER ANALYSIS-I &amp; DISTRIBUTION THEORY</td>
+</tr>
+
+<tr>
+<td class="left">BSE311A</td>
+<td class="left">LEC: MF 08:00-09:00 BSBH;T 09:00-10:00 BSBH;</td>
+<td class="left">MOLECULAR CELL BIOLOGY</td>
+</tr>
+
+<tr>
+<td class="left">CE321A</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;</td>
+<td class="left">ENGINEERING GEOSCIENCES</td>
+</tr>
+
+<tr>
+<td class="left">CE689N</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">CHARACTERIZATION OF PAVEMENT MATERIALS AND</td>
+</tr>
+
+<tr>
+<td class="left">SE315</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">SPECIAL &amp; GENERAL RELATIVITY</td>
+</tr>
+
+<tr>
+<td class="left">PHY407</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">SPECIAL &amp; GENERAL RELATIVITY</td>
+</tr>
+
+<tr>
+<td class="left">CE602</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">ADVANCED MATHEMATICS FOR CIVIL ENGINEERS</td>
+</tr>
+
+<tr>
+<td class="left">CHE312A</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">HEAT TRANSFER &amp; ITS APPLICATIONS</td>
+</tr>
+
+<tr>
+<td class="left">CS340A</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">THEORY OF COMPUTATION</td>
+</tr>
+
+<tr>
+<td class="left">MSE671</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">HEAT TREATMENT AND SURFACE HARDENING</td>
+</tr>
+
+<tr>
+<td class="left">ME625</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">APPLIED DYNAMICS AND VIBRATIONS</td>
+</tr>
+
+<tr>
+<td class="left">CHM303A</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">ORGANIC CHEMISTRY I</td>
+</tr>
+
+<tr>
+<td class="left">MSE303A</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">ELECTRONIC &amp; MAGNETIC PROPERTIES OF MATERIALS</td>
+</tr>
+
+<tr>
+<td class="left">CHM651</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">CRYSTAL AND MOLECULAR STRUCTURE DETERMINATION</td>
+</tr>
+
+<tr>
+<td class="left">CHM401</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">ORGANIC CHEMISTRY I</td>
+</tr>
+
+<tr>
+<td class="left">EE698D</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">POWER ELECTRONICS IN SOLAR PHOTOVOLTAIC SYSTEMS</td>
+</tr>
+
+<tr>
+<td class="left">EE698F</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">POWER ELECTRONICS IN SOLAR PHOTOVOLTAIC SYSTEMS</td>
+</tr>
+
+<tr>
+<td class="left">EE698Z</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">TRANSCEIVER OPTIMIZATION FOR OFDM WIRELESS</td>
+</tr>
+
+<tr>
+<td class="left">EE698R</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">TRANSCEIVER OPTIMIZATION FOR OFDM WIRELESS</td>
+</tr>
+
+<tr>
+<td class="left">EE646A</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">PHOTONIC NETWORKS &amp; SWITCHING</td>
+</tr>
+
+<tr>
+<td class="left">ME661</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">MACHINING SCIENCE I</td>
+</tr>
+
+<tr>
+<td class="left">CHM651A</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">CRYSTAL AND MOLECULAR STRUCTURE DETERMINATION</td>
+</tr>
+
+<tr>
+<td class="left">ME361A</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">MANUFACTURING SCIENCE &amp; TECHNOLOGY</td>
+</tr>
+
+<tr>
+<td class="left">ME630</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">NUMERICAL FLUID FLOW AND HEAT TRANSFER</td>
+</tr>
+
+<tr>
+<td class="left">EE646</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">PHOTONIC NETWORKS &amp; SWITCHING</td>
+</tr>
+
+<tr>
+<td class="left">AE311A</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">COMPRESSIBLE AERODYNAMICS</td>
+</tr>
+
+<tr>
+<td class="left">MSE671A</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">HEAT TREATMENT AND SURFACE HARDENING</td>
+</tr>
+
+<tr>
+<td class="left">EE330A</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;T/D:</td>
+<td class="left">POWER SYSTEMS</td>
+</tr>
+
+<tr>
+<td class="left">MTH412</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;T/D:</td>
+<td class="left">APPLIED STOCHASTIC PROCESS</td>
+</tr>
+
+<tr>
+<td class="left">MTH412A</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;T/D:</td>
+<td class="left">APPLIED STOCHASTIC PROCESS</td>
+</tr>
+
+<tr>
+<td class="left">MTH428A</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;T/D: W</td>
+<td class="left">MATHEMATICAL METHODS</td>
+</tr>
+
+<tr>
+<td class="left">MTH428</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;T/D: W</td>
+<td class="left">MATHEMATICAL METHODS</td>
+</tr>
+
+<tr>
+<td class="left">MTH403</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;T/D: W</td>
+<td class="left">COMPLEX ANALYSIS</td>
+</tr>
+
+<tr>
+<td class="left">MTH403A</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;T/D: W</td>
+<td class="left">COMPLEX ANALYSIS</td>
+</tr>
+
+<tr>
+<td class="left">ECO301A</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T/D: T 09:00-10:00 REQ;</td>
+<td class="left">MICROECONOMICS II</td>
+</tr>
+
+<tr>
+<td class="left">MTH409</td>
+<td class="left">LEC: MT 11:00-12:00 REQ;T/D: Th 11:00-12:00 REQ;</td>
+<td class="left">COMPUTER PROGRAMMING AND DATA STRUCTURES</td>
+</tr>
+
+<tr>
+<td class="left">MTH719A</td>
+<td class="left">LEC: MTTh 10:00-11:00 REQ;</td>
+<td class="left">INTRODUCTION TO HOMOGENIZATION</td>
+</tr>
+
+<tr>
+<td class="left">MTH719</td>
+<td class="left">LEC: MTTh 10:00-11:00 REQ;</td>
+<td class="left">INTRODUCTION TO HOMOGENIZATION</td>
+</tr>
+
+<tr>
+<td class="left">MTH201</td>
+<td class="left">LEC: MTTh 10:00-11:00 REQ;T/D: F 10:00-11:00</td>
+<td class="left">LINEAR ALGEBRA</td>
+</tr>
+
+<tr>
+<td class="left">MTH201A</td>
+<td class="left">LEC: MTTh 10:00-11:00 REQ;T/D: F 14:00-15:00</td>
+<td class="left">LINEAR ALGEBRA</td>
+</tr>
+
+<tr>
+<td class="left">MTH415</td>
+<td class="left">LEC: MTTh 10:00-11:00 REQ;T/D: W 10:00-11:00</td>
+<td class="left">MATRIX THEORY AND LINEAR ESTIMATION</td>
+</tr>
+
+<tr>
+<td class="left">MTH415A</td>
+<td class="left">LEC: MTTh 10:00-11:00 REQ;T/D: W 10:00-11:00</td>
+<td class="left">MATRIX THEORY AND LINEAR ESTIMATION</td>
+</tr>
+
+<tr>
+<td class="left">MTH620</td>
+<td class="left">LEC: MTTh 11:00-12:00 REQ;</td>
+<td class="left">MEASURE THEORY</td>
+</tr>
+
+<tr>
+<td class="left">MTH620A</td>
+<td class="left">LEC: MTTh 11:00-12:00 REQ;</td>
+<td class="left">MEASURE THEORY</td>
+</tr>
+
+<tr>
+<td class="left">MTH686</td>
+<td class="left">LEC: MTTh 11:00-12:00 REQ;</td>
+<td class="left">NON-LINEAR REGRESSION</td>
+</tr>
+
+<tr>
+<td class="left">MTH686A</td>
+<td class="left">LEC: MTTh 11:00-12:00 REQ;</td>
+<td class="left">NON-LINEAR REGRESSION</td>
+</tr>
+
+<tr>
+<td class="left">MTH649A</td>
+<td class="left">LEC: MTTh 14:00-15:00 REQ;</td>
+<td class="left">ALGEBRAIC TOPOLOGY</td>
+</tr>
+
+<tr>
+<td class="left">MTH649</td>
+<td class="left">LEC: MTTh 14:00-15:00 REQ;</td>
+<td class="left">ALGEBRAIC TOPOLOGY</td>
+</tr>
+
+<tr>
+<td class="left">MTH753A</td>
+<td class="left">LEC: MTTh 14:00-15:00 REQ;</td>
+<td class="left">ANALYSIS</td>
+</tr>
+
+<tr>
+<td class="left">MTH753</td>
+<td class="left">LEC: MTTh 14:00-15:00 REQ;</td>
+<td class="left">ANALYSIS</td>
+</tr>
+
+<tr>
+<td class="left">MTH417A</td>
+<td class="left">LEC: MTTh 14:00-15:00 REQ;T/D: F 14:00-15:00</td>
+<td class="left">SAMPLING THEORY</td>
+</tr>
+
+<tr>
+<td class="left">MTH523A</td>
+<td class="left">LEC: MTTh 14:00-15:00 REQ;T/D: F 14:00-15:00</td>
+<td class="left">FLUID MECHANICS</td>
+</tr>
+
+<tr>
+<td class="left">MTH523</td>
+<td class="left">LEC: MTTh 14:00-15:00 REQ;T/D: F 14:00-15:00</td>
+<td class="left">FLUID MECHANICS</td>
+</tr>
+
+<tr>
+<td class="left">MTH417</td>
+<td class="left">LEC: MTTh 14:00-15:00 REQ;T/D: F 14:00-15:00</td>
+<td class="left">SAMPLING THEORY</td>
+</tr>
+
+<tr>
+<td class="left">MTH611A</td>
+<td class="left">LEC: MTTh 15:00-16:00 REQ;</td>
+<td class="left">ALGEBRA II</td>
+</tr>
+
+<tr>
+<td class="left">MTH611</td>
+<td class="left">LEC: MTTh 15:00-16:00 REQ;</td>
+<td class="left">ALGEBRA II</td>
+</tr>
+
+<tr>
+<td class="left">MTH517A</td>
+<td class="left">LEC: MTTh 15:00-16:00 REQ;T/D: W 14:00-15:00</td>
+<td class="left">TIME SERIES ANALYSIS</td>
+</tr>
+
+<tr>
+<td class="left">MTH698</td>
+<td class="left">LEC: MTTh 16:00-17:00 REQ;</td>
+<td class="left">PARALLEL NUMERICAL ALGORITHM</td>
+</tr>
+
+<tr>
+<td class="left">MTH698A</td>
+<td class="left">LEC: MTTh 16:00-17:00 REQ;</td>
+<td class="left">PARALLEL NUMERICAL ALGORITHM</td>
+</tr>
+
+<tr>
+<td class="left">MTH405</td>
+<td class="left">LEC: MTTh 16:00-17:00 REQ;T/D: F 12:00-13:00</td>
+<td class="left">FUNCTIONAL ANALYSIS</td>
+</tr>
+
+<tr>
+<td class="left">MTH405A</td>
+<td class="left">LEC: MTTh 16:00-17:00 REQ;T/D: F 12:00-13:00</td>
+<td class="left">FUNCTIONAL ANALYSIS</td>
+</tr>
+
+<tr>
+<td class="left">MTH515</td>
+<td class="left">LEC: MTTh 16:00-17:00 REQ;T/D: F 14:00-15:00</td>
+<td class="left">INFERENCE - II</td>
+</tr>
+
+<tr>
+<td class="left">MTH515A</td>
+<td class="left">LEC: MTTh 16:00-17:00 REQ;T/D: F 14:00-15:00</td>
+<td class="left">INFERENCE - II</td>
+</tr>
+
+<tr>
+<td class="left">MTH647</td>
+<td class="left">LEC: MTh 09:00-10:00 REQ;T 12:00-13:00 REQ;</td>
+<td class="left">COMPLEX ANALYTIC DYNAMICS AND FRACTALS</td>
+</tr>
+
+<tr>
+<td class="left">MTH754</td>
+<td class="left">LEC: MTh 09:00-10:00 REQ;T 12:00-13:00 REQ;</td>
+<td class="left">PROBABILITY THEORY</td>
+</tr>
+
+<tr>
+<td class="left">MTH754A</td>
+<td class="left">LEC: MTh 09:00-10:00 REQ;T 12:00-13:00 REQ;</td>
+<td class="left">PROBABILITY THEORY</td>
+</tr>
+
+<tr>
+<td class="left">MTH647A</td>
+<td class="left">LEC: MTh 09:00-10:00 REQ;T 12:00-13:00 REQ;</td>
+<td class="left">COMPLEX ANALYTIC DYNAMICS AND FRACTALS</td>
+</tr>
+
+<tr>
+<td class="left">MTH612A</td>
+<td class="left">LEC: MTh 09:00-10:00 REQ;T 12:00-13:00 REQ;</td>
+<td class="left">INTRODUCTION TO COMMUTATIVE ALGEBRA</td>
+</tr>
+
+<tr>
+<td class="left">MTH612</td>
+<td class="left">LEC: MTh 09:00-10:00 REQ;T 12:00-13:00 REQ;</td>
+<td class="left">INTRODUCTION TO COMMUTATIVE ALGEBRA</td>
+</tr>
+
+<tr>
+<td class="left">MS601</td>
+<td class="left">LEC: MTh 09:00-10:30 ACMS110;</td>
+<td class="left">STRUCTURAL &amp; MAGNETIC PROPERTIES OF MATERIALS</td>
+</tr>
+
+<tr>
+<td class="left">CHM611A</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">PHYSICAL ORGANIC CHEMISTRY</td>
+</tr>
+
+<tr>
+<td class="left">EE641A</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">ADVANCED ENGINEERING ELECTROMAGNETICS</td>
+</tr>
+
+<tr>
+<td class="left">EE614</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">SOLID STATE DEVICES I</td>
+</tr>
+
+<tr>
+<td class="left">MSE626N</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">TRANSPORT PHENOMENA</td>
+</tr>
+
+<tr>
+<td class="left">MSE626A</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">TRANSPORT PHENOMENA</td>
+</tr>
+
+<tr>
+<td class="left">EE601</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">MATHEMATICAL METHODS IN SIGNAL PROCESSING</td>
+</tr>
+
+<tr>
+<td class="left">CS641</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">MODERN CRYPTOLOGY</td>
+</tr>
+
+<tr>
+<td class="left">EE650</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">BASICS OF MODERN CONTROL SYSTEMS</td>
+</tr>
+
+<tr>
+<td class="left">CHE631</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">CHEMICAL REACTION ENGINEERING</td>
+</tr>
+
+<tr>
+<td class="left">EE601A</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">MATHEMATICAL METHODS IN SIGNAL PROCESSING</td>
+</tr>
+
+<tr>
+<td class="left">CE637</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">CONSTITUTIVE MODELING OF FRICTIONAL MATERIALS</td>
+</tr>
+
+<tr>
+<td class="left">CHM611</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">PHYSICAL ORGANIC CHEMISTRY</td>
+</tr>
+
+<tr>
+<td class="left">ME681</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">MATHEMATICAL METHODS IN ENGINEERING</td>
+</tr>
+
+<tr>
+<td class="left">MSE665</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">PRACTICAL TRANSMISSION ELECTRON MICROSCOPY &amp;</td>
+</tr>
+
+<tr>
+<td class="left">CE442A</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">CIVIL ENGINEERING SYSTEMS ANALYSIS</td>
+</tr>
+
+<tr>
+<td class="left">EE650A</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">BASICS OF MODERN CONTROL SYSTEMS</td>
+</tr>
+
+<tr>
+<td class="left">BSE492A</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">METHODS IN BIOTECHNOLOGY-I EXPERIMENTAL</td>
+ 
+</tr>
+
+<tr>
+<td class="left">EE641</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">ADVANCED ENGINEERING ELECTROMAGNETICS</td>
+</tr>
+
+<tr>
+<td class="left">EE614A</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">SOLID STATE DEVICES I</td>
+</tr>
+
+<tr>
+<td class="left">CHM649</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">PRINCIPALES OF INORGANIC CHEMISTRY</td>
+</tr>
+
+<tr>
+<td class="left">MSE665A</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">PRACTICAL TRANSMISSION ELECTRON MICROSCOPY &amp;</td>
+</tr>
+
+<tr>
+<td class="left">PHY543</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;T/D: F 12:00-13:00 REQ;</td>
+<td class="left">CONDENSED MATTER PHYSICS I</td>
+</tr>
+
+<tr>
+<td class="left">PHY431A</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;T/D: T 09:00-10:00 REQ;</td>
+<td class="left">QUANTUM MECHANICS I</td>
+</tr>
+
+<tr>
+<td class="left">CE451</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;T/D: W 14:00-15:00 REQ;</td>
+<td class="left">SYSTEMS ANALYSIS IN CIVIL ENGG.</td>
+</tr>
+
+<tr>
+<td class="left">MS603</td>
+<td class="left">LEC: MTh 10:30-12:00 ACMS110;</td>
+<td class="left">MECHANICAL PROPERTIES OF MATERIALS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">EE612</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">FIBER OPTIC SYSTEMS I</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">BSE621A</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">MODERN INSTRUMENTAL METHODS IN BIOLOGICAL</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CHE618</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">NEW SEPARATION PROCESSES</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MSE613A</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">ELECTROCHEMICAL TECHNOLOGY IN MATERIALS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">EE645A</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">MONOLITHIC MICROWAVE ICS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CE674</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">GLOBAL POSITIONING SYSTEM</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ME763</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">ROBOT MANIPULATORS: DYNAMICS AND CONTROL</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CHM683A</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">SURFACES, INTERFACES,  THIN FILMS &amp; RELATED</td>
+</tr>
+
+<tr>
+<td class="left">EE670A</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">WIRELESS COMMUNICATIONS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">NT611</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">NUCLEAR POWER ENGINEERING I</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">EE670</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">WIRELESS COMMUNICATIONS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CS682</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">QUANTUM COMPUTING</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">EE612A</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">FIBER OPTIC SYSTEMS I</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">EE654A</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">ROBUST CONTROL SYSTEMS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CS632</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">TOPICS IN DISTRIBUTED SYSTEMS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MSE615</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">STRUCTURE AND CHARACTERIZATION OF MATERIALS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MSE613</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">ELECTROCHEMICAL TECHNOLOGY IN MATERIALS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MSE615A</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">STRUCTURE AND CHARACTERIZATION OF MATERIALS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">EEM602</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">PHYSICOCHEMICAL PRINCIPLES AND PROCESS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">EE645</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">MONOLITHIC MICROWAVE ICS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">NT602</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">NUCLEAR AND REACTOR PHYSICS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">EE654</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">ROBUST CONTROL SYSTEMS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">PHY632</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">TRANSPORT IN MESOSCOPIC SYSTEMS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">PHY441</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;T/D: T 11:00-12:00 REQ;</td>
+<td class="left">ELECTRONICS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ME321A</td>
+<td class="left">LEC: MTh 11:00-12:00 REQ;</td>
+<td class="left">ADVANCE MECHANICS OF SOLIDS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">PHY781</td>
+<td class="left">LEC: MTh 12:00-13:00 REQ;</td>
+<td class="left">HIGH ENERGY PHYSICS II</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ME352A</td>
+<td class="left">LEC: MTh 12:00-13:00 REQ;</td>
+<td class="left">THEORY OF MECHANISMS &amp; MACHINES</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CS201A</td>
+<td class="left">LEC: MTh 12:00-13:00 REQ;F 17:00-18:00 REQ;</td>
+<td class="left">MATHEMATICS FOR COMPUTER SCIENCE -I</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MS604</td>
+<td class="left">LEC: MTh 12:00-13:30 ACMS110;</td>
+<td class="left">CHARACTERIZATION OF MATERIALS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CE611N</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">ENGINEERING HYDRAULICS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">EE616</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">SEMICONDUCTOR DEVICE MODELLING</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">PSY775</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">FUNDAMENTAL OF NEUROPSYCHOLOGY</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ME641</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">CONDUCTION AND RADIATION</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ECO738</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">INTER-INDUSTRY ECONOMICS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">EE647A</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">MICROWAVE MEASUREMENTS AND DESIGN</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CS663</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">COMPUTATIONAL GEOMETRY</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CS681</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">COMPUTATIONAL NUMBER THEORY AND ALGEBRA</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">EE660</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">BASICS OF POWER ELECTRONIC CONVERTERS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">BSE615A</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">PHYSIOLOGY</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CHE641</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">MATHEMATICAL METHODS IN CHEMICAL ENGINEERING</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ME723</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">WAVE PROPAGATION IN SOLIDS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">EE604</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">IMAGE PROCESSING</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">EE616A</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">SEMICONDUCTOR DEVICE MODELLING</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CHE661</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">ANALYTICAL &amp; MATERIAL CHARACTERIZATION</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">EE660A</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">BASICS OF POWER ELECTRONIC CONVERTERS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">BSE615</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">PHYSIOLOGY</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">EE647</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">MICROWAVE MEASUREMENTS AND DESIGN</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ECO408</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">ADVANCED MACRO ECONOMICS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">PHI784</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">TWENTIETH CENTURY CONTINENTAL PHILOSOPHY</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">EE604A</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">IMAGE PROCESSING</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">PHY421A</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;T/D: F 08:00-09:00 REQ;</td>
+<td class="left">MATHEMATICAL METHODS I</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">EE618</td>
+<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
+<td class="left">INTEGRATED CIRCUIT FABRICATION TECHNOLOGY</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MSE694</td>
+<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
+<td class="left">NANOSTRUCTURES AND NANOMATERIALS:</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">EE674A</td>
+<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
+<td class="left">ARCHITECTURE OF MICRO-PROCESSORS &amp;</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CE671N</td>
+<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
+<td class="left">INTRODUCTION TO REMOTE SENSING</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ECO732</td>
+<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
+<td class="left">ECONOMETRICS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">EE607A</td>
+<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
+<td class="left">WAVELET TRANSFORMS FOR SIGNAL &amp; IMAGE PROCESSING</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">EE674</td>
+<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
+<td class="left">ARCHITECTURE OF MICRO-PROCESSORS &amp;</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MSE694A</td>
+<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
+<td class="left">NANOSTRUCTURES AND NANOMATERIALS:</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CS350A</td>
+<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
+<td class="left">PRINCIPLES OF PROGRAMMING LANGAUGES</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CHM683</td>
+<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
+<td class="left">SURFACES, INTERFACES, THIN FILMS &amp; RELATED</td>
+</tr>
+
+<tr>
+<td class="left">EE442A</td>
+<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
+<td class="left">ANTENNAS AND PROPAGATION</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">EE607</td>
+<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
+<td class="left">WAVELET TRANSFORMS FOR SIGNAL &amp; IMAGE PROCESSING</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">EE618A</td>
+<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
+<td class="left">INTEGRATED CIRCUIT FABRICATION TECHNOLOGY</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ESO209A</td>
+<td class="left">LEC: MW 17:00-18:00 L2;T/D: T 17:00-18:00 REQ;</td>
+<td class="left">DYNAMICS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ART106</td>
+<td class="left">LEC: MWF 08:00-09:00 REQ;T/D: Th 10:00-11:00</td>
+<td class="left">ELEMENTS OF VISUAL REPRESENTATION</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">PHI141A</td>
+<td class="left">LEC: MWF 08:00-09:00 REQ;T/D: Th 10:00-11:00</td>
+<td class="left">INTRODUCTION TO PHILOSOPHY</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">PSY152A</td>
+<td class="left">LEC: MWF 08:00-09:00 REQ;T/D: Th 10:00-11:00</td>
+<td class="left">APPLICATION OF PSYCHOLOGY TO LIFE</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ART106A</td>
+<td class="left">LEC: MWF 08:00-09:00 REQ;T/D: Th 10:00-11:00</td>
+<td class="left">ELEMENTS OF VISUAL REPRESENTATION</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">PSY152</td>
+<td class="left">LEC: MWF 08:00-09:00 REQ;T/D: Th 10:00-11:00</td>
+<td class="left">APPLICATION OF PSYCHOLOGY TO LIFE</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">PHI141</td>
+<td class="left">LEC: MWF 08:00-09:00 REQ;T/D: Th 10:00-11:00</td>
+<td class="left">INTRODUCTION TO PHILOSOPHY</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ESO206A</td>
+<td class="left">LEC: MWF 09:00-10:00 L1;</td>
+<td class="left">PRINCIPLES OF BIOTECHNOLOGY</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CS345A</td>
+<td class="left">LEC: MWF 09:00-10:00 REQ;</td>
+<td class="left">ALGORITHMS -II</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MTH425</td>
+<td class="left">LEC: MWF 09:00-10:00 REQ;T/D: T 09:00-10:00 REQ;</td>
+<td class="left">DISTRIBUTIONS IN STATISTICS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ESO201A</td>
+<td class="left">LEC: MWF 10:00-11:00 L16;T/D: Th 10:00-11:00</td>
+<td class="left">THERMODYNAMICS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ESO202A</td>
+<td class="left">LEC: MWF 10:00-11:00 L17;T/D: Th 10:00-11:00</td>
+<td class="left">MECHANICS OF SOLIDS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ESO203A</td>
+<td class="left">LEC: MWF 10:00-11:00 L1;T/D: Th 10:00-11:00 REQ;</td>
+<td class="left">INTRODUCTION TO ELECTRICAL ENGINEERING</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ESO207A</td>
+<td class="left">LEC: MWF 10:00-11:00 L2;</td>
+<td class="left">DATA STRUCTURE &amp; ALGORITHM</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MTH101A</td>
+<td class="left">LEC: MWF 10:00-11:00 L7;T 10:00-11:00 REQ;T/D:</td>
+<td class="left">MATHEMATICS I</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ESO204A</td>
+<td class="left">LEC: MWF 11:00-12:00 L16;T/D: Th 11:00-12:00</td>
+<td class="left">FLUID MECHANICS AND RATE PROCESSES</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ESO208A</td>
+<td class="left">LEC: MWF 11:00-12:00 L17;T/D: Th 11:00-12:00</td>
+<td class="left">COMPUTATIONAL METHODS IN ENGINEERING</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ESO205A</td>
+<td class="left">LEC: MWF 11:00-12:00 L2;T/D: Th 11:00-12:00 REQ;</td>
+<td class="left">NATURE AND PROPERTIES OF MATERIALS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">PHY103A</td>
+<td class="left">LEC: MWF 11:00-12:00 L7;T/D: T 11:00-12:00 REQ;</td>
+<td class="left">PHYSICS-II</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">EE370A</td>
+<td class="left">LEC: MWF 11:00-12:00 REQ;T/D: T 17:00-18:00 REQ;</td>
+<td class="left">DIGITAL ELECTRONICS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MTH305</td>
+<td class="left">LEC: MWF 11:00-12:00 REQ;T/D: Th 11:00-12:00</td>
+<td class="left">SEVERAL VARIABLE CALCULUS &amp; DEFFERENTIAL</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MTH305A</td>
+<td class="left">LEC: MWF 11:00-12:00 REQ;T/D: Th 11:00-12:00</td>
+<td class="left">SEVERAL VARIABLE CALCULUS &amp; DEFFERENTIAL</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CHM203A</td>
+<td class="left">LEC: MWF 12:00-13:00 L16;</td>
+<td class="left">BASIC ORGANIC CHEMISTRY-I</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ESC101A</td>
+<td class="left">LEC: MWF 12:00-13:00 L7;T/D: T 12:00-13:00 REQ;</td>
+<td class="left">FUNDAMENTAL OF COMPUTING</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CHE251A</td>
+<td class="left">LEC: MWF 12:00-13:00 REQ;</td>
+<td class="left">INTRODUCTION TO CHE AND PROCESS CALCULATION</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">BSE211A</td>
+<td class="left">LEC: MWF 12:00-13:00 REQ;</td>
+<td class="left">ORGAN SYSTEM, PHYSIOLOGY AND ANATOMY</td>
+ 
+</tr>
+
+<tr>
+<td class="left">AE201A</td>
+<td class="left">LEC: MWF 12:00-13:00 REQ;</td>
+<td class="left">INTRODUCTION TO AEROSPACE ENGINEERING</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MTH301</td>
+<td class="left">LEC: MWF 12:00-13:00 REQ;T/D: Th 12:00-13:00</td>
+<td class="left">ANALYSIS - I</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MTH301A</td>
+<td class="left">LEC: MWF 12:00-13:00 REQ;T/D: Th 12:00-13:00</td>
+<td class="left">ANALYSIS- I</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">EE200A</td>
+<td class="left">LEC: MWF 12:00-13:00 REQ;T/D: Th 12:00-13:00</td>
+<td class="left">SIGNALS, SYSTEMS &amp; NETWORKS</td>
+ 
+</tr>
+
+<tr>
+<td class="left">MSE201A</td>
+<td class="left">LEC: MWF 12:00-13:00 REQ;T/D: Th 12:00-13:00</td>
+<td class="left">THERMODYNAMICS &amp; PHASE EQUILIBRIA</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">PHY102A</td>
+<td class="left">LEC: MWF 15:00-16:00 L7;T/D: Th 15:00-16:00 REQ;</td>
+<td class="left">PHYSICS-I</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MTH691</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">NUMERICAL LINEAR ALGEBRA</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">PHI448A</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">INDIVIDUAL VS AUTHORITY</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">HSS403</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">SOCIAL AND BEHAVIOURAL ASPECTS OF HEALTH</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ENG445</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">LITERATURE &amp; THE INDIVIDUAL</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">PSY458</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">ORGANIZATIONAL AND ADMINISTRATIVE PSYCHOLOGY</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">PHI448</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">INDIVIDUAL VS AUTHORITY</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CHM345A</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">INORGANIC CHEMISTRY I</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ENG445A</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">LITERATURE &amp; THE INDIVIDUAL</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MSE628A</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">ELECTRONIC DEVICES AND CHARACTERIZATION</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MSE628</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">ELECTRONIC DEVICES AND CHARACTERIZATION</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ME662</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">MACHINING SCIENCE II</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">PSY451A</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">PSYCHOLOGY OF ADJUSTMENT</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">SE367</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">INTRODUCTION TO COGNITIVE SEIENCE</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">PSY451</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">PSYCHOLOGY OF ADJUSTMENT</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">PSY458A</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">ORGANIZATIONAL AND ADMINISTRATIVE PSYCHOLOGY</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ME685</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">PROGRAMMING AND NUMERICAL ANALYSIS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">HSS403A</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">SOCIAL AND BEHAVIOURAL ASPECTS OF HEALTH</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">SOC473</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">INDIAN SOCIETY AND CULTURE</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">SOC473A</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">INDIAN SOCIETY AND CULTURE</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CHM441</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">INORGANIC CHEMISTRY I</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MTH691A</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">NUMERICAL LINEAR ALGEBRA</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CE642</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">GEOLOGICAL HAZARDS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MTH204A</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;T/D: T 17:00-18:00 REQ;</td>
+<td class="left">ABSTRACT ALGEBRA</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MTH204</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;T/D: T 17:00-18:00 REQ;</td>
+<td class="left">ALGEBRA I</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MTH102A</td>
+<td class="left">LEC: MWTh 17:00-18:00 L6;T/D: T 17:00-18:00 L6;</td>
+<td class="left">MATHEMATICS - II</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">TA202A</td>
+<td class="left">LEC: T 08:00-09:00 L7;</td>
+<td class="left">MANUFACTURING PROCESSES II</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">TA201A</td>
+<td class="left">LEC: T 09:00-10:00 L7;</td>
+<td class="left">MANUFACTURING PROCESSES I</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">BSE301A</td>
+<td class="left">LEC: T 10:00-11:00 REQ;</td>
+<td class="left">SCIENTIFIC &amp; PROFESSIONAL COMMUNICATION</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">AE401A</td>
+<td class="left">LEC: T 10:00-11:00 REQ;</td>
+<td class="left">TECHNICAL COMMUNICATION</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MTH399A</td>
+<td class="left">LEC: T 10:00-12:00 REQ;</td>
+<td class="left">TECHNICAL COMMUNICATION</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CE638</td>
+<td class="left">LEC: T 11:00-12:00 REQ;WF 16:00-17:00 REQ;</td>
+<td class="left">GEOTECHNICAL MEASUREMENTS AND EXPLORATION</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MSE664A</td>
+<td class="left">LEC: T 11:00-12:00 REQ;WF 16:00-17:00 REQ;</td>
+<td class="left">SOLID STATE IONICS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CHM646A</td>
+<td class="left">LEC: T 11:00-12:00 REQ;WF 16:00-17:00 REQ;</td>
+<td class="left">BIO-INORGANIC CHEMISTRY</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">PHY679</td>
+<td class="left">LEC: T 11:00-12:00 REQ;WF 16:00-17:00 REQ;</td>
+<td class="left">THE STANDARD MODEL OF FUNDAMENTAL PHYSICS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MSE664</td>
+<td class="left">LEC: T 11:00-12:00 REQ;WF 16:00-17:00 REQ;</td>
+<td class="left">SOLID STATE IONICS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CHM646</td>
+<td class="left">LEC: T 11:00-12:00 REQ;WF 16:00-17:00 REQ;</td>
+<td class="left">BIO-INORGANIC CHEMISTRY</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CS698R</td>
+<td class="left">LEC: T 11:00-12:00 REQ;WF 16:00-17:00 REQ;Th</td>
+<td class="left">TOPICS IN LINEAR PROGRAMMING</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CHE701</td>
+<td class="left">LEC: T 12:00-13:00 REQ;</td>
+<td class="left">M. TECH. SEMINAR</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CHE313A</td>
+<td class="left">LEC: T 12:00-13:00 REQ;W 16:00-17:00 REQ;Th</td>
+<td class="left">MASS TRANSFER &amp; ITS APPLICATIONS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ECO321A</td>
+<td class="left">LEC: T 12:00-13:00 REQ;WF 16:00-17:00 REQ;</td>
+<td class="left">MACROECONOMICS-II</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">AE321A</td>
+<td class="left">LEC: T 12:00-13:00 REQ;WF 16:00-17:00 REQ;</td>
+<td class="left">FLIGHT MECHANICS I</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MTH401</td>
+<td class="left">LEC: T 12:00-13:00 REQ;WF 16:00-17:00 REQ;</td>
+<td class="left">THEORY OF COMPUTATION</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MTH401A</td>
+<td class="left">LEC: T 12:00-13:00 REQ;WF 16:00-17:00 REQ;</td>
+<td class="left">THEORY OF COMPUTATION</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">BSE412A</td>
+<td class="left">LEC: T 17:00-18:00 BSBH;</td>
+<td class="left">BIOMATERIAL, PHYSIOLOGY &amp; BIO-MEMS LABORATORY</td>
+ 
+</tr>
+
+<tr>
+<td class="left">BSE491</td>
+<td class="left">LEC: T 17:00-18:00 REQ;</td>
+<td class="left">BSBE LAB IV BIOMECHANICS &amp; BIOMATERIALS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">PHY601</td>
+<td class="left">LEC: T 17:00-18:00 REQ;T/D: W 12:00-13:30 REQ;F</td>
+<td class="left">REVIEW OF CLASSICAL PHYSICS I</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CE620</td>
+<td class="left">LEC: T 17:00-18:00 REQ;W 12:00-13:00 REQ;F</td>
+<td class="left">STRUCTURAL DYNAMICS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">AE331A</td>
+<td class="left">LEC: T 17:00-18:00 REQ;WF 14:00-15:00 REQ;</td>
+<td class="left">INTRODUCTION TO AEROSPACE STRUCTURES</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ECO411A</td>
+<td class="left">LEC: T 17:00-18:00 REQ;WF 14:00-15:00 REQ;</td>
+<td class="left">INDUSTRIAL ECONOMICS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">EE380A</td>
+<td class="left">LEC: T/D: T 12:00-13:00 REQ;Th 17:00-18:00 REQ;F</td>
+<td class="left">ELECTRICAL ENGINEERING LAB I</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CHM102A</td>
+<td class="left">LEC: TF 08:00-09:00 L8;T/D: Th 08:00-09:00 L8;</td>
+<td class="left">GENERAL CHEMISTRY</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CS602</td>
+<td class="left">LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;</td>
+<td class="left">DESIGN AND ANALYSIS OF ALGORITHMS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MSE648A</td>
+<td class="left">LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;</td>
+<td class="left">DIFFUSION IN SOLIDS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">EE605A</td>
+<td class="left">LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;</td>
+<td class="left">INTRODUCTION TO SIGNAL ANALYSIS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MSE648</td>
+<td class="left">LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;</td>
+<td class="left">DIFFUSION IN SOLIDS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MSE682A</td>
+<td class="left">LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;</td>
+<td class="left">COMPUTER SIMULATIONS IN MATERIALS SCIENCE</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MSE682</td>
+<td class="left">LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;</td>
+<td class="left">COMPUTER SIMULATIONS IN MATERIALS SCIENCE</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">EE605</td>
+<td class="left">LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;</td>
+<td class="left">INTRODUCTION TO SIGNAL ANALYSIS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CE621N</td>
+<td class="left">LEC: TF 12:00-13:30 REQ;</td>
+<td class="left">ENGINEERING MECHANICS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">SE314</td>
+<td class="left">LEC: TF 12:00-13:30 REQ;T/D: W 12:00-13:00 REQ;</td>
+<td class="left">CLASSICAL MECHANICS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">PHY401A</td>
+<td class="left">LEC: TF 12:00-13:30 REQ;T/D: W 12:00-13:00 REQ;</td>
+<td class="left">CLASSICAL MECHANICS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">TA101A</td>
+<td class="left">LEC: TTh 14:00-15:00 L7;</td>
+<td class="left">ENGINEERING GRAPHICS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CE361A</td>
+<td class="left">LEC: TTh 17:00-18:00 REQ;</td>
+<td class="left">ENGINEERING HYDROLOGY</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MSE301A</td>
+<td class="left">LEC: TTh 17:00-18:00 REQ;</td>
+<td class="left">PHASE TRANSFORMATIONS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CHE674</td>
+<td class="left">LEC: TTh 17:00-18:30 REQ;</td>
+<td class="left">INTRODUCTION TO NANOSCIENCE AND TECHNOLOGY</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ME724</td>
+<td class="left">LEC: TTh 17:00-18:30 REQ;</td>
+<td class="left">MECHANICS OF BIOLOGICAL MEMBRANES</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">PHY224A</td>
+<td class="left">LEC: TW 17:00-18:00 REQ;</td>
+<td class="left">OPTICS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ART401A</td>
+<td class="left">LEC: TWF 12:00-13:00 REQ;</td>
+<td class="left">APPRECIATING FAR-EASTERN CINEMA</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ENG448</td>
+<td class="left">LEC: TWF 12:00-13:00 REQ;</td>
+<td class="left">LANGAUGES OF SOUTH ASIA</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ECO501A</td>
+<td class="left">LEC: TWF 12:00-13:00 REQ;</td>
+<td class="left">ENVIROMENTAL ECONOMICS AND POLICY</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ECO501</td>
+<td class="left">LEC: TWF 12:00-13:00 REQ;</td>
+<td class="left">ENVIROMENTAL ECONOMICS AND POLICY</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ART402A</td>
+<td class="left">LEC: TWF 12:00-13:00 REQ;</td>
+<td class="left">MODERN ART</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ART401</td>
+<td class="left">LEC: TWF 12:00-13:00 REQ;</td>
+<td class="left">APPRECIATING FAR-EASTERN CINEMA</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ART402</td>
+<td class="left">LEC: TWF 12:00-13:00 REQ;</td>
+<td class="left">MODERN ART</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ECO201A</td>
+<td class="left">LEC: TWF 12:00-13:00 REQ;</td>
+<td class="left">MICROECONOMICS I</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ECO201</td>
+<td class="left">LEC: TWF 12:00-13:00 REQ;</td>
+<td class="left">MICROECONOMICS - I</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ENG448A</td>
+<td class="left">LEC: TWF 12:00-13:00 REQ;</td>
+<td class="left">LANGAUGES OF SOUTH ASIA</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CS210A</td>
+<td class="left">LEC: TWF 12:00-13:00 REQ;</td>
+<td class="left">DATA STRUCTURE AND ALGORITHMS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">BSE411A</td>
+<td class="left">LEC: TWTh 08:00-09:00 BSBH;</td>
+<td class="left">BIOMATERIALS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CHM621A</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
+<td class="left">CHEMICAL BINDING</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CS330A</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
+<td class="left">OPERATING SYSTEMS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CHE453A</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
+<td class="left">CHEMICAL ENGINEERING DESIGN</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ME621</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
+<td class="left">INTRODUCTION TO SOLID MECHANICS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">EE630</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
+<td class="left">SIMULATON OF MODERN POWER SYSTEMS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ECO412A</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
+<td class="left">INTERNATIONAL ECONOMICS AND FINANCE</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ME401A</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
+<td class="left">ENERGY SYSTEMS-II</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">BSE640A</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
+<td class="left">BIOMATERIALS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">AE441A</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
+<td class="left">TURBO-MACHINERY</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ME631</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
+<td class="left">VISCOUS FLOW THEORY</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">EE630A</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
+<td class="left">SIMULATON OF MODERN POWER SYSTEMS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CHM621</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
+<td class="left">CHEMICAL BINDING</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CE331A</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
+<td class="left">GEOINFORMATICS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CE631N</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
+<td class="left">ADVANCED GEOTECHNICAL ENGINEERING</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CHE601</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
+<td class="left">FUNDAMENTALS OF CHEMICAL ENGINEERING -I</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">PHY631</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
+<td class="left">PHYSICS OF SEMICONDUCTOR NANOSTRUCTURES</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MSE302A</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
+<td class="left">MECHANICAL BEHAVIOUR OF MATERIALS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">EE320A</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;T/D: F 15:00-16:00</td>
+<td class="left">PRINCIPLES OF COMMUNICATION</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MTH423</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;T/D: F 15:00-16:00</td>
+<td class="left">INTRODUCTION TO CONTINUUM MACHANICS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MTH423A</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;T/D: F 15:00-16:00</td>
+<td class="left">INTRODUCTION TO CONTINUUM MACHANICS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">PHY552A</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;T/D: M 17:00-18:00</td>
+<td class="left">CLASSICAL ELECTRODYNAMICS I</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">MS698</td>
+<td class="left">LEC: Th 16:00-17:00 ACMS110;</td>
+<td class="left">GRADUATE SEMINAR</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">BSE312A</td>
+<td class="left">LEC: Th 17:00-18:00 BSBH;</td>
+<td class="left">MOLECULAR BIOLOGY LAB</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">ME251A</td>
+<td class="left">LEC: W 12:00-13:00 REQ;</td>
+<td class="left">ENGINEERING DESIGN AND GRAPHICS</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CHE352A</td>
+<td class="left">LEC: W 14:00-15:00 REQ;</td>
+<td class="left">CHEMICAL PROCESS SIMULATION LAB</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">CHE492A</td>
+<td class="left">LEC: W 15:00-16:00 REQ;</td>
+<td class="left">UNIT OPERATIONS AND PROCESS CONTROL LABORATORY</td>
+ 
+ 
+</tr>
+
+<tr>
+<td class="left">EEM603</td>
+<td class="left">LEC: W 17:00-18:30 REQ;F 17:00-18:00 REQ;</td>
+<td class="left">ECOLOGICAL AND BIOLOGICAL PRINCIPLES AND PROCESS</td>
+</tr>
+
+<tr>
+<td class="left">CS601</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">MATHEMATICS FOR COMPUTER SCIENCE</td>
+</tr>
+
+<tr>
+<td class="left">CHM698</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">CHEMISTRY OF DRUG DESIGN AND METABOLISM</td>
+</tr>
+
+<tr>
+<td class="left">MSE693</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">MATERIALS SCIENCE TECHNOLOGIES FOR APPLICATIONS</td>
+</tr>
+
+<tr>
+<td class="left">BSE613A</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">CELL &amp; MOLECULAR BIOLOGY</td>
+</tr>
+
+<tr>
+<td class="left">ME623</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">FINITE ELEMENT METHODS IN ENGINEERING MECHANICS</td>
+</tr>
+
+<tr>
+<td class="left">EE624</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">INFORMATION AND CODING THEORY</td>
+</tr>
+
+<tr>
+<td class="left">CHM650</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">STATISTICAL MECHANICS &amp; ITS APPL. TO CHEMISTRY</td>
+</tr>
+
+<tr>
+<td class="left">MSE659A</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">POWDER METALLURGY</td>
+</tr>
+
+<tr>
+<td class="left">MTH658A</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">NONLINEAR DYNAMICAL SYSTEMS</td>
+</tr>
+
+<tr>
+<td class="left">ME667</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">ADHESION, FRICTION AND LUBRICATION FOR</td>
+ 
+</tr>
+
+<tr>
+<td class="left">EE664A</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">FUNDAMENTALS OF ELECTRIC DRIVES</td>
+</tr>
+
+<tr>
+<td class="left">EE664</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">FUNDAMENTALS OF ELECTRIC DRIVES</td>
+</tr>
+
+<tr>
+<td class="left">CE683</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">TRAFFIC ENGINEERING</td>
+</tr>
+
+<tr>
+<td class="left">MSE693A</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">MATERIALS SCIENCE TECHNOLOGIES FOR APPLICATIONS</td>
+</tr>
+
+<tr>
+<td class="left">ME725</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">MICRO-MECHANICS</td>
+</tr>
+
+<tr>
+<td class="left">PHY690K</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">QUANTUM DYNAMICS, INFORMATION AND COMPUTATION</td>
+ 
+</tr>
+
+<tr>
+<td class="left">CHM698A</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">CHEMISTRY OF DRUG DESIGN AND METABOLISM</td>
+</tr>
+
+<tr>
+<td class="left">CE616</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">SEDIMENT TRANSPORTATION</td>
+</tr>
+
+<tr>
+<td class="left">EE624A</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">INFORMATION AND CODING THEORY</td>
+</tr>
+
+<tr>
+<td class="left">BSE613</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">CELL &amp; MOLECULAR BIOLOGY</td>
+</tr>
+
+<tr>
+<td class="left">MSE659</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">POWDER METALLURGY</td>
+</tr>
+
+<tr>
+<td class="left">CHM650A</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">STATISTICAL MECHANICS &amp; ITS APPL. TO CHEMISTRY</td>
+</tr>
+
+<tr>
+<td class="left">MTH692</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">NUMERICAL SOLUTION OF ORDINARY DIFFERENTIAL</td>
+</tr>
+
+<tr>
+<td class="left">CS698O</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">DATA IN BIG DATA</td>
+</tr>
+
+<tr>
+<td class="left">EEM606A</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">AIR POLLUTION AND ITS CONTROL</td>
+</tr>
+
+<tr>
+<td class="left">MSE670</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">SOLIDIFICATION PROCESSING</td>
+</tr>
+
+<tr>
+<td class="left">EE621</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">REPRESENTATION AND ANALYSIS OF RANDOM SIGNALS</td>
+</tr>
+
+<tr>
+<td class="left">EE653</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">DIGITAL CONTROL</td>
+</tr>
+
+<tr>
+<td class="left">PHY311</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">PHYSICS OF NON-EQUILIBRIUM PHENOMENA</td>
+</tr>
+
+<tr>
+<td class="left">ME761</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">COMPUTER AIDED MANUFACTURING</td>
+</tr>
+
+<tr>
+<td class="left">BSE629A</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">NEUROBIOLOGY</td>
+</tr>
+
+<tr>
+<td class="left">CHE633</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">PRINCIPLES OF HETEROGENEOUS CATALYSIS</td>
+</tr>
+
+<tr>
+<td class="left">MSE670A</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">SOLIDIFICATION PROCESSING</td>
+</tr>
+
+<tr>
+<td class="left">CHM664A</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">MODERN PHYSICAL METHODS IN CHEMISTRY</td>
+</tr>
+
+<tr>
+<td class="left">PHY681</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">QUANTUM FIELD THEORY</td>
+</tr>
+
+<tr>
+<td class="left">CHM664</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">MODERN PHYSICAL METHODS IN CHEMISTRY</td>
+</tr>
+
+<tr>
+<td class="left">CS639</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">PROGRAM ANALYSIS, VERIFICATION AND TESTING</td>
+ 
+</tr>
+
+<tr>
+<td class="left">CHM421</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">PHYSICAL CHEMISTRY I</td>
+</tr>
+
+<tr>
+<td class="left">EE653A</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">DIGITAL CONTROL</td>
+</tr>
+
+<tr>
+<td class="left">MTH692A</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">NUMERICAL SOLUTION OF ORDINARY DIFFERENTIAL</td>
+</tr>
+
+<tr>
+<td class="left">CE610</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">ADVANCED HYDROLOGY</td>
+</tr>
+
+<tr>
+<td class="left">CHM321A</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">PHYSICAL CHEMISTRY I</td>
+</tr>
+
+<tr>
+<td class="left">EE621A</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">REPRESENTATION AND ANALYSIS OF RANDOM SIGNALS</td>
+</tr>
+
+<tr>
+<td class="left">EEM606</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">AIR POLLUTION AND ITS CONTROL</td>
+</tr>
+
+<tr>
+<td class="left">SE305</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">PHYSICS OF NON-EQUILIBRIUM PHENOMENA</td>
+</tr>
+
+<tr>
+<td class="left">ME301A</td>
+<td class="left">LEC: WF 11:00-12:00 REQ;</td>
+<td class="left">ENERGY SYSTEMS I</td>
+</tr>
+
+<tr>
+<td class="left">EE634A</td>
+<td class="left">LEC: WF 12:00-13:30 REQ;</td>
+<td class="left">ELECTRICAL INSULATION IN POWER APPARATUS AND</td>
+</tr>
+
+<tr>
+<td class="left">EE634</td>
+<td class="left">LEC: WF 12:00-13:30 REQ;</td>
+<td class="left">ELECTRICAL INSULATION IN POWER APPARATUS AND</td>
+</tr>
+
+<tr>
+<td class="left">CHE611</td>
+<td class="left">LEC: WF 12:00-13:30 REQ;</td>
+<td class="left">TRANSPORT PHENOMENA</td>
+</tr>
+
+<tr>
+<td class="left">MSE642</td>
+<td class="left">LEC: WF 12:00-13:30 REQ;</td>
+<td class="left">MICROSCOPY AND MICROANALYSIS OF MATERIALS</td>
+</tr>
+
+<tr>
+<td class="left">MSE642A</td>
+<td class="left">LEC: WF 12:00-13:30 REQ;</td>
+<td class="left">MICROSCOPY AND MICROANALYSIS OF MATERIALS</td>
+</tr>
+
+<tr>
+<td class="left">CS433A</td>
+<td class="left">LEC: WF 12:00-13:30 REQ;</td>
+<td class="left">PARALLEL PROGRAMMING</td>
+</tr>
+
+<tr>
+<td class="left">ME690</td>
+<td class="left">LEC: WF 12:00-13:30 REQ;</td>
+<td class="left">ALTERNATIVE FUELS &amp; ADVANCE IN IC ENGINES</td>
+</tr>
+
+<tr>
+<td class="left">CE731</td>
+<td class="left">LEC: WF 12:00-13:30 REQ;</td>
+<td class="left">RISK &amp; RELIABILITY IN GEOTECHNICAL ENGINEERING</td>
+</tr>
+
+<tr>
+<td class="left">ECO535</td>
+<td class="left">LEC: WF 12:00-13:30 REQ;</td>
+<td class="left">PUBLIC ECONOMICS</td>
+</tr>
+
+<tr>
+<td class="left">LIF101A</td>
+<td class="left">LEC: WF 14:00-15:00 L7;</td>
+<td class="left">INTRODUCTION TO BIOLOGY</td>
+</tr>
+
+<tr>
+<td class="left">CE371A</td>
+<td class="left">LEC: WF 14:00-15:00 REQ;</td>
+<td class="left">DESIGN OF STEEL STRUCTURES</td>
+</tr>
+
+<tr>
+<td class="left">CE351A</td>
+<td class="left">LEC: WF 15:00-16:00 REQ;</td>
+<td class="left">SOIL MECHANICS</td>
+</tr>
+
+<tr>
+<td class="left">ECO341A</td>
+<td class="left">LEC: WF 15:00-16:00 REQ;T/D: Th 17:00-18:00 REQ;</td>
+<td class="left">ECONOMETRICS I</td>
+</tr>
+
+<tr>
+<td class="left">PHI768</td>
+<td class="left">LEC: WF 15:30-17:00 REQ;</td>
+<td class="left">MODAL LOGIC</td>
+</tr>
+
+<tr>
+<td class="left">EE610</td>
+<td class="left">LEC: WF 15:30-17:00 REQ;</td>
+<td class="left">ANALOG/DIGITAL VLSI CIRCUITS</td>
+</tr>
+
+<tr>
+<td class="left">CHM600</td>
+<td class="left">LEC: WF 15:30-17:00 REQ;</td>
+<td class="left">MATHEMATICS FOR CHEMISTRY</td>
+</tr>
+
+<tr>
+<td class="left">PSY774</td>
+<td class="left">LEC: WF 15:30-17:00 REQ;</td>
+<td class="left">QUALITATIVE RESEARCH : THEORY AND PRACTICE</td>
+</tr>
+
+<tr>
+<td class="left">ECO734</td>
+<td class="left">LEC: WF 15:30-17:00 REQ;</td>
+<td class="left">INDUSTRIAL ORGANISATION AND POLICY</td>
+</tr>
+
+<tr>
+<td class="left">EE698A</td>
+<td class="left">LEC: WF 15:30-17:00 REQ;</td>
+<td class="left">POWER MANAGEMENT CIRCUITS</td>
+</tr>
+
+<tr>
+<td class="left">EE698</td>
+<td class="left">LEC: WF 15:30-17:00 REQ;</td>
+<td class="left">POWER MANAGEMENT CIRCUITS</td>
+</tr>
+
+<tr>
+<td class="left">CHM616</td>
+<td class="left">LEC: WF 15:30-17:00 REQ;</td>
+<td class="left">CHEMISTRY OF ORGANOMETALLIC COMPOUNDS</td>
+</tr>
+
+<tr>
+<td class="left">EE610A</td>
+<td class="left">LEC: WF 15:30-17:00 REQ;</td>
+<td class="left">ANALOG/DIGITAL VLSI CIRCUITS</td>
+</tr>
+
+<tr>
+<td class="left">CHM521</td>
+<td class="left">LEC: WF 15:30-17:00 REQ;</td>
+<td class="left">MATHEMATICS FOR CHEMISTRY</td>
+</tr>
+
+<tr>
+<td class="left">CHM616A</td>
+<td class="left">LEC: WF 15:30-17:00 REQ;</td>
+<td class="left">CHEMISTRY OF ORGANOMETALLIC COMPOUNDS</td>
+</tr>
+
+<tr>
+<td class="left">ME698N</td>
+<td class="left">LEC: WF 15:30-17:00 REQ;</td>
+<td class="left">THERMAL TRANSPORT IN MATERIAL (SPECIAL TOPICS)</td>
+</tr>
+
+<tr>
+<td class="left">CS360A</td>
+<td class="left">LEC: WF 15:30-17:00 REQ;</td>
+<td class="left">INTRODUCTION TO COMPUTER GRAPHICS</td>
+</tr>
+
+<tr>
+<td class="left">CE441A</td>
+<td class="left">LEC: WF 16:00-17:00 REQ;</td>
+<td class="left">CONSTRUCTION MANAGEMENT</td>
+</tr>
+
+<tr>
+<td class="left">MS617</td>
+<td class="left">LEC: WF 17:00-18:30 ACMS110;</td>
+<td class="left">INTRODUCTION TO NANOMATERIALS AND NANOTECHNOLOGY</td>
+</tr>
+
+<tr>
+<td class="left">CE623</td>
+<td class="left">LEC: WF 17:00-18:30 REQ;</td>
+<td class="left">EXPERIMENTAL METHODS IN STRUCTURL ENGINEERING</td>
+</tr>
+
+<tr>
+<td class="left">CHM609</td>
+<td class="left">LEC: WF 17:00-18:30 REQ;</td>
+<td class="left">PRINCIPALES OF ORGANIC CHEMISTRY</td>
+</tr>
+
+<tr>
+<td class="left">CHE678</td>
+<td class="left">LEC: WF 17:00-18:30 REQ;</td>
+<td class="left">MECHANICS OF SOFT MATERIALS</td>
+</tr>
+
+<tr>
+<td class="left">MTH648</td>
+<td class="left">LEC: WF 17:00-18:30 REQ;</td>
+<td class="left">DIFFERENTIAL GEOMETRY</td>
+</tr>
+
+<tr>
+<td class="left">EE632</td>
+<td class="left">LEC: WF 17:00-18:30 REQ;</td>
+<td class="left">ECONOMIC OPERATION &amp; CONTROL OF POWER SYSTEMS</td>
+</tr>
+
+<tr>
+<td class="left">MTH648A</td>
+<td class="left">LEC: WF 17:00-18:30 REQ;</td>
+<td class="left">DIFFERENTIAL GEOMETRY</td>
+</tr>
+
+<tr>
+<td class="left">CHM684</td>
+<td class="left">LEC: WF 17:00-18:30 REQ;</td>
+<td class="left">COMPUTER PROGRAMMING FOR CHEMISTRY</td>
+</tr>
+
+<tr>
+<td class="left">EE632A</td>
+<td class="left">LEC: WF 17:00-18:30 REQ;</td>
+<td class="left">ECONOMIC OPERATION &amp; CONTROL OF POWER SYSTEMS</td>
+</tr>
+
+<tr>
+<td class="left">CHM684A</td>
+<td class="left">LEC: WF 17:00-18:30 REQ;</td>
+<td class="left">COMPUTER PROGRAMMING FOR CHEMISTRY</td>
+</tr>
+
+<tr>
+<td class="left">ME771</td>
+<td class="left">LEC: WF 17:00-18:30 REQ;</td>
+<td class="left">SMART MATERIALS AND STRUCTURE</td>
+</tr>
+
+<tr>
+<td class="left">PHY690L</td>
+<td class="left">LEC: WF 17:00-18:30 REQ;</td>
+<td class="left">QUANTUM OPTICS</td>
+</tr>
+
+<tr>
+<td class="left">MSO202</td>
+<td class="left">LEC: WThF 09:00-10:00 L7;</td>
+<td class="left">COMPLEX VARIABLES</td>
+</tr>
+
+<tr>
+<td class="left">MSO202A</td>
+<td class="left">LEC: WThF 09:00-10:00 L7;T/D: M 09:00-10:00 REQ;</td>
+<td class="left">COMPLEX VARIABLES</td>
+</tr>
+
+<tr>
+<td class="left">MSO203B</td>
+<td class="left">LEC: WThF 09:00-10:00 L7;T/D: M 09:00-10:00 REQ;</td>
+<td class="left">PARTIAL DIFFERENTIAL EQUATIONS</td>
+</tr>
+
+<tr>
+<td class="left">CE211A</td>
+<td class="left">LEC: WThF 12:00-13:00 REQ;T/D: M 12:00-13:00</td>
+<td class="left">ENVIRONMENTAL QUALITY &amp; POLLUTION</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Jayesh Kumar Gupta</p>
+<p class="date">Created: 2014-03-27 Thu 16:14</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.3.1 (<a href="http://orgmode.org">Org</a> mode 8.2.5h)</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
