@@ -1,0 +1,2864 @@
+{
+    "AE201A": {
+        "Course No": "AE201A", 
+        "Instructor(s)": "OARS", 
+        "Schedule": "LEC: MWF 12:00-13:00 REQ;", 
+        "Title": "INTRODUCTION TO AEROSPACE ENGINEERING"
+    }, 
+    "AE311A": {
+        "Course No": "AE311A", 
+        "Instructor(s)": "OARS", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
+        "Title": "COMPRESSIBLE AERODYNAMICS"
+    }, 
+    "AE321A": {
+        "Course No": "AE321A", 
+        "Instructor(s)": "OARS", 
+        "Schedule": "LEC: T 12:00-13:00 REQ;WF 16:00-17:00 REQ;", 
+        "Title": "FLIGHT MECHANICS I"
+    }, 
+    "AE331A": {
+        "Course No": "AE331A", 
+        "Instructor(s)": "OARS", 
+        "Schedule": "LEC: T 17:00-18:00 REQ;WF 14:00-15:00 REQ;", 
+        "Title": "INTRODUCTION TO AEROSPACE STRUCTURES"
+    }, 
+    "AE401A": {
+        "Course No": "AE401A", 
+        "Instructor(s)": "OARS", 
+        "Schedule": "LEC: T 10:00-11:00 REQ;", 
+        "Title": "TECHNICAL COMMUNICATION"
+    }, 
+    "AE441A": {
+        "Course No": "AE441A", 
+        "Instructor(s)": "OARS", 
+        "Schedule": "LEC: TWTh 08:00-09:00 REQ;", 
+        "Title": "TURBO-MACHINERY"
+    }, 
+    "AE461A": {
+        "Course No": "AE461A", 
+        "Instructor(s)": "OARS", 
+        "Schedule": "LEC: F 15:00-16:00 REQ;", 
+        "Title": "AIRCRAFT DESIGN-I"
+    }, 
+    "ART106": {
+        "Course No": "ART106", 
+        "Instructor(s)": "S T ROY", 
+        "Schedule": "LEC: MWF 08:00-09:00 REQ;T/D: Th 10:00-11:00", 
+        "Title": "ELEMENTS OF VISUAL REPRESENTATION"
+    }, 
+    "ART106A": {
+        "Course No": "ART106A", 
+        "Instructor(s)": "S T ROY", 
+        "Schedule": "LEC: MWF 08:00-09:00 REQ;T/D: Th 10:00-11:00", 
+        "Title": "ELEMENTS OF VISUAL REPRESENTATION"
+    }, 
+    "ART401": {
+        "Course No": "ART401", 
+        "Instructor(s)": "R BHOWMIK", 
+        "Schedule": "LEC: TWF 12:00-13:00 REQ;", 
+        "Title": "APPRECIATING FAR-EASTERN CINEMA"
+    }, 
+    "ART401A": {
+        "Course No": "ART401A", 
+        "Instructor(s)": "R BHOWMIK", 
+        "Schedule": "LEC: TWF 12:00-13:00 REQ;", 
+        "Title": "APPRECIATING FAR-EASTERN CINEMA"
+    }, 
+    "ART402": {
+        "Course No": "ART402", 
+        "Instructor(s)": "K P PATIL", 
+        "Schedule": "LEC: TWF 12:00-13:00 REQ;", 
+        "Title": "MODERN ART"
+    }, 
+    "ART402A": {
+        "Course No": "ART402A", 
+        "Instructor(s)": "K P PATIL", 
+        "Schedule": "LEC: TWF 12:00-13:00 REQ;", 
+        "Title": "MODERN ART"
+    }, 
+    "BSE211A": {
+        "Course No": "BSE211A", 
+        "Instructor(s)": "MAINAK DAS", 
+        "Schedule": "LEC: MWF 12:00-13:00 REQ;", 
+        "Title": "ORGAN SYSTEM, PHYSIOLOGY AND ANATOMY"
+    }, 
+    "BSE301A": {
+        "Course No": "BSE301A", 
+        "Instructor(s)": "PRADIP SINHA", 
+        "Schedule": "LEC: T 10:00-11:00 REQ;", 
+        "Title": "SCIENTIFIC & PROFESSIONAL COMMUNICATION"
+    }, 
+    "BSE311A": {
+        "Course No": "BSE311A", 
+        "Instructor(s)": "S. GANESH", 
+        "Schedule": "LEC: MF 08:00-09:00 BSBH;T 09:00-10:00 BSBH;", 
+        "Title": "MOLECULAR CELL BIOLOGY"
+    }, 
+    "BSE312A": {
+        "Course No": "BSE312A", 
+        "Instructor(s)": "PRADIP SINHA", 
+        "Schedule": "LEC: Th 17:00-18:00 BSBH;", 
+        "Title": "MOLECULAR BIOLOGY LAB"
+    }, 
+    "BSE398A": {
+        "Course No": "BSE398A", 
+        "Instructor(s)": "CONVENER DUGC", 
+        "Schedule": "LEC:", 
+        "Title": "UG PROJECT (UGP-I)"
+    }, 
+    "BSE411A": {
+        "Course No": "BSE411A", 
+        "Instructor(s)": "DHIRENDRA S. KATTI", 
+        "Schedule": "LEC: TWTh 08:00-09:00 BSBH;", 
+        "Title": "BIOMATERIALS"
+    }, 
+    "BSE412A": {
+        "Course No": "BSE412A", 
+        "Instructor(s)": "DHIRENDRA S. KATTI, MAINAK DAS", 
+        "Schedule": "LEC: T 17:00-18:00 BSBH;", 
+        "Title": "BIOMATERIAL, PHYSIOLOGY & BIO-MEMS LABORATORY"
+    }, 
+    "BSE491": {
+        "Course No": "BSE491", 
+        "Instructor(s)": "DHIRENDRA S. KATTI, MAINAK DAS", 
+        "Schedule": "LEC: T 17:00-18:00 REQ;", 
+        "Title": "BSBE LAB IV BIOMECHANICS & BIOMATERIALS"
+    }, 
+    "BSE492A": {
+        "Course No": "BSE492A", 
+        "Instructor(s)": "ASHOK KUMAR", 
+        "Schedule": "LEC: MTh 09:00-10:30 REQ;", 
+        "Title": "METHODS IN BIOTECHNOLOGY-I, EXPERIMENTAL"
+    }, 
+    "BSE498": {
+        "Course No": "BSE498", 
+        "Instructor(s)": "CONVENER DUGC", 
+        "Schedule": "LEC:", 
+        "Title": "PROJECT I"
+    }, 
+    "BSE498A": {
+        "Course No": "BSE498A", 
+        "Instructor(s)": "CONVENER DUGC", 
+        "Schedule": "LEC:", 
+        "Title": "UG PROJECT (UGP-III)"
+    }, 
+    "BSE613": {
+        "Course No": "BSE613", 
+        "Instructor(s)": "BUSHRA ATEEQ", 
+        "Schedule": "LEC: WF 09:00-10:30 REQ;", 
+        "Title": "CELL & MOLECULAR BIOLOGY"
+    }, 
+    "BSE613A": {
+        "Course No": "BSE613A", 
+        "Instructor(s)": "BUSHRA ATEEQ", 
+        "Schedule": "LEC: WF 09:00-10:30 REQ;", 
+        "Title": "CELL & MOLECULAR BIOLOGY"
+    }, 
+    "BSE615": {
+        "Course No": "BSE615", 
+        "Instructor(s)": "MAINAK DAS", 
+        "Schedule": "LEC: MTh 12:00-13:30 REQ;", 
+        "Title": "PHYSIOLOGY"
+    }, 
+    "BSE615A": {
+        "Course No": "BSE615A", 
+        "Instructor(s)": "MAINAK DAS", 
+        "Schedule": "LEC: MTh 12:00-13:30 REQ;", 
+        "Title": "PHYSIOLOGY"
+    }, 
+    "BSE621A": {
+        "Course No": "BSE621A", 
+        "Instructor(s)": "SARAVANAN MATHESHWARAN", 
+        "Schedule": "LEC: MTh 10:30-12:00 REQ;", 
+        "Title": "MODERN INSTRUMENTAL METHODS IN BIOLOGICAL"
+    }, 
+    "BSE629A": {
+        "Course No": "BSE629A", 
+        "Instructor(s)": "JONAKI SEN", 
+        "Schedule": "LEC: WF 10:30-12:00 REQ;", 
+        "Title": "NEUROBIOLOGY"
+    }, 
+    "BSE632A": {
+        "Course No": "BSE632A", 
+        "Instructor(s)": "R. SHANKARARAMAKRISHNAN", 
+        "Schedule": "LEC:", 
+        "Title": "STRUCTURAL BIOLOGY & BIOPHYSICS"
+    }, 
+    "BSE640A": {
+        "Course No": "BSE640A", 
+        "Instructor(s)": "DHIRENDRA S. KATTI", 
+        "Schedule": "LEC: TWTh 08:00-09:00 REQ;", 
+        "Title": "BIOMATERIALS"
+    }, 
+    "BSE641": {
+        "Course No": "BSE641", 
+        "Instructor(s)": "CONVENER DPGC", 
+        "Schedule": "LEC:", 
+        "Title": "BIOLOGY LAB"
+    }, 
+    "BSE671": {
+        "Course No": "BSE671", 
+        "Instructor(s)": "CONVENER DPGC", 
+        "Schedule": "LEC:", 
+        "Title": "RESEARCH METHODS IN BIOLOGICAL SCIENCES"
+    }, 
+    "BSE681": {
+        "Course No": "BSE681", 
+        "Instructor(s)": "CONVENER DPGC", 
+        "Schedule": "LEC:", 
+        "Title": "SPECIAL TOPICS IN BIOLOGICAL SCIENCES &"
+    }, 
+    "BSE699": {
+        "Course No": "BSE699", 
+        "Instructor(s)": "CONVENER DPGC", 
+        "Schedule": "LEC:", 
+        "Title": "M.TECH THESIS"
+    }, 
+    "BSE701": {
+        "Course No": "BSE701", 
+        "Instructor(s)": "CONVENER DPGC", 
+        "Schedule": "LEC:", 
+        "Title": "SEMINAR"
+    }, 
+    "BSE702": {
+        "Course No": "BSE702", 
+        "Instructor(s)": "CONVENER DPGC", 
+        "Schedule": "LEC:", 
+        "Title": "SEMINAR"
+    }, 
+    "BSE799": {
+        "Course No": "BSE799", 
+        "Instructor(s)": "CONVENER DPGC", 
+        "Schedule": "LEC:", 
+        "Title": "PHD THESIS"
+    }, 
+    "CE211A": {
+        "Course No": "CE211A", 
+        "Instructor(s)": "S GUHA", 
+        "Schedule": "LEC: WThF 12:00-13:00 REQ;T/D: M 12:00-13:00", 
+        "Title": "ENVIRONMENTAL QUALITY & POLLUTION"
+    }, 
+    "CE321A": {
+        "Course No": "CE321A", 
+        "Instructor(s)": "J N MALIK", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;", 
+        "Title": "ENGINEERING GEOSCIENCES"
+    }, 
+    "CE331A": {
+        "Course No": "CE331A", 
+        "Instructor(s)": "O DIKSHIT", 
+        "Schedule": "LEC: TWTh 08:00-09:00 REQ;", 
+        "Title": "GEOINFORMATICS"
+    }, 
+    "CE341A": {
+        "Course No": "CE341A", 
+        "Instructor(s)": "ANUBHA GOEL", 
+        "Schedule": "LEC:", 
+        "Title": "CIVIL ENGINEERING COMMUNICATION SKILLS"
+    }, 
+    "CE351A": {
+        "Course No": "CE351A", 
+        "Instructor(s)": "P GHOSH", 
+        "Schedule": "LEC: WF 15:00-16:00 REQ;", 
+        "Title": "SOIL MECHANICS"
+    }, 
+    "CE361A": {
+        "Course No": "CE361A", 
+        "Instructor(s)": "SHIVAM TRIPATHI", 
+        "Schedule": "LEC: TTh 17:00-18:00 REQ;", 
+        "Title": "ENGINEERING HYDROLOGY"
+    }, 
+    "CE371A": {
+        "Course No": "CE371A", 
+        "Instructor(s)": "D C RAI", 
+        "Schedule": "LEC: WF 14:00-15:00 REQ;", 
+        "Title": "DESIGN OF STEEL STRUCTURES"
+    }, 
+    "CE441A": {
+        "Course No": "CE441A", 
+        "Instructor(s)": "SUDHEER MISRA", 
+        "Schedule": "LEC: WF 16:00-17:00 REQ;", 
+        "Title": "CONSTRUCTION MANAGEMENT"
+    }, 
+    "CE442A": {
+        "Course No": "CE442A", 
+        "Instructor(s)": "P BOSE", 
+        "Schedule": "LEC: MTh 09:00-10:30 REQ;", 
+        "Title": "CIVIL ENGINEERING SYSTEMS ANALYSIS"
+    }, 
+    "CE451": {
+        "Course No": "CE451", 
+        "Instructor(s)": "P BOSE", 
+        "Schedule": "LEC: MTh 09:00-10:30 REQ;T/D: W 14:00-15:00 REQ;", 
+        "Title": "SYSTEMS ANALYSIS IN CIVIL ENGG."
+    }, 
+    "CE451A": {
+        "Course No": "CE451A", 
+        "Instructor(s)": "", 
+        "Schedule": "LEC:", 
+        "Title": "APPLICATION OF GEOTECHNICAL ENGINEERING"
+    }, 
+    "CE601": {
+        "Course No": "CE601", 
+        "Instructor(s)": "MUKESH SHARMA", 
+        "Schedule": "LEC: M 17:00-18:00 REQ;WF 15:00-16:00 REQ;", 
+        "Title": "STATISTICAL ANALYSIS FOR CIVIL ENGINEERS"
+    }, 
+    "CE602": {
+        "Course No": "CE602", 
+        "Instructor(s)": "ANUBHA GOEL, MUKESH SHARMA", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
+        "Title": "ADVANCED MATHEMATICS FOR CIVIL ENGINEERS"
+    }, 
+    "CE610": {
+        "Course No": "CE610", 
+        "Instructor(s)": "ASHU JAIN", 
+        "Schedule": "LEC: WF 10:30-12:00 REQ;", 
+        "Title": "ADVANCED HYDROLOGY"
+    }, 
+    "CE611N": {
+        "Course No": "CE611N", 
+        "Instructor(s)": "R SRIVASTAVA", 
+        "Schedule": "LEC: MTh 12:00-13:30 REQ;", 
+        "Title": "ENGINEERING HYDRAULICS"
+    }, 
+    "CE616": {
+        "Course No": "CE616", 
+        "Instructor(s)": "SHIVAM TRIPATHI", 
+        "Schedule": "LEC: WF 09:00-10:30 REQ;", 
+        "Title": "SEDIMENT TRANSPORTATION"
+    }, 
+    "CE620": {
+        "Course No": "CE620", 
+        "Instructor(s)": "VINAY K GUPTA", 
+        "Schedule": "LEC: T 17:00-18:00 REQ;W 12:00-13:00 REQ;F", 
+        "Title": "STRUCTURAL DYNAMICS"
+    }, 
+    "CE621N": {
+        "Course No": "CE621N", 
+        "Instructor(s)": "S K MISHRA", 
+        "Schedule": "LEC: TF 12:00-13:30 REQ;", 
+        "Title": "ENGINEERING MECHANICS"
+    }, 
+    "CE623": {
+        "Course No": "CE623", 
+        "Instructor(s)": "SAMIT RAY CHOWDHURY", 
+        "Schedule": "LEC: WF 17:00-18:30 REQ;", 
+        "Title": "EXPERIMENTAL METHODS IN STRUCTURL ENGINEERING"
+    }, 
+    "CE631N": {
+        "Course No": "CE631N", 
+        "Instructor(s)": "S CHANDRA", 
+        "Schedule": "LEC: TWTh 08:00-09:00 REQ;", 
+        "Title": "ADVANCED GEOTECHNICAL ENGINEERING"
+    }, 
+    "CE637": {
+        "Course No": "CE637", 
+        "Instructor(s)": "CONVENOR DPGC", 
+        "Schedule": "LEC: MTh 09:00-10:30 REQ;", 
+        "Title": "CONSTITUTIVE MODELING OF FRICTIONAL MATERIALS"
+    }, 
+    "CE638": {
+        "Course No": "CE638", 
+        "Instructor(s)": "N R PATRA", 
+        "Schedule": "LEC: T 11:00-12:00 REQ;WF 16:00-17:00 REQ;", 
+        "Title": "GEOTECHNICAL MEASUREMENTS AND EXPLORATION"
+    }, 
+    "CE642": {
+        "Course No": "CE642", 
+        "Instructor(s)": "J N MALIK", 
+        "Schedule": "LEC: MWF 17:00-18:00 REQ;", 
+        "Title": "GEOLOGICAL HAZARDS"
+    }, 
+    "CE671N": {
+        "Course No": "CE671N", 
+        "Instructor(s)": "BHARAT LOHANI", 
+        "Schedule": "LEC: MTh 14:00-15:30 REQ;", 
+        "Title": "INTRODUCTION TO REMOTE SENSING"
+    }, 
+    "CE674": {
+        "Course No": "CE674", 
+        "Instructor(s)": "CONVENOR DPGC", 
+        "Schedule": "LEC: MTh 10:30-12:00 REQ;", 
+        "Title": "GLOBAL POSITIONING SYSTEM"
+    }, 
+    "CE677N": {
+        "Course No": "CE677N", 
+        "Instructor(s)": "O DIKSHIT", 
+        "Schedule": "LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;", 
+        "Title": "GEOSPATIAL DATA PROCESSING"
+    }, 
+    "CE683": {
+        "Course No": "CE683", 
+        "Instructor(s)": "P CHAKROBORTHY", 
+        "Schedule": "LEC: WF 09:00-10:30 REQ;", 
+        "Title": "TRAFFIC ENGINEERING"
+    }, 
+    "CE689N": {
+        "Course No": "CE689N", 
+        "Instructor(s)": "A DAS", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
+        "Title": "CHARACTERIZATION OF PAVEMENT MATERIALS AND"
+    }, 
+    "CE699": {
+        "Course No": "CE699", 
+        "Instructor(s)": "CONVENOR DPGC", 
+        "Schedule": "LEC:", 
+        "Title": "M. TECH THESIS"
+    }, 
+    "CE731": {
+        "Course No": "CE731", 
+        "Instructor(s)": "PRISHATI RAY CHOWDHURY", 
+        "Schedule": "LEC: WF 12:00-13:30 REQ;", 
+        "Title": "RISK & RELIABILITY IN GEOTECHNICAL ENGINEERING"
+    }, 
+    "CE799": {
+        "Course No": "CE799", 
+        "Instructor(s)": "CONVENOR DPGC", 
+        "Schedule": "LEC:", 
+        "Title": "PHD THESIS"
+    }, 
+    "CHE251A": {
+        "Course No": "CHE251A", 
+        "Instructor(s)": "S GARG", 
+        "Schedule": "LEC: MWF 12:00-13:00 REQ;", 
+        "Title": "INTRODUCTION TO CHE AND PROCESS CALCULATION"
+    }, 
+    "CHE300A": {
+        "Course No": "CHE300A", 
+        "Instructor(s)": "Y M JOSHI", 
+        "Schedule": "LEC:", 
+        "Title": "CHEMICAL ENGINEERING COMMUNICATION SKILLS"
+    }, 
+    "CHE312A": {
+        "Course No": "CHE312A", 
+        "Instructor(s)": "A TRIPATHI", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
+        "Title": "HEAT TRANSFER & ITS APPLICATIONS"
+    }, 
+    "CHE313A": {
+        "Course No": "CHE313A", 
+        "Instructor(s)": "J K SINGH", 
+        "Schedule": "LEC: T 12:00-13:00 REQ;W 16:00-17:00 REQ;Th", 
+        "Title": "MASS TRANSFER & ITS APPLICATIONS"
+    }, 
+    "CHE349A": {
+        "Course No": "CHE349A", 
+        "Instructor(s)": "OARS", 
+        "Schedule": "LEC:", 
+        "Title": "UG PROJECT (UGP-I)"
+    }, 
+    "CHE352A": {
+        "Course No": "CHE352A", 
+        "Instructor(s)": "P APTE", 
+        "Schedule": "LEC: W 14:00-15:00 REQ;", 
+        "Title": "CHEMICAL PROCESS SIMULATION LAB"
+    }, 
+    "CHE453A": {
+        "Course No": "CHE453A", 
+        "Instructor(s)": "N KAISTHA", 
+        "Schedule": "LEC: TWTh 08:00-09:00 REQ;", 
+        "Title": "CHEMICAL ENGINEERING DESIGN"
+    }, 
+    "CHE492A": {
+        "Course No": "CHE492A", 
+        "Instructor(s)": "D KUNZRU", 
+        "Schedule": "LEC: W 15:00-16:00 REQ;", 
+        "Title": "UNIT OPERATIONS AND PROCESS CONTROL LABORATORY"
+    }, 
+    "CHE494": {
+        "Course No": "CHE494", 
+        "Instructor(s)": "N VERMA", 
+        "Schedule": "LEC:", 
+        "Title": "SUMMER IN-PLANT TRAINING"
+    }, 
+    "CHE601": {
+        "Course No": "CHE601", 
+        "Instructor(s)": "R CHHABRA", 
+        "Schedule": "LEC: TWTh 08:00-09:00 REQ;", 
+        "Title": "FUNDAMENTALS OF CHEMICAL ENGINEERING -I"
+    }, 
+    "CHE611": {
+        "Course No": "CHE611", 
+        "Instructor(s)": "N TIWARI", 
+        "Schedule": "LEC: WF 12:00-13:30 REQ;", 
+        "Title": "TRANSPORT PHENOMENA"
+    }, 
+    "CHE618": {
+        "Course No": "CHE618", 
+        "Instructor(s)": "P K BHATTACHARYA", 
+        "Schedule": "LEC: MTh 10:30-12:00 REQ;", 
+        "Title": "NEW SEPARATION PROCESSES"
+    }, 
+    "CHE631": {
+        "Course No": "CHE631", 
+        "Instructor(s)": "D KUNZRU", 
+        "Schedule": "LEC: MTh 09:00-10:30 REQ;", 
+        "Title": "CHEMICAL REACTION ENGINEERING"
+    }, 
+    "CHE633": {
+        "Course No": "CHE633", 
+        "Instructor(s)": "G DEO", 
+        "Schedule": "LEC: WF 10:30-12:00 REQ;", 
+        "Title": "PRINCIPLES OF HETEROGENEOUS CATALYSIS"
+    }, 
+    "CHE641": {
+        "Course No": "CHE641", 
+        "Instructor(s)": "R PALA", 
+        "Schedule": "LEC: MTh 12:00-13:30 REQ;", 
+        "Title": "MATHEMATICAL METHODS IN CHEMICAL ENGINEERING"
+    }, 
+    "CHE661": {
+        "Course No": "CHE661", 
+        "Instructor(s)": "R K GUPTA", 
+        "Schedule": "LEC: MTh 12:00-13:30 REQ;", 
+        "Title": "ANALYTICAL & MATERIAL CHARACTERIZATION"
+    }, 
+    "CHE674": {
+        "Course No": "CHE674", 
+        "Instructor(s)": "S SIVA KUMAR", 
+        "Schedule": "LEC: TTh 17:00-18:30 REQ;", 
+        "Title": "INTRODUCTION TO NANOSCIENCE AND TECHNOLOGY"
+    }, 
+    "CHE678": {
+        "Course No": "CHE678", 
+        "Instructor(s)": "A GHATAK", 
+        "Schedule": "LEC: WF 17:00-18:30 REQ;", 
+        "Title": "MECHANICS OF SOFT MATERIALS"
+    }, 
+    "CHE699": {
+        "Course No": "CHE699", 
+        "Instructor(s)": "CONVENOR DUGC", 
+        "Schedule": "LEC:", 
+        "Title": "M TECH THESIS"
+    }, 
+    "CHE701": {
+        "Course No": "CHE701", 
+        "Instructor(s)": "P K BHATTACHARYA", 
+        "Schedule": "LEC: T 12:00-13:00 REQ;", 
+        "Title": "M. TECH. SEMINAR"
+    }, 
+    "CHE799": {
+        "Course No": "CHE799", 
+        "Instructor(s)": "CONVENOR DPGC", 
+        "Schedule": "LEC:", 
+        "Title": "PHD THESIS"
+    }, 
+    "CHE801": {
+        "Course No": "CHE801", 
+        "Instructor(s)": "R CHHABRA", 
+        "Schedule": "LEC: F 08:00-09:00 REQ;", 
+        "Title": "PHD SEMINAR"
+    }, 
+    "CHM101A": {
+        "Course No": "CHM101A", 
+        "Instructor(s)": "N S GAJBHIYE, M RANGANATHAN", 
+        "Schedule": "LEC:", 
+        "Title": "CHEMISTRY LABORATORY"
+    }, 
+    "CHM102A": {
+        "Course No": "CHM102A", 
+        "Instructor(s)": "G ANANTHARAMAN, P SEN", 
+        "Schedule": "LEC: TF 08:00-09:00 L8;T/D: Th 08:00-09:00 L8;", 
+        "Title": "GENERAL CHEMISTRY"
+    }, 
+    "CHM203A": {
+        "Course No": "CHM203A", 
+        "Instructor(s)": "Y D VANKAR", 
+        "Schedule": "LEC: MWF 12:00-13:00 L16;", 
+        "Title": "BASIC ORGANIC CHEMISTRY-I"
+    }, 
+    "CHM303A": {
+        "Course No": "CHM303A", 
+        "Instructor(s)": "D H DETHE", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
+        "Title": "ORGANIC CHEMISTRY I"
+    }, 
+    "CHM305A": {
+        "Course No": "CHM305A", 
+        "Instructor(s)": "J N MOORTHY", 
+        "Schedule": "LEC:", 
+        "Title": "ORGANIC QUALITATIVE & QUANTITATIVE ANALYSIS"
+    }, 
+    "CHM321A": {
+        "Course No": "CHM321A", 
+        "Instructor(s)": "D GOSWAMI", 
+        "Schedule": "LEC: WF 10:30-12:00 REQ;", 
+        "Title": "PHYSICAL CHEMISTRY I"
+    }, 
+    "CHM345A": {
+        "Course No": "CHM345A", 
+        "Instructor(s)": "R ANGAMUTHU", 
+        "Schedule": "LEC: MWF 17:00-18:00 REQ;", 
+        "Title": "INORGANIC CHEMISTRY I"
+    }, 
+    "CHM361A": {
+        "Course No": "CHM361A", 
+        "Instructor(s)": "R GURUNATH", 
+        "Schedule": "LEC:", 
+        "Title": "CHEMISTRY COMMUNICATION SKILLS"
+    }, 
+    "CHM391A": {
+        "Course No": "CHM391A", 
+        "Instructor(s)": "CONVENOR DUGC", 
+        "Schedule": "LEC:", 
+        "Title": "5TH SEMESTER UNDERGRADUATE PROJECT"
+    }, 
+    "CHM401": {
+        "Course No": "CHM401", 
+        "Instructor(s)": "D H DETHE", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
+        "Title": "ORGANIC CHEMISTRY I"
+    }, 
+    "CHM421": {
+        "Course No": "CHM421", 
+        "Instructor(s)": "D GOSWAMI", 
+        "Schedule": "LEC: WF 10:30-12:00 REQ;", 
+        "Title": "PHYSICAL CHEMISTRY I"
+    }, 
+    "CHM423": {
+        "Course No": "CHM423", 
+        "Instructor(s)": "M CHANDRA", 
+        "Schedule": "LEC:", 
+        "Title": "PHYSICAL CHEMISTRY LAB"
+    }, 
+    "CHM423A": {
+        "Course No": "CHM423A", 
+        "Instructor(s)": "M CHANDRA", 
+        "Schedule": "LEC:", 
+        "Title": "PHYSICAL CHEMISTRY LABORATORY"
+    }, 
+    "CHM441": {
+        "Course No": "CHM441", 
+        "Instructor(s)": "R ANGAMUTHU", 
+        "Schedule": "LEC: MWF 17:00-18:00 REQ;", 
+        "Title": "INORGANIC CHEMISTRY I"
+    }, 
+    "CHM503": {
+        "Course No": "CHM503", 
+        "Instructor(s)": "M K GHORAI", 
+        "Schedule": "LEC:", 
+        "Title": "ORGANIC PREPARATION LAB"
+    }, 
+    "CHM521": {
+        "Course No": "CHM521", 
+        "Instructor(s)": "D L V K PRASAD", 
+        "Schedule": "LEC: WF 15:30-17:00 REQ;", 
+        "Title": "MATHEMATICS FOR CHEMISTRY"
+    }, 
+    "CHM600": {
+        "Course No": "CHM600", 
+        "Instructor(s)": "D L V K PRASAD", 
+        "Schedule": "LEC: WF 15:30-17:00 REQ;", 
+        "Title": "MATHEMATICS FOR CHEMISTRY"
+    }, 
+    "CHM602": {
+        "Course No": "CHM602", 
+        "Instructor(s)": "ANAND SINGH", 
+        "Schedule": "LEC: M 17:00-18:00 REQ;WF 15:00-16:00 REQ;", 
+        "Title": "ADVANCED ORGANIC CHEMISTRY II"
+    }, 
+    "CHM602A": {
+        "Course No": "CHM602A", 
+        "Instructor(s)": "ANAND SINGH", 
+        "Schedule": "LEC: M 17:00-18:00 REQ;WF 15:00-16:00 REQ;", 
+        "Title": "ADVANCED ORGANIC CHEMISTRY II"
+    }, 
+    "CHM609": {
+        "Course No": "CHM609", 
+        "Instructor(s)": "R RAMAPANICKER", 
+        "Schedule": "LEC: WF 17:00-18:30 REQ;", 
+        "Title": "PRINCIPALES OF ORGANIC CHEMISTRY"
+    }, 
+    "CHM611": {
+        "Course No": "CHM611", 
+        "Instructor(s)": "V K YADAV", 
+        "Schedule": "LEC: MTh 09:00-10:30 REQ;", 
+        "Title": "PHYSICAL ORGANIC CHEMISTRY"
+    }, 
+    "CHM611A": {
+        "Course No": "CHM611A", 
+        "Instructor(s)": "V K YADAV", 
+        "Schedule": "LEC: MTh 09:00-10:30 REQ;", 
+        "Title": "PHYSICAL ORGANIC CHEMISTRY"
+    }, 
+    "CHM616": {
+        "Course No": "CHM616", 
+        "Instructor(s)": "M L N RAO", 
+        "Schedule": "LEC: WF 15:30-17:00 REQ;", 
+        "Title": "CHEMISTRY OF ORGANOMETALLIC COMPOUNDS"
+    }, 
+    "CHM616A": {
+        "Course No": "CHM616A", 
+        "Instructor(s)": "M L N RAO", 
+        "Schedule": "LEC: WF 15:30-17:00 REQ;", 
+        "Title": "CHEMISTRY OF ORGANOMETALLIC COMPOUNDS"
+    }, 
+    "CHM621": {
+        "Course No": "CHM621", 
+        "Instructor(s)": "S R GADRE", 
+        "Schedule": "LEC: TWTh 08:00-09:00 REQ;", 
+        "Title": "CHEMICAL BINDING"
+    }, 
+    "CHM621A": {
+        "Course No": "CHM621A", 
+        "Instructor(s)": "S R GADRE", 
+        "Schedule": "LEC: TWTh 08:00-09:00 REQ;", 
+        "Title": "CHEMICAL BINDING"
+    }, 
+    "CHM629": {
+        "Course No": "CHM629", 
+        "Instructor(s)": "N NAIR", 
+        "Schedule": "LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;", 
+        "Title": "PRINCIPLES OF PHYSICAL CHEMISTRY"
+    }, 
+    "CHM646": {
+        "Course No": "CHM646", 
+        "Instructor(s)": "A K PATRA", 
+        "Schedule": "LEC: T 11:00-12:00 REQ;WF 16:00-17:00 REQ;", 
+        "Title": "BIO-INORGANIC CHEMISTRY"
+    }, 
+    "CHM646A": {
+        "Course No": "CHM646A", 
+        "Instructor(s)": "A K PATRA", 
+        "Schedule": "LEC: T 11:00-12:00 REQ;WF 16:00-17:00 REQ;", 
+        "Title": "BIO-INORGANIC CHEMISTRY"
+    }, 
+    "CHM649": {
+        "Course No": "CHM649", 
+        "Instructor(s)": "B SUNDARARAJU", 
+        "Schedule": "LEC: MTh 09:00-10:30 REQ;", 
+        "Title": "PRINCIPALES OF INORGANIC CHEMISTRY"
+    }, 
+    "CHM650": {
+        "Course No": "CHM650", 
+        "Instructor(s)": "A CHANDRA", 
+        "Schedule": "LEC: WF 09:00-10:30 REQ;", 
+        "Title": "STATISTICAL MECHANICS & ITS APPL. TO CHEMISTRY"
+    }, 
+    "CHM650A": {
+        "Course No": "CHM650A", 
+        "Instructor(s)": "A CHANDRA", 
+        "Schedule": "LEC: WF 09:00-10:30 REQ;", 
+        "Title": "STATISTICAL MECHANICS & ITS APPL. TO CHEMISTRY"
+    }, 
+    "CHM651": {
+        "Course No": "CHM651", 
+        "Instructor(s)": "S P RATH", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
+        "Title": "CRYSTAL AND MOLECULAR STRUCTURE DETERMINATION"
+    }, 
+    "CHM651A": {
+        "Course No": "CHM651A", 
+        "Instructor(s)": "S P RATH", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
+        "Title": "CRYSTAL AND MOLECULAR STRUCTURE DETERMINATION"
+    }, 
+    "CHM664": {
+        "Course No": "CHM664", 
+        "Instructor(s)": "S MANOGARAN", 
+        "Schedule": "LEC: WF 10:30-12:00 REQ;", 
+        "Title": "MODERN PHYSICAL METHODS IN CHEMISTRY"
+    }, 
+    "CHM664A": {
+        "Course No": "CHM664A", 
+        "Instructor(s)": "S MANOGARAN", 
+        "Schedule": "LEC: WF 10:30-12:00 REQ;", 
+        "Title": "MODERN PHYSICAL METHODS IN CHEMISTRY"
+    }, 
+    "CHM683": {
+        "Course No": "CHM683", 
+        "Instructor(s)": "T G GOPAKUMAR", 
+        "Schedule": "LEC: MTh 14:00-15:30 REQ;", 
+        "Title": "SURFACES, INTERFACES, THIN FILMS & RELATED"
+    }, 
+    "CHM683A": {
+        "Course No": "CHM683A", 
+        "Instructor(s)": "T G GOPAKUMAR", 
+        "Schedule": "LEC: MTh 10:30-12:00 REQ;", 
+        "Title": "SURFACES, INTERFACES, THIN FILMS & RELATED"
+    }, 
+    "CHM684": {
+        "Course No": "CHM684", 
+        "Instructor(s)": "K SRIHARI", 
+        "Schedule": "LEC: WF 17:00-18:30 REQ;", 
+        "Title": "COMPUTER PROGRAMMING FOR CHEMISTRY"
+    }, 
+    "CHM684A": {
+        "Course No": "CHM684A", 
+        "Instructor(s)": "K SRIHARI", 
+        "Schedule": "LEC: WF 17:00-18:30 REQ;", 
+        "Title": "COMPUTER PROGRAMMING FOR CHEMISTRY"
+    }, 
+    "CHM691": {
+        "Course No": "CHM691", 
+        "Instructor(s)": "S K KUNDU", 
+        "Schedule": "LEC: M 17:00-18:00 REQ;WF 15:00-16:00 REQ;", 
+        "Title": "FRONTIERS IN INORGANIC CHEMISTRY"
+    }, 
+    "CHM691A": {
+        "Course No": "CHM691A", 
+        "Instructor(s)": "S K KUNDU", 
+        "Schedule": "LEC: M 17:00-18:00 REQ;WF 15:00-16:00 REQ;", 
+        "Title": "FRONTIERS IN INORGANIC CHEMISTRY"
+    }, 
+    "CHM698": {
+        "Course No": "CHM698", 
+        "Instructor(s)": "S VERMA", 
+        "Schedule": "LEC: WF 09:00-10:30 REQ;", 
+        "Title": "CHEMISTRY OF DRUG DESIGN AND METABOLISM"
+    }, 
+    "CHM698A": {
+        "Course No": "CHM698A", 
+        "Instructor(s)": "S VERMA", 
+        "Schedule": "LEC: WF 09:00-10:30 REQ;", 
+        "Title": "CHEMISTRY OF DRUG DESIGN AND METABOLISM"
+    }, 
+    "CHM700": {
+        "Course No": "CHM700", 
+        "Instructor(s)": "CONVENOR DUGC", 
+        "Schedule": "LEC:", 
+        "Title": "PROJECT"
+    }, 
+    "CHM799": {
+        "Course No": "CHM799", 
+        "Instructor(s)": "CONVENOR DPGC", 
+        "Schedule": "LEC:", 
+        "Title": "RESEARCH"
+    }, 
+    "CHM800": {
+        "Course No": "CHM800", 
+        "Instructor(s)": "CONVENOR DPGC", 
+        "Schedule": "LEC:", 
+        "Title": "GENERAL SEMINAR"
+    }, 
+    "CHM801": {
+        "Course No": "CHM801", 
+        "Instructor(s)": "CONVENOR DPGC", 
+        "Schedule": "LEC:", 
+        "Title": "GRADUATE SEMINAR"
+    }, 
+    "COM200": {
+        "Course No": "COM200", 
+        "Instructor(s)": "", 
+        "Schedule": "LEC:", 
+        "Title": "COMMUNICATION SKILLS: COMPOSITION"
+    }, 
+    "CS201A": {
+        "Course No": "CS201A", 
+        "Instructor(s)": "HARISH KARNICK", 
+        "Schedule": "LEC: MTh 12:00-13:00 REQ;F 17:00-18:00 REQ;", 
+        "Title": "MATHEMATICS FOR COMPUTER SCIENCE -I"
+    }, 
+    "CS210A": {
+        "Course No": "CS210A", 
+        "Instructor(s)": "SURENDER BASWANA", 
+        "Schedule": "LEC: TWF 12:00-13:00 REQ;", 
+        "Title": "DATA STRUCTURE AND ALGORITHMS"
+    }, 
+    "CS251A": {
+        "Course No": "CS251A", 
+        "Instructor(s)": "OARS", 
+        "Schedule": "LEC: M 12:00-13:00 REQ;", 
+        "Title": "COMPUTING LABORATORY-I"
+    }, 
+    "CS252A": {
+        "Course No": "CS252A", 
+        "Instructor(s)": "ARNAB BHATTACHARYA", 
+        "Schedule": "LEC: M 10:00-11:00 REQ;", 
+        "Title": "COMPUTING LABORATORY II"
+    }, 
+    "CS330A": {
+        "Course No": "CS330A", 
+        "Instructor(s)": "MAINAK CHAUDHURI", 
+        "Schedule": "LEC: TWTh 08:00-09:00 REQ;", 
+        "Title": "OPERATING SYSTEMS"
+    }, 
+    "CS340A": {
+        "Course No": "CS340A", 
+        "Instructor(s)": "SUNIL E. SIMON", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
+        "Title": "THEORY OF COMPUTATION"
+    }, 
+    "CS345A": {
+        "Course No": "CS345A", 
+        "Instructor(s)": "PIYUSH P. KURUR", 
+        "Schedule": "LEC: MWF 09:00-10:00 REQ;", 
+        "Title": "ALGORITHMS -II"
+    }, 
+    "CS350A": {
+        "Course No": "CS350A", 
+        "Instructor(s)": "SATYADEV NANDAKUMAR", 
+        "Schedule": "LEC: MTh 14:00-15:30 REQ;", 
+        "Title": "PRINCIPLES OF PROGRAMMING LANGAUGES"
+    }, 
+    "CS360A": {
+        "Course No": "CS360A", 
+        "Instructor(s)": "VINAY NAMBOODIRI", 
+        "Schedule": "LEC: WF 15:30-17:00 REQ;", 
+        "Title": "INTRODUCTION TO COMPUTER GRAPHICS"
+    }, 
+    "CS425A": {
+        "Course No": "CS425A", 
+        "Instructor(s)": "DHEERAJ SANGHI", 
+        "Schedule": "LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;", 
+        "Title": "COMPUTER NETWORKS"
+    }, 
+    "CS433A": {
+        "Course No": "CS433A", 
+        "Instructor(s)": "AJAI JAIN", 
+        "Schedule": "LEC: WF 12:00-13:30 REQ;", 
+        "Title": "PARALLEL PROGRAMMING"
+    }, 
+    "CS601": {
+        "Course No": "CS601", 
+        "Instructor(s)": "RAGHUNATH TEWARI", 
+        "Schedule": "LEC: WF 09:00-10:30 REQ;", 
+        "Title": "MATHEMATICS FOR COMPUTER SCIENCE"
+    }, 
+    "CS602": {
+        "Course No": "CS602", 
+        "Instructor(s)": "SANJEEV SAXENA", 
+        "Schedule": "LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;", 
+        "Title": "DESIGN AND ANALYSIS OF ALGORITHMS"
+    }, 
+    "CS632": {
+        "Course No": "CS632", 
+        "Instructor(s)": "RATAN K. GHOSH", 
+        "Schedule": "LEC: MTh 10:30-12:00 REQ;", 
+        "Title": "TOPICS IN DISTRIBUTED SYSTEMS"
+    }, 
+    "CS639": {
+        "Course No": "CS639", 
+        "Instructor(s)": "SUBHAJIT ROY", 
+        "Schedule": "LEC: WF 10:30-12:00 REQ;", 
+        "Title": "PROGRAM ANALYSIS, VERIFICATION AND TESTING"
+    }, 
+    "CS641": {
+        "Course No": "CS641", 
+        "Instructor(s)": "MANINDRA AGRAWAL", 
+        "Schedule": "LEC: MTh 09:00-10:30 REQ;", 
+        "Title": "MODERN CRYPTOLOGY"
+    }, 
+    "CS663": {
+        "Course No": "CS663", 
+        "Instructor(s)": "SHASHANK MEHTA", 
+        "Schedule": "LEC: MTh 12:00-13:30 REQ;", 
+        "Title": "COMPUTATIONAL GEOMETRY"
+    }, 
+    "CS681": {
+        "Course No": "CS681", 
+        "Instructor(s)": "NITIN SAXENA", 
+        "Schedule": "LEC: MTh 12:00-13:30 REQ;", 
+        "Title": "COMPUTATIONAL NUMBER THEORY AND ALGEBRA"
+    }, 
+    "CS682": {
+        "Course No": "CS682", 
+        "Instructor(s)": "ANIL SETH", 
+        "Schedule": "LEC: MTh 10:30-12:00 REQ;", 
+        "Title": "QUANTUM COMPUTING"
+    }, 
+    "CS698O": {
+        "Course No": "CS698O", 
+        "Instructor(s)": "PRABHAKAR T V", 
+        "Schedule": "LEC: WF 10:30-12:00 REQ;", 
+        "Title": "DATA IN BIG DATA"
+    }, 
+    "CS698R": {
+        "Course No": "CS698R", 
+        "Instructor(s)": "RAJAT MITTAL", 
+        "Schedule": "LEC: T 11:00-12:00 REQ;WF 16:00-17:00 REQ;Th", 
+        "Title": "TOPICS IN LINEAR PROGRAMMING"
+    }, 
+    "ECO201": {
+        "Course No": "ECO201", 
+        "Instructor(s)": "S SINHA", 
+        "Schedule": "LEC: TWF 12:00-13:00 REQ;", 
+        "Title": "MICROECONOMICS - I"
+    }, 
+    "ECO201A": {
+        "Course No": "ECO201A", 
+        "Instructor(s)": "S SINHA", 
+        "Schedule": "LEC: TWF 12:00-13:00 REQ;", 
+        "Title": "MICROECONOMICS I"
+    }, 
+    "ECO301A": {
+        "Course No": "ECO301A", 
+        "Instructor(s)": "OARS", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T/D: T 09:00-10:00 REQ;", 
+        "Title": "MICROECONOMICS II"
+    }, 
+    "ECO321A": {
+        "Course No": "ECO321A", 
+        "Instructor(s)": "OARS", 
+        "Schedule": "LEC: T 12:00-13:00 REQ;WF 16:00-17:00 REQ;", 
+        "Title": "MACROECONOMICS-II"
+    }, 
+    "ECO341A": {
+        "Course No": "ECO341A", 
+        "Instructor(s)": "OARS", 
+        "Schedule": "LEC: WF 15:00-16:00 REQ;T/D: Th 17:00-18:00 REQ;", 
+        "Title": "ECONOMETRICS I"
+    }, 
+    "ECO408": {
+        "Course No": "ECO408", 
+        "Instructor(s)": "VIMAL KUMAR", 
+        "Schedule": "LEC: MTh 12:00-13:30 REQ;", 
+        "Title": "ADVANCED MACRO ECONOMICS"
+    }, 
+    "ECO411A": {
+        "Course No": "ECO411A", 
+        "Instructor(s)": "OARS", 
+        "Schedule": "LEC: T 17:00-18:00 REQ;WF 14:00-15:00 REQ;", 
+        "Title": "INDUSTRIAL ECONOMICS"
+    }, 
+    "ECO412A": {
+        "Course No": "ECO412A", 
+        "Instructor(s)": "OARS", 
+        "Schedule": "LEC: TWTh 08:00-09:00 REQ;", 
+        "Title": "INTERNATIONAL ECONOMICS AND FINANCE"
+    }, 
+    "ECO501": {
+        "Course No": "ECO501", 
+        "Instructor(s)": "P M PRASAD", 
+        "Schedule": "LEC: TWF 12:00-13:00 REQ;", 
+        "Title": "ENVIROMENTAL ECONOMICS AND POLICY"
+    }, 
+    "ECO501A": {
+        "Course No": "ECO501A", 
+        "Instructor(s)": "P M PRASAD", 
+        "Schedule": "LEC: TWF 12:00-13:00 REQ;", 
+        "Title": "ENVIROMENTAL ECONOMICS AND POLICY"
+    }, 
+    "ECO535": {
+        "Course No": "ECO535", 
+        "Instructor(s)": "TANIKA CHAKRABORTY", 
+        "Schedule": "LEC: WF 12:00-13:30 REQ;", 
+        "Title": "PUBLIC ECONOMICS"
+    }, 
+    "ECO732": {
+        "Course No": "ECO732", 
+        "Instructor(s)": "S K MATHUR, M ARSHAD RAHMAN", 
+        "Schedule": "LEC: MTh 14:00-15:30 REQ;", 
+        "Title": "ECONOMETRICS"
+    }, 
+    "ECO734": {
+        "Course No": "ECO734", 
+        "Instructor(s)": "P KULKHRESTHA", 
+        "Schedule": "LEC: WF 15:30-17:00 REQ;", 
+        "Title": "INDUSTRIAL ORGANISATION AND POLICY"
+    }, 
+    "ECO738": {
+        "Course No": "ECO738", 
+        "Instructor(s)": "K K SAXENA", 
+        "Schedule": "LEC: MTh 12:00-13:30 REQ;", 
+        "Title": "INTER-INDUSTRY ECONOMICS"
+    }, 
+    "EE200A": {
+        "Course No": "EE200A", 
+        "Instructor(s)": "K S VENKATESH", 
+        "Schedule": "LEC: MWF 12:00-13:00 REQ;T/D: Th 12:00-13:00", 
+        "Title": "SIGNALS, SYSTEMS & NETWORKS"
+    }, 
+    "EE320A": {
+        "Course No": "EE320A", 
+        "Instructor(s)": "K VASUDEVAN", 
+        "Schedule": "LEC: TWTh 08:00-09:00 REQ;T/D: F 15:00-16:00", 
+        "Title": "PRINCIPLES OF COMMUNICATION"
+    }, 
+    "EE330A": {
+        "Course No": "EE330A", 
+        "Instructor(s)": "S CHAKRABARTI", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;T/D:", 
+        "Title": "POWER SYSTEMS"
+    }, 
+    "EE370A": {
+        "Course No": "EE370A", 
+        "Instructor(s)": "S S K IYER", 
+        "Schedule": "LEC: MWF 11:00-12:00 REQ;T/D: T 17:00-18:00 REQ;", 
+        "Title": "DIGITAL ELECTRONICS"
+    }, 
+    "EE380A": {
+        "Course No": "EE380A", 
+        "Instructor(s)": "Y N SINGH", 
+        "Schedule": "LEC: T/D: T 12:00-13:00 REQ;Th 17:00-18:00 REQ;F", 
+        "Title": "ELECTRICAL ENGINEERING LAB I"
+    }, 
+    "EE401A": {
+        "Course No": "EE401A", 
+        "Instructor(s)": "U DAS", 
+        "Schedule": "LEC:", 
+        "Title": "ELECTRICAL ENGINEERING COMMUNICATION SKILLS"
+    }, 
+    "EE442A": {
+        "Course No": "EE442A", 
+        "Instructor(s)": "A R HARISH", 
+        "Schedule": "LEC: MTh 14:00-15:30 REQ;", 
+        "Title": "ANTENNAS AND PROPAGATION"
+    }, 
+    "EE601": {
+        "Course No": "EE601", 
+        "Instructor(s)": "P SIRCAR", 
+        "Schedule": "LEC: MTh 09:00-10:30 REQ;", 
+        "Title": "MATHEMATICAL METHODS IN SIGNAL PROCESSING"
+    }, 
+    "EE601A": {
+        "Course No": "EE601A", 
+        "Instructor(s)": "P SIRCAR", 
+        "Schedule": "LEC: MTh 09:00-10:30 REQ;", 
+        "Title": "MATHEMATICAL METHODS IN SIGNAL PROCESSING"
+    }, 
+    "EE604": {
+        "Course No": "EE604", 
+        "Instructor(s)": "S GUPTA", 
+        "Schedule": "LEC: MTh 12:00-13:30 REQ;", 
+        "Title": "IMAGE PROCESSING"
+    }, 
+    "EE604A": {
+        "Course No": "EE604A", 
+        "Instructor(s)": "S GUPTA", 
+        "Schedule": "LEC: MTh 12:00-13:30 REQ;", 
+        "Title": "IMAGE PROCESSING"
+    }, 
+    "EE605": {
+        "Course No": "EE605", 
+        "Instructor(s)": "A K CHATURVEDI", 
+        "Schedule": "LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;", 
+        "Title": "INTRODUCTION TO SIGNAL ANALYSIS"
+    }, 
+    "EE605A": {
+        "Course No": "EE605A", 
+        "Instructor(s)": "A K CHATURVEDI", 
+        "Schedule": "LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;", 
+        "Title": "INTRODUCTION TO SIGNAL ANALYSIS"
+    }, 
+    "EE607": {
+        "Course No": "EE607", 
+        "Instructor(s)": "G SHARMA", 
+        "Schedule": "LEC: MTh 14:00-15:30 REQ;", 
+        "Title": "WAVELET TRANSFORMS FOR SIGNAL & IMAGE PROCESSING"
+    }, 
+    "EE607A": {
+        "Course No": "EE607A", 
+        "Instructor(s)": "G SHARMA", 
+        "Schedule": "LEC: MTh 14:00-15:30 REQ;", 
+        "Title": "WAVELET TRANSFORMS FOR SIGNAL & IMAGE PROCESSING"
+    }, 
+    "EE610": {
+        "Course No": "EE610", 
+        "Instructor(s)": "S QURESHI", 
+        "Schedule": "LEC: WF 15:30-17:00 REQ;", 
+        "Title": "ANALOG/DIGITAL VLSI CIRCUITS"
+    }, 
+    "EE610A": {
+        "Course No": "EE610A", 
+        "Instructor(s)": "S QURESHI", 
+        "Schedule": "LEC: WF 15:30-17:00 REQ;", 
+        "Title": "ANALOG/DIGITAL VLSI CIRCUITS"
+    }, 
+    "EE612": {
+        "Course No": "EE612", 
+        "Instructor(s)": "U DAS", 
+        "Schedule": "LEC: MTh 10:30-12:00 REQ;", 
+        "Title": "FIBER OPTIC SYSTEMS I"
+    }, 
+    "EE612A": {
+        "Course No": "EE612A", 
+        "Instructor(s)": "U DAS", 
+        "Schedule": "LEC: MTh 10:30-12:00 REQ;", 
+        "Title": "FIBER OPTIC SYSTEMS I"
+    }, 
+    "EE614": {
+        "Course No": "EE614", 
+        "Instructor(s)": "Y S CHAUHAN", 
+        "Schedule": "LEC: MTh 09:00-10:30 REQ;", 
+        "Title": "SOLID STATE DEVICES I"
+    }, 
+    "EE614A": {
+        "Course No": "EE614A", 
+        "Instructor(s)": "Y S CHAUHAN", 
+        "Schedule": "LEC: MTh 09:00-10:30 REQ;", 
+        "Title": "SOLID STATE DEVICES I"
+    }, 
+    "EE616": {
+        "Course No": "EE616", 
+        "Instructor(s)": "B GHOSH", 
+        "Schedule": "LEC: MTh 12:00-13:30 REQ;", 
+        "Title": "SEMICONDUCTOR DEVICE MODELLING"
+    }, 
+    "EE616A": {
+        "Course No": "EE616A", 
+        "Instructor(s)": "B GHOSH", 
+        "Schedule": "LEC: MTh 12:00-13:30 REQ;", 
+        "Title": "SEMICONDUCTOR DEVICE MODELLING"
+    }, 
+    "EE618": {
+        "Course No": "EE618", 
+        "Instructor(s)": "A DUTTA", 
+        "Schedule": "LEC: MTh 14:00-15:30 REQ;", 
+        "Title": "INTEGRATED CIRCUIT FABRICATION TECHNOLOGY"
+    }, 
+    "EE618A": {
+        "Course No": "EE618A", 
+        "Instructor(s)": "A DUTTA", 
+        "Schedule": "LEC: MTh 14:00-15:30 REQ;", 
+        "Title": "INTEGRATED CIRCUIT FABRICATION TECHNOLOGY"
+    }, 
+    "EE621": {
+        "Course No": "EE621", 
+        "Instructor(s)": "A BANERJEE", 
+        "Schedule": "LEC: WF 10:30-12:00 REQ;", 
+        "Title": "REPRESENTATION AND ANALYSIS OF RANDOM SIGNALS"
+    }, 
+    "EE621A": {
+        "Course No": "EE621A", 
+        "Instructor(s)": "A BANERJEE", 
+        "Schedule": "LEC: WF 10:30-12:00 REQ;", 
+        "Title": "REPRESENTATION AND ANALYSIS OF RANDOM SIGNALS"
+    }, 
+    "EE624": {
+        "Course No": "EE624", 
+        "Instructor(s)": "R K BANSAL", 
+        "Schedule": "LEC: WF 09:00-10:30 REQ;", 
+        "Title": "INFORMATION AND CODING THEORY"
+    }, 
+    "EE624A": {
+        "Course No": "EE624A", 
+        "Instructor(s)": "R K BANSAL", 
+        "Schedule": "LEC: WF 09:00-10:30 REQ;", 
+        "Title": "INFORMATION AND CODING THEORY"
+    }, 
+    "EE630": {
+        "Course No": "EE630", 
+        "Instructor(s)": "S C SRIVASTAVA", 
+        "Schedule": "LEC: TWTh 08:00-09:00 REQ;", 
+        "Title": "SIMULATON OF MODERN POWER SYSTEMS"
+    }, 
+    "EE630A": {
+        "Course No": "EE630A", 
+        "Instructor(s)": "S C SRIVASTAVA", 
+        "Schedule": "LEC: TWTh 08:00-09:00 REQ;", 
+        "Title": "SIMULATON OF MODERN POWER SYSTEMS"
+    }, 
+    "EE632": {
+        "Course No": "EE632", 
+        "Instructor(s)": "S N SINGH", 
+        "Schedule": "LEC: WF 17:00-18:30 REQ;", 
+        "Title": "ECONOMIC OPERATION & CONTROL OF POWER SYSTEMS"
+    }, 
+    "EE632A": {
+        "Course No": "EE632A", 
+        "Instructor(s)": "S N SINGH", 
+        "Schedule": "LEC: WF 17:00-18:30 REQ;", 
+        "Title": "ECONOMIC OPERATION & CONTROL OF POWER SYSTEMS"
+    }, 
+    "EE634": {
+        "Course No": "EE634", 
+        "Instructor(s)": "N GUPTA", 
+        "Schedule": "LEC: WF 12:00-13:30 REQ;", 
+        "Title": "ELECTRICAL INSULATION IN POWER APPARATUS AND"
+    }, 
+    "EE634A": {
+        "Course No": "EE634A", 
+        "Instructor(s)": "N GUPTA", 
+        "Schedule": "LEC: WF 12:00-13:30 REQ;", 
+        "Title": "ELECTRICAL INSULATION IN POWER APPARATUS AND"
+    }, 
+    "EE641": {
+        "Course No": "EE641", 
+        "Instructor(s)": "A BISWAS", 
+        "Schedule": "LEC: MTh 09:00-10:30 REQ;", 
+        "Title": "ADVANCED ENGINEERING ELECTROMAGNETICS"
+    }, 
+    "EE641A": {
+        "Course No": "EE641A", 
+        "Instructor(s)": "A BISWAS", 
+        "Schedule": "LEC: MTh 09:00-10:30 REQ;", 
+        "Title": "ADVANCED ENGINEERING ELECTROMAGNETICS"
+    }, 
+    "EE645": {
+        "Course No": "EE645", 
+        "Instructor(s)": "M J AKHTAR", 
+        "Schedule": "LEC: MTh 10:30-12:00 REQ;", 
+        "Title": "MONOLITHIC MICROWAVE ICS"
+    }, 
+    "EE645A": {
+        "Course No": "EE645A", 
+        "Instructor(s)": "M J AKHTAR", 
+        "Schedule": "LEC: MTh 10:30-12:00 REQ;", 
+        "Title": "MONOLITHIC MICROWAVE ICS"
+    }, 
+    "EE646": {
+        "Course No": "EE646", 
+        "Instructor(s)": "Y N SINGH", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
+        "Title": "PHOTONIC NETWORKS & SWITCHING"
+    }, 
+    "EE646A": {
+        "Course No": "EE646A", 
+        "Instructor(s)": "Y N SINGH", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
+        "Title": "PHOTONIC NETWORKS & SWITCHING"
+    }, 
+    "EE647": {
+        "Course No": "EE647", 
+        "Instructor(s)": "K V SRIVASTAVA", 
+        "Schedule": "LEC: MTh 12:00-13:30 REQ;", 
+        "Title": "MICROWAVE MEASUREMENTS AND DESIGN"
+    }, 
+    "EE647A": {
+        "Course No": "EE647A", 
+        "Instructor(s)": "K V SRIVASTAVA", 
+        "Schedule": "LEC: MTh 12:00-13:30 REQ;", 
+        "Title": "MICROWAVE MEASUREMENTS AND DESIGN"
+    }, 
+    "EE650": {
+        "Course No": "EE650", 
+        "Instructor(s)": "S R SAHOO", 
+        "Schedule": "LEC: MTh 09:00-10:30 REQ;", 
+        "Title": "BASICS OF MODERN CONTROL SYSTEMS"
+    }, 
+    "EE650A": {
+        "Course No": "EE650A", 
+        "Instructor(s)": "S R SAHOO", 
+        "Schedule": "LEC: MTh 09:00-10:30 REQ;", 
+        "Title": "BASICS OF MODERN CONTROL SYSTEMS"
+    }, 
+    "EE653": {
+        "Course No": "EE653", 
+        "Instructor(s)": "L BEHERA", 
+        "Schedule": "LEC: WF 10:30-12:00 REQ;", 
+        "Title": "DIGITAL CONTROL"
+    }, 
+    "EE653A": {
+        "Course No": "EE653A", 
+        "Instructor(s)": "L BEHERA", 
+        "Schedule": "LEC: WF 10:30-12:00 REQ;", 
+        "Title": "DIGITAL CONTROL"
+    }, 
+    "EE654": {
+        "Course No": "EE654", 
+        "Instructor(s)": "R POTLURI", 
+        "Schedule": "LEC: MTh 10:30-12:00 REQ;", 
+        "Title": "ROBUST CONTROL SYSTEMS"
+    }, 
+    "EE654A": {
+        "Course No": "EE654A", 
+        "Instructor(s)": "R POTLURI", 
+        "Schedule": "LEC: MTh 10:30-12:00 REQ;", 
+        "Title": "ROBUST CONTROL SYSTEMS"
+    }, 
+    "EE659": {
+        "Course No": "EE659", 
+        "Instructor(s)": "N NAIK", 
+        "Schedule": "LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;", 
+        "Title": "COMPUTATIONAL ASPECTS OF TOMOGRAPHIC IMAGING :"
+    }, 
+    "EE659A": {
+        "Course No": "EE659A", 
+        "Instructor(s)": "N NAIK", 
+        "Schedule": "LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;", 
+        "Title": "COMPUTATIONAL ASPECTS OF TOMOGRAPHIC IMAGING :"
+    }, 
+    "EE660": {
+        "Course No": "EE660", 
+        "Instructor(s)": "P SENSARMA", 
+        "Schedule": "LEC: MTh 12:00-13:30 REQ;", 
+        "Title": "BASICS OF POWER ELECTRONIC CONVERTERS"
+    }, 
+    "EE660A": {
+        "Course No": "EE660A", 
+        "Instructor(s)": "P SENSARMA", 
+        "Schedule": "LEC: MTh 12:00-13:30 REQ;", 
+        "Title": "BASICS OF POWER ELECTRONIC CONVERTERS"
+    }, 
+    "EE664": {
+        "Course No": "EE664", 
+        "Instructor(s)": "A JOSHI", 
+        "Schedule": "LEC: WF 09:00-10:30 REQ;", 
+        "Title": "FUNDAMENTALS OF ELECTRIC DRIVES"
+    }, 
+    "EE664A": {
+        "Course No": "EE664A", 
+        "Instructor(s)": "A JOSHI", 
+        "Schedule": "LEC: WF 09:00-10:30 REQ;", 
+        "Title": "FUNDAMENTALS OF ELECTRIC DRIVES"
+    }, 
+    "EE670": {
+        "Course No": "EE670", 
+        "Instructor(s)": "A JAGANNATHAM", 
+        "Schedule": "LEC: MTh 10:30-12:00 REQ;", 
+        "Title": "WIRELESS COMMUNICATIONS"
+    }, 
+    "EE670A": {
+        "Course No": "EE670A", 
+        "Instructor(s)": "A JAGANNATHAM", 
+        "Schedule": "LEC: MTh 10:30-12:00 REQ;", 
+        "Title": "WIRELESS COMMUNICATIONS"
+    }, 
+    "EE673": {
+        "Course No": "EE673", 
+        "Instructor(s)": "K RAJAWAT", 
+        "Schedule": "LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;", 
+        "Title": "DIGITAL COMMUNICATION NETWORKS"
+    }, 
+    "EE673A": {
+        "Course No": "EE673A", 
+        "Instructor(s)": "K RAJAWAT", 
+        "Schedule": "LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;", 
+        "Title": "DIGITAL COMMUNICATION NETWORKS"
+    }, 
+    "EE674": {
+        "Course No": "EE674", 
+        "Instructor(s)": "S P DAS", 
+        "Schedule": "LEC: MTh 14:00-15:30 REQ;", 
+        "Title": "ARCHITECTURE OF MICRO-PROCESSORS &"
+    }, 
+    "EE674A": {
+        "Course No": "EE674A", 
+        "Instructor(s)": "S P DAS", 
+        "Schedule": "LEC: MTh 14:00-15:30 REQ;", 
+        "Title": "ARCHITECTURE OF MICRO-PROCESSORS &"
+    }, 
+    "EE698": {
+        "Course No": "EE698", 
+        "Instructor(s)": "S K MISHRA", 
+        "Schedule": "LEC: WF 15:30-17:00 REQ;", 
+        "Title": "POWER MANAGEMENT CIRCUITS"
+    }, 
+    "EE698A": {
+        "Course No": "EE698A", 
+        "Instructor(s)": "S K MISHRA", 
+        "Schedule": "LEC: WF 15:30-17:00 REQ;", 
+        "Title": "POWER MANAGEMENT CIRCUITS"
+    }, 
+    "EE698D": {
+        "Course No": "EE698D", 
+        "Instructor(s)": "S ANAND", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
+        "Title": "POWER ELECTRONICS IN SOLAR PHOTOVOLTAIC SYSTEMS"
+    }, 
+    "EE698F": {
+        "Course No": "EE698F", 
+        "Instructor(s)": "S ANAND", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
+        "Title": "POWER ELECTRONICS IN SOLAR PHOTOVOLTAIC SYSTEMS"
+    }, 
+    "EE698R": {
+        "Course No": "EE698R", 
+        "Instructor(s)": "A JAGANNATHAM", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
+        "Title": "TRANSCEIVER OPTIMIZATION FOR OFDM WIRELESS"
+    }, 
+    "EE698Z": {
+        "Course No": "EE698Z", 
+        "Instructor(s)": "A JAGANNATHAM", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
+        "Title": "TRANSCEIVER OPTIMIZATION FOR OFDM WIRELESS"
+    }, 
+    "EE699": {
+        "Course No": "EE699", 
+        "Instructor(s)": "CONVENOR DPGC", 
+        "Schedule": "LEC:", 
+        "Title": "M TECH THESIS"
+    }, 
+    "EE705": {
+        "Course No": "EE705", 
+        "Instructor(s)": "L BEHERA", 
+        "Schedule": "LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;", 
+        "Title": "INTELLIGENT SYSTEMS & CONTROL"
+    }, 
+    "EE705A": {
+        "Course No": "EE705A", 
+        "Instructor(s)": "L BEHERA", 
+        "Schedule": "LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;", 
+        "Title": "INTELLIGENT SYSTEMS & CONTROL"
+    }, 
+    "EE799": {
+        "Course No": "EE799", 
+        "Instructor(s)": "CONVENOR DPGC", 
+        "Schedule": "LEC:", 
+        "Title": "PHD THESIS"
+    }, 
+    "EEM602": {
+        "Course No": "EEM602", 
+        "Instructor(s)": "ABHAS SINGH", 
+        "Schedule": "LEC: MTh 10:30-12:00 REQ;", 
+        "Title": "PHYSICOCHEMICAL PRINCIPLES AND PROCESS"
+    }, 
+    "EEM603": {
+        "Course No": "EEM603", 
+        "Instructor(s)": "VINOD TARE", 
+        "Schedule": "LEC: W 17:00-18:30 REQ;F 17:00-18:00 REQ;", 
+        "Title": "ECOLOGICAL AND BIOLOGICAL PRINCIPLES AND PROCESS"
+    }, 
+    "EEM606": {
+        "Course No": "EEM606", 
+        "Instructor(s)": "TARUN GUPTA", 
+        "Schedule": "LEC: WF 10:30-12:00 REQ;", 
+        "Title": "AIR POLLUTION AND ITS CONTROL"
+    }, 
+    "EEM606A": {
+        "Course No": "EEM606A", 
+        "Instructor(s)": "TARUN GUPTA", 
+        "Schedule": "LEC: WF 10:30-12:00 REQ;", 
+        "Title": "AIR POLLUTION AND ITS CONTROL"
+    }, 
+    "EEM699": {
+        "Course No": "EEM699", 
+        "Instructor(s)": "CONVENOR DPGC", 
+        "Schedule": "LEC:", 
+        "Title": "M.TECH THESIS"
+    }, 
+    "ENG445": {
+        "Course No": "ENG445", 
+        "Instructor(s)": "T RAVICHANDRAN", 
+        "Schedule": "LEC: MWF 17:00-18:00 REQ;", 
+        "Title": "LITERATURE & THE INDIVIDUAL"
+    }, 
+    "ENG445A": {
+        "Course No": "ENG445A", 
+        "Instructor(s)": "T RAVICHANDRAN", 
+        "Schedule": "LEC: MWF 17:00-18:00 REQ;", 
+        "Title": "LITERATURE & THE INDIVIDUAL"
+    }, 
+    "ENG448": {
+        "Course No": "ENG448", 
+        "Instructor(s)": "C PUTTASWAMY", 
+        "Schedule": "LEC: TWF 12:00-13:00 REQ;", 
+        "Title": "LANGAUGES OF SOUTH ASIA"
+    }, 
+    "ENG448A": {
+        "Course No": "ENG448A", 
+        "Instructor(s)": "C PUTTASWAMY", 
+        "Schedule": "LEC: TWF 12:00-13:00 REQ;", 
+        "Title": "LANGAUGES OF SOUTH ASIA"
+    }, 
+    "ESC101A": {
+        "Course No": "ESC101A", 
+        "Instructor(s)": "AMEY KARKARE", 
+        "Schedule": "LEC: MWF 12:00-13:00 L7;T/D: T 12:00-13:00 REQ;", 
+        "Title": "FUNDAMENTAL OF COMPUTING"
+    }, 
+    "ESC201A": {
+        "Course No": "ESC201A", 
+        "Instructor(s)": "OARS", 
+        "Schedule": "LEC:", 
+        "Title": "INTRODUCTION TO ELECTRONICS"
+    }, 
+    "ESO201A": {
+        "Course No": "ESO201A", 
+        "Instructor(s)": "OARS", 
+        "Schedule": "LEC: MWF 10:00-11:00 L16;T/D: Th 10:00-11:00", 
+        "Title": "THERMODYNAMICS"
+    }, 
+    "ESO202A": {
+        "Course No": "ESO202A", 
+        "Instructor(s)": "OARS", 
+        "Schedule": "LEC: MWF 10:00-11:00 L17;T/D: Th 10:00-11:00", 
+        "Title": "MECHANICS OF SOLIDS"
+    }, 
+    "ESO203A": {
+        "Course No": "ESO203A", 
+        "Instructor(s)": "OARS", 
+        "Schedule": "LEC: MWF 10:00-11:00 L1;T/D: Th 10:00-11:00 REQ;", 
+        "Title": "INTRODUCTION TO ELECTRICAL ENGINEERING"
+    }, 
+    "ESO204A": {
+        "Course No": "ESO204A", 
+        "Instructor(s)": "S PANDA", 
+        "Schedule": "LEC: MWF 11:00-12:00 L16;T/D: Th 11:00-12:00", 
+        "Title": "FLUID MECHANICS AND RATE PROCESSES"
+    }, 
+    "ESO205A": {
+        "Course No": "ESO205A", 
+        "Instructor(s)": "T MAITI", 
+        "Schedule": "LEC: MWF 11:00-12:00 L2;T/D: Th 11:00-12:00 REQ;", 
+        "Title": "NATURE AND PROPERTIES OF MATERIALS"
+    }, 
+    "ESO206A": {
+        "Course No": "ESO206A", 
+        "Instructor(s)": "ASHWINI K. THAKUR", 
+        "Schedule": "LEC: MWF 09:00-10:00 L1;", 
+        "Title": "PRINCIPLES OF BIOTECHNOLOGY"
+    }, 
+    "ESO207A": {
+        "Course No": "ESO207A", 
+        "Instructor(s)": "SUMIT GANGULY", 
+        "Schedule": "LEC: MWF 10:00-11:00 L2;", 
+        "Title": "DATA STRUCTURE & ALGORITHM"
+    }, 
+    "ESO208A": {
+        "Course No": "ESO208A", 
+        "Instructor(s)": "OARS", 
+        "Schedule": "LEC: MWF 11:00-12:00 L17;T/D: Th 11:00-12:00", 
+        "Title": "COMPUTATIONAL METHODS IN ENGINEERING"
+    }, 
+    "ESO209A": {
+        "Course No": "ESO209A", 
+        "Instructor(s)": "ANINDYA CHATTERJEE", 
+        "Schedule": "LEC: MW 17:00-18:00 L2;T/D: T 17:00-18:00 REQ;", 
+        "Title": "DYNAMICS"
+    }, 
+    "HSS403": {
+        "Course No": "HSS403", 
+        "Instructor(s)": "SHIKHA DIXIT", 
+        "Schedule": "LEC: MWF 17:00-18:00 REQ;", 
+        "Title": "SOCIAL AND BEHAVIOURAL ASPECTS OF HEALTH"
+    }, 
+    "HSS403A": {
+        "Course No": "HSS403A", 
+        "Instructor(s)": "SHIKHA DIXIT", 
+        "Schedule": "LEC: MWF 17:00-18:00 REQ;", 
+        "Title": "SOCIAL AND BEHAVIOURAL ASPECTS OF HEALTH"
+    }, 
+    "LIF101A": {
+        "Course No": "LIF101A", 
+        "Instructor(s)": "OARS", 
+        "Schedule": "LEC: WF 14:00-15:00 L7;", 
+        "Title": "INTRODUCTION TO BIOLOGY"
+    }, 
+    "ME251A": {
+        "Course No": "ME251A", 
+        "Instructor(s)": "NACHIKETA TEWARI", 
+        "Schedule": "LEC: W 12:00-13:00 REQ;", 
+        "Title": "ENGINEERING DESIGN AND GRAPHICS"
+    }, 
+    "ME301A": {
+        "Course No": "ME301A", 
+        "Instructor(s)": "M K DAS", 
+        "Schedule": "LEC: WF 11:00-12:00 REQ;", 
+        "Title": "ENERGY SYSTEMS I"
+    }, 
+    "ME321A": {
+        "Course No": "ME321A", 
+        "Instructor(s)": "BASANT LAL SHARMA", 
+        "Schedule": "LEC: MTh 11:00-12:00 REQ;", 
+        "Title": "ADVANCE MECHANICS OF SOLIDS"
+    }, 
+    "ME352A": {
+        "Course No": "ME352A", 
+        "Instructor(s)": "BHASKAR DAS GUPTA", 
+        "Schedule": "LEC: MTh 12:00-13:00 REQ;", 
+        "Title": "THEORY OF MECHANISMS & MACHINES"
+    }, 
+    "ME359": {
+        "Course No": "ME359", 
+        "Instructor(s)": "SAMEER KHANDEKHAR", 
+        "Schedule": "LEC:", 
+        "Title": "INTERNAL COMBUSTION ENGINES"
+    }, 
+    "ME361A": {
+        "Course No": "ME361A", 
+        "Instructor(s)": "ARVIND KUMAR, NIRAJ SINHA", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
+        "Title": "MANUFACTURING SCIENCE & TECHNOLOGY"
+    }, 
+    "ME399A": {
+        "Course No": "ME399A", 
+        "Instructor(s)": "S KHENDAKAR", 
+        "Schedule": "LEC:", 
+        "Title": "MECHANICAL ENGINEERING COMMUNICATION SKILLS"
+    }, 
+    "ME401A": {
+        "Course No": "ME401A", 
+        "Instructor(s)": "A K SAHA", 
+        "Schedule": "LEC: TWTh 08:00-09:00 REQ;", 
+        "Title": "ENERGY SYSTEMS-II"
+    }, 
+    "ME621": {
+        "Course No": "ME621", 
+        "Instructor(s)": "ANURAJ GUPTA", 
+        "Schedule": "LEC: TWTh 08:00-09:00 REQ;", 
+        "Title": "INTRODUCTION TO SOLID MECHANICS"
+    }, 
+    "ME623": {
+        "Course No": "ME623", 
+        "Instructor(s)": "P VENKITANARAYANAN", 
+        "Schedule": "LEC: WF 09:00-10:30 REQ;", 
+        "Title": "FINITE ELEMENT METHODS IN ENGINEERING MECHANICS"
+    }, 
+    "ME625": {
+        "Course No": "ME625", 
+        "Instructor(s)": "H HATWAL", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
+        "Title": "APPLIED DYNAMICS AND VIBRATIONS"
+    }, 
+    "ME630": {
+        "Course No": "ME630", 
+        "Instructor(s)": "SUBRATA SARKAR", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
+        "Title": "NUMERICAL FLUID FLOW AND HEAT TRANSFER"
+    }, 
+    "ME631": {
+        "Course No": "ME631", 
+        "Instructor(s)": "K MURALIDHAR", 
+        "Schedule": "LEC: TWTh 08:00-09:00 REQ;", 
+        "Title": "VISCOUS FLOW THEORY"
+    }, 
+    "ME641": {
+        "Course No": "ME641", 
+        "Instructor(s)": "P S GHOSHDASTIDAR", 
+        "Schedule": "LEC: MTh 12:00-13:30 REQ;", 
+        "Title": "CONDUCTION AND RADIATION"
+    }, 
+    "ME661": {
+        "Course No": "ME661", 
+        "Instructor(s)": "S K CHOUDHARY", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
+        "Title": "MACHINING SCIENCE I"
+    }, 
+    "ME662": {
+        "Course No": "ME662", 
+        "Instructor(s)": "SHANTANU BHATTACHARYA", 
+        "Schedule": "LEC: MWF 17:00-18:00 REQ;", 
+        "Title": "MACHINING SCIENCE II"
+    }, 
+    "ME667": {
+        "Course No": "ME667", 
+        "Instructor(s)": "SUJEET K SINHA", 
+        "Schedule": "LEC: WF 09:00-10:30 REQ;", 
+        "Title": "ADHESION, FRICTION AND LUBRICATION FOR"
+    }, 
+    "ME681": {
+        "Course No": "ME681", 
+        "Instructor(s)": "P M DIXIT", 
+        "Schedule": "LEC: MTh 09:00-10:30 REQ;", 
+        "Title": "MATHEMATICAL METHODS IN ENGINEERING"
+    }, 
+    "ME685": {
+        "Course No": "ME685", 
+        "Instructor(s)": "N N KISHOR", 
+        "Schedule": "LEC: MWF 17:00-18:00 REQ;", 
+        "Title": "PROGRAMMING AND NUMERICAL ANALYSIS"
+    }, 
+    "ME690": {
+        "Course No": "ME690", 
+        "Instructor(s)": "AVINASH KUMAR AGARWAL", 
+        "Schedule": "LEC: WF 12:00-13:30 REQ;", 
+        "Title": "ALTERNATIVE FUELS & ADVANCE IN IC ENGINES"
+    }, 
+    "ME698N": {
+        "Course No": "ME698N", 
+        "Instructor(s)": "SUMIT BASU", 
+        "Schedule": "LEC: WF 15:30-17:00 REQ;", 
+        "Title": "THERMAL TRANSPORT IN MATERIAL (SPECIAL TOPICS)"
+    }, 
+    "ME723": {
+        "Course No": "ME723", 
+        "Instructor(s)": "SHAKTI S GUPTA", 
+        "Schedule": "LEC: MTh 12:00-13:30 REQ;", 
+        "Title": "WAVE PROPAGATION IN SOLIDS"
+    }, 
+    "ME724": {
+        "Course No": "ME724", 
+        "Instructor(s)": "SOVAN LAL DAS", 
+        "Schedule": "LEC: TTh 17:00-18:30 REQ;", 
+        "Title": "MECHANICS OF BIOLOGICAL MEMBRANES"
+    }, 
+    "ME725": {
+        "Course No": "ME725", 
+        "Instructor(s)": "ISHAN SHARMA", 
+        "Schedule": "LEC: WF 09:00-10:30 REQ;", 
+        "Title": "MICRO-MECHANICS"
+    }, 
+    "ME761": {
+        "Course No": "ME761", 
+        "Instructor(s)": "J RAM KUMAR", 
+        "Schedule": "LEC: WF 10:30-12:00 REQ;", 
+        "Title": "COMPUTER AIDED MANUFACTURING"
+    }, 
+    "ME763": {
+        "Course No": "ME763", 
+        "Instructor(s)": "ASHISH DUTTA", 
+        "Schedule": "LEC: MTh 10:30-12:00 REQ;", 
+        "Title": "ROBOT MANIPULATORS: DYNAMICS AND CONTROL"
+    }, 
+    "ME771": {
+        "Course No": "ME771", 
+        "Instructor(s)": "BISHAKH BHATTACHARYA", 
+        "Schedule": "LEC: WF 17:00-18:30 REQ;", 
+        "Title": "SMART MATERIALS AND STRUCTURE"
+    }, 
+    "MS601": {
+        "Course No": "MS601", 
+        "Instructor(s)": "JITENDRA KUMAR, RAJ PALA", 
+        "Schedule": "LEC: MTh 09:00-10:30 ACMS110;", 
+        "Title": "STRUCTURAL & MAGNETIC PROPERTIES OF MATERIALS"
+    }, 
+    "MS603": {
+        "Course No": "MS603", 
+        "Instructor(s)": "K K KAR", 
+        "Schedule": "LEC: MTh 10:30-12:00 ACMS110;", 
+        "Title": "MECHANICAL PROPERTIES OF MATERIALS"
+    }, 
+    "MS604": {
+        "Course No": "MS604", 
+        "Instructor(s)": "K K KAR", 
+        "Schedule": "LEC: MTh 12:00-13:30 ACMS110;", 
+        "Title": "CHARACTERIZATION OF MATERIALS"
+    }, 
+    "MS617": {
+        "Course No": "MS617", 
+        "Instructor(s)": "S. SIVAKUMAR", 
+        "Schedule": "LEC: WF 17:00-18:30 ACMS110;", 
+        "Title": "INTRODUCTION TO NANOMATERIALS AND NANOTECHNOLOGY"
+    }, 
+    "MS698": {
+        "Course No": "MS698", 
+        "Instructor(s)": "K K KAR", 
+        "Schedule": "LEC: Th 16:00-17:00 ACMS110;", 
+        "Title": "GRADUATE SEMINAR"
+    }, 
+    "MS699": {
+        "Course No": "MS699", 
+        "Instructor(s)": "CONVENER DPGC", 
+        "Schedule": "LEC:", 
+        "Title": "M TECH THESIS"
+    }, 
+    "MS799": {
+        "Course No": "MS799", 
+        "Instructor(s)": "CONVENER DPGC", 
+        "Schedule": "LEC:", 
+        "Title": "PHD THESIS"
+    }, 
+    "MSE201A": {
+        "Course No": "MSE201A", 
+        "Instructor(s)": "KAUSTUBH KULKARNI", 
+        "Schedule": "LEC: MWF 12:00-13:00 REQ;T/D: Th 12:00-13:00", 
+        "Title": "THERMODYNAMICS & PHASE EQUILIBRIA"
+    }, 
+    "MSE300A": {
+        "Course No": "MSE300A", 
+        "Instructor(s)": "K BALANI", 
+        "Schedule": "LEC:", 
+        "Title": "PROFESSIONAL & TECHNICAL COMMUNICATION"
+    }, 
+    "MSE301A": {
+        "Course No": "MSE301A", 
+        "Instructor(s)": "K BISWAS, I MANNA", 
+        "Schedule": "LEC: TTh 17:00-18:00 REQ;", 
+        "Title": "PHASE TRANSFORMATIONS"
+    }, 
+    "MSE302A": {
+        "Course No": "MSE302A", 
+        "Instructor(s)": "N P GURAO", 
+        "Schedule": "LEC: TWTh 08:00-09:00 REQ;", 
+        "Title": "MECHANICAL BEHAVIOUR OF MATERIALS"
+    }, 
+    "MSE303A": {
+        "Course No": "MSE303A", 
+        "Instructor(s)": "ANSHU GAUR", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
+        "Title": "ELECTRONIC & MAGNETIC PROPERTIES OF MATERIALS"
+    }, 
+    "MSE311A": {
+        "Course No": "MSE311A", 
+        "Instructor(s)": "VIVEK VERMA", 
+        "Schedule": "LEC:", 
+        "Title": "PHYSICAL METALLURGY LABORATORY"
+    }, 
+    "MSE313A": {
+        "Course No": "MSE313A", 
+        "Instructor(s)": "N P GURAO", 
+        "Schedule": "LEC:", 
+        "Title": "MECHANICAL BEHAVIOUR LABORATORY"
+    }, 
+    "MSE498": {
+        "Course No": "MSE498", 
+        "Instructor(s)": "CONVENOR DUGC", 
+        "Schedule": "LEC:", 
+        "Title": "PROJECT I"
+    }, 
+    "MSE499": {
+        "Course No": "MSE499", 
+        "Instructor(s)": "CONVENOR DUGC", 
+        "Schedule": "LEC:", 
+        "Title": "PROJECT II"
+    }, 
+    "MSE613": {
+        "Course No": "MSE613", 
+        "Instructor(s)": "R SHEKHAR", 
+        "Schedule": "LEC: MTh 10:30-12:00 REQ;", 
+        "Title": "ELECTROCHEMICAL TECHNOLOGY IN MATERIALS"
+    }, 
+    "MSE613A": {
+        "Course No": "MSE613A", 
+        "Instructor(s)": "R SHEKHAR", 
+        "Schedule": "LEC: MTh 10:30-12:00 REQ;", 
+        "Title": "ELECTROCHEMICAL TECHNOLOGY IN MATERIALS"
+    }, 
+    "MSE615": {
+        "Course No": "MSE615", 
+        "Instructor(s)": "ASHISH GARG", 
+        "Schedule": "LEC: MTh 10:30-12:00 REQ;", 
+        "Title": "STRUCTURE AND CHARACTERIZATION OF MATERIALS"
+    }, 
+    "MSE615A": {
+        "Course No": "MSE615A", 
+        "Instructor(s)": "ASHISH GARG", 
+        "Schedule": "LEC: MTh 10:30-12:00 REQ;", 
+        "Title": "STRUCTURE AND CHARACTERIZATION OF MATERIALS"
+    }, 
+    "MSE626A": {
+        "Course No": "MSE626A", 
+        "Instructor(s)": "DIPAK MAZUMDAR", 
+        "Schedule": "LEC: MTh 09:00-10:30 REQ;", 
+        "Title": "TRANSPORT PHENOMENA"
+    }, 
+    "MSE626N": {
+        "Course No": "MSE626N", 
+        "Instructor(s)": "DIPAK MAZUMDAR", 
+        "Schedule": "LEC: MTh 09:00-10:30 REQ;", 
+        "Title": "TRANSPORT PHENOMENA"
+    }, 
+    "MSE628": {
+        "Course No": "MSE628", 
+        "Instructor(s)": "DEEPAK GUPTA", 
+        "Schedule": "LEC: MWF 17:00-18:00 REQ;", 
+        "Title": "ELECTRONIC DEVICES AND CHARACTERIZATION"
+    }, 
+    "MSE628A": {
+        "Course No": "MSE628A", 
+        "Instructor(s)": "DEEPAK GUPTA", 
+        "Schedule": "LEC: MWF 17:00-18:00 REQ;", 
+        "Title": "ELECTRONIC DEVICES AND CHARACTERIZATION"
+    }, 
+    "MSE642": {
+        "Course No": "MSE642", 
+        "Instructor(s)": "GOUTHAMA", 
+        "Schedule": "LEC: WF 12:00-13:30 REQ;", 
+        "Title": "MICROSCOPY AND MICROANALYSIS OF MATERIALS"
+    }, 
+    "MSE642A": {
+        "Course No": "MSE642A", 
+        "Instructor(s)": "GOUTHAMA", 
+        "Schedule": "LEC: WF 12:00-13:30 REQ;", 
+        "Title": "MICROSCOPY AND MICROANALYSIS OF MATERIALS"
+    }, 
+    "MSE648": {
+        "Course No": "MSE648", 
+        "Instructor(s)": "S INGOLE", 
+        "Schedule": "LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;", 
+        "Title": "DIFFUSION IN SOLIDS"
+    }, 
+    "MSE648A": {
+        "Course No": "MSE648A", 
+        "Instructor(s)": "S INGOLE", 
+        "Schedule": "LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;", 
+        "Title": "DIFFUSION IN SOLIDS"
+    }, 
+    "MSE659": {
+        "Course No": "MSE659", 
+        "Instructor(s)": "A UPADHYAYA", 
+        "Schedule": "LEC: WF 09:00-10:30 REQ;", 
+        "Title": "POWDER METALLURGY"
+    }, 
+    "MSE659A": {
+        "Course No": "MSE659A", 
+        "Instructor(s)": "A UPADHYAYA", 
+        "Schedule": "LEC: WF 09:00-10:30 REQ;", 
+        "Title": "POWDER METALLURGY"
+    }, 
+    "MSE664": {
+        "Course No": "MSE664", 
+        "Instructor(s)": "SHOBHIT OMAR", 
+        "Schedule": "LEC: T 11:00-12:00 REQ;WF 16:00-17:00 REQ;", 
+        "Title": "SOLID STATE IONICS"
+    }, 
+    "MSE664A": {
+        "Course No": "MSE664A", 
+        "Instructor(s)": "SHOBHIT OMAR", 
+        "Schedule": "LEC: T 11:00-12:00 REQ;WF 16:00-17:00 REQ;", 
+        "Title": "SOLID STATE IONICS"
+    }, 
+    "MSE665": {
+        "Course No": "MSE665", 
+        "Instructor(s)": "GOUTHAMA", 
+        "Schedule": "LEC: MTh 09:00-10:30 REQ;", 
+        "Title": "PRACTICAL TRANSMISSION ELECTRON MICROSCOPY &"
+    }, 
+    "MSE665A": {
+        "Course No": "MSE665A", 
+        "Instructor(s)": "GOUTHAMA", 
+        "Schedule": "LEC: MTh 09:00-10:30 REQ;", 
+        "Title": "PRACTICAL TRANSMISSION ELECTRON MICROSCOPY &"
+    }, 
+    "MSE670": {
+        "Course No": "MSE670", 
+        "Instructor(s)": "K BISWAS", 
+        "Schedule": "LEC: WF 10:30-12:00 REQ;", 
+        "Title": "SOLIDIFICATION PROCESSING"
+    }, 
+    "MSE670A": {
+        "Course No": "MSE670A", 
+        "Instructor(s)": "K BISWAS", 
+        "Schedule": "LEC: WF 10:30-12:00 REQ;", 
+        "Title": "SOLIDIFICATION PROCESSING"
+    }, 
+    "MSE671": {
+        "Course No": "MSE671", 
+        "Instructor(s)": "K MONDAL, SANDEEP SANGAL", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
+        "Title": "HEAT TREATMENT AND SURFACE HARDENING"
+    }, 
+    "MSE671A": {
+        "Course No": "MSE671A", 
+        "Instructor(s)": "K MONDAL, SANDEEP SANGAL", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
+        "Title": "HEAT TREATMENT AND SURFACE HARDENING"
+    }, 
+    "MSE682": {
+        "Course No": "MSE682", 
+        "Instructor(s)": "SOMNATH BHOWMICK", 
+        "Schedule": "LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;", 
+        "Title": "COMPUTER SIMULATIONS IN MATERIALS SCIENCE"
+    }, 
+    "MSE682A": {
+        "Course No": "MSE682A", 
+        "Instructor(s)": "SOMNATH BHOWMICK", 
+        "Schedule": "LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;", 
+        "Title": "COMPUTER SIMULATIONS IN MATERIALS SCIENCE"
+    }, 
+    "MSE690": {
+        "Course No": "MSE690", 
+        "Instructor(s)": "CONVENOR DPGC", 
+        "Schedule": "LEC:", 
+        "Title": "SEMINAR PARTICIPATION"
+    }, 
+    "MSE691": {
+        "Course No": "MSE691", 
+        "Instructor(s)": "CONVENOR DPGC", 
+        "Schedule": "LEC:", 
+        "Title": "SEMINAR PRESENTATION"
+    }, 
+    "MSE693": {
+        "Course No": "MSE693", 
+        "Instructor(s)": "VIVEK VERMA", 
+        "Schedule": "LEC: WF 09:00-10:30 REQ;", 
+        "Title": "MATERIALS SCIENCE TECHNOLOGIES FOR APPLICATIONS"
+    }, 
+    "MSE693A": {
+        "Course No": "MSE693A", 
+        "Instructor(s)": "VIVEK VERMA", 
+        "Schedule": "LEC: WF 09:00-10:30 REQ;", 
+        "Title": "MATERIALS SCIENCE TECHNOLOGIES FOR APPLICATIONS"
+    }, 
+    "MSE694": {
+        "Course No": "MSE694", 
+        "Instructor(s)": "K BALANI", 
+        "Schedule": "LEC: MTh 14:00-15:30 REQ;", 
+        "Title": "NANOSTRUCTURES AND NANOMATERIALS:"
+    }, 
+    "MSE694A": {
+        "Course No": "MSE694A", 
+        "Instructor(s)": "K BALANI", 
+        "Schedule": "LEC: MTh 14:00-15:30 REQ;", 
+        "Title": "NANOSTRUCTURES AND NANOMATERIALS:"
+    }, 
+    "MSE699": {
+        "Course No": "MSE699", 
+        "Instructor(s)": "CONVENOR DPGC", 
+        "Schedule": "LEC:", 
+        "Title": "M.TECH THESIS"
+    }, 
+    "MSE799": {
+        "Course No": "MSE799", 
+        "Instructor(s)": "CONVENOR DPGC", 
+        "Schedule": "LEC:", 
+        "Title": "PH D THESIS"
+    }, 
+    "MSO202": {
+        "Course No": "MSO202", 
+        "Instructor(s)": "D BAHUGUNA", 
+        "Schedule": "LEC: WThF 09:00-10:00 L7;", 
+        "Title": "COMPLEX VARIABLES"
+    }, 
+    "MSO202A": {
+        "Course No": "MSO202A", 
+        "Instructor(s)": "D BAHUGUNA", 
+        "Schedule": "LEC: WThF 09:00-10:00 L7;T/D: M 09:00-10:00 REQ;", 
+        "Title": "COMPLEX VARIABLES"
+    }, 
+    "MSO203B": {
+        "Course No": "MSO203B", 
+        "Instructor(s)": "MALAY BANERJEE", 
+        "Schedule": "LEC: WThF 09:00-10:00 L7;T/D: M 09:00-10:00 REQ;", 
+        "Title": "PARTIAL DIFFERENTIAL EQUATIONS"
+    }, 
+    "MTH101A": {
+        "Course No": "MTH101A", 
+        "Instructor(s)": "S CHAVAN, N NILAKANTAN", 
+        "Schedule": "LEC: MWF 10:00-11:00 L7;T 10:00-11:00 REQ;T/D:", 
+        "Title": "MATHEMATICS I"
+    }, 
+    "MTH102A": {
+        "Course No": "MTH102A", 
+        "Instructor(s)": "A K LAL", 
+        "Schedule": "LEC: MWTh 17:00-18:00 L6;T/D: T 17:00-18:00 L6;", 
+        "Title": "MATHEMATICS - II"
+    }, 
+    "MTH201": {
+        "Course No": "MTH201", 
+        "Instructor(s)": "P SHUNMUGARAJ", 
+        "Schedule": "LEC: MTTh 10:00-11:00 REQ;T/D: F 10:00-11:00", 
+        "Title": "LINEAR ALGEBRA"
+    }, 
+    "MTH201A": {
+        "Course No": "MTH201A", 
+        "Instructor(s)": "P SHUNMUGARAJ", 
+        "Schedule": "LEC: MTTh 10:00-11:00 REQ;T/D: F 14:00-15:00", 
+        "Title": "LINEAR ALGEBRA"
+    }, 
+    "MTH204": {
+        "Course No": "MTH204", 
+        "Instructor(s)": "S PATTANAYAK", 
+        "Schedule": "LEC: MWF 17:00-18:00 REQ;T/D: T 17:00-18:00 REQ;", 
+        "Title": "ALGEBRA I"
+    }, 
+    "MTH204A": {
+        "Course No": "MTH204A", 
+        "Instructor(s)": "S PATTANAYAK", 
+        "Schedule": "LEC: MWF 17:00-18:00 REQ;T/D: T 17:00-18:00 REQ;", 
+        "Title": "ABSTRACT ALGEBRA"
+    }, 
+    "MTH301": {
+        "Course No": "MTH301", 
+        "Instructor(s)": "P MOHANTY", 
+        "Schedule": "LEC: MWF 12:00-13:00 REQ;T/D: Th 12:00-13:00", 
+        "Title": "ANALYSIS - I"
+    }, 
+    "MTH301A": {
+        "Course No": "MTH301A", 
+        "Instructor(s)": "P MOHANTY", 
+        "Schedule": "LEC: MWF 12:00-13:00 REQ;T/D: Th 12:00-13:00", 
+        "Title": "ANALYSIS- I"
+    }, 
+    "MTH305": {
+        "Course No": "MTH305", 
+        "Instructor(s)": "S DUTTA", 
+        "Schedule": "LEC: MWF 11:00-12:00 REQ;T/D: Th 11:00-12:00", 
+        "Title": "SEVERAL VARIABLE CALCULUS & DEFFERENTIAL"
+    }, 
+    "MTH305A": {
+        "Course No": "MTH305A", 
+        "Instructor(s)": "S DUTTA", 
+        "Schedule": "LEC: MWF 11:00-12:00 REQ;T/D: Th 11:00-12:00", 
+        "Title": "SEVERAL VARIABLE CALCULUS & DEFFERENTIAL"
+    }, 
+    "MTH391A": {
+        "Course No": "MTH391A", 
+        "Instructor(s)": "CONVENOR DUGC", 
+        "Schedule": "LEC:", 
+        "Title": "UG PROJECT (UGP-I)"
+    }, 
+    "MTH393A": {
+        "Course No": "MTH393A", 
+        "Instructor(s)": "CONVENER DUGC", 
+        "Schedule": "LEC:", 
+        "Title": "UG PROJECT (UGP-III)"
+    }, 
+    "MTH399A": {
+        "Course No": "MTH399A", 
+        "Instructor(s)": "S MADAN", 
+        "Schedule": "LEC: T 10:00-12:00 REQ;", 
+        "Title": "TECHNICAL COMMUNICATION"
+    }, 
+    "MTH401": {
+        "Course No": "MTH401", 
+        "Instructor(s)": "MOHUA BANERJEE", 
+        "Schedule": "LEC: T 12:00-13:00 REQ;WF 16:00-17:00 REQ;", 
+        "Title": "THEORY OF COMPUTATION"
+    }, 
+    "MTH401A": {
+        "Course No": "MTH401A", 
+        "Instructor(s)": "MOHUA BANERJEE", 
+        "Schedule": "LEC: T 12:00-13:00 REQ;WF 16:00-17:00 REQ;", 
+        "Title": "THEORY OF COMPUTATION"
+    }, 
+    "MTH403": {
+        "Course No": "MTH403", 
+        "Instructor(s)": "D SEN", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;T/D: W", 
+        "Title": "COMPLEX ANALYSIS"
+    }, 
+    "MTH403A": {
+        "Course No": "MTH403A", 
+        "Instructor(s)": "D SEN", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;T/D: W", 
+        "Title": "COMPLEX ANALYSIS"
+    }, 
+    "MTH405": {
+        "Course No": "MTH405", 
+        "Instructor(s)": "S PUSTI", 
+        "Schedule": "LEC: MTTh 16:00-17:00 REQ;T/D: F 12:00-13:00", 
+        "Title": "FUNCTIONAL ANALYSIS"
+    }, 
+    "MTH405A": {
+        "Course No": "MTH405A", 
+        "Instructor(s)": "S PUSTI", 
+        "Schedule": "LEC: MTTh 16:00-17:00 REQ;T/D: F 12:00-13:00", 
+        "Title": "FUNCTIONAL ANALYSIS"
+    }, 
+    "MTH409": {
+        "Course No": "MTH409", 
+        "Instructor(s)": "A ANAND", 
+        "Schedule": "LEC: MT 11:00-12:00 REQ;T/D: Th 11:00-12:00 REQ;", 
+        "Title": "COMPUTER PROGRAMMING AND DATA STRUCTURES"
+    }, 
+    "MTH412": {
+        "Course No": "MTH412", 
+        "Instructor(s)": "S S DHAR", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;T/D:", 
+        "Title": "APPLIED STOCHASTIC PROCESS"
+    }, 
+    "MTH412A": {
+        "Course No": "MTH412A", 
+        "Instructor(s)": "S S DHAR", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;T/D:", 
+        "Title": "APPLIED STOCHASTIC PROCESS"
+    }, 
+    "MTH415": {
+        "Course No": "MTH415", 
+        "Instructor(s)": "S MITRA", 
+        "Schedule": "LEC: MTTh 10:00-11:00 REQ;T/D: W 10:00-11:00", 
+        "Title": "MATRIX THEORY AND LINEAR ESTIMATION"
+    }, 
+    "MTH415A": {
+        "Course No": "MTH415A", 
+        "Instructor(s)": "S MITRA", 
+        "Schedule": "LEC: MTTh 10:00-11:00 REQ;T/D: W 10:00-11:00", 
+        "Title": "MATRIX THEORY AND LINEAR ESTIMATION"
+    }, 
+    "MTH417": {
+        "Course No": "MTH417", 
+        "Instructor(s)": "SHALABH", 
+        "Schedule": "LEC: MTTh 14:00-15:00 REQ;T/D: F 14:00-15:00", 
+        "Title": "SAMPLING THEORY"
+    }, 
+    "MTH417A": {
+        "Course No": "MTH417A", 
+        "Instructor(s)": "SHALABH", 
+        "Schedule": "LEC: MTTh 14:00-15:00 REQ;T/D: F 14:00-15:00", 
+        "Title": "SAMPLING THEORY"
+    }, 
+    "MTH423": {
+        "Course No": "MTH423", 
+        "Instructor(s)": "P SINHA", 
+        "Schedule": "LEC: TWTh 08:00-09:00 REQ;T/D: F 15:00-16:00", 
+        "Title": "INTRODUCTION TO CONTINUUM MACHANICS"
+    }, 
+    "MTH423A": {
+        "Course No": "MTH423A", 
+        "Instructor(s)": "P SINHA", 
+        "Schedule": "LEC: TWTh 08:00-09:00 REQ;T/D: F 15:00-16:00", 
+        "Title": "INTRODUCTION TO CONTINUUM MACHANICS"
+    }, 
+    "MTH425": {
+        "Course No": "MTH425", 
+        "Instructor(s)": "D KUNDU", 
+        "Schedule": "LEC: MWF 09:00-10:00 REQ;T/D: T 09:00-10:00 REQ;", 
+        "Title": "DISTRIBUTIONS IN STATISTICS"
+    }, 
+    "MTH428": {
+        "Course No": "MTH428", 
+        "Instructor(s)": "P DUTT", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;T/D: W", 
+        "Title": "MATHEMATICAL METHODS"
+    }, 
+    "MTH428A": {
+        "Course No": "MTH428A", 
+        "Instructor(s)": "P DUTT", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;T/D: W", 
+        "Title": "MATHEMATICAL METHODS"
+    }, 
+    "MTH515": {
+        "Course No": "MTH515", 
+        "Instructor(s)": "I D DHARIYAL", 
+        "Schedule": "LEC: MTTh 16:00-17:00 REQ;T/D: F 14:00-15:00", 
+        "Title": "INFERENCE - II"
+    }, 
+    "MTH515A": {
+        "Course No": "MTH515A", 
+        "Instructor(s)": "I D DHARIYAL", 
+        "Schedule": "LEC: MTTh 16:00-17:00 REQ;T/D: F 14:00-15:00", 
+        "Title": "INFERENCE - II"
+    }, 
+    "MTH517A": {
+        "Course No": "MTH517A", 
+        "Instructor(s)": "A MITRA", 
+        "Schedule": "LEC: MTTh 15:00-16:00 REQ;T/D: W 14:00-15:00", 
+        "Title": "TIME SERIES ANALYSIS"
+    }, 
+    "MTH523": {
+        "Course No": "MTH523", 
+        "Instructor(s)": "P CHANDRA", 
+        "Schedule": "LEC: MTTh 14:00-15:00 REQ;T/D: F 14:00-15:00", 
+        "Title": "FLUID MECHANICS"
+    }, 
+    "MTH523A": {
+        "Course No": "MTH523A", 
+        "Instructor(s)": "P CHANDRA", 
+        "Schedule": "LEC: MTTh 14:00-15:00 REQ;T/D: F 14:00-15:00", 
+        "Title": "FLUID MECHANICS"
+    }, 
+    "MTH598": {
+        "Course No": "MTH598", 
+        "Instructor(s)": "CONVENOR DUGC", 
+        "Schedule": "LEC:", 
+        "Title": "PROJECT-I"
+    }, 
+    "MTH599": {
+        "Course No": "MTH599", 
+        "Instructor(s)": "CONVENER DUGC", 
+        "Schedule": "LEC:", 
+        "Title": "PROJECT- II"
+    }, 
+    "MTH611": {
+        "Course No": "MTH611", 
+        "Instructor(s)": "A K MALOO", 
+        "Schedule": "LEC: MTTh 15:00-16:00 REQ;", 
+        "Title": "ALGEBRA II"
+    }, 
+    "MTH611A": {
+        "Course No": "MTH611A", 
+        "Instructor(s)": "A K MALOO", 
+        "Schedule": "LEC: MTTh 15:00-16:00 REQ;", 
+        "Title": "ALGEBRA II"
+    }, 
+    "MTH612": {
+        "Course No": "MTH612", 
+        "Instructor(s)": "A MANDAL", 
+        "Schedule": "LEC: MTh 09:00-10:00 REQ;T 12:00-13:00 REQ;", 
+        "Title": "INTRODUCTION TO COMMUTATIVE ALGEBRA"
+    }, 
+    "MTH612A": {
+        "Course No": "MTH612A", 
+        "Instructor(s)": "A MANDAL", 
+        "Schedule": "LEC: MTh 09:00-10:00 REQ;T 12:00-13:00 REQ;", 
+        "Title": "INTRODUCTION TO COMMUTATIVE ALGEBRA"
+    }, 
+    "MTH620": {
+        "Course No": "MTH620", 
+        "Instructor(s)": "M GUPTA", 
+        "Schedule": "LEC: MTTh 11:00-12:00 REQ;", 
+        "Title": "MEASURE THEORY"
+    }, 
+    "MTH620A": {
+        "Course No": "MTH620A", 
+        "Instructor(s)": "M GUPTA", 
+        "Schedule": "LEC: MTTh 11:00-12:00 REQ;", 
+        "Title": "MEASURE THEORY"
+    }, 
+    "MTH647": {
+        "Course No": "MTH647", 
+        "Instructor(s)": "G P KAPOOR", 
+        "Schedule": "LEC: MTh 09:00-10:00 REQ;T 12:00-13:00 REQ;", 
+        "Title": "COMPLEX ANALYTIC DYNAMICS AND FRACTALS"
+    }, 
+    "MTH647A": {
+        "Course No": "MTH647A", 
+        "Instructor(s)": "G P KAPOOR", 
+        "Schedule": "LEC: MTh 09:00-10:00 REQ;T 12:00-13:00 REQ;", 
+        "Title": "COMPLEX ANALYTIC DYNAMICS AND FRACTALS"
+    }, 
+    "MTH648": {
+        "Course No": "MTH648", 
+        "Instructor(s)": "G SANTHANAM", 
+        "Schedule": "LEC: WF 17:00-18:30 REQ;", 
+        "Title": "DIFFERENTIAL GEOMETRY"
+    }, 
+    "MTH648A": {
+        "Course No": "MTH648A", 
+        "Instructor(s)": "G SANTHANAM", 
+        "Schedule": "LEC: WF 17:00-18:30 REQ;", 
+        "Title": "DIFFERENTIAL GEOMETRY"
+    }, 
+    "MTH649": {
+        "Course No": "MTH649", 
+        "Instructor(s)": "A DAR", 
+        "Schedule": "LEC: MTTh 14:00-15:00 REQ;", 
+        "Title": "ALGEBRAIC TOPOLOGY"
+    }, 
+    "MTH649A": {
+        "Course No": "MTH649A", 
+        "Instructor(s)": "A DAR", 
+        "Schedule": "LEC: MTTh 14:00-15:00 REQ;", 
+        "Title": "ALGEBRAIC TOPOLOGY"
+    }, 
+    "MTH658A": {
+        "Course No": "MTH658A", 
+        "Instructor(s)": "S GHORAI", 
+        "Schedule": "LEC: WF 09:00-10:30 REQ;", 
+        "Title": "NONLINEAR DYNAMICAL SYSTEMS"
+    }, 
+    "MTH686": {
+        "Course No": "MTH686", 
+        "Instructor(s)": "D KUNDU", 
+        "Schedule": "LEC: MTTh 11:00-12:00 REQ;", 
+        "Title": "NON-LINEAR REGRESSION"
+    }, 
+    "MTH686A": {
+        "Course No": "MTH686A", 
+        "Instructor(s)": "D KUNDU", 
+        "Schedule": "LEC: MTTh 11:00-12:00 REQ;", 
+        "Title": "NON-LINEAR REGRESSION"
+    }, 
+    "MTH691": {
+        "Course No": "MTH691", 
+        "Instructor(s)": "RKS RATHORE", 
+        "Schedule": "LEC: MWF 17:00-18:00 REQ;", 
+        "Title": "NUMERICAL LINEAR ALGEBRA"
+    }, 
+    "MTH691A": {
+        "Course No": "MTH691A", 
+        "Instructor(s)": "RKS RATHORE", 
+        "Schedule": "LEC: MWF 17:00-18:00 REQ;", 
+        "Title": "NUMERICAL LINEAR ALGEBRA"
+    }, 
+    "MTH692": {
+        "Course No": "MTH692", 
+        "Instructor(s)": "M K KADALBAJOO", 
+        "Schedule": "LEC: WF 10:30-12:00 REQ;", 
+        "Title": "NUMERICAL SOLUTION OF ORDINARY DIFFERENTIAL"
+    }, 
+    "MTH692A": {
+        "Course No": "MTH692A", 
+        "Instructor(s)": "M K KADALBAJOO", 
+        "Schedule": "LEC: WF 10:30-12:00 REQ;", 
+        "Title": "NUMERICAL SOLUTION OF ORDINARY DIFFERENTIAL"
+    }, 
+    "MTH698": {
+        "Course No": "MTH698", 
+        "Instructor(s)": "B V R KUMAR", 
+        "Schedule": "LEC: MTTh 16:00-17:00 REQ;", 
+        "Title": "PARALLEL NUMERICAL ALGORITHM"
+    }, 
+    "MTH698A": {
+        "Course No": "MTH698A", 
+        "Instructor(s)": "B V R KUMAR", 
+        "Schedule": "LEC: MTTh 16:00-17:00 REQ;", 
+        "Title": "PARALLEL NUMERICAL ALGORITHM"
+    }, 
+    "MTH719": {
+        "Course No": "MTH719", 
+        "Instructor(s)": "T MUTHUKUMAR", 
+        "Schedule": "LEC: MTTh 10:00-11:00 REQ;", 
+        "Title": "INTRODUCTION TO HOMOGENIZATION"
+    }, 
+    "MTH719A": {
+        "Course No": "MTH719A", 
+        "Instructor(s)": "T MUTHUKUMAR", 
+        "Schedule": "LEC: MTTh 10:00-11:00 REQ;", 
+        "Title": "INTRODUCTION TO HOMOGENIZATION"
+    }, 
+    "MTH736": {
+        "Course No": "MTH736", 
+        "Instructor(s)": "R RAWAT", 
+        "Schedule": "LEC: M 17:00-18:00 REQ;WF 15:00-16:00 REQ;", 
+        "Title": "FOURIER ANALYSIS-I & DISTRIBUTION THEORY"
+    }, 
+    "MTH736A": {
+        "Course No": "MTH736A", 
+        "Instructor(s)": "R RAWAT", 
+        "Schedule": "LEC: M 17:00-18:00 REQ;WF 15:00-16:00 REQ;", 
+        "Title": "FOURIER ANALYSIS-I & DISTRIBUTION THEORY"
+    }, 
+    "MTH753": {
+        "Course No": "MTH753", 
+        "Instructor(s)": "R RAWAT", 
+        "Schedule": "LEC: MTTh 14:00-15:00 REQ;", 
+        "Title": "ANALYSIS"
+    }, 
+    "MTH753A": {
+        "Course No": "MTH753A", 
+        "Instructor(s)": "R RAWAT", 
+        "Schedule": "LEC: MTTh 14:00-15:00 REQ;", 
+        "Title": "ANALYSIS"
+    }, 
+    "MTH754": {
+        "Course No": "MTH754", 
+        "Instructor(s)": "NEERAJ MISRA", 
+        "Schedule": "LEC: MTh 09:00-10:00 REQ;T 12:00-13:00 REQ;", 
+        "Title": "PROBABILITY THEORY"
+    }, 
+    "MTH754A": {
+        "Course No": "MTH754A", 
+        "Instructor(s)": "NEERAJ MISRA", 
+        "Schedule": "LEC: MTh 09:00-10:00 REQ;T 12:00-13:00 REQ;", 
+        "Title": "PROBABILITY THEORY"
+    }, 
+    "NT602": {
+        "Course No": "NT602", 
+        "Instructor(s)": "OARS", 
+        "Schedule": "LEC: MTh 10:30-12:00 REQ;", 
+        "Title": "NUCLEAR AND REACTOR PHYSICS"
+    }, 
+    "NT611": {
+        "Course No": "NT611", 
+        "Instructor(s)": "A KHANNA, P MUNSHI", 
+        "Schedule": "LEC: MTh 10:30-12:00 REQ;", 
+        "Title": "NUCLEAR POWER ENGINEERING I"
+    }, 
+    "NT621": {
+        "Course No": "NT621", 
+        "Instructor(s)": "S PRASHAD, O P SINGH", 
+        "Schedule": "LEC:", 
+        "Title": "NUCLEAR MEASUREMENTS LABORATORY"
+    }, 
+    "PHI141": {
+        "Course No": "PHI141", 
+        "Instructor(s)": "P BAGAD", 
+        "Schedule": "LEC: MWF 08:00-09:00 REQ;T/D: Th 10:00-11:00", 
+        "Title": "INTRODUCTION TO PHILOSOPHY"
+    }, 
+    "PHI141A": {
+        "Course No": "PHI141A", 
+        "Instructor(s)": "P BAGAD", 
+        "Schedule": "LEC: MWF 08:00-09:00 REQ;T/D: Th 10:00-11:00", 
+        "Title": "INTRODUCTION TO PHILOSOPHY"
+    }, 
+    "PHI448": {
+        "Course No": "PHI448", 
+        "Instructor(s)": "VINEET SAHU", 
+        "Schedule": "LEC: MWF 17:00-18:00 REQ;", 
+        "Title": "INDIVIDUAL VS AUTHORITY"
+    }, 
+    "PHI448A": {
+        "Course No": "PHI448A", 
+        "Instructor(s)": "VINEET SAHU", 
+        "Schedule": "LEC: MWF 17:00-18:00 REQ;", 
+        "Title": "INDIVIDUAL VS AUTHORITY"
+    }, 
+    "PHI768": {
+        "Course No": "PHI768", 
+        "Instructor(s)": "A V R SHARMA", 
+        "Schedule": "LEC: WF 15:30-17:00 REQ;", 
+        "Title": "MODAL LOGIC"
+    }, 
+    "PHI784": {
+        "Course No": "PHI784", 
+        "Instructor(s)": "P BAGAD", 
+        "Schedule": "LEC: MTh 12:00-13:30 REQ;", 
+        "Title": "TWENTIETH CENTURY CONTINENTAL PHILOSOPHY"
+    }, 
+    "PHY100": {
+        "Course No": "PHY100", 
+        "Instructor(s)": "KRISHNACHARAYA", 
+        "Schedule": "LEC:", 
+        "Title": "INTRODUCTION TO PROFESSION"
+    }, 
+    "PHY101A": {
+        "Course No": "PHY101A", 
+        "Instructor(s)": "OARS", 
+        "Schedule": "LEC:", 
+        "Title": "PHYSICS LABORATORY"
+    }, 
+    "PHY102A": {
+        "Course No": "PHY102A", 
+        "Instructor(s)": "OARS", 
+        "Schedule": "LEC: MWF 15:00-16:00 L7;T/D: Th 15:00-16:00 REQ;", 
+        "Title": "PHYSICS-I"
+    }, 
+    "PHY103A": {
+        "Course No": "PHY103A", 
+        "Instructor(s)": "OARS", 
+        "Schedule": "LEC: MWF 11:00-12:00 L7;T/D: T 11:00-12:00 REQ;", 
+        "Title": "PHYSICS-II"
+    }, 
+    "PHY218": {
+        "Course No": "PHY218", 
+        "Instructor(s)": "S A RAMAKRISHNA, S GHOSH", 
+        "Schedule": "LEC:", 
+        "Title": "OPTICS LAB"
+    }, 
+    "PHY224A": {
+        "Course No": "PHY224A", 
+        "Instructor(s)": "S A RAMAKRISHNA, S GHOSH", 
+        "Schedule": "LEC: TW 17:00-18:00 REQ;", 
+        "Title": "OPTICS"
+    }, 
+    "PHY311": {
+        "Course No": "PHY311", 
+        "Instructor(s)": "D CHOWDHURY", 
+        "Schedule": "LEC: WF 10:30-12:00 REQ;", 
+        "Title": "PHYSICS OF NON-EQUILIBRIUM PHENOMENA"
+    }, 
+    "PHY315A": {
+        "Course No": "PHY315A", 
+        "Instructor(s)": "R GUPTA, S MUKHOPADHYAY", 
+        "Schedule": "LEC: M 08:00-09:00 REQ;", 
+        "Title": "MODERN PHYSICS LABORATORY"
+    }, 
+    "PHY400": {
+        "Course No": "PHY400", 
+        "Instructor(s)": "A K JHA", 
+        "Schedule": "LEC:", 
+        "Title": "INTRODUCTION TO THE DEPARTMENT"
+    }, 
+    "PHY401A": {
+        "Course No": "PHY401A", 
+        "Instructor(s)": "S CHAKRABORTY", 
+        "Schedule": "LEC: TF 12:00-13:30 REQ;T/D: W 12:00-13:00 REQ;", 
+        "Title": "CLASSICAL MECHANICS"
+    }, 
+    "PHY407": {
+        "Course No": "PHY407", 
+        "Instructor(s)": "K BHATTACHARYA", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
+        "Title": "SPECIAL & GENERAL RELATIVITY"
+    }, 
+    "PHY421A": {
+        "Course No": "PHY421A", 
+        "Instructor(s)": "T K GHOSE", 
+        "Schedule": "LEC: MTh 12:00-13:30 REQ;T/D: F 08:00-09:00 REQ;", 
+        "Title": "MATHEMATICAL METHODS I"
+    }, 
+    "PHY431A": {
+        "Course No": "PHY431A", 
+        "Instructor(s)": "T SARKAR", 
+        "Schedule": "LEC: MTh 09:00-10:30 REQ;T/D: T 09:00-10:00 REQ;", 
+        "Title": "QUANTUM MECHANICS I"
+    }, 
+    "PHY441": {
+        "Course No": "PHY441", 
+        "Instructor(s)": "KRISHNACHARAYA, A KELKAR", 
+        "Schedule": "LEC: MTh 10:30-12:00 REQ;T/D: T 11:00-12:00 REQ;", 
+        "Title": "ELECTRONICS"
+    }, 
+    "PHY461": {
+        "Course No": "PHY461", 
+        "Instructor(s)": "Z HOSSAIN", 
+        "Schedule": "LEC:", 
+        "Title": "EXPERIMENTAL PHYSICS I"
+    }, 
+    "PHY462": {
+        "Course No": "PHY462", 
+        "Instructor(s)": "Z HOSSAIN", 
+        "Schedule": "LEC:", 
+        "Title": "EXPERIMENTAL PHYSICS II"
+    }, 
+    "PHY501": {
+        "Course No": "PHY501", 
+        "Instructor(s)": "KRISHNACHARAYA", 
+        "Schedule": "LEC:", 
+        "Title": "M SC REVIEW PROJECT II"
+    }, 
+    "PHY543": {
+        "Course No": "PHY543", 
+        "Instructor(s)": "S BANERJEE", 
+        "Schedule": "LEC: MTh 09:00-10:30 REQ;T/D: F 12:00-13:00 REQ;", 
+        "Title": "CONDENSED MATTER PHYSICS I"
+    }, 
+    "PHY552A": {
+        "Course No": "PHY552A", 
+        "Instructor(s)": "PANKAJ JAIN", 
+        "Schedule": "LEC: TWTh 08:00-09:00 REQ;T/D: M 17:00-18:00", 
+        "Title": "CLASSICAL ELECTRODYNAMICS I"
+    }, 
+    "PHY555A": {
+        "Course No": "PHY555A", 
+        "Instructor(s)": "A K GUPTA", 
+        "Schedule": "LEC:", 
+        "Title": "BATCHLOR OF SCIENCE PROJECT -1"
+    }, 
+    "PHY556A": {
+        "Course No": "PHY556A", 
+        "Instructor(s)": "A K GUPTA", 
+        "Schedule": "LEC:", 
+        "Title": "BATCHLOR OF SCIENCE PROJECT -II"
+    }, 
+    "PHY563": {
+        "Course No": "PHY563", 
+        "Instructor(s)": "S A RAMAKRISHNA", 
+        "Schedule": "LEC:", 
+        "Title": "M.SC. PROJECT I"
+    }, 
+    "PHY565": {
+        "Course No": "PHY565", 
+        "Instructor(s)": "S A RAMAKRISHNA", 
+        "Schedule": "LEC:", 
+        "Title": "M.SC. PROJECT II"
+    }, 
+    "PHY590": {
+        "Course No": "PHY590", 
+        "Instructor(s)": "KRISHNACHARAYA", 
+        "Schedule": "LEC:", 
+        "Title": "SPECIAL TOPICS IN PHYSICS"
+    }, 
+    "PHY601": {
+        "Course No": "PHY601", 
+        "Instructor(s)": "S MUKHERJEE", 
+        "Schedule": "LEC: T 17:00-18:00 REQ;T/D: W 12:00-13:30 REQ;F", 
+        "Title": "REVIEW OF CLASSICAL PHYSICS I"
+    }, 
+    "PHY603": {
+        "Course No": "PHY603", 
+        "Instructor(s)": "M K HARBOLA", 
+        "Schedule": "LEC:", 
+        "Title": "REVIEW OF CLASSICAL PHYSICS II"
+    }, 
+    "PHY631": {
+        "Course No": "PHY631", 
+        "Instructor(s)": "Y N MOHAPATRA", 
+        "Schedule": "LEC: TWTh 08:00-09:00 REQ;", 
+        "Title": "PHYSICS OF SEMICONDUCTOR NANOSTRUCTURES"
+    }, 
+    "PHY632": {
+        "Course No": "PHY632", 
+        "Instructor(s)": "A K GUPTA", 
+        "Schedule": "LEC: MTh 10:30-12:00 REQ;", 
+        "Title": "TRANSPORT IN MESOSCOPIC SYSTEMS"
+    }, 
+    "PHY679": {
+        "Course No": "PHY679", 
+        "Instructor(s)": "PANKAJ JAIN", 
+        "Schedule": "LEC: T 11:00-12:00 REQ;WF 16:00-17:00 REQ;", 
+        "Title": "THE STANDARD MODEL OF FUNDAMENTAL PHYSICS"
+    }, 
+    "PHY681": {
+        "Course No": "PHY681", 
+        "Instructor(s)": "SAYANTANI BHATTACHARYA", 
+        "Schedule": "LEC: WF 10:30-12:00 REQ;", 
+        "Title": "QUANTUM FIELD THEORY"
+    }, 
+    "PHY690": {
+        "Course No": "PHY690", 
+        "Instructor(s)": "KRISHNACHARAYA", 
+        "Schedule": "LEC:", 
+        "Title": "SPECIAL TOPICS IN PHYSICS"
+    }, 
+    "PHY690K": {
+        "Course No": "PHY690K", 
+        "Instructor(s)": "V SUBRAHMANYAM", 
+        "Schedule": "LEC: WF 09:00-10:30 REQ;", 
+        "Title": "QUANTUM DYNAMICS, INFORMATION AND COMPUTATION"
+    }, 
+    "PHY690L": {
+        "Course No": "PHY690L", 
+        "Instructor(s)": "HARSHAWARDHAN WANARE", 
+        "Schedule": "LEC: WF 17:00-18:30 REQ;", 
+        "Title": "QUANTUM OPTICS"
+    }, 
+    "PHY690M": {
+        "Course No": "PHY690M", 
+        "Instructor(s)": "", 
+        "Schedule": "LEC:", 
+        "Title": "TRANSPORT IN MESOSCOPIC SYSTEMS"
+    }, 
+    "PHY781": {
+        "Course No": "PHY781", 
+        "Instructor(s)": "D CHAKRABORTI", 
+        "Schedule": "LEC: MTh 12:00-13:00 REQ;", 
+        "Title": "HIGH ENERGY PHYSICS II"
+    }, 
+    "PHY799": {
+        "Course No": "PHY799", 
+        "Instructor(s)": "CONVENOR DPGC", 
+        "Schedule": "LEC:", 
+        "Title": "RESEARCH"
+    }, 
+    "PSY152": {
+        "Course No": "PSY152", 
+        "Instructor(s)": "K RAVI PRIYA", 
+        "Schedule": "LEC: MWF 08:00-09:00 REQ;T/D: Th 10:00-11:00", 
+        "Title": "APPLICATION OF PSYCHOLOGY TO LIFE"
+    }, 
+    "PSY152A": {
+        "Course No": "PSY152A", 
+        "Instructor(s)": "K RAVI PRIYA", 
+        "Schedule": "LEC: MWF 08:00-09:00 REQ;T/D: Th 10:00-11:00", 
+        "Title": "APPLICATION OF PSYCHOLOGY TO LIFE"
+    }, 
+    "PSY451": {
+        "Course No": "PSY451", 
+        "Instructor(s)": "BRAJ BHUSHAN", 
+        "Schedule": "LEC: MWF 17:00-18:00 REQ;", 
+        "Title": "PSYCHOLOGY OF ADJUSTMENT"
+    }, 
+    "PSY451A": {
+        "Course No": "PSY451A", 
+        "Instructor(s)": "BRAJ BHUSHAN", 
+        "Schedule": "LEC: MWF 17:00-18:00 REQ;", 
+        "Title": "PSYCHOLOGY OF ADJUSTMENT"
+    }, 
+    "PSY458": {
+        "Course No": "PSY458", 
+        "Instructor(s)": "ARVIND K SINHA", 
+        "Schedule": "LEC: MWF 17:00-18:00 REQ;", 
+        "Title": "ORGANIZATIONAL AND ADMINISTRATIVE PSYCHOLOGY"
+    }, 
+    "PSY458A": {
+        "Course No": "PSY458A", 
+        "Instructor(s)": "ARVIND K SINHA", 
+        "Schedule": "LEC: MWF 17:00-18:00 REQ;", 
+        "Title": "ORGANIZATIONAL AND ADMINISTRATIVE PSYCHOLOGY"
+    }, 
+    "PSY774": {
+        "Course No": "PSY774", 
+        "Instructor(s)": "K RAVI PRIYA", 
+        "Schedule": "LEC: WF 15:30-17:00 REQ;", 
+        "Title": "QUALITATIVE RESEARCH : THEORY AND PRACTICE"
+    }, 
+    "PSY775": {
+        "Course No": "PSY775", 
+        "Instructor(s)": "BRAJ BHUSHAN", 
+        "Schedule": "LEC: MTh 12:00-13:30 REQ;", 
+        "Title": "FUNDAMENTAL OF NEUROPSYCHOLOGY"
+    }, 
+    "SE305": {
+        "Course No": "SE305", 
+        "Instructor(s)": "D CHOWDHURY", 
+        "Schedule": "LEC: WF 10:30-12:00 REQ;", 
+        "Title": "PHYSICS OF NON-EQUILIBRIUM PHENOMENA"
+    }, 
+    "SE314": {
+        "Course No": "SE314", 
+        "Instructor(s)": "S CHAKRABORTY", 
+        "Schedule": "LEC: TF 12:00-13:30 REQ;T/D: W 12:00-13:00 REQ;", 
+        "Title": "CLASSICAL MECHANICS"
+    }, 
+    "SE315": {
+        "Course No": "SE315", 
+        "Instructor(s)": "K BHATTACHARYA", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
+        "Title": "SPECIAL & GENERAL RELATIVITY"
+    }, 
+    "SE367": {
+        "Course No": "SE367", 
+        "Instructor(s)": "AMITABHA MUKERJEE", 
+        "Schedule": "LEC: MWF 17:00-18:00 REQ;", 
+        "Title": "INTRODUCTION TO COGNITIVE SEIENCE"
+    }, 
+    "SOC473": {
+        "Course No": "SOC473", 
+        "Instructor(s)": "A CHAKRABARTY", 
+        "Schedule": "LEC: MWF 17:00-18:00 REQ;", 
+        "Title": "INDIAN SOCIETY AND CULTURE"
+    }, 
+    "SOC473A": {
+        "Course No": "SOC473A", 
+        "Instructor(s)": "A CHAKRABARTY", 
+        "Schedule": "LEC: MWF 17:00-18:00 REQ;", 
+        "Title": "INDIAN SOCIETY AND CULTURE"
+    }, 
+    "TA101A": {
+        "Course No": "TA101A", 
+        "Instructor(s)": "OARS", 
+        "Schedule": "LEC: TTh 14:00-15:00 L7;", 
+        "Title": "ENGINEERING GRAPHICS"
+    }, 
+    "TA201A": {
+        "Course No": "TA201A", 
+        "Instructor(s)": "SHASHANK SHEKHAR", 
+        "Schedule": "LEC: T 09:00-10:00 L7;", 
+        "Title": "MANUFACTURING PROCESSES I"
+    }, 
+    "TA202A": {
+        "Course No": "TA202A", 
+        "Instructor(s)": "OARS", 
+        "Schedule": "LEC: T 08:00-09:00 L7;", 
+        "Title": "MANUFACTURING PROCESSES II"
+    }
+}
