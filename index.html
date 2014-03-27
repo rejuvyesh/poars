@@ -1,8 +1,10 @@
-<!DOCTYPE html>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <title>Saner OARS</title>
-<!-- 2014-03-27 Thu 16:14 -->
+<!-- 2014-03-28 Fri 00:12 -->
 <meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <meta  name="generator" content="Org-mode" />
 <meta  name="author" content="Jayesh Kumar Gupta" />
@@ -52,80 +54,81 @@
   pre.src-java:before  { content: 'Java'; }
   pre.src-sql:before   { content: 'SQL'; }
 
-
   table { 
-    width: 100%;
-     margin-bottom: 18px;
-     padding: 0;
-     border-collapse: separate;
-      /* *border-collapse: collapse;
-                IE7, collapse table to remove spacing */
-     font-size: 1.1rem;
-     border: 1px solid #ddd;
-     border-radius: 4px;
+  width: 100%;
+  margin-bottom: 18px;
+  padding: 0;
+  border-collapse: separate;
+  /* *border-collapse: collapse;
+  IE7, collapse table to remove spacing */
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
   }
   table th, table td {
-     padding: 10px 10px 9px;
-     line-height: 18px;
-     text-align: left;
+  padding: 10px 10px 9px;
+  line-height: 18px;
+  text-align: left;
   }
   table th {
-     padding-top: 9px;
-     font-weight: bold;
-     vertical-align: middle;
-     border-bottom: 1px solid #ddd;
+  padding-top: 9px;
+  font-weight: bold;
+  vertical-align: middle;
+  border-bottom: 1px solid #ddd;
   }
   table td {
-     vertical-align: top;
+  vertical-align: top;
   }
   table th + th, table td + td {
-     border-left: 1px solid #ddd;
+  border-left: 1px solid #ddd;
   }
   table tr + tr td {
-     border-top: 1px solid #ddd;
+  border-top: 1px solid #ddd;
   }
   table tbody tr:first-child td:first-child {
-     border-radius: 4px 0 0 0;
+  border-radius: 4px 0 0 0;
   }
   table tbody tr:first-child td:last-child {
-     border-radius: 0 4px 0 0;
+  border-radius: 0 4px 0 0;
   }
   table tbody tr:last-child td:first-child {
-     border-radius: 0 0 0 4px;
+  border-radius: 0 0 0 4px;
   }
   table tbody tr:last-child td:last-child {
-     border-radius: 0 0 4px 0;
+  border-radius: 0 0 4px 0;
   }
   caption.t-above { caption-side: top; }
   caption.t-bottom { caption-side: bottom; }
   tbody tr:nth-child(odd) td {
-     background-color: #f9f9f9;
+  background-color: #f9f9f9;
   }
   tbody tr:hover td {
-     background-color: #f5f5f5;
+  background-color: #f5f5f5;
   }
   /* Add little icons to tables handled by tablesorter.js
-     to advertise that they are sortable.
-        http://tablesorter.com/docs/#Configuration */
+  to advertise that they are sortable.
+  http://tablesorter.com/docs/#Configuration */
   th.header {
-     background-image: url(./images/bg.gif);
-     cursor: pointer;
-     font-weight: bold;
-     background-repeat: no-repeat;
-     background-position: center left;
-     padding-left: 20px;
-     border-right: 1px solid #dad9c7;
-     margin-left: -1px;
+  background-image: url(./images/bg.gif);
+  cursor: pointer;
+  font-weight: bold;
+  background-repeat: no-repeat;
+  background-position: center left;
+  padding-left: 20px;
+  border-right: 1px solid #dad9c7;
+  margin-left: -1px;
   }
   th.headerSortUp {
-     background-image: url(./images/small_asc.gif);
-     background-color: #79BEDB;
+  background-image: url(./images/small_asc.gif);
+  background-color: #79BEDB;
   }
   th.headerSortDown {
-     background-image: url(./images/small_desc.gif);
-     background-color: #79BEDB;
+  background-image: url(./images/small_desc.gif);
+  background-color: #79BEDB;
   }
 
+
+  
   dt { font-weight: bold; }
   .footpara:nth-child(2) { display: inline; }
   .footpara { display: block; }
@@ -196,2867 +199,3660 @@ for the JavaScript code in this tag.
  }
 /*]]>*///-->
 </script>
-
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
 
 <!-- http://tablesorter.com/docs/ -->
 <script type="text/javascript" src="./js/tablesorter.js"></script>
 <script type="text/javascript" src="./js/table.js"></script>
+
 </head>
 <body>
 <div id="content">
 <h1 class="title">Saner OARS</h1>
 <table>
-  <thead>
-  <tr class="header">
-    <th align="left">Course No.</th>
-    <th align="left">Schedule</th>
-    <th align="left">Title</th>
-  </tr>
-  </thead>
+<thead>
+<tr class="header">
+<th align="left">Course No.</th>
+<th align="left">Schedule</th>
+<th align="left">Title</th>
+<th align="left">Instructor(s)</th>
+</tr>
+</thead>
+
 <tbody>
 <tr>
 <td class="left">CHE801</td>
 <td class="left">LEC: F 08:00-09:00 REQ;</td>
 <td class="left">PHD SEMINAR</td>
+<td class="left">R CHHABRA</td>
+
+
 </tr>
 
 <tr>
 <td class="left">AE461A</td>
 <td class="left">LEC: F 15:00-16:00 REQ;</td>
 <td class="left">AIRCRAFT DESIGN-I</td>
+<td class="left">OARS</td>
+
+
 </tr>
 
 <tr>
 <td class="left">PHY315A</td>
 <td class="left">LEC: M 08:00-09:00 REQ;</td>
 <td class="left">MODERN PHYSICS LABORATORY</td>
+<td class="left">R GUPTA, S MUKHOPADHYAY</td>
+
 </tr>
 
 <tr>
 <td class="left">CS252A</td>
 <td class="left">LEC: M 10:00-11:00 REQ;</td>
 <td class="left">COMPUTING LABORATORY II</td>
+<td class="left">ARNAB BHATTACHARYA</td>
+
+
 </tr>
 
 <tr>
 <td class="left">CS251A</td>
 <td class="left">LEC: M 12:00-13:00 REQ;</td>
 <td class="left">COMPUTING LABORATORY-I</td>
-</tr>
+<td class="left">OARS</td>
 
-<tr>
-<td class="left">EE659</td>
-<td class="left">LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;</td>
-<td class="left">COMPUTATIONAL ASPECTS OF TOMOGRAPHIC IMAGING :</td>
-</tr>
 
-<tr>
-<td class="left">EE673</td>
-<td class="left">LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;</td>
-<td class="left">DIGITAL COMMUNICATION NETWORKS</td>
-</tr>
-
-<tr>
-<td class="left">CS425A</td>
-<td class="left">LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;</td>
-<td class="left">COMPUTER NETWORKS</td>
-</tr>
-
-<tr>
-<td class="left">CE677N</td>
-<td class="left">LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;</td>
-<td class="left">GEOSPATIAL DATA PROCESSING</td>
-</tr>
-
-<tr>
-<td class="left">CHM629</td>
-<td class="left">LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;</td>
-<td class="left">PRINCIPLES OF PHYSICAL CHEMISTRY</td>
 </tr>
 
 <tr>
 <td class="left">EE705A</td>
 <td class="left">LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;</td>
 <td class="left">INTELLIGENT SYSTEMS &amp; CONTROL</td>
-</tr>
+<td class="left">L BEHERA</td>
 
-<tr>
-<td class="left">EE673A</td>
-<td class="left">LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;</td>
-<td class="left">DIGITAL COMMUNICATION NETWORKS</td>
+
 </tr>
 
 <tr>
 <td class="left">EE705</td>
 <td class="left">LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;</td>
 <td class="left">INTELLIGENT SYSTEMS &amp; CONTROL</td>
+<td class="left">L BEHERA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE673A</td>
+<td class="left">LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;</td>
+<td class="left">DIGITAL COMMUNICATION NETWORKS</td>
+<td class="left">K RAJAWAT</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CE677N</td>
+<td class="left">LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;</td>
+<td class="left">GEOSPATIAL DATA PROCESSING</td>
+<td class="left">O DIKSHIT</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CS425A</td>
+<td class="left">LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;</td>
+<td class="left">COMPUTER NETWORKS</td>
+<td class="left">DHEERAJ SANGHI</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE659</td>
+<td class="left">LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;</td>
+<td class="left">COMPUTATIONAL ASPECTS OF TOMOGRAPHIC IMAGING :</td>
+<td class="left">N NAIK</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CHM629</td>
+<td class="left">LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;</td>
+<td class="left">PRINCIPLES OF PHYSICAL CHEMISTRY</td>
+<td class="left">N NAIR</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE673</td>
+<td class="left">LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;</td>
+<td class="left">DIGITAL COMMUNICATION NETWORKS</td>
+<td class="left">K RAJAWAT</td>
+
+
 </tr>
 
 <tr>
 <td class="left">EE659A</td>
 <td class="left">LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;</td>
 <td class="left">COMPUTATIONAL ASPECTS OF TOMOGRAPHIC IMAGING :</td>
-</tr>
+<td class="left">N NAIK</td>
 
-<tr>
-<td class="left">CHM602A</td>
-<td class="left">LEC: M 17:00-18:00 REQ;WF 15:00-16:00 REQ;</td>
-<td class="left">ADVANCED ORGANIC CHEMISTRY II</td>
-</tr>
 
-<tr>
-<td class="left">CHM602</td>
-<td class="left">LEC: M 17:00-18:00 REQ;WF 15:00-16:00 REQ;</td>
-<td class="left">ADVANCED ORGANIC CHEMISTRY II</td>
-</tr>
-
-<tr>
-<td class="left">CHM691A</td>
-<td class="left">LEC: M 17:00-18:00 REQ;WF 15:00-16:00 REQ;</td>
-<td class="left">FRONTIERS IN INORGANIC CHEMISTRY</td>
-</tr>
-
-<tr>
-<td class="left">CE601</td>
-<td class="left">LEC: M 17:00-18:00 REQ;WF 15:00-16:00 REQ;</td>
-<td class="left">STATISTICAL ANALYSIS FOR CIVIL ENGINEERS</td>
 </tr>
 
 <tr>
 <td class="left">CHM691</td>
 <td class="left">LEC: M 17:00-18:00 REQ;WF 15:00-16:00 REQ;</td>
 <td class="left">FRONTIERS IN INORGANIC CHEMISTRY</td>
+<td class="left">S K KUNDU</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MTH736</td>
 <td class="left">LEC: M 17:00-18:00 REQ;WF 15:00-16:00 REQ;</td>
 <td class="left">FOURIER ANALYSIS-I &amp; DISTRIBUTION THEORY</td>
+<td class="left">R RAWAT</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CHM602A</td>
+<td class="left">LEC: M 17:00-18:00 REQ;WF 15:00-16:00 REQ;</td>
+<td class="left">ADVANCED ORGANIC CHEMISTRY II</td>
+<td class="left">ANAND SINGH</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MTH736A</td>
 <td class="left">LEC: M 17:00-18:00 REQ;WF 15:00-16:00 REQ;</td>
 <td class="left">FOURIER ANALYSIS-I &amp; DISTRIBUTION THEORY</td>
+<td class="left">R RAWAT</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CE601</td>
+<td class="left">LEC: M 17:00-18:00 REQ;WF 15:00-16:00 REQ;</td>
+<td class="left">STATISTICAL ANALYSIS FOR CIVIL ENGINEERS</td>
+<td class="left">MUKESH SHARMA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CHM691A</td>
+<td class="left">LEC: M 17:00-18:00 REQ;WF 15:00-16:00 REQ;</td>
+<td class="left">FRONTIERS IN INORGANIC CHEMISTRY</td>
+<td class="left">S K KUNDU</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CHM602</td>
+<td class="left">LEC: M 17:00-18:00 REQ;WF 15:00-16:00 REQ;</td>
+<td class="left">ADVANCED ORGANIC CHEMISTRY II</td>
+<td class="left">ANAND SINGH</td>
+
+
 </tr>
 
 <tr>
 <td class="left">BSE311A</td>
 <td class="left">LEC: MF 08:00-09:00 BSBH;T 09:00-10:00 BSBH;</td>
 <td class="left">MOLECULAR CELL BIOLOGY</td>
+<td class="left">S. GANESH</td>
+
+
 </tr>
 
 <tr>
 <td class="left">CE321A</td>
 <td class="left">LEC: MF 08:00-09:00 REQ;</td>
 <td class="left">ENGINEERING GEOSCIENCES</td>
-</tr>
+<td class="left">J N MALIK</td>
 
-<tr>
-<td class="left">CE689N</td>
-<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
-<td class="left">CHARACTERIZATION OF PAVEMENT MATERIALS AND</td>
-</tr>
 
-<tr>
-<td class="left">SE315</td>
-<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
-<td class="left">SPECIAL &amp; GENERAL RELATIVITY</td>
-</tr>
-
-<tr>
-<td class="left">PHY407</td>
-<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
-<td class="left">SPECIAL &amp; GENERAL RELATIVITY</td>
-</tr>
-
-<tr>
-<td class="left">CE602</td>
-<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
-<td class="left">ADVANCED MATHEMATICS FOR CIVIL ENGINEERS</td>
-</tr>
-
-<tr>
-<td class="left">CHE312A</td>
-<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
-<td class="left">HEAT TRANSFER &amp; ITS APPLICATIONS</td>
-</tr>
-
-<tr>
-<td class="left">CS340A</td>
-<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
-<td class="left">THEORY OF COMPUTATION</td>
-</tr>
-
-<tr>
-<td class="left">MSE671</td>
-<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
-<td class="left">HEAT TREATMENT AND SURFACE HARDENING</td>
-</tr>
-
-<tr>
-<td class="left">ME625</td>
-<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
-<td class="left">APPLIED DYNAMICS AND VIBRATIONS</td>
-</tr>
-
-<tr>
-<td class="left">CHM303A</td>
-<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
-<td class="left">ORGANIC CHEMISTRY I</td>
-</tr>
-
-<tr>
-<td class="left">MSE303A</td>
-<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
-<td class="left">ELECTRONIC &amp; MAGNETIC PROPERTIES OF MATERIALS</td>
-</tr>
-
-<tr>
-<td class="left">CHM651</td>
-<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
-<td class="left">CRYSTAL AND MOLECULAR STRUCTURE DETERMINATION</td>
-</tr>
-
-<tr>
-<td class="left">CHM401</td>
-<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
-<td class="left">ORGANIC CHEMISTRY I</td>
-</tr>
-
-<tr>
-<td class="left">EE698D</td>
-<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
-<td class="left">POWER ELECTRONICS IN SOLAR PHOTOVOLTAIC SYSTEMS</td>
-</tr>
-
-<tr>
-<td class="left">EE698F</td>
-<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
-<td class="left">POWER ELECTRONICS IN SOLAR PHOTOVOLTAIC SYSTEMS</td>
 </tr>
 
 <tr>
 <td class="left">EE698Z</td>
 <td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
 <td class="left">TRANSCEIVER OPTIMIZATION FOR OFDM WIRELESS</td>
+<td class="left">A JAGANNATHAM</td>
+
+
 </tr>
 
 <tr>
 <td class="left">EE698R</td>
 <td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
 <td class="left">TRANSCEIVER OPTIMIZATION FOR OFDM WIRELESS</td>
+<td class="left">A JAGANNATHAM</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CHM401</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">ORGANIC CHEMISTRY I</td>
+<td class="left">D H DETHE</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE698D</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">POWER ELECTRONICS IN SOLAR PHOTOVOLTAIC SYSTEMS</td>
+<td class="left">S ANAND</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE698F</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">POWER ELECTRONICS IN SOLAR PHOTOVOLTAIC SYSTEMS</td>
+<td class="left">S ANAND</td>
+
+
 </tr>
 
 <tr>
 <td class="left">EE646A</td>
 <td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
 <td class="left">PHOTONIC NETWORKS &amp; SWITCHING</td>
-</tr>
+<td class="left">Y N SINGH</td>
 
-<tr>
-<td class="left">ME661</td>
-<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
-<td class="left">MACHINING SCIENCE I</td>
+
 </tr>
 
 <tr>
 <td class="left">CHM651A</td>
 <td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
 <td class="left">CRYSTAL AND MOLECULAR STRUCTURE DETERMINATION</td>
+<td class="left">S P RATH</td>
+
+
 </tr>
 
 <tr>
-<td class="left">ME361A</td>
+<td class="left">ME625</td>
 <td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
-<td class="left">MANUFACTURING SCIENCE &amp; TECHNOLOGY</td>
+<td class="left">APPLIED DYNAMICS AND VIBRATIONS</td>
+<td class="left">H HATWAL</td>
+
+
 </tr>
 
 <tr>
-<td class="left">ME630</td>
+<td class="left">CS340A</td>
 <td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
-<td class="left">NUMERICAL FLUID FLOW AND HEAT TRANSFER</td>
-</tr>
+<td class="left">THEORY OF COMPUTATION</td>
+<td class="left">SUNIL E. SIMON</td>
 
-<tr>
-<td class="left">EE646</td>
-<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
-<td class="left">PHOTONIC NETWORKS &amp; SWITCHING</td>
+
 </tr>
 
 <tr>
 <td class="left">AE311A</td>
 <td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
 <td class="left">COMPRESSIBLE AERODYNAMICS</td>
+<td class="left">OARS</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MSE671A</td>
 <td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
 <td class="left">HEAT TREATMENT AND SURFACE HARDENING</td>
+<td class="left">K MONDAL, SANDEEP SANGAL</td>
+
 </tr>
 
 <tr>
-<td class="left">EE330A</td>
-<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;T/D:</td>
-<td class="left">POWER SYSTEMS</td>
+<td class="left">CE689N</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">CHARACTERIZATION OF PAVEMENT MATERIALS AND</td>
+<td class="left">A DAS</td>
+
+
 </tr>
 
 <tr>
-<td class="left">MTH412</td>
-<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;T/D:</td>
-<td class="left">APPLIED STOCHASTIC PROCESS</td>
+<td class="left">SE315</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">SPECIAL &amp; GENERAL RELATIVITY</td>
+<td class="left">K BHATTACHARYA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CE602</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">ADVANCED MATHEMATICS FOR CIVIL ENGINEERS</td>
+<td class="left">ANUBHA GOEL, MUKESH SHARMA</td>
+
+</tr>
+
+<tr>
+<td class="left">ME630</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">NUMERICAL FLUID FLOW AND HEAT TRANSFER</td>
+<td class="left">SUBRATA SARKAR</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CHE312A</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">HEAT TRANSFER &amp; ITS APPLICATIONS</td>
+<td class="left">A TRIPATHI</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CHM303A</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">ORGANIC CHEMISTRY I</td>
+<td class="left">D H DETHE</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MSE303A</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">ELECTRONIC &amp; MAGNETIC PROPERTIES OF MATERIALS</td>
+<td class="left">ANSHU GAUR</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MSE671</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">HEAT TREATMENT AND SURFACE HARDENING</td>
+<td class="left">K MONDAL, SANDEEP SANGAL</td>
+
+</tr>
+
+<tr>
+<td class="left">PHY407</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">SPECIAL &amp; GENERAL RELATIVITY</td>
+<td class="left">K BHATTACHARYA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE646</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">PHOTONIC NETWORKS &amp; SWITCHING</td>
+<td class="left">Y N SINGH</td>
+
+
+</tr>
+
+<tr>
+<td class="left">ME661</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">MACHINING SCIENCE I</td>
+<td class="left">S K CHOUDHARY</td>
+
+
+</tr>
+
+<tr>
+<td class="left">ME361A</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">MANUFACTURING SCIENCE &amp; TECHNOLOGY</td>
+<td class="left">ARVIND KUMAR,  NIRAJ SINHA</td>
+
+</tr>
+
+<tr>
+<td class="left">CHM651</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;</td>
+<td class="left">CRYSTAL AND MOLECULAR STRUCTURE DETERMINATION</td>
+<td class="left">S P RATH</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MTH412A</td>
 <td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;T/D:</td>
 <td class="left">APPLIED STOCHASTIC PROCESS</td>
+<td class="left">S S DHAR</td>
+
+
 </tr>
 
 <tr>
-<td class="left">MTH428A</td>
-<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;T/D: W</td>
-<td class="left">MATHEMATICAL METHODS</td>
+<td class="left">MTH412</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;T/D:</td>
+<td class="left">APPLIED STOCHASTIC PROCESS</td>
+<td class="left">S S DHAR</td>
+
+
 </tr>
 
 <tr>
-<td class="left">MTH428</td>
-<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;T/D: W</td>
-<td class="left">MATHEMATICAL METHODS</td>
-</tr>
+<td class="left">EE330A</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;T/D:</td>
+<td class="left">POWER SYSTEMS</td>
+<td class="left">S CHAKRABARTI</td>
 
-<tr>
-<td class="left">MTH403</td>
-<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;T/D: W</td>
-<td class="left">COMPLEX ANALYSIS</td>
+
 </tr>
 
 <tr>
 <td class="left">MTH403A</td>
 <td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;T/D: W</td>
 <td class="left">COMPLEX ANALYSIS</td>
+<td class="left">D SEN</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MTH403</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;T/D: W</td>
+<td class="left">COMPLEX ANALYSIS</td>
+<td class="left">D SEN</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MTH428</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;T/D: W</td>
+<td class="left">MATHEMATICAL METHODS</td>
+<td class="left">P DUTT</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MTH428A</td>
+<td class="left">LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;T/D: W</td>
+<td class="left">MATHEMATICAL METHODS</td>
+<td class="left">P DUTT</td>
+
+
 </tr>
 
 <tr>
 <td class="left">ECO301A</td>
 <td class="left">LEC: MF 08:00-09:00 REQ;T/D: T 09:00-10:00 REQ;</td>
 <td class="left">MICROECONOMICS II</td>
+<td class="left">OARS</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MTH409</td>
 <td class="left">LEC: MT 11:00-12:00 REQ;T/D: Th 11:00-12:00 REQ;</td>
 <td class="left">COMPUTER PROGRAMMING AND DATA STRUCTURES</td>
-</tr>
+<td class="left">A ANAND</td>
 
-<tr>
-<td class="left">MTH719A</td>
-<td class="left">LEC: MTTh 10:00-11:00 REQ;</td>
-<td class="left">INTRODUCTION TO HOMOGENIZATION</td>
+
 </tr>
 
 <tr>
 <td class="left">MTH719</td>
 <td class="left">LEC: MTTh 10:00-11:00 REQ;</td>
 <td class="left">INTRODUCTION TO HOMOGENIZATION</td>
+<td class="left">T MUTHUKUMAR</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MTH719A</td>
+<td class="left">LEC: MTTh 10:00-11:00 REQ;</td>
+<td class="left">INTRODUCTION TO HOMOGENIZATION</td>
+<td class="left">T MUTHUKUMAR</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MTH201</td>
 <td class="left">LEC: MTTh 10:00-11:00 REQ;T/D: F 10:00-11:00</td>
 <td class="left">LINEAR ALGEBRA</td>
+<td class="left">P SHUNMUGARAJ</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MTH201A</td>
 <td class="left">LEC: MTTh 10:00-11:00 REQ;T/D: F 14:00-15:00</td>
 <td class="left">LINEAR ALGEBRA</td>
-</tr>
+<td class="left">P SHUNMUGARAJ</td>
 
-<tr>
-<td class="left">MTH415</td>
-<td class="left">LEC: MTTh 10:00-11:00 REQ;T/D: W 10:00-11:00</td>
-<td class="left">MATRIX THEORY AND LINEAR ESTIMATION</td>
+
 </tr>
 
 <tr>
 <td class="left">MTH415A</td>
 <td class="left">LEC: MTTh 10:00-11:00 REQ;T/D: W 10:00-11:00</td>
 <td class="left">MATRIX THEORY AND LINEAR ESTIMATION</td>
+<td class="left">S MITRA</td>
+
+
 </tr>
 
 <tr>
-<td class="left">MTH620</td>
-<td class="left">LEC: MTTh 11:00-12:00 REQ;</td>
-<td class="left">MEASURE THEORY</td>
-</tr>
+<td class="left">MTH415</td>
+<td class="left">LEC: MTTh 10:00-11:00 REQ;T/D: W 10:00-11:00</td>
+<td class="left">MATRIX THEORY AND LINEAR ESTIMATION</td>
+<td class="left">S MITRA</td>
 
-<tr>
-<td class="left">MTH620A</td>
-<td class="left">LEC: MTTh 11:00-12:00 REQ;</td>
-<td class="left">MEASURE THEORY</td>
+
 </tr>
 
 <tr>
 <td class="left">MTH686</td>
 <td class="left">LEC: MTTh 11:00-12:00 REQ;</td>
 <td class="left">NON-LINEAR REGRESSION</td>
+<td class="left">D KUNDU</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MTH620</td>
+<td class="left">LEC: MTTh 11:00-12:00 REQ;</td>
+<td class="left">MEASURE THEORY</td>
+<td class="left">M GUPTA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MTH620A</td>
+<td class="left">LEC: MTTh 11:00-12:00 REQ;</td>
+<td class="left">MEASURE THEORY</td>
+<td class="left">M GUPTA</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MTH686A</td>
 <td class="left">LEC: MTTh 11:00-12:00 REQ;</td>
 <td class="left">NON-LINEAR REGRESSION</td>
+<td class="left">D KUNDU</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MTH649A</td>
 <td class="left">LEC: MTTh 14:00-15:00 REQ;</td>
 <td class="left">ALGEBRAIC TOPOLOGY</td>
-</tr>
+<td class="left">A DAR</td>
 
-<tr>
-<td class="left">MTH649</td>
-<td class="left">LEC: MTTh 14:00-15:00 REQ;</td>
-<td class="left">ALGEBRAIC TOPOLOGY</td>
+
 </tr>
 
 <tr>
 <td class="left">MTH753A</td>
 <td class="left">LEC: MTTh 14:00-15:00 REQ;</td>
 <td class="left">ANALYSIS</td>
+<td class="left">R RAWAT</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MTH649</td>
+<td class="left">LEC: MTTh 14:00-15:00 REQ;</td>
+<td class="left">ALGEBRAIC TOPOLOGY</td>
+<td class="left">A DAR</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MTH753</td>
 <td class="left">LEC: MTTh 14:00-15:00 REQ;</td>
 <td class="left">ANALYSIS</td>
-</tr>
+<td class="left">R RAWAT</td>
 
-<tr>
-<td class="left">MTH417A</td>
-<td class="left">LEC: MTTh 14:00-15:00 REQ;T/D: F 14:00-15:00</td>
-<td class="left">SAMPLING THEORY</td>
-</tr>
 
-<tr>
-<td class="left">MTH523A</td>
-<td class="left">LEC: MTTh 14:00-15:00 REQ;T/D: F 14:00-15:00</td>
-<td class="left">FLUID MECHANICS</td>
-</tr>
-
-<tr>
-<td class="left">MTH523</td>
-<td class="left">LEC: MTTh 14:00-15:00 REQ;T/D: F 14:00-15:00</td>
-<td class="left">FLUID MECHANICS</td>
 </tr>
 
 <tr>
 <td class="left">MTH417</td>
 <td class="left">LEC: MTTh 14:00-15:00 REQ;T/D: F 14:00-15:00</td>
 <td class="left">SAMPLING THEORY</td>
+<td class="left">SHALABH</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MTH523</td>
+<td class="left">LEC: MTTh 14:00-15:00 REQ;T/D: F 14:00-15:00</td>
+<td class="left">FLUID MECHANICS</td>
+<td class="left">P CHANDRA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MTH523A</td>
+<td class="left">LEC: MTTh 14:00-15:00 REQ;T/D: F 14:00-15:00</td>
+<td class="left">FLUID MECHANICS</td>
+<td class="left">P CHANDRA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MTH417A</td>
+<td class="left">LEC: MTTh 14:00-15:00 REQ;T/D: F 14:00-15:00</td>
+<td class="left">SAMPLING THEORY</td>
+<td class="left">SHALABH</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MTH611A</td>
 <td class="left">LEC: MTTh 15:00-16:00 REQ;</td>
 <td class="left">ALGEBRA II</td>
+<td class="left">A K MALOO</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MTH611</td>
 <td class="left">LEC: MTTh 15:00-16:00 REQ;</td>
 <td class="left">ALGEBRA II</td>
+<td class="left">A K MALOO</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MTH517A</td>
 <td class="left">LEC: MTTh 15:00-16:00 REQ;T/D: W 14:00-15:00</td>
 <td class="left">TIME SERIES ANALYSIS</td>
+<td class="left">A MITRA</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MTH698</td>
 <td class="left">LEC: MTTh 16:00-17:00 REQ;</td>
 <td class="left">PARALLEL NUMERICAL ALGORITHM</td>
+<td class="left">B V R KUMAR</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MTH698A</td>
 <td class="left">LEC: MTTh 16:00-17:00 REQ;</td>
 <td class="left">PARALLEL NUMERICAL ALGORITHM</td>
-</tr>
+<td class="left">B V R KUMAR</td>
 
-<tr>
-<td class="left">MTH405</td>
-<td class="left">LEC: MTTh 16:00-17:00 REQ;T/D: F 12:00-13:00</td>
-<td class="left">FUNCTIONAL ANALYSIS</td>
+
 </tr>
 
 <tr>
 <td class="left">MTH405A</td>
 <td class="left">LEC: MTTh 16:00-17:00 REQ;T/D: F 12:00-13:00</td>
 <td class="left">FUNCTIONAL ANALYSIS</td>
+<td class="left">S PUSTI</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MTH405</td>
+<td class="left">LEC: MTTh 16:00-17:00 REQ;T/D: F 12:00-13:00</td>
+<td class="left">FUNCTIONAL ANALYSIS</td>
+<td class="left">S PUSTI</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MTH515</td>
 <td class="left">LEC: MTTh 16:00-17:00 REQ;T/D: F 14:00-15:00</td>
 <td class="left">INFERENCE - II</td>
+<td class="left">I D DHARIYAL</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MTH515A</td>
 <td class="left">LEC: MTTh 16:00-17:00 REQ;T/D: F 14:00-15:00</td>
 <td class="left">INFERENCE - II</td>
-</tr>
+<td class="left">I D DHARIYAL</td>
 
-<tr>
-<td class="left">MTH647</td>
-<td class="left">LEC: MTh 09:00-10:00 REQ;T 12:00-13:00 REQ;</td>
-<td class="left">COMPLEX ANALYTIC DYNAMICS AND FRACTALS</td>
+
 </tr>
 
 <tr>
 <td class="left">MTH754</td>
 <td class="left">LEC: MTh 09:00-10:00 REQ;T 12:00-13:00 REQ;</td>
 <td class="left">PROBABILITY THEORY</td>
-</tr>
+<td class="left">NEERAJ MISRA</td>
 
-<tr>
-<td class="left">MTH754A</td>
-<td class="left">LEC: MTh 09:00-10:00 REQ;T 12:00-13:00 REQ;</td>
-<td class="left">PROBABILITY THEORY</td>
+
 </tr>
 
 <tr>
 <td class="left">MTH647A</td>
 <td class="left">LEC: MTh 09:00-10:00 REQ;T 12:00-13:00 REQ;</td>
 <td class="left">COMPLEX ANALYTIC DYNAMICS AND FRACTALS</td>
+<td class="left">G P KAPOOR</td>
+
+
 </tr>
 
 <tr>
-<td class="left">MTH612A</td>
+<td class="left">MTH647</td>
 <td class="left">LEC: MTh 09:00-10:00 REQ;T 12:00-13:00 REQ;</td>
-<td class="left">INTRODUCTION TO COMMUTATIVE ALGEBRA</td>
+<td class="left">COMPLEX ANALYTIC DYNAMICS AND FRACTALS</td>
+<td class="left">G P KAPOOR</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MTH612</td>
 <td class="left">LEC: MTh 09:00-10:00 REQ;T 12:00-13:00 REQ;</td>
 <td class="left">INTRODUCTION TO COMMUTATIVE ALGEBRA</td>
+<td class="left">A MANDAL</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MTH612A</td>
+<td class="left">LEC: MTh 09:00-10:00 REQ;T 12:00-13:00 REQ;</td>
+<td class="left">INTRODUCTION TO COMMUTATIVE ALGEBRA</td>
+<td class="left">A MANDAL</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MTH754A</td>
+<td class="left">LEC: MTh 09:00-10:00 REQ;T 12:00-13:00 REQ;</td>
+<td class="left">PROBABILITY THEORY</td>
+<td class="left">NEERAJ MISRA</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MS601</td>
 <td class="left">LEC: MTh 09:00-10:30 ACMS110;</td>
 <td class="left">STRUCTURAL &amp; MAGNETIC PROPERTIES OF MATERIALS</td>
-</tr>
+<td class="left">JITENDRA KUMAR, RAJ PALA</td>
 
-<tr>
-<td class="left">CHM611A</td>
-<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
-<td class="left">PHYSICAL ORGANIC CHEMISTRY</td>
-</tr>
-
-<tr>
-<td class="left">EE641A</td>
-<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
-<td class="left">ADVANCED ENGINEERING ELECTROMAGNETICS</td>
-</tr>
-
-<tr>
-<td class="left">EE614</td>
-<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
-<td class="left">SOLID STATE DEVICES I</td>
-</tr>
-
-<tr>
-<td class="left">MSE626N</td>
-<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
-<td class="left">TRANSPORT PHENOMENA</td>
-</tr>
-
-<tr>
-<td class="left">MSE626A</td>
-<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
-<td class="left">TRANSPORT PHENOMENA</td>
-</tr>
-
-<tr>
-<td class="left">EE601</td>
-<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
-<td class="left">MATHEMATICAL METHODS IN SIGNAL PROCESSING</td>
-</tr>
-
-<tr>
-<td class="left">CS641</td>
-<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
-<td class="left">MODERN CRYPTOLOGY</td>
-</tr>
-
-<tr>
-<td class="left">EE650</td>
-<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
-<td class="left">BASICS OF MODERN CONTROL SYSTEMS</td>
-</tr>
-
-<tr>
-<td class="left">CHE631</td>
-<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
-<td class="left">CHEMICAL REACTION ENGINEERING</td>
-</tr>
-
-<tr>
-<td class="left">EE601A</td>
-<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
-<td class="left">MATHEMATICAL METHODS IN SIGNAL PROCESSING</td>
-</tr>
-
-<tr>
-<td class="left">CE637</td>
-<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
-<td class="left">CONSTITUTIVE MODELING OF FRICTIONAL MATERIALS</td>
-</tr>
-
-<tr>
-<td class="left">CHM611</td>
-<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
-<td class="left">PHYSICAL ORGANIC CHEMISTRY</td>
-</tr>
-
-<tr>
-<td class="left">ME681</td>
-<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
-<td class="left">MATHEMATICAL METHODS IN ENGINEERING</td>
-</tr>
-
-<tr>
-<td class="left">MSE665</td>
-<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
-<td class="left">PRACTICAL TRANSMISSION ELECTRON MICROSCOPY &amp;</td>
-</tr>
-
-<tr>
-<td class="left">CE442A</td>
-<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
-<td class="left">CIVIL ENGINEERING SYSTEMS ANALYSIS</td>
-</tr>
-
-<tr>
-<td class="left">EE650A</td>
-<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
-<td class="left">BASICS OF MODERN CONTROL SYSTEMS</td>
-</tr>
-
-<tr>
-<td class="left">BSE492A</td>
-<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
-<td class="left">METHODS IN BIOTECHNOLOGY-I EXPERIMENTAL</td>
- 
-</tr>
-
-<tr>
-<td class="left">EE641</td>
-<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
-<td class="left">ADVANCED ENGINEERING ELECTROMAGNETICS</td>
-</tr>
-
-<tr>
-<td class="left">EE614A</td>
-<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
-<td class="left">SOLID STATE DEVICES I</td>
 </tr>
 
 <tr>
 <td class="left">CHM649</td>
 <td class="left">LEC: MTh 09:00-10:30 REQ;</td>
 <td class="left">PRINCIPALES OF INORGANIC CHEMISTRY</td>
+<td class="left">B SUNDARARAJU</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE641A</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">ADVANCED ENGINEERING ELECTROMAGNETICS</td>
+<td class="left">A BISWAS</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MSE665A</td>
 <td class="left">LEC: MTh 09:00-10:30 REQ;</td>
 <td class="left">PRACTICAL TRANSMISSION ELECTRON MICROSCOPY &amp;</td>
+<td class="left">GOUTHAMA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MSE626N</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">TRANSPORT PHENOMENA</td>
+<td class="left">DIPAK MAZUMDAR</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE614A</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">SOLID STATE DEVICES I</td>
+<td class="left">Y S CHAUHAN</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CE637</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">CONSTITUTIVE MODELING OF FRICTIONAL MATERIALS</td>
+<td class="left">CONVENOR DPGC</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CE442A</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">CIVIL ENGINEERING SYSTEMS ANALYSIS</td>
+<td class="left">P BOSE</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE614</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">SOLID STATE DEVICES I</td>
+<td class="left">Y S CHAUHAN</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE601</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">MATHEMATICAL METHODS IN SIGNAL PROCESSING</td>
+<td class="left">P SIRCAR</td>
+
+
+</tr>
+
+<tr>
+<td class="left">ME681</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">MATHEMATICAL METHODS IN ENGINEERING</td>
+<td class="left">P M DIXIT</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MSE665</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">PRACTICAL TRANSMISSION ELECTRON MICROSCOPY &amp;</td>
+<td class="left">GOUTHAMA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CS641</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">MODERN CRYPTOLOGY</td>
+<td class="left">MANINDRA AGRAWAL</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CHM611A</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">PHYSICAL ORGANIC CHEMISTRY</td>
+<td class="left">V K YADAV</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CHM611</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">PHYSICAL ORGANIC CHEMISTRY</td>
+<td class="left">V K YADAV</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE650</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">BASICS OF MODERN CONTROL SYSTEMS</td>
+<td class="left">S R SAHOO</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE650A</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">BASICS OF MODERN CONTROL SYSTEMS</td>
+<td class="left">S R SAHOO</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE601A</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">MATHEMATICAL METHODS IN SIGNAL PROCESSING</td>
+<td class="left">P SIRCAR</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE641</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">ADVANCED ENGINEERING ELECTROMAGNETICS</td>
+<td class="left">A BISWAS</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MSE626A</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">TRANSPORT PHENOMENA</td>
+<td class="left">DIPAK MAZUMDAR</td>
+
+
+</tr>
+
+<tr>
+<td class="left">BSE492A</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">METHODS IN BIOTECHNOLOGY-I</td>
+<td class="left">EXPERIMENTAL, ASHOK KUMAR</td>
+
+</tr>
+
+<tr>
+<td class="left">CHE631</td>
+<td class="left">LEC: MTh 09:00-10:30 REQ;</td>
+<td class="left">CHEMICAL REACTION ENGINEERING</td>
+<td class="left">D KUNZRU</td>
+
+
 </tr>
 
 <tr>
 <td class="left">PHY543</td>
 <td class="left">LEC: MTh 09:00-10:30 REQ;T/D: F 12:00-13:00 REQ;</td>
 <td class="left">CONDENSED MATTER PHYSICS I</td>
+<td class="left">S BANERJEE</td>
+
+
 </tr>
 
 <tr>
 <td class="left">PHY431A</td>
 <td class="left">LEC: MTh 09:00-10:30 REQ;T/D: T 09:00-10:00 REQ;</td>
 <td class="left">QUANTUM MECHANICS I</td>
+<td class="left">T SARKAR</td>
+
+
 </tr>
 
 <tr>
 <td class="left">CE451</td>
 <td class="left">LEC: MTh 09:00-10:30 REQ;T/D: W 14:00-15:00 REQ;</td>
 <td class="left">SYSTEMS ANALYSIS IN CIVIL ENGG.</td>
+<td class="left">P BOSE</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MS603</td>
 <td class="left">LEC: MTh 10:30-12:00 ACMS110;</td>
 <td class="left">MECHANICAL PROPERTIES OF MATERIALS</td>
- 
- 
-</tr>
+<td class="left">K K KAR</td>
 
-<tr>
-<td class="left">EE612</td>
-<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
-<td class="left">FIBER OPTIC SYSTEMS I</td>
- 
- 
-</tr>
 
-<tr>
-<td class="left">BSE621A</td>
-<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
-<td class="left">MODERN INSTRUMENTAL METHODS IN BIOLOGICAL</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">CHE618</td>
-<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
-<td class="left">NEW SEPARATION PROCESSES</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">MSE613A</td>
-<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
-<td class="left">ELECTROCHEMICAL TECHNOLOGY IN MATERIALS</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">EE645A</td>
-<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
-<td class="left">MONOLITHIC MICROWAVE ICS</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">CE674</td>
-<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
-<td class="left">GLOBAL POSITIONING SYSTEM</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">ME763</td>
-<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
-<td class="left">ROBOT MANIPULATORS: DYNAMICS AND CONTROL</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">CHM683A</td>
-<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
-<td class="left">SURFACES, INTERFACES,  THIN FILMS &amp; RELATED</td>
-</tr>
-
-<tr>
-<td class="left">EE670A</td>
-<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
-<td class="left">WIRELESS COMMUNICATIONS</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">NT611</td>
-<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
-<td class="left">NUCLEAR POWER ENGINEERING I</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">EE670</td>
-<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
-<td class="left">WIRELESS COMMUNICATIONS</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">CS682</td>
-<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
-<td class="left">QUANTUM COMPUTING</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">EE612A</td>
-<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
-<td class="left">FIBER OPTIC SYSTEMS I</td>
- 
- 
 </tr>
 
 <tr>
 <td class="left">EE654A</td>
 <td class="left">LEC: MTh 10:30-12:00 REQ;</td>
 <td class="left">ROBUST CONTROL SYSTEMS</td>
- 
- 
-</tr>
+<td class="left">R POTLURI</td>
 
-<tr>
-<td class="left">CS632</td>
-<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
-<td class="left">TOPICS IN DISTRIBUTED SYSTEMS</td>
- 
- 
+
 </tr>
 
 <tr>
 <td class="left">MSE615</td>
 <td class="left">LEC: MTh 10:30-12:00 REQ;</td>
 <td class="left">STRUCTURE AND CHARACTERIZATION OF MATERIALS</td>
- 
- 
+<td class="left">ASHISH GARG</td>
+
+
 </tr>
 
 <tr>
-<td class="left">MSE613</td>
+<td class="left">CHM683A</td>
 <td class="left">LEC: MTh 10:30-12:00 REQ;</td>
-<td class="left">ELECTROCHEMICAL TECHNOLOGY IN MATERIALS</td>
- 
- 
+<td class="left">SURFACES, INTERFACES, THIN FILMS &amp; RELATED</td>
+<td class="left">T G GOPAKUMAR</td>
 </tr>
 
 <tr>
 <td class="left">MSE615A</td>
 <td class="left">LEC: MTh 10:30-12:00 REQ;</td>
 <td class="left">STRUCTURE AND CHARACTERIZATION OF MATERIALS</td>
- 
- 
+<td class="left">ASHISH GARG</td>
+
+
 </tr>
 
 <tr>
-<td class="left">EEM602</td>
+<td class="left">CS682</td>
 <td class="left">LEC: MTh 10:30-12:00 REQ;</td>
-<td class="left">PHYSICOCHEMICAL PRINCIPLES AND PROCESS</td>
- 
- 
+<td class="left">QUANTUM COMPUTING</td>
+<td class="left">ANIL SETH</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MSE613A</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">ELECTROCHEMICAL TECHNOLOGY IN MATERIALS</td>
+<td class="left">R SHEKHAR</td>
+
+
 </tr>
 
 <tr>
 <td class="left">EE645</td>
 <td class="left">LEC: MTh 10:30-12:00 REQ;</td>
 <td class="left">MONOLITHIC MICROWAVE ICS</td>
- 
- 
+<td class="left">M J AKHTAR</td>
+
+
 </tr>
 
 <tr>
-<td class="left">NT602</td>
+<td class="left">EE670A</td>
 <td class="left">LEC: MTh 10:30-12:00 REQ;</td>
-<td class="left">NUCLEAR AND REACTOR PHYSICS</td>
- 
- 
+<td class="left">WIRELESS COMMUNICATIONS</td>
+<td class="left">A JAGANNATHAM</td>
+
+
 </tr>
 
 <tr>
-<td class="left">EE654</td>
+<td class="left">MSE613</td>
 <td class="left">LEC: MTh 10:30-12:00 REQ;</td>
-<td class="left">ROBUST CONTROL SYSTEMS</td>
- 
- 
+<td class="left">ELECTROCHEMICAL TECHNOLOGY IN MATERIALS</td>
+<td class="left">R SHEKHAR</td>
+
+
 </tr>
 
 <tr>
 <td class="left">PHY632</td>
 <td class="left">LEC: MTh 10:30-12:00 REQ;</td>
 <td class="left">TRANSPORT IN MESOSCOPIC SYSTEMS</td>
- 
- 
+<td class="left">A K GUPTA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE612</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">FIBER OPTIC SYSTEMS I</td>
+<td class="left">U DAS</td>
+
+
+</tr>
+
+<tr>
+<td class="left">ME763</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">ROBOT MANIPULATORS: DYNAMICS AND CONTROL</td>
+<td class="left">ASHISH DUTTA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CS632</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">TOPICS IN DISTRIBUTED SYSTEMS</td>
+<td class="left">RATAN K. GHOSH</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CE674</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">GLOBAL POSITIONING SYSTEM</td>
+<td class="left">CONVENOR DPGC</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EEM602</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">PHYSICOCHEMICAL PRINCIPLES AND PROCESS</td>
+<td class="left">ABHAS SINGH</td>
+
+
+</tr>
+
+<tr>
+<td class="left">NT611</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">NUCLEAR POWER ENGINEERING I</td>
+<td class="left">A KHANNA, P MUNSHI</td>
+
+</tr>
+
+<tr>
+<td class="left">EE654</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">ROBUST CONTROL SYSTEMS</td>
+<td class="left">R POTLURI</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CHE618</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">NEW SEPARATION PROCESSES</td>
+<td class="left">P K BHATTACHARYA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">BSE621A</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">MODERN INSTRUMENTAL METHODS IN BIOLOGICAL</td>
+<td class="left">SARAVANAN MATHESHWARAN</td>
+
+
+</tr>
+
+<tr>
+<td class="left">NT602</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">NUCLEAR AND REACTOR PHYSICS</td>
+<td class="left">OARS</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE670</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">WIRELESS COMMUNICATIONS</td>
+<td class="left">A JAGANNATHAM</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE612A</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">FIBER OPTIC SYSTEMS I</td>
+<td class="left">U DAS</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE645A</td>
+<td class="left">LEC: MTh 10:30-12:00 REQ;</td>
+<td class="left">MONOLITHIC MICROWAVE ICS</td>
+<td class="left">M J AKHTAR</td>
+
+
 </tr>
 
 <tr>
 <td class="left">PHY441</td>
 <td class="left">LEC: MTh 10:30-12:00 REQ;T/D: T 11:00-12:00 REQ;</td>
 <td class="left">ELECTRONICS</td>
- 
- 
+<td class="left">KRISHNACHARAYA, A KELKAR</td>
+
 </tr>
 
 <tr>
 <td class="left">ME321A</td>
 <td class="left">LEC: MTh 11:00-12:00 REQ;</td>
 <td class="left">ADVANCE MECHANICS OF SOLIDS</td>
- 
- 
-</tr>
+<td class="left">BASANT LAL SHARMA</td>
 
-<tr>
-<td class="left">PHY781</td>
-<td class="left">LEC: MTh 12:00-13:00 REQ;</td>
-<td class="left">HIGH ENERGY PHYSICS II</td>
- 
- 
+
 </tr>
 
 <tr>
 <td class="left">ME352A</td>
 <td class="left">LEC: MTh 12:00-13:00 REQ;</td>
 <td class="left">THEORY OF MECHANISMS &amp; MACHINES</td>
- 
- 
+<td class="left">BHASKAR DAS GUPTA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">PHY781</td>
+<td class="left">LEC: MTh 12:00-13:00 REQ;</td>
+<td class="left">HIGH ENERGY PHYSICS II</td>
+<td class="left">D CHAKRABORTI</td>
+
+
 </tr>
 
 <tr>
 <td class="left">CS201A</td>
 <td class="left">LEC: MTh 12:00-13:00 REQ;F 17:00-18:00 REQ;</td>
 <td class="left">MATHEMATICS FOR COMPUTER SCIENCE -I</td>
- 
- 
+<td class="left">HARISH KARNICK</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MS604</td>
 <td class="left">LEC: MTh 12:00-13:30 ACMS110;</td>
 <td class="left">CHARACTERIZATION OF MATERIALS</td>
- 
- 
-</tr>
+<td class="left">K K KAR</td>
 
-<tr>
-<td class="left">CE611N</td>
-<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
-<td class="left">ENGINEERING HYDRAULICS</td>
- 
- 
-</tr>
 
-<tr>
-<td class="left">EE616</td>
-<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
-<td class="left">SEMICONDUCTOR DEVICE MODELLING</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">PSY775</td>
-<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
-<td class="left">FUNDAMENTAL OF NEUROPSYCHOLOGY</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">ME641</td>
-<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
-<td class="left">CONDUCTION AND RADIATION</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">ECO738</td>
-<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
-<td class="left">INTER-INDUSTRY ECONOMICS</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">EE647A</td>
-<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
-<td class="left">MICROWAVE MEASUREMENTS AND DESIGN</td>
- 
- 
 </tr>
 
 <tr>
 <td class="left">CS663</td>
 <td class="left">LEC: MTh 12:00-13:30 REQ;</td>
 <td class="left">COMPUTATIONAL GEOMETRY</td>
- 
- 
-</tr>
+<td class="left">SHASHANK MEHTA</td>
 
-<tr>
-<td class="left">CS681</td>
-<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
-<td class="left">COMPUTATIONAL NUMBER THEORY AND ALGEBRA</td>
- 
- 
-</tr>
 
-<tr>
-<td class="left">EE660</td>
-<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
-<td class="left">BASICS OF POWER ELECTRONIC CONVERTERS</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">BSE615A</td>
-<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
-<td class="left">PHYSIOLOGY</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">CHE641</td>
-<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
-<td class="left">MATHEMATICAL METHODS IN CHEMICAL ENGINEERING</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">ME723</td>
-<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
-<td class="left">WAVE PROPAGATION IN SOLIDS</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">EE604</td>
-<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
-<td class="left">IMAGE PROCESSING</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">EE616A</td>
-<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
-<td class="left">SEMICONDUCTOR DEVICE MODELLING</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">CHE661</td>
-<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
-<td class="left">ANALYTICAL &amp; MATERIAL CHARACTERIZATION</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">EE660A</td>
-<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
-<td class="left">BASICS OF POWER ELECTRONIC CONVERTERS</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">BSE615</td>
-<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
-<td class="left">PHYSIOLOGY</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">EE647</td>
-<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
-<td class="left">MICROWAVE MEASUREMENTS AND DESIGN</td>
- 
- 
 </tr>
 
 <tr>
 <td class="left">ECO408</td>
 <td class="left">LEC: MTh 12:00-13:30 REQ;</td>
 <td class="left">ADVANCED MACRO ECONOMICS</td>
- 
- 
+<td class="left">VIMAL KUMAR</td>
+
+
+</tr>
+
+<tr>
+<td class="left">ME723</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">WAVE PROPAGATION IN SOLIDS</td>
+<td class="left">SHAKTI S GUPTA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CS681</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">COMPUTATIONAL NUMBER THEORY AND ALGEBRA</td>
+<td class="left">NITIN SAXENA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CHE661</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">ANALYTICAL &amp; MATERIAL CHARACTERIZATION</td>
+<td class="left">R K GUPTA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE647</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">MICROWAVE MEASUREMENTS AND DESIGN</td>
+<td class="left">K V SRIVASTAVA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE616</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">SEMICONDUCTOR DEVICE MODELLING</td>
+<td class="left">B GHOSH</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CE611N</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">ENGINEERING HYDRAULICS</td>
+<td class="left">R SRIVASTAVA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE660</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">BASICS OF POWER ELECTRONIC CONVERTERS</td>
+<td class="left">P SENSARMA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE604</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">IMAGE PROCESSING</td>
+<td class="left">S GUPTA</td>
+
+
 </tr>
 
 <tr>
 <td class="left">PHI784</td>
 <td class="left">LEC: MTh 12:00-13:30 REQ;</td>
 <td class="left">TWENTIETH CENTURY CONTINENTAL PHILOSOPHY</td>
- 
- 
+<td class="left">P BAGAD</td>
+
+
+</tr>
+
+<tr>
+<td class="left">PSY775</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">FUNDAMENTAL OF NEUROPSYCHOLOGY</td>
+<td class="left">BRAJ BHUSHAN</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CHE641</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">MATHEMATICAL METHODS IN CHEMICAL ENGINEERING</td>
+<td class="left">R PALA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE647A</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">MICROWAVE MEASUREMENTS AND DESIGN</td>
+<td class="left">K V SRIVASTAVA</td>
+
+
 </tr>
 
 <tr>
 <td class="left">EE604A</td>
 <td class="left">LEC: MTh 12:00-13:30 REQ;</td>
 <td class="left">IMAGE PROCESSING</td>
- 
- 
+<td class="left">S GUPTA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE616A</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">SEMICONDUCTOR DEVICE MODELLING</td>
+<td class="left">B GHOSH</td>
+
+
+</tr>
+
+<tr>
+<td class="left">ME641</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">CONDUCTION AND RADIATION</td>
+<td class="left">P S GHOSHDASTIDAR</td>
+
+
+</tr>
+
+<tr>
+<td class="left">BSE615A</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">PHYSIOLOGY</td>
+<td class="left">MAINAK DAS</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE660A</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">BASICS OF POWER ELECTRONIC CONVERTERS</td>
+<td class="left">P SENSARMA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">ECO738</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">INTER-INDUSTRY ECONOMICS</td>
+<td class="left">K K SAXENA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">BSE615</td>
+<td class="left">LEC: MTh 12:00-13:30 REQ;</td>
+<td class="left">PHYSIOLOGY</td>
+<td class="left">MAINAK DAS</td>
+
+
 </tr>
 
 <tr>
 <td class="left">PHY421A</td>
 <td class="left">LEC: MTh 12:00-13:30 REQ;T/D: F 08:00-09:00 REQ;</td>
 <td class="left">MATHEMATICAL METHODS I</td>
- 
- 
-</tr>
+<td class="left">T K GHOSE</td>
 
-<tr>
-<td class="left">EE618</td>
-<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
-<td class="left">INTEGRATED CIRCUIT FABRICATION TECHNOLOGY</td>
- 
- 
-</tr>
 
-<tr>
-<td class="left">MSE694</td>
-<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
-<td class="left">NANOSTRUCTURES AND NANOMATERIALS:</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">EE674A</td>
-<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
-<td class="left">ARCHITECTURE OF MICRO-PROCESSORS &amp;</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">CE671N</td>
-<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
-<td class="left">INTRODUCTION TO REMOTE SENSING</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">ECO732</td>
-<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
-<td class="left">ECONOMETRICS</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">EE607A</td>
-<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
-<td class="left">WAVELET TRANSFORMS FOR SIGNAL &amp; IMAGE PROCESSING</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">EE674</td>
-<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
-<td class="left">ARCHITECTURE OF MICRO-PROCESSORS &amp;</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">MSE694A</td>
-<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
-<td class="left">NANOSTRUCTURES AND NANOMATERIALS:</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">CS350A</td>
-<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
-<td class="left">PRINCIPLES OF PROGRAMMING LANGAUGES</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">CHM683</td>
-<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
-<td class="left">SURFACES, INTERFACES, THIN FILMS &amp; RELATED</td>
-</tr>
-
-<tr>
-<td class="left">EE442A</td>
-<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
-<td class="left">ANTENNAS AND PROPAGATION</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">EE607</td>
-<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
-<td class="left">WAVELET TRANSFORMS FOR SIGNAL &amp; IMAGE PROCESSING</td>
- 
- 
 </tr>
 
 <tr>
 <td class="left">EE618A</td>
 <td class="left">LEC: MTh 14:00-15:30 REQ;</td>
 <td class="left">INTEGRATED CIRCUIT FABRICATION TECHNOLOGY</td>
- 
- 
+<td class="left">A DUTTA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE607A</td>
+<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
+<td class="left">WAVELET TRANSFORMS FOR SIGNAL &amp; IMAGE PROCESSING</td>
+<td class="left">G SHARMA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CHM683</td>
+<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
+<td class="left">SURFACES,  INTERFACES, THIN FILMS &amp; RELATED</td>
+<td class="left">T G GOPAKUMAR</td>
+</tr>
+
+<tr>
+<td class="left">EE674A</td>
+<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
+<td class="left">ARCHITECTURE OF MICRO-PROCESSORS &amp;</td>
+<td class="left">S P DAS</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE442A</td>
+<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
+<td class="left">ANTENNAS AND PROPAGATION</td>
+<td class="left">A R HARISH</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MSE694A</td>
+<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
+<td class="left">NANOSTRUCTURES AND NANOMATERIALS:</td>
+<td class="left">K BALANI</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE618</td>
+<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
+<td class="left">INTEGRATED CIRCUIT FABRICATION TECHNOLOGY</td>
+<td class="left">A DUTTA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE607</td>
+<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
+<td class="left">WAVELET TRANSFORMS FOR SIGNAL &amp; IMAGE PROCESSING</td>
+<td class="left">G SHARMA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CS350A</td>
+<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
+<td class="left">PRINCIPLES OF PROGRAMMING LANGAUGES</td>
+<td class="left">SATYADEV NANDAKUMAR</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MSE694</td>
+<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
+<td class="left">NANOSTRUCTURES AND NANOMATERIALS:</td>
+<td class="left">K BALANI</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CE671N</td>
+<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
+<td class="left">INTRODUCTION TO REMOTE SENSING</td>
+<td class="left">BHARAT LOHANI</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE674</td>
+<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
+<td class="left">ARCHITECTURE OF MICRO-PROCESSORS &amp;</td>
+<td class="left">S P DAS</td>
+
+
+</tr>
+
+<tr>
+<td class="left">ECO732</td>
+<td class="left">LEC: MTh 14:00-15:30 REQ;</td>
+<td class="left">ECONOMETRICS</td>
+<td class="left">S K MATHUR, M ARSHAD RAHMAN</td>
+
 </tr>
 
 <tr>
 <td class="left">ESO209A</td>
 <td class="left">LEC: MW 17:00-18:00 L2;T/D: T 17:00-18:00 REQ;</td>
 <td class="left">DYNAMICS</td>
- 
- 
-</tr>
+<td class="left">ANINDYA CHATTERJEE</td>
 
-<tr>
-<td class="left">ART106</td>
-<td class="left">LEC: MWF 08:00-09:00 REQ;T/D: Th 10:00-11:00</td>
-<td class="left">ELEMENTS OF VISUAL REPRESENTATION</td>
- 
- 
-</tr>
 
-<tr>
-<td class="left">PHI141A</td>
-<td class="left">LEC: MWF 08:00-09:00 REQ;T/D: Th 10:00-11:00</td>
-<td class="left">INTRODUCTION TO PHILOSOPHY</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">PSY152A</td>
-<td class="left">LEC: MWF 08:00-09:00 REQ;T/D: Th 10:00-11:00</td>
-<td class="left">APPLICATION OF PSYCHOLOGY TO LIFE</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">ART106A</td>
-<td class="left">LEC: MWF 08:00-09:00 REQ;T/D: Th 10:00-11:00</td>
-<td class="left">ELEMENTS OF VISUAL REPRESENTATION</td>
- 
- 
 </tr>
 
 <tr>
 <td class="left">PSY152</td>
 <td class="left">LEC: MWF 08:00-09:00 REQ;T/D: Th 10:00-11:00</td>
 <td class="left">APPLICATION OF PSYCHOLOGY TO LIFE</td>
- 
- 
+<td class="left">K RAVI PRIYA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">PSY152A</td>
+<td class="left">LEC: MWF 08:00-09:00 REQ;T/D: Th 10:00-11:00</td>
+<td class="left">APPLICATION OF PSYCHOLOGY TO LIFE</td>
+<td class="left">K RAVI PRIYA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">ART106</td>
+<td class="left">LEC: MWF 08:00-09:00 REQ;T/D: Th 10:00-11:00</td>
+<td class="left">ELEMENTS OF VISUAL REPRESENTATION</td>
+<td class="left">S T ROY</td>
+
+
 </tr>
 
 <tr>
 <td class="left">PHI141</td>
 <td class="left">LEC: MWF 08:00-09:00 REQ;T/D: Th 10:00-11:00</td>
 <td class="left">INTRODUCTION TO PHILOSOPHY</td>
- 
- 
+<td class="left">P BAGAD</td>
+
+
+</tr>
+
+<tr>
+<td class="left">PHI141A</td>
+<td class="left">LEC: MWF 08:00-09:00 REQ;T/D: Th 10:00-11:00</td>
+<td class="left">INTRODUCTION TO PHILOSOPHY</td>
+<td class="left">P BAGAD</td>
+
+
+</tr>
+
+<tr>
+<td class="left">ART106A</td>
+<td class="left">LEC: MWF 08:00-09:00 REQ;T/D: Th 10:00-11:00</td>
+<td class="left">ELEMENTS OF VISUAL REPRESENTATION</td>
+<td class="left">S T ROY</td>
+
+
 </tr>
 
 <tr>
 <td class="left">ESO206A</td>
 <td class="left">LEC: MWF 09:00-10:00 L1;</td>
 <td class="left">PRINCIPLES OF BIOTECHNOLOGY</td>
- 
- 
+<td class="left">ASHWINI K. THAKUR</td>
+
+
 </tr>
 
 <tr>
 <td class="left">CS345A</td>
 <td class="left">LEC: MWF 09:00-10:00 REQ;</td>
 <td class="left">ALGORITHMS -II</td>
- 
- 
+<td class="left">PIYUSH P. KURUR</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MTH425</td>
 <td class="left">LEC: MWF 09:00-10:00 REQ;T/D: T 09:00-10:00 REQ;</td>
 <td class="left">DISTRIBUTIONS IN STATISTICS</td>
- 
- 
+<td class="left">D KUNDU</td>
+
+
 </tr>
 
 <tr>
 <td class="left">ESO201A</td>
 <td class="left">LEC: MWF 10:00-11:00 L16;T/D: Th 10:00-11:00</td>
 <td class="left">THERMODYNAMICS</td>
- 
- 
+<td class="left">OARS</td>
+
+
 </tr>
 
 <tr>
 <td class="left">ESO202A</td>
 <td class="left">LEC: MWF 10:00-11:00 L17;T/D: Th 10:00-11:00</td>
 <td class="left">MECHANICS OF SOLIDS</td>
- 
- 
+<td class="left">OARS</td>
+
+
 </tr>
 
 <tr>
 <td class="left">ESO203A</td>
 <td class="left">LEC: MWF 10:00-11:00 L1;T/D: Th 10:00-11:00 REQ;</td>
 <td class="left">INTRODUCTION TO ELECTRICAL ENGINEERING</td>
- 
- 
+<td class="left">OARS</td>
+
+
 </tr>
 
 <tr>
 <td class="left">ESO207A</td>
 <td class="left">LEC: MWF 10:00-11:00 L2;</td>
 <td class="left">DATA STRUCTURE &amp; ALGORITHM</td>
- 
- 
+<td class="left">SUMIT GANGULY</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MTH101A</td>
 <td class="left">LEC: MWF 10:00-11:00 L7;T 10:00-11:00 REQ;T/D:</td>
 <td class="left">MATHEMATICS I</td>
- 
- 
+<td class="left">S CHAVAN, N NILAKANTAN</td>
+
 </tr>
 
 <tr>
 <td class="left">ESO204A</td>
 <td class="left">LEC: MWF 11:00-12:00 L16;T/D: Th 11:00-12:00</td>
 <td class="left">FLUID MECHANICS AND RATE PROCESSES</td>
- 
- 
+<td class="left">S PANDA</td>
+
+
 </tr>
 
 <tr>
 <td class="left">ESO208A</td>
 <td class="left">LEC: MWF 11:00-12:00 L17;T/D: Th 11:00-12:00</td>
 <td class="left">COMPUTATIONAL METHODS IN ENGINEERING</td>
- 
- 
+<td class="left">OARS</td>
+
+
 </tr>
 
 <tr>
 <td class="left">ESO205A</td>
 <td class="left">LEC: MWF 11:00-12:00 L2;T/D: Th 11:00-12:00 REQ;</td>
 <td class="left">NATURE AND PROPERTIES OF MATERIALS</td>
- 
- 
+<td class="left">T MAITI</td>
+
+
 </tr>
 
 <tr>
 <td class="left">PHY103A</td>
 <td class="left">LEC: MWF 11:00-12:00 L7;T/D: T 11:00-12:00 REQ;</td>
 <td class="left">PHYSICS-II</td>
- 
- 
+<td class="left">OARS</td>
+
+
 </tr>
 
 <tr>
 <td class="left">EE370A</td>
 <td class="left">LEC: MWF 11:00-12:00 REQ;T/D: T 17:00-18:00 REQ;</td>
 <td class="left">DIGITAL ELECTRONICS</td>
- 
- 
-</tr>
+<td class="left">S S K IYER</td>
 
-<tr>
-<td class="left">MTH305</td>
-<td class="left">LEC: MWF 11:00-12:00 REQ;T/D: Th 11:00-12:00</td>
-<td class="left">SEVERAL VARIABLE CALCULUS &amp; DEFFERENTIAL</td>
- 
- 
+
 </tr>
 
 <tr>
 <td class="left">MTH305A</td>
 <td class="left">LEC: MWF 11:00-12:00 REQ;T/D: Th 11:00-12:00</td>
 <td class="left">SEVERAL VARIABLE CALCULUS &amp; DEFFERENTIAL</td>
- 
- 
+<td class="left">S DUTTA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MTH305</td>
+<td class="left">LEC: MWF 11:00-12:00 REQ;T/D: Th 11:00-12:00</td>
+<td class="left">SEVERAL VARIABLE CALCULUS &amp; DEFFERENTIAL</td>
+<td class="left">S DUTTA</td>
+
+
 </tr>
 
 <tr>
 <td class="left">CHM203A</td>
 <td class="left">LEC: MWF 12:00-13:00 L16;</td>
 <td class="left">BASIC ORGANIC CHEMISTRY-I</td>
- 
- 
+<td class="left">Y D VANKAR</td>
+
+
 </tr>
 
 <tr>
 <td class="left">ESC101A</td>
 <td class="left">LEC: MWF 12:00-13:00 L7;T/D: T 12:00-13:00 REQ;</td>
 <td class="left">FUNDAMENTAL OF COMPUTING</td>
- 
- 
+<td class="left">AMEY KARKARE</td>
+
+
 </tr>
 
 <tr>
 <td class="left">CHE251A</td>
 <td class="left">LEC: MWF 12:00-13:00 REQ;</td>
 <td class="left">INTRODUCTION TO CHE AND PROCESS CALCULATION</td>
- 
- 
+<td class="left">S GARG</td>
+
+
 </tr>
 
 <tr>
 <td class="left">BSE211A</td>
 <td class="left">LEC: MWF 12:00-13:00 REQ;</td>
-<td class="left">ORGAN SYSTEM, PHYSIOLOGY AND ANATOMY</td>
- 
+<td class="left">ORGAN SYSTEM,  PHYSIOLOGY AND ANATOMY</td>
+<td class="left">MAINAK DAS</td>
+
 </tr>
 
 <tr>
 <td class="left">AE201A</td>
 <td class="left">LEC: MWF 12:00-13:00 REQ;</td>
 <td class="left">INTRODUCTION TO AEROSPACE ENGINEERING</td>
- 
- 
-</tr>
+<td class="left">OARS</td>
 
-<tr>
-<td class="left">MTH301</td>
-<td class="left">LEC: MWF 12:00-13:00 REQ;T/D: Th 12:00-13:00</td>
-<td class="left">ANALYSIS - I</td>
- 
- 
-</tr>
 
-<tr>
-<td class="left">MTH301A</td>
-<td class="left">LEC: MWF 12:00-13:00 REQ;T/D: Th 12:00-13:00</td>
-<td class="left">ANALYSIS- I</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">EE200A</td>
-<td class="left">LEC: MWF 12:00-13:00 REQ;T/D: Th 12:00-13:00</td>
-<td class="left">SIGNALS, SYSTEMS &amp; NETWORKS</td>
- 
 </tr>
 
 <tr>
 <td class="left">MSE201A</td>
 <td class="left">LEC: MWF 12:00-13:00 REQ;T/D: Th 12:00-13:00</td>
 <td class="left">THERMODYNAMICS &amp; PHASE EQUILIBRIA</td>
- 
- 
+<td class="left">KAUSTUBH KULKARNI</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE200A</td>
+<td class="left">LEC: MWF 12:00-13:00 REQ;T/D: Th 12:00-13:00</td>
+<td class="left">SIGNALS, SYSTEMS &amp; NETWORKS</td>
+<td class="left">K S VENKATESH</td>
+
+</tr>
+
+<tr>
+<td class="left">MTH301</td>
+<td class="left">LEC: MWF 12:00-13:00 REQ;T/D: Th 12:00-13:00</td>
+<td class="left">ANALYSIS - I</td>
+<td class="left">P MOHANTY</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MTH301A</td>
+<td class="left">LEC: MWF 12:00-13:00 REQ;T/D: Th 12:00-13:00</td>
+<td class="left">ANALYSIS- I</td>
+<td class="left">P MOHANTY</td>
+
+
 </tr>
 
 <tr>
 <td class="left">PHY102A</td>
 <td class="left">LEC: MWF 15:00-16:00 L7;T/D: Th 15:00-16:00 REQ;</td>
 <td class="left">PHYSICS-I</td>
- 
- 
+<td class="left">OARS</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MTH691</td>
 <td class="left">LEC: MWF 17:00-18:00 REQ;</td>
 <td class="left">NUMERICAL LINEAR ALGEBRA</td>
- 
- 
-</tr>
+<td class="left">RKS RATHORE</td>
 
-<tr>
-<td class="left">PHI448A</td>
-<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
-<td class="left">INDIVIDUAL VS AUTHORITY</td>
- 
- 
-</tr>
 
-<tr>
-<td class="left">HSS403</td>
-<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
-<td class="left">SOCIAL AND BEHAVIOURAL ASPECTS OF HEALTH</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">ENG445</td>
-<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
-<td class="left">LITERATURE &amp; THE INDIVIDUAL</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">PSY458</td>
-<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
-<td class="left">ORGANIZATIONAL AND ADMINISTRATIVE PSYCHOLOGY</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">PHI448</td>
-<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
-<td class="left">INDIVIDUAL VS AUTHORITY</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">CHM345A</td>
-<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
-<td class="left">INORGANIC CHEMISTRY I</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">ENG445A</td>
-<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
-<td class="left">LITERATURE &amp; THE INDIVIDUAL</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">MSE628A</td>
-<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
-<td class="left">ELECTRONIC DEVICES AND CHARACTERIZATION</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">MSE628</td>
-<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
-<td class="left">ELECTRONIC DEVICES AND CHARACTERIZATION</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">ME662</td>
-<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
-<td class="left">MACHINING SCIENCE II</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">PSY451A</td>
-<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
-<td class="left">PSYCHOLOGY OF ADJUSTMENT</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">SE367</td>
-<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
-<td class="left">INTRODUCTION TO COGNITIVE SEIENCE</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">PSY451</td>
-<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
-<td class="left">PSYCHOLOGY OF ADJUSTMENT</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">PSY458A</td>
-<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
-<td class="left">ORGANIZATIONAL AND ADMINISTRATIVE PSYCHOLOGY</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">ME685</td>
-<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
-<td class="left">PROGRAMMING AND NUMERICAL ANALYSIS</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">HSS403A</td>
-<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
-<td class="left">SOCIAL AND BEHAVIOURAL ASPECTS OF HEALTH</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">SOC473</td>
-<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
-<td class="left">INDIAN SOCIETY AND CULTURE</td>
- 
- 
 </tr>
 
 <tr>
 <td class="left">SOC473A</td>
 <td class="left">LEC: MWF 17:00-18:00 REQ;</td>
 <td class="left">INDIAN SOCIETY AND CULTURE</td>
- 
- 
+<td class="left">A CHAKRABARTY</td>
+
+
+</tr>
+
+<tr>
+<td class="left">HSS403</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">SOCIAL AND BEHAVIOURAL ASPECTS OF HEALTH</td>
+<td class="left">SHIKHA DIXIT</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MSE628A</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">ELECTRONIC DEVICES AND CHARACTERIZATION</td>
+<td class="left">DEEPAK GUPTA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">SOC473</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">INDIAN SOCIETY AND CULTURE</td>
+<td class="left">A CHAKRABARTY</td>
+
+
+</tr>
+
+<tr>
+<td class="left">SE367</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">INTRODUCTION TO COGNITIVE SEIENCE</td>
+<td class="left">AMITABHA MUKERJEE</td>
+
+
+</tr>
+
+<tr>
+<td class="left">PSY451A</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">PSYCHOLOGY OF ADJUSTMENT</td>
+<td class="left">BRAJ BHUSHAN</td>
+
+
+</tr>
+
+<tr>
+<td class="left">ENG445A</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">LITERATURE &amp; THE INDIVIDUAL</td>
+<td class="left">T RAVICHANDRAN</td>
+
+
+</tr>
+
+<tr>
+<td class="left">ME685</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">PROGRAMMING AND NUMERICAL ANALYSIS</td>
+<td class="left">N N KISHOR</td>
+
+
+</tr>
+
+<tr>
+<td class="left">PSY451</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">PSYCHOLOGY OF ADJUSTMENT</td>
+<td class="left">BRAJ BHUSHAN</td>
+
+
+</tr>
+
+<tr>
+<td class="left">HSS403A</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">SOCIAL AND BEHAVIOURAL ASPECTS OF HEALTH</td>
+<td class="left">SHIKHA DIXIT</td>
+
+
 </tr>
 
 <tr>
 <td class="left">CHM441</td>
 <td class="left">LEC: MWF 17:00-18:00 REQ;</td>
 <td class="left">INORGANIC CHEMISTRY I</td>
- 
- 
-</tr>
+<td class="left">R ANGAMUTHU</td>
 
-<tr>
-<td class="left">MTH691A</td>
-<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
-<td class="left">NUMERICAL LINEAR ALGEBRA</td>
- 
- 
+
 </tr>
 
 <tr>
 <td class="left">CE642</td>
 <td class="left">LEC: MWF 17:00-18:00 REQ;</td>
 <td class="left">GEOLOGICAL HAZARDS</td>
- 
- 
+<td class="left">J N MALIK</td>
+
+
+</tr>
+
+<tr>
+<td class="left">ENG445</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">LITERATURE &amp; THE INDIVIDUAL</td>
+<td class="left">T RAVICHANDRAN</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MTH691A</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">NUMERICAL LINEAR ALGEBRA</td>
+<td class="left">RKS RATHORE</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MSE628</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">ELECTRONIC DEVICES AND CHARACTERIZATION</td>
+<td class="left">DEEPAK GUPTA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">PSY458A</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">ORGANIZATIONAL AND ADMINISTRATIVE PSYCHOLOGY</td>
+<td class="left">ARVIND K SINHA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">ME662</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">MACHINING SCIENCE II</td>
+<td class="left">SHANTANU BHATTACHARYA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">PHI448</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">INDIVIDUAL VS AUTHORITY</td>
+<td class="left">VINEET SAHU</td>
+
+
+</tr>
+
+<tr>
+<td class="left">PSY458</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">ORGANIZATIONAL AND ADMINISTRATIVE PSYCHOLOGY</td>
+<td class="left">ARVIND K SINHA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">PHI448A</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">INDIVIDUAL VS AUTHORITY</td>
+<td class="left">VINEET SAHU</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CHM345A</td>
+<td class="left">LEC: MWF 17:00-18:00 REQ;</td>
+<td class="left">INORGANIC CHEMISTRY I</td>
+<td class="left">R ANGAMUTHU</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MTH204A</td>
 <td class="left">LEC: MWF 17:00-18:00 REQ;T/D: T 17:00-18:00 REQ;</td>
 <td class="left">ABSTRACT ALGEBRA</td>
- 
- 
+<td class="left">S PATTANAYAK</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MTH204</td>
 <td class="left">LEC: MWF 17:00-18:00 REQ;T/D: T 17:00-18:00 REQ;</td>
 <td class="left">ALGEBRA I</td>
- 
- 
+<td class="left">S PATTANAYAK</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MTH102A</td>
 <td class="left">LEC: MWTh 17:00-18:00 L6;T/D: T 17:00-18:00 L6;</td>
 <td class="left">MATHEMATICS - II</td>
- 
- 
+<td class="left">A K LAL</td>
+
+
 </tr>
 
 <tr>
 <td class="left">TA202A</td>
 <td class="left">LEC: T 08:00-09:00 L7;</td>
 <td class="left">MANUFACTURING PROCESSES II</td>
- 
- 
+<td class="left">OARS</td>
+
+
 </tr>
 
 <tr>
 <td class="left">TA201A</td>
 <td class="left">LEC: T 09:00-10:00 L7;</td>
 <td class="left">MANUFACTURING PROCESSES I</td>
- 
- 
+<td class="left">SHASHANK SHEKHAR</td>
+
+
 </tr>
 
 <tr>
 <td class="left">BSE301A</td>
 <td class="left">LEC: T 10:00-11:00 REQ;</td>
 <td class="left">SCIENTIFIC &amp; PROFESSIONAL COMMUNICATION</td>
- 
- 
+<td class="left">PRADIP SINHA</td>
+
+
 </tr>
 
 <tr>
 <td class="left">AE401A</td>
 <td class="left">LEC: T 10:00-11:00 REQ;</td>
 <td class="left">TECHNICAL COMMUNICATION</td>
- 
- 
+<td class="left">OARS</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MTH399A</td>
 <td class="left">LEC: T 10:00-12:00 REQ;</td>
 <td class="left">TECHNICAL COMMUNICATION</td>
- 
- 
-</tr>
+<td class="left">S MADAN</td>
 
-<tr>
-<td class="left">CE638</td>
-<td class="left">LEC: T 11:00-12:00 REQ;WF 16:00-17:00 REQ;</td>
-<td class="left">GEOTECHNICAL MEASUREMENTS AND EXPLORATION</td>
- 
- 
-</tr>
 
-<tr>
-<td class="left">MSE664A</td>
-<td class="left">LEC: T 11:00-12:00 REQ;WF 16:00-17:00 REQ;</td>
-<td class="left">SOLID STATE IONICS</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">CHM646A</td>
-<td class="left">LEC: T 11:00-12:00 REQ;WF 16:00-17:00 REQ;</td>
-<td class="left">BIO-INORGANIC CHEMISTRY</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">PHY679</td>
-<td class="left">LEC: T 11:00-12:00 REQ;WF 16:00-17:00 REQ;</td>
-<td class="left">THE STANDARD MODEL OF FUNDAMENTAL PHYSICS</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">MSE664</td>
-<td class="left">LEC: T 11:00-12:00 REQ;WF 16:00-17:00 REQ;</td>
-<td class="left">SOLID STATE IONICS</td>
- 
- 
 </tr>
 
 <tr>
 <td class="left">CHM646</td>
 <td class="left">LEC: T 11:00-12:00 REQ;WF 16:00-17:00 REQ;</td>
 <td class="left">BIO-INORGANIC CHEMISTRY</td>
- 
- 
+<td class="left">A K PATRA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CE638</td>
+<td class="left">LEC: T 11:00-12:00 REQ;WF 16:00-17:00 REQ;</td>
+<td class="left">GEOTECHNICAL MEASUREMENTS AND EXPLORATION</td>
+<td class="left">N R PATRA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">PHY679</td>
+<td class="left">LEC: T 11:00-12:00 REQ;WF 16:00-17:00 REQ;</td>
+<td class="left">THE STANDARD MODEL OF FUNDAMENTAL PHYSICS</td>
+<td class="left">PANKAJ JAIN</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CHM646A</td>
+<td class="left">LEC: T 11:00-12:00 REQ;WF 16:00-17:00 REQ;</td>
+<td class="left">BIO-INORGANIC CHEMISTRY</td>
+<td class="left">A K PATRA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MSE664A</td>
+<td class="left">LEC: T 11:00-12:00 REQ;WF 16:00-17:00 REQ;</td>
+<td class="left">SOLID STATE IONICS</td>
+<td class="left">SHOBHIT OMAR</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MSE664</td>
+<td class="left">LEC: T 11:00-12:00 REQ;WF 16:00-17:00 REQ;</td>
+<td class="left">SOLID STATE IONICS</td>
+<td class="left">SHOBHIT OMAR</td>
+
+
 </tr>
 
 <tr>
 <td class="left">CS698R</td>
 <td class="left">LEC: T 11:00-12:00 REQ;WF 16:00-17:00 REQ;Th</td>
 <td class="left">TOPICS IN LINEAR PROGRAMMING</td>
- 
- 
+<td class="left">RAJAT MITTAL</td>
+
+
 </tr>
 
 <tr>
 <td class="left">CHE701</td>
 <td class="left">LEC: T 12:00-13:00 REQ;</td>
 <td class="left">M. TECH. SEMINAR</td>
- 
- 
+<td class="left">P K BHATTACHARYA</td>
+
+
 </tr>
 
 <tr>
 <td class="left">CHE313A</td>
 <td class="left">LEC: T 12:00-13:00 REQ;W 16:00-17:00 REQ;Th</td>
 <td class="left">MASS TRANSFER &amp; ITS APPLICATIONS</td>
- 
- 
-</tr>
+<td class="left">J K SINGH</td>
 
-<tr>
-<td class="left">ECO321A</td>
-<td class="left">LEC: T 12:00-13:00 REQ;WF 16:00-17:00 REQ;</td>
-<td class="left">MACROECONOMICS-II</td>
- 
- 
+
 </tr>
 
 <tr>
 <td class="left">AE321A</td>
 <td class="left">LEC: T 12:00-13:00 REQ;WF 16:00-17:00 REQ;</td>
 <td class="left">FLIGHT MECHANICS I</td>
- 
- 
+<td class="left">OARS</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MTH401</td>
 <td class="left">LEC: T 12:00-13:00 REQ;WF 16:00-17:00 REQ;</td>
 <td class="left">THEORY OF COMPUTATION</td>
- 
- 
+<td class="left">MOHUA BANERJEE</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MTH401A</td>
 <td class="left">LEC: T 12:00-13:00 REQ;WF 16:00-17:00 REQ;</td>
 <td class="left">THEORY OF COMPUTATION</td>
- 
- 
+<td class="left">MOHUA BANERJEE</td>
+
+
+</tr>
+
+<tr>
+<td class="left">ECO321A</td>
+<td class="left">LEC: T 12:00-13:00 REQ;WF 16:00-17:00 REQ;</td>
+<td class="left">MACROECONOMICS-II</td>
+<td class="left">OARS</td>
+
+
 </tr>
 
 <tr>
 <td class="left">BSE412A</td>
 <td class="left">LEC: T 17:00-18:00 BSBH;</td>
 <td class="left">BIOMATERIAL, PHYSIOLOGY &amp; BIO-MEMS LABORATORY</td>
- 
+<td class="left">DHIRENDRA S. KATTI, MAINAK DAS</td>
 </tr>
 
 <tr>
 <td class="left">BSE491</td>
 <td class="left">LEC: T 17:00-18:00 REQ;</td>
 <td class="left">BSBE LAB IV BIOMECHANICS &amp; BIOMATERIALS</td>
- 
- 
+<td class="left">DHIRENDRA S. KATTI, MAINAK DAS</td>
+
 </tr>
 
 <tr>
 <td class="left">PHY601</td>
 <td class="left">LEC: T 17:00-18:00 REQ;T/D: W 12:00-13:30 REQ;F</td>
 <td class="left">REVIEW OF CLASSICAL PHYSICS I</td>
- 
- 
+<td class="left">S MUKHERJEE</td>
+
+
 </tr>
 
 <tr>
 <td class="left">CE620</td>
 <td class="left">LEC: T 17:00-18:00 REQ;W 12:00-13:00 REQ;F</td>
 <td class="left">STRUCTURAL DYNAMICS</td>
- 
- 
+<td class="left">VINAY K GUPTA</td>
+
+
 </tr>
 
 <tr>
 <td class="left">AE331A</td>
 <td class="left">LEC: T 17:00-18:00 REQ;WF 14:00-15:00 REQ;</td>
 <td class="left">INTRODUCTION TO AEROSPACE STRUCTURES</td>
- 
- 
+<td class="left">OARS</td>
+
+
 </tr>
 
 <tr>
 <td class="left">ECO411A</td>
 <td class="left">LEC: T 17:00-18:00 REQ;WF 14:00-15:00 REQ;</td>
 <td class="left">INDUSTRIAL ECONOMICS</td>
- 
- 
+<td class="left">OARS</td>
+
+
 </tr>
 
 <tr>
 <td class="left">EE380A</td>
 <td class="left">LEC: T/D: T 12:00-13:00 REQ;Th 17:00-18:00 REQ;F</td>
 <td class="left">ELECTRICAL ENGINEERING LAB I</td>
- 
- 
+<td class="left">Y N SINGH</td>
+
+
 </tr>
 
 <tr>
 <td class="left">CHM102A</td>
 <td class="left">LEC: TF 08:00-09:00 L8;T/D: Th 08:00-09:00 L8;</td>
 <td class="left">GENERAL CHEMISTRY</td>
- 
- 
-</tr>
+<td class="left">G ANANTHARAMAN,  P SEN</td>
 
-<tr>
-<td class="left">CS602</td>
-<td class="left">LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;</td>
-<td class="left">DESIGN AND ANALYSIS OF ALGORITHMS</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">MSE648A</td>
-<td class="left">LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;</td>
-<td class="left">DIFFUSION IN SOLIDS</td>
- 
- 
 </tr>
 
 <tr>
 <td class="left">EE605A</td>
 <td class="left">LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;</td>
 <td class="left">INTRODUCTION TO SIGNAL ANALYSIS</td>
- 
- 
-</tr>
+<td class="left">A K CHATURVEDI</td>
 
-<tr>
-<td class="left">MSE648</td>
-<td class="left">LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;</td>
-<td class="left">DIFFUSION IN SOLIDS</td>
- 
- 
-</tr>
 
-<tr>
-<td class="left">MSE682A</td>
-<td class="left">LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;</td>
-<td class="left">COMPUTER SIMULATIONS IN MATERIALS SCIENCE</td>
- 
- 
 </tr>
 
 <tr>
 <td class="left">MSE682</td>
 <td class="left">LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;</td>
 <td class="left">COMPUTER SIMULATIONS IN MATERIALS SCIENCE</td>
- 
- 
+<td class="left">SOMNATH BHOWMICK</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CS602</td>
+<td class="left">LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;</td>
+<td class="left">DESIGN AND ANALYSIS OF ALGORITHMS</td>
+<td class="left">SANJEEV SAXENA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MSE648</td>
+<td class="left">LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;</td>
+<td class="left">DIFFUSION IN SOLIDS</td>
+<td class="left">S INGOLE</td>
+
+
 </tr>
 
 <tr>
 <td class="left">EE605</td>
 <td class="left">LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;</td>
 <td class="left">INTRODUCTION TO SIGNAL ANALYSIS</td>
- 
- 
+<td class="left">A K CHATURVEDI</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MSE682A</td>
+<td class="left">LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;</td>
+<td class="left">COMPUTER SIMULATIONS IN MATERIALS SCIENCE</td>
+<td class="left">SOMNATH BHOWMICK</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MSE648A</td>
+<td class="left">LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;</td>
+<td class="left">DIFFUSION IN SOLIDS</td>
+<td class="left">S INGOLE</td>
+
+
 </tr>
 
 <tr>
 <td class="left">CE621N</td>
 <td class="left">LEC: TF 12:00-13:30 REQ;</td>
 <td class="left">ENGINEERING MECHANICS</td>
- 
- 
+<td class="left">S K MISHRA</td>
+
+
 </tr>
 
 <tr>
 <td class="left">SE314</td>
 <td class="left">LEC: TF 12:00-13:30 REQ;T/D: W 12:00-13:00 REQ;</td>
 <td class="left">CLASSICAL MECHANICS</td>
- 
- 
+<td class="left">S CHAKRABORTY</td>
+
+
 </tr>
 
 <tr>
 <td class="left">PHY401A</td>
 <td class="left">LEC: TF 12:00-13:30 REQ;T/D: W 12:00-13:00 REQ;</td>
 <td class="left">CLASSICAL MECHANICS</td>
- 
- 
+<td class="left">S CHAKRABORTY</td>
+
+
 </tr>
 
 <tr>
 <td class="left">TA101A</td>
 <td class="left">LEC: TTh 14:00-15:00 L7;</td>
 <td class="left">ENGINEERING GRAPHICS</td>
- 
- 
+<td class="left">OARS</td>
+
+
 </tr>
 
 <tr>
 <td class="left">CE361A</td>
 <td class="left">LEC: TTh 17:00-18:00 REQ;</td>
 <td class="left">ENGINEERING HYDROLOGY</td>
- 
- 
+<td class="left">SHIVAM TRIPATHI</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MSE301A</td>
 <td class="left">LEC: TTh 17:00-18:00 REQ;</td>
 <td class="left">PHASE TRANSFORMATIONS</td>
- 
- 
-</tr>
+<td class="left">K BISWAS, I MANNA</td>
 
-<tr>
-<td class="left">CHE674</td>
-<td class="left">LEC: TTh 17:00-18:30 REQ;</td>
-<td class="left">INTRODUCTION TO NANOSCIENCE AND TECHNOLOGY</td>
- 
- 
 </tr>
 
 <tr>
 <td class="left">ME724</td>
 <td class="left">LEC: TTh 17:00-18:30 REQ;</td>
 <td class="left">MECHANICS OF BIOLOGICAL MEMBRANES</td>
- 
- 
+<td class="left">SOVAN LAL DAS</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CHE674</td>
+<td class="left">LEC: TTh 17:00-18:30 REQ;</td>
+<td class="left">INTRODUCTION TO NANOSCIENCE AND TECHNOLOGY</td>
+<td class="left">S SIVA KUMAR</td>
+
+
 </tr>
 
 <tr>
 <td class="left">PHY224A</td>
 <td class="left">LEC: TW 17:00-18:00 REQ;</td>
 <td class="left">OPTICS</td>
- 
- 
-</tr>
+<td class="left">S A RAMAKRISHNA, S GHOSH</td>
 
-<tr>
-<td class="left">ART401A</td>
-<td class="left">LEC: TWF 12:00-13:00 REQ;</td>
-<td class="left">APPRECIATING FAR-EASTERN CINEMA</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">ENG448</td>
-<td class="left">LEC: TWF 12:00-13:00 REQ;</td>
-<td class="left">LANGAUGES OF SOUTH ASIA</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">ECO501A</td>
-<td class="left">LEC: TWF 12:00-13:00 REQ;</td>
-<td class="left">ENVIROMENTAL ECONOMICS AND POLICY</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">ECO501</td>
-<td class="left">LEC: TWF 12:00-13:00 REQ;</td>
-<td class="left">ENVIROMENTAL ECONOMICS AND POLICY</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">ART402A</td>
-<td class="left">LEC: TWF 12:00-13:00 REQ;</td>
-<td class="left">MODERN ART</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">ART401</td>
-<td class="left">LEC: TWF 12:00-13:00 REQ;</td>
-<td class="left">APPRECIATING FAR-EASTERN CINEMA</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">ART402</td>
-<td class="left">LEC: TWF 12:00-13:00 REQ;</td>
-<td class="left">MODERN ART</td>
- 
- 
 </tr>
 
 <tr>
 <td class="left">ECO201A</td>
 <td class="left">LEC: TWF 12:00-13:00 REQ;</td>
 <td class="left">MICROECONOMICS I</td>
- 
- 
+<td class="left">S SINHA</td>
+
+
 </tr>
 
 <tr>
 <td class="left">ECO201</td>
 <td class="left">LEC: TWF 12:00-13:00 REQ;</td>
 <td class="left">MICROECONOMICS - I</td>
- 
- 
+<td class="left">S SINHA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">ECO501A</td>
+<td class="left">LEC: TWF 12:00-13:00 REQ;</td>
+<td class="left">ENVIROMENTAL ECONOMICS AND POLICY</td>
+<td class="left">P M PRASAD</td>
+
+
+</tr>
+
+<tr>
+<td class="left">ART402A</td>
+<td class="left">LEC: TWF 12:00-13:00 REQ;</td>
+<td class="left">MODERN ART</td>
+<td class="left">K P PATIL</td>
+
+
+</tr>
+
+<tr>
+<td class="left">ART401A</td>
+<td class="left">LEC: TWF 12:00-13:00 REQ;</td>
+<td class="left">APPRECIATING FAR-EASTERN CINEMA</td>
+<td class="left">R BHOWMIK</td>
+
+
+</tr>
+
+<tr>
+<td class="left">ECO501</td>
+<td class="left">LEC: TWF 12:00-13:00 REQ;</td>
+<td class="left">ENVIROMENTAL ECONOMICS AND POLICY</td>
+<td class="left">P M PRASAD</td>
+
+
 </tr>
 
 <tr>
 <td class="left">ENG448A</td>
 <td class="left">LEC: TWF 12:00-13:00 REQ;</td>
 <td class="left">LANGAUGES OF SOUTH ASIA</td>
- 
- 
+<td class="left">C PUTTASWAMY</td>
+
+
+</tr>
+
+<tr>
+<td class="left">ART401</td>
+<td class="left">LEC: TWF 12:00-13:00 REQ;</td>
+<td class="left">APPRECIATING FAR-EASTERN CINEMA</td>
+<td class="left">R BHOWMIK</td>
+
+
+</tr>
+
+<tr>
+<td class="left">ART402</td>
+<td class="left">LEC: TWF 12:00-13:00 REQ;</td>
+<td class="left">MODERN ART</td>
+<td class="left">K P PATIL</td>
+
+
+</tr>
+
+<tr>
+<td class="left">ENG448</td>
+<td class="left">LEC: TWF 12:00-13:00 REQ;</td>
+<td class="left">LANGAUGES OF SOUTH ASIA</td>
+<td class="left">C PUTTASWAMY</td>
+
+
 </tr>
 
 <tr>
 <td class="left">CS210A</td>
 <td class="left">LEC: TWF 12:00-13:00 REQ;</td>
 <td class="left">DATA STRUCTURE AND ALGORITHMS</td>
- 
- 
+<td class="left">SURENDER BASWANA</td>
+
+
 </tr>
 
 <tr>
 <td class="left">BSE411A</td>
 <td class="left">LEC: TWTh 08:00-09:00 BSBH;</td>
 <td class="left">BIOMATERIALS</td>
- 
- 
-</tr>
+<td class="left">DHIRENDRA S. KATTI</td>
 
-<tr>
-<td class="left">CHM621A</td>
-<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
-<td class="left">CHEMICAL BINDING</td>
- 
- 
-</tr>
 
-<tr>
-<td class="left">CS330A</td>
-<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
-<td class="left">OPERATING SYSTEMS</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">CHE453A</td>
-<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
-<td class="left">CHEMICAL ENGINEERING DESIGN</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">ME621</td>
-<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
-<td class="left">INTRODUCTION TO SOLID MECHANICS</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">EE630</td>
-<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
-<td class="left">SIMULATON OF MODERN POWER SYSTEMS</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">ECO412A</td>
-<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
-<td class="left">INTERNATIONAL ECONOMICS AND FINANCE</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">ME401A</td>
-<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
-<td class="left">ENERGY SYSTEMS-II</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">BSE640A</td>
-<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
-<td class="left">BIOMATERIALS</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">AE441A</td>
-<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
-<td class="left">TURBO-MACHINERY</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">ME631</td>
-<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
-<td class="left">VISCOUS FLOW THEORY</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">EE630A</td>
-<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
-<td class="left">SIMULATON OF MODERN POWER SYSTEMS</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">CHM621</td>
-<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
-<td class="left">CHEMICAL BINDING</td>
- 
- 
-</tr>
-
-<tr>
-<td class="left">CE331A</td>
-<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
-<td class="left">GEOINFORMATICS</td>
- 
- 
 </tr>
 
 <tr>
 <td class="left">CE631N</td>
 <td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
 <td class="left">ADVANCED GEOTECHNICAL ENGINEERING</td>
- 
- 
+<td class="left">S CHANDRA</td>
+
+
 </tr>
 
 <tr>
-<td class="left">CHE601</td>
+<td class="left">ME621</td>
 <td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
-<td class="left">FUNDAMENTALS OF CHEMICAL ENGINEERING -I</td>
- 
- 
+<td class="left">INTRODUCTION TO SOLID MECHANICS</td>
+<td class="left">ANURAJ GUPTA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE630</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
+<td class="left">SIMULATON OF MODERN POWER SYSTEMS</td>
+<td class="left">S C SRIVASTAVA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">BSE640A</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
+<td class="left">BIOMATERIALS</td>
+<td class="left">DHIRENDRA S. KATTI</td>
+
+
+</tr>
+
+<tr>
+<td class="left">ECO412A</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
+<td class="left">INTERNATIONAL ECONOMICS AND FINANCE</td>
+<td class="left">OARS</td>
+
+
+</tr>
+
+<tr>
+<td class="left">ME401A</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
+<td class="left">ENERGY SYSTEMS-II</td>
+<td class="left">A K SAHA</td>
+
+
 </tr>
 
 <tr>
 <td class="left">PHY631</td>
 <td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
 <td class="left">PHYSICS OF SEMICONDUCTOR NANOSTRUCTURES</td>
- 
- 
+<td class="left">Y N MOHAPATRA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CHE601</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
+<td class="left">FUNDAMENTALS OF CHEMICAL ENGINEERING -I</td>
+<td class="left">R CHHABRA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CHE453A</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
+<td class="left">CHEMICAL ENGINEERING DESIGN</td>
+<td class="left">N KAISTHA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE630A</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
+<td class="left">SIMULATON OF MODERN POWER SYSTEMS</td>
+<td class="left">S C SRIVASTAVA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CE331A</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
+<td class="left">GEOINFORMATICS</td>
+<td class="left">O DIKSHIT</td>
+
+
+</tr>
+
+<tr>
+<td class="left">ME631</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
+<td class="left">VISCOUS FLOW THEORY</td>
+<td class="left">K MURALIDHAR</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CHM621A</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
+<td class="left">CHEMICAL BINDING</td>
+<td class="left">S R GADRE</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CS330A</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
+<td class="left">OPERATING SYSTEMS</td>
+<td class="left">MAINAK CHAUDHURI</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MSE302A</td>
 <td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
 <td class="left">MECHANICAL BEHAVIOUR OF MATERIALS</td>
- 
- 
+<td class="left">N P GURAO</td>
+
+
 </tr>
 
 <tr>
-<td class="left">EE320A</td>
-<td class="left">LEC: TWTh 08:00-09:00 REQ;T/D: F 15:00-16:00</td>
-<td class="left">PRINCIPLES OF COMMUNICATION</td>
- 
- 
+<td class="left">CHM621</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
+<td class="left">CHEMICAL BINDING</td>
+<td class="left">S R GADRE</td>
+
+
 </tr>
 
 <tr>
-<td class="left">MTH423</td>
-<td class="left">LEC: TWTh 08:00-09:00 REQ;T/D: F 15:00-16:00</td>
-<td class="left">INTRODUCTION TO CONTINUUM MACHANICS</td>
- 
- 
+<td class="left">AE441A</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;</td>
+<td class="left">TURBO-MACHINERY</td>
+<td class="left">OARS</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MTH423A</td>
 <td class="left">LEC: TWTh 08:00-09:00 REQ;T/D: F 15:00-16:00</td>
 <td class="left">INTRODUCTION TO CONTINUUM MACHANICS</td>
- 
- 
+<td class="left">P SINHA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MTH423</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;T/D: F 15:00-16:00</td>
+<td class="left">INTRODUCTION TO CONTINUUM MACHANICS</td>
+<td class="left">P SINHA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE320A</td>
+<td class="left">LEC: TWTh 08:00-09:00 REQ;T/D: F 15:00-16:00</td>
+<td class="left">PRINCIPLES OF COMMUNICATION</td>
+<td class="left">K VASUDEVAN</td>
+
+
 </tr>
 
 <tr>
 <td class="left">PHY552A</td>
 <td class="left">LEC: TWTh 08:00-09:00 REQ;T/D: M 17:00-18:00</td>
 <td class="left">CLASSICAL ELECTRODYNAMICS I</td>
- 
- 
+<td class="left">PANKAJ JAIN</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MS698</td>
 <td class="left">LEC: Th 16:00-17:00 ACMS110;</td>
 <td class="left">GRADUATE SEMINAR</td>
- 
- 
+<td class="left">K K KAR</td>
+
+
 </tr>
 
 <tr>
 <td class="left">BSE312A</td>
 <td class="left">LEC: Th 17:00-18:00 BSBH;</td>
 <td class="left">MOLECULAR BIOLOGY LAB</td>
- 
- 
+<td class="left">PRADIP SINHA</td>
+
+
 </tr>
 
 <tr>
 <td class="left">ME251A</td>
 <td class="left">LEC: W 12:00-13:00 REQ;</td>
 <td class="left">ENGINEERING DESIGN AND GRAPHICS</td>
- 
- 
+<td class="left">NACHIKETA TEWARI</td>
+
+
 </tr>
 
 <tr>
 <td class="left">CHE352A</td>
 <td class="left">LEC: W 14:00-15:00 REQ;</td>
 <td class="left">CHEMICAL PROCESS SIMULATION LAB</td>
- 
- 
+<td class="left">P APTE</td>
+
+
 </tr>
 
 <tr>
 <td class="left">CHE492A</td>
 <td class="left">LEC: W 15:00-16:00 REQ;</td>
 <td class="left">UNIT OPERATIONS AND PROCESS CONTROL LABORATORY</td>
- 
- 
+<td class="left">D KUNZRU</td>
+
+
 </tr>
 
 <tr>
 <td class="left">EEM603</td>
 <td class="left">LEC: W 17:00-18:30 REQ;F 17:00-18:00 REQ;</td>
 <td class="left">ECOLOGICAL AND BIOLOGICAL PRINCIPLES AND PROCESS</td>
-</tr>
+<td class="left">VINOD TARE</td>
 
-<tr>
-<td class="left">CS601</td>
-<td class="left">LEC: WF 09:00-10:30 REQ;</td>
-<td class="left">MATHEMATICS FOR COMPUTER SCIENCE</td>
-</tr>
 
-<tr>
-<td class="left">CHM698</td>
-<td class="left">LEC: WF 09:00-10:30 REQ;</td>
-<td class="left">CHEMISTRY OF DRUG DESIGN AND METABOLISM</td>
-</tr>
-
-<tr>
-<td class="left">MSE693</td>
-<td class="left">LEC: WF 09:00-10:30 REQ;</td>
-<td class="left">MATERIALS SCIENCE TECHNOLOGIES FOR APPLICATIONS</td>
-</tr>
-
-<tr>
-<td class="left">BSE613A</td>
-<td class="left">LEC: WF 09:00-10:30 REQ;</td>
-<td class="left">CELL &amp; MOLECULAR BIOLOGY</td>
-</tr>
-
-<tr>
-<td class="left">ME623</td>
-<td class="left">LEC: WF 09:00-10:30 REQ;</td>
-<td class="left">FINITE ELEMENT METHODS IN ENGINEERING MECHANICS</td>
-</tr>
-
-<tr>
-<td class="left">EE624</td>
-<td class="left">LEC: WF 09:00-10:30 REQ;</td>
-<td class="left">INFORMATION AND CODING THEORY</td>
-</tr>
-
-<tr>
-<td class="left">CHM650</td>
-<td class="left">LEC: WF 09:00-10:30 REQ;</td>
-<td class="left">STATISTICAL MECHANICS &amp; ITS APPL. TO CHEMISTRY</td>
-</tr>
-
-<tr>
-<td class="left">MSE659A</td>
-<td class="left">LEC: WF 09:00-10:30 REQ;</td>
-<td class="left">POWDER METALLURGY</td>
-</tr>
-
-<tr>
-<td class="left">MTH658A</td>
-<td class="left">LEC: WF 09:00-10:30 REQ;</td>
-<td class="left">NONLINEAR DYNAMICAL SYSTEMS</td>
-</tr>
-
-<tr>
-<td class="left">ME667</td>
-<td class="left">LEC: WF 09:00-10:30 REQ;</td>
-<td class="left">ADHESION, FRICTION AND LUBRICATION FOR</td>
- 
-</tr>
-
-<tr>
-<td class="left">EE664A</td>
-<td class="left">LEC: WF 09:00-10:30 REQ;</td>
-<td class="left">FUNDAMENTALS OF ELECTRIC DRIVES</td>
-</tr>
-
-<tr>
-<td class="left">EE664</td>
-<td class="left">LEC: WF 09:00-10:30 REQ;</td>
-<td class="left">FUNDAMENTALS OF ELECTRIC DRIVES</td>
-</tr>
-
-<tr>
-<td class="left">CE683</td>
-<td class="left">LEC: WF 09:00-10:30 REQ;</td>
-<td class="left">TRAFFIC ENGINEERING</td>
-</tr>
-
-<tr>
-<td class="left">MSE693A</td>
-<td class="left">LEC: WF 09:00-10:30 REQ;</td>
-<td class="left">MATERIALS SCIENCE TECHNOLOGIES FOR APPLICATIONS</td>
-</tr>
-
-<tr>
-<td class="left">ME725</td>
-<td class="left">LEC: WF 09:00-10:30 REQ;</td>
-<td class="left">MICRO-MECHANICS</td>
-</tr>
-
-<tr>
-<td class="left">PHY690K</td>
-<td class="left">LEC: WF 09:00-10:30 REQ;</td>
-<td class="left">QUANTUM DYNAMICS, INFORMATION AND COMPUTATION</td>
- 
-</tr>
-
-<tr>
-<td class="left">CHM698A</td>
-<td class="left">LEC: WF 09:00-10:30 REQ;</td>
-<td class="left">CHEMISTRY OF DRUG DESIGN AND METABOLISM</td>
 </tr>
 
 <tr>
 <td class="left">CE616</td>
 <td class="left">LEC: WF 09:00-10:30 REQ;</td>
 <td class="left">SEDIMENT TRANSPORTATION</td>
+<td class="left">SHIVAM TRIPATHI</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CE683</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">TRAFFIC ENGINEERING</td>
+<td class="left">P CHAKROBORTHY</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CHM698A</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">CHEMISTRY OF DRUG DESIGN AND METABOLISM</td>
+<td class="left">S VERMA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">BSE613A</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">CELL &amp; MOLECULAR BIOLOGY</td>
+<td class="left">BUSHRA ATEEQ</td>
+
+
+</tr>
+
+<tr>
+<td class="left">ME623</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">FINITE ELEMENT METHODS IN ENGINEERING MECHANICS</td>
+<td class="left">P VENKITANARAYANAN</td>
+
+
 </tr>
 
 <tr>
 <td class="left">EE624A</td>
 <td class="left">LEC: WF 09:00-10:30 REQ;</td>
 <td class="left">INFORMATION AND CODING THEORY</td>
+<td class="left">R K BANSAL</td>
+
+
 </tr>
 
 <tr>
-<td class="left">BSE613</td>
+<td class="left">MSE659A</td>
 <td class="left">LEC: WF 09:00-10:30 REQ;</td>
-<td class="left">CELL &amp; MOLECULAR BIOLOGY</td>
+<td class="left">POWDER METALLURGY</td>
+<td class="left">A UPADHYAYA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE664A</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">FUNDAMENTALS OF ELECTRIC DRIVES</td>
+<td class="left">A JOSHI</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CHM698</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">CHEMISTRY OF DRUG DESIGN AND METABOLISM</td>
+<td class="left">S VERMA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">ME725</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">MICRO-MECHANICS</td>
+<td class="left">ISHAN SHARMA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MTH658A</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">NONLINEAR DYNAMICAL SYSTEMS</td>
+<td class="left">S GHORAI</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE624</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">INFORMATION AND CODING THEORY</td>
+<td class="left">R K BANSAL</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE664</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">FUNDAMENTALS OF ELECTRIC DRIVES</td>
+<td class="left">A JOSHI</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MSE659</td>
 <td class="left">LEC: WF 09:00-10:30 REQ;</td>
 <td class="left">POWDER METALLURGY</td>
+<td class="left">A UPADHYAYA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MSE693A</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">MATERIALS SCIENCE TECHNOLOGIES FOR APPLICATIONS</td>
+<td class="left">VIVEK VERMA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">PHY690K</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">QUANTUM DYNAMICS, INFORMATION AND COMPUTATION</td>
+<td class="left">V SUBRAHMANYAM</td>
+
+</tr>
+
+<tr>
+<td class="left">MSE693</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">MATERIALS SCIENCE TECHNOLOGIES FOR APPLICATIONS</td>
+<td class="left">VIVEK VERMA</td>
+
+
 </tr>
 
 <tr>
 <td class="left">CHM650A</td>
 <td class="left">LEC: WF 09:00-10:30 REQ;</td>
 <td class="left">STATISTICAL MECHANICS &amp; ITS APPL. TO CHEMISTRY</td>
+<td class="left">A CHANDRA</td>
+
+
 </tr>
 
 <tr>
-<td class="left">MTH692</td>
-<td class="left">LEC: WF 10:30-12:00 REQ;</td>
-<td class="left">NUMERICAL SOLUTION OF ORDINARY DIFFERENTIAL</td>
+<td class="left">CS601</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">MATHEMATICS FOR COMPUTER SCIENCE</td>
+<td class="left">RAGHUNATH TEWARI</td>
+
+
 </tr>
 
 <tr>
-<td class="left">CS698O</td>
-<td class="left">LEC: WF 10:30-12:00 REQ;</td>
-<td class="left">DATA IN BIG DATA</td>
+<td class="left">BSE613</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">CELL &amp; MOLECULAR BIOLOGY</td>
+<td class="left">BUSHRA ATEEQ</td>
+
+
 </tr>
 
 <tr>
-<td class="left">EEM606A</td>
-<td class="left">LEC: WF 10:30-12:00 REQ;</td>
-<td class="left">AIR POLLUTION AND ITS CONTROL</td>
+<td class="left">ME667</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">ADHESION, FRICTION AND LUBRICATION FOR</td>
+<td class="left">SUJEET K SINHA</td>
+
 </tr>
 
 <tr>
-<td class="left">MSE670</td>
-<td class="left">LEC: WF 10:30-12:00 REQ;</td>
-<td class="left">SOLIDIFICATION PROCESSING</td>
-</tr>
+<td class="left">CHM650</td>
+<td class="left">LEC: WF 09:00-10:30 REQ;</td>
+<td class="left">STATISTICAL MECHANICS &amp; ITS APPL. TO CHEMISTRY</td>
+<td class="left">A CHANDRA</td>
 
-<tr>
-<td class="left">EE621</td>
-<td class="left">LEC: WF 10:30-12:00 REQ;</td>
-<td class="left">REPRESENTATION AND ANALYSIS OF RANDOM SIGNALS</td>
-</tr>
 
-<tr>
-<td class="left">EE653</td>
-<td class="left">LEC: WF 10:30-12:00 REQ;</td>
-<td class="left">DIGITAL CONTROL</td>
-</tr>
-
-<tr>
-<td class="left">PHY311</td>
-<td class="left">LEC: WF 10:30-12:00 REQ;</td>
-<td class="left">PHYSICS OF NON-EQUILIBRIUM PHENOMENA</td>
-</tr>
-
-<tr>
-<td class="left">ME761</td>
-<td class="left">LEC: WF 10:30-12:00 REQ;</td>
-<td class="left">COMPUTER AIDED MANUFACTURING</td>
-</tr>
-
-<tr>
-<td class="left">BSE629A</td>
-<td class="left">LEC: WF 10:30-12:00 REQ;</td>
-<td class="left">NEUROBIOLOGY</td>
-</tr>
-
-<tr>
-<td class="left">CHE633</td>
-<td class="left">LEC: WF 10:30-12:00 REQ;</td>
-<td class="left">PRINCIPLES OF HETEROGENEOUS CATALYSIS</td>
-</tr>
-
-<tr>
-<td class="left">MSE670A</td>
-<td class="left">LEC: WF 10:30-12:00 REQ;</td>
-<td class="left">SOLIDIFICATION PROCESSING</td>
-</tr>
-
-<tr>
-<td class="left">CHM664A</td>
-<td class="left">LEC: WF 10:30-12:00 REQ;</td>
-<td class="left">MODERN PHYSICAL METHODS IN CHEMISTRY</td>
-</tr>
-
-<tr>
-<td class="left">PHY681</td>
-<td class="left">LEC: WF 10:30-12:00 REQ;</td>
-<td class="left">QUANTUM FIELD THEORY</td>
-</tr>
-
-<tr>
-<td class="left">CHM664</td>
-<td class="left">LEC: WF 10:30-12:00 REQ;</td>
-<td class="left">MODERN PHYSICAL METHODS IN CHEMISTRY</td>
-</tr>
-
-<tr>
-<td class="left">CS639</td>
-<td class="left">LEC: WF 10:30-12:00 REQ;</td>
-<td class="left">PROGRAM ANALYSIS, VERIFICATION AND TESTING</td>
- 
-</tr>
-
-<tr>
-<td class="left">CHM421</td>
-<td class="left">LEC: WF 10:30-12:00 REQ;</td>
-<td class="left">PHYSICAL CHEMISTRY I</td>
-</tr>
-
-<tr>
-<td class="left">EE653A</td>
-<td class="left">LEC: WF 10:30-12:00 REQ;</td>
-<td class="left">DIGITAL CONTROL</td>
-</tr>
-
-<tr>
-<td class="left">MTH692A</td>
-<td class="left">LEC: WF 10:30-12:00 REQ;</td>
-<td class="left">NUMERICAL SOLUTION OF ORDINARY DIFFERENTIAL</td>
 </tr>
 
 <tr>
 <td class="left">CE610</td>
 <td class="left">LEC: WF 10:30-12:00 REQ;</td>
 <td class="left">ADVANCED HYDROLOGY</td>
+<td class="left">ASHU JAIN</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MTH692</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">NUMERICAL SOLUTION OF ORDINARY DIFFERENTIAL</td>
+<td class="left">M K KADALBAJOO</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CHM664A</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">MODERN PHYSICAL METHODS IN CHEMISTRY</td>
+<td class="left">S MANOGARAN</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EEM606A</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">AIR POLLUTION AND ITS CONTROL</td>
+<td class="left">TARUN GUPTA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CHM664</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">MODERN PHYSICAL METHODS IN CHEMISTRY</td>
+<td class="left">S MANOGARAN</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MTH692A</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">NUMERICAL SOLUTION OF ORDINARY DIFFERENTIAL</td>
+<td class="left">M K KADALBAJOO</td>
+
+
 </tr>
 
 <tr>
 <td class="left">CHM321A</td>
 <td class="left">LEC: WF 10:30-12:00 REQ;</td>
 <td class="left">PHYSICAL CHEMISTRY I</td>
+<td class="left">D GOSWAMI</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE653A</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">DIGITAL CONTROL</td>
+<td class="left">L BEHERA</td>
+
+
 </tr>
 
 <tr>
 <td class="left">EE621A</td>
 <td class="left">LEC: WF 10:30-12:00 REQ;</td>
 <td class="left">REPRESENTATION AND ANALYSIS OF RANDOM SIGNALS</td>
+<td class="left">A BANERJEE</td>
+
+
 </tr>
 
 <tr>
-<td class="left">EEM606</td>
+<td class="left">BSE629A</td>
 <td class="left">LEC: WF 10:30-12:00 REQ;</td>
-<td class="left">AIR POLLUTION AND ITS CONTROL</td>
+<td class="left">NEUROBIOLOGY</td>
+<td class="left">JONAKI SEN</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CHM421</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">PHYSICAL CHEMISTRY I</td>
+<td class="left">D GOSWAMI</td>
+
+
+</tr>
+
+<tr>
+<td class="left">ME761</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">COMPUTER AIDED MANUFACTURING</td>
+<td class="left">J RAM KUMAR</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MSE670A</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">SOLIDIFICATION PROCESSING</td>
+<td class="left">K BISWAS</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CS698O</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">DATA IN BIG DATA</td>
+<td class="left">PRABHAKAR T V</td>
+
+
+</tr>
+
+<tr>
+<td class="left">PHY681</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">QUANTUM FIELD THEORY</td>
+<td class="left">SAYANTANI BHATTACHARYA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE621</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">REPRESENTATION AND ANALYSIS OF RANDOM SIGNALS</td>
+<td class="left">A BANERJEE</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CS639</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">PROGRAM ANALYSIS, VERIFICATION AND TESTING</td>
+<td class="left">SUBHAJIT ROY</td>
+
+</tr>
+
+<tr>
+<td class="left">MSE670</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">SOLIDIFICATION PROCESSING</td>
+<td class="left">K BISWAS</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE653</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">DIGITAL CONTROL</td>
+<td class="left">L BEHERA</td>
+
+
 </tr>
 
 <tr>
 <td class="left">SE305</td>
 <td class="left">LEC: WF 10:30-12:00 REQ;</td>
 <td class="left">PHYSICS OF NON-EQUILIBRIUM PHENOMENA</td>
+<td class="left">D CHOWDHURY</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EEM606</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">AIR POLLUTION AND ITS CONTROL</td>
+<td class="left">TARUN GUPTA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">PHY311</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">PHYSICS OF NON-EQUILIBRIUM PHENOMENA</td>
+<td class="left">D CHOWDHURY</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CHE633</td>
+<td class="left">LEC: WF 10:30-12:00 REQ;</td>
+<td class="left">PRINCIPLES OF HETEROGENEOUS CATALYSIS</td>
+<td class="left">G DEO</td>
+
+
 </tr>
 
 <tr>
 <td class="left">ME301A</td>
 <td class="left">LEC: WF 11:00-12:00 REQ;</td>
 <td class="left">ENERGY SYSTEMS I</td>
-</tr>
+<td class="left">M K DAS</td>
 
-<tr>
-<td class="left">EE634A</td>
-<td class="left">LEC: WF 12:00-13:30 REQ;</td>
-<td class="left">ELECTRICAL INSULATION IN POWER APPARATUS AND</td>
-</tr>
 
-<tr>
-<td class="left">EE634</td>
-<td class="left">LEC: WF 12:00-13:30 REQ;</td>
-<td class="left">ELECTRICAL INSULATION IN POWER APPARATUS AND</td>
-</tr>
-
-<tr>
-<td class="left">CHE611</td>
-<td class="left">LEC: WF 12:00-13:30 REQ;</td>
-<td class="left">TRANSPORT PHENOMENA</td>
-</tr>
-
-<tr>
-<td class="left">MSE642</td>
-<td class="left">LEC: WF 12:00-13:30 REQ;</td>
-<td class="left">MICROSCOPY AND MICROANALYSIS OF MATERIALS</td>
 </tr>
 
 <tr>
 <td class="left">MSE642A</td>
 <td class="left">LEC: WF 12:00-13:30 REQ;</td>
 <td class="left">MICROSCOPY AND MICROANALYSIS OF MATERIALS</td>
-</tr>
+<td class="left">GOUTHAMA</td>
 
-<tr>
-<td class="left">CS433A</td>
-<td class="left">LEC: WF 12:00-13:30 REQ;</td>
-<td class="left">PARALLEL PROGRAMMING</td>
-</tr>
 
-<tr>
-<td class="left">ME690</td>
-<td class="left">LEC: WF 12:00-13:30 REQ;</td>
-<td class="left">ALTERNATIVE FUELS &amp; ADVANCE IN IC ENGINES</td>
-</tr>
-
-<tr>
-<td class="left">CE731</td>
-<td class="left">LEC: WF 12:00-13:30 REQ;</td>
-<td class="left">RISK &amp; RELIABILITY IN GEOTECHNICAL ENGINEERING</td>
 </tr>
 
 <tr>
 <td class="left">ECO535</td>
 <td class="left">LEC: WF 12:00-13:30 REQ;</td>
 <td class="left">PUBLIC ECONOMICS</td>
+<td class="left">TANIKA CHAKRABORTY</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE634</td>
+<td class="left">LEC: WF 12:00-13:30 REQ;</td>
+<td class="left">ELECTRICAL INSULATION IN POWER APPARATUS AND</td>
+<td class="left">N GUPTA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CS433A</td>
+<td class="left">LEC: WF 12:00-13:30 REQ;</td>
+<td class="left">PARALLEL PROGRAMMING</td>
+<td class="left">AJAI JAIN</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE634A</td>
+<td class="left">LEC: WF 12:00-13:30 REQ;</td>
+<td class="left">ELECTRICAL INSULATION IN POWER APPARATUS AND</td>
+<td class="left">N GUPTA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MSE642</td>
+<td class="left">LEC: WF 12:00-13:30 REQ;</td>
+<td class="left">MICROSCOPY AND MICROANALYSIS OF MATERIALS</td>
+<td class="left">GOUTHAMA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CE731</td>
+<td class="left">LEC: WF 12:00-13:30 REQ;</td>
+<td class="left">RISK &amp; RELIABILITY IN GEOTECHNICAL ENGINEERING</td>
+<td class="left">PRISHATI RAY CHOWDHURY</td>
+
+
+</tr>
+
+<tr>
+<td class="left">ME690</td>
+<td class="left">LEC: WF 12:00-13:30 REQ;</td>
+<td class="left">ALTERNATIVE FUELS &amp; ADVANCE IN IC ENGINES</td>
+<td class="left">AVINASH KUMAR AGARWAL</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CHE611</td>
+<td class="left">LEC: WF 12:00-13:30 REQ;</td>
+<td class="left">TRANSPORT PHENOMENA</td>
+<td class="left">N TIWARI</td>
+
+
 </tr>
 
 <tr>
 <td class="left">LIF101A</td>
 <td class="left">LEC: WF 14:00-15:00 L7;</td>
 <td class="left">INTRODUCTION TO BIOLOGY</td>
+<td class="left">OARS</td>
+
+
 </tr>
 
 <tr>
 <td class="left">CE371A</td>
 <td class="left">LEC: WF 14:00-15:00 REQ;</td>
 <td class="left">DESIGN OF STEEL STRUCTURES</td>
+<td class="left">D C RAI</td>
+
+
 </tr>
 
 <tr>
 <td class="left">CE351A</td>
 <td class="left">LEC: WF 15:00-16:00 REQ;</td>
 <td class="left">SOIL MECHANICS</td>
+<td class="left">P GHOSH</td>
+
+
 </tr>
 
 <tr>
 <td class="left">ECO341A</td>
 <td class="left">LEC: WF 15:00-16:00 REQ;T/D: Th 17:00-18:00 REQ;</td>
 <td class="left">ECONOMETRICS I</td>
-</tr>
+<td class="left">OARS</td>
 
-<tr>
-<td class="left">PHI768</td>
-<td class="left">LEC: WF 15:30-17:00 REQ;</td>
-<td class="left">MODAL LOGIC</td>
-</tr>
 
-<tr>
-<td class="left">EE610</td>
-<td class="left">LEC: WF 15:30-17:00 REQ;</td>
-<td class="left">ANALOG/DIGITAL VLSI CIRCUITS</td>
-</tr>
-
-<tr>
-<td class="left">CHM600</td>
-<td class="left">LEC: WF 15:30-17:00 REQ;</td>
-<td class="left">MATHEMATICS FOR CHEMISTRY</td>
-</tr>
-
-<tr>
-<td class="left">PSY774</td>
-<td class="left">LEC: WF 15:30-17:00 REQ;</td>
-<td class="left">QUALITATIVE RESEARCH : THEORY AND PRACTICE</td>
-</tr>
-
-<tr>
-<td class="left">ECO734</td>
-<td class="left">LEC: WF 15:30-17:00 REQ;</td>
-<td class="left">INDUSTRIAL ORGANISATION AND POLICY</td>
 </tr>
 
 <tr>
 <td class="left">EE698A</td>
 <td class="left">LEC: WF 15:30-17:00 REQ;</td>
 <td class="left">POWER MANAGEMENT CIRCUITS</td>
-</tr>
+<td class="left">S K MISHRA</td>
 
-<tr>
-<td class="left">EE698</td>
-<td class="left">LEC: WF 15:30-17:00 REQ;</td>
-<td class="left">POWER MANAGEMENT CIRCUITS</td>
-</tr>
 
-<tr>
-<td class="left">CHM616</td>
-<td class="left">LEC: WF 15:30-17:00 REQ;</td>
-<td class="left">CHEMISTRY OF ORGANOMETALLIC COMPOUNDS</td>
-</tr>
-
-<tr>
-<td class="left">EE610A</td>
-<td class="left">LEC: WF 15:30-17:00 REQ;</td>
-<td class="left">ANALOG/DIGITAL VLSI CIRCUITS</td>
-</tr>
-
-<tr>
-<td class="left">CHM521</td>
-<td class="left">LEC: WF 15:30-17:00 REQ;</td>
-<td class="left">MATHEMATICS FOR CHEMISTRY</td>
-</tr>
-
-<tr>
-<td class="left">CHM616A</td>
-<td class="left">LEC: WF 15:30-17:00 REQ;</td>
-<td class="left">CHEMISTRY OF ORGANOMETALLIC COMPOUNDS</td>
 </tr>
 
 <tr>
 <td class="left">ME698N</td>
 <td class="left">LEC: WF 15:30-17:00 REQ;</td>
 <td class="left">THERMAL TRANSPORT IN MATERIAL (SPECIAL TOPICS)</td>
+<td class="left">SUMIT BASU</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CHM521</td>
+<td class="left">LEC: WF 15:30-17:00 REQ;</td>
+<td class="left">MATHEMATICS FOR CHEMISTRY</td>
+<td class="left">D L V K PRASAD</td>
+
+
+</tr>
+
+<tr>
+<td class="left">PSY774</td>
+<td class="left">LEC: WF 15:30-17:00 REQ;</td>
+<td class="left">QUALITATIVE RESEARCH : THEORY AND PRACTICE</td>
+<td class="left">K RAVI PRIYA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CHM616A</td>
+<td class="left">LEC: WF 15:30-17:00 REQ;</td>
+<td class="left">CHEMISTRY OF ORGANOMETALLIC COMPOUNDS</td>
+<td class="left">M L N RAO</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE610</td>
+<td class="left">LEC: WF 15:30-17:00 REQ;</td>
+<td class="left">ANALOG/DIGITAL VLSI CIRCUITS</td>
+<td class="left">S QURESHI</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE610A</td>
+<td class="left">LEC: WF 15:30-17:00 REQ;</td>
+<td class="left">ANALOG/DIGITAL VLSI CIRCUITS</td>
+<td class="left">S QURESHI</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CHM616</td>
+<td class="left">LEC: WF 15:30-17:00 REQ;</td>
+<td class="left">CHEMISTRY OF ORGANOMETALLIC COMPOUNDS</td>
+<td class="left">M L N RAO</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CHM600</td>
+<td class="left">LEC: WF 15:30-17:00 REQ;</td>
+<td class="left">MATHEMATICS FOR CHEMISTRY</td>
+<td class="left">D L V K PRASAD</td>
+
+
+</tr>
+
+<tr>
+<td class="left">PHI768</td>
+<td class="left">LEC: WF 15:30-17:00 REQ;</td>
+<td class="left">MODAL LOGIC</td>
+<td class="left">A V R SHARMA</td>
+
+
 </tr>
 
 <tr>
 <td class="left">CS360A</td>
 <td class="left">LEC: WF 15:30-17:00 REQ;</td>
 <td class="left">INTRODUCTION TO COMPUTER GRAPHICS</td>
+<td class="left">VINAY NAMBOODIRI</td>
+
+
+</tr>
+
+<tr>
+<td class="left">ECO734</td>
+<td class="left">LEC: WF 15:30-17:00 REQ;</td>
+<td class="left">INDUSTRIAL ORGANISATION AND POLICY</td>
+<td class="left">P KULKHRESTHA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE698</td>
+<td class="left">LEC: WF 15:30-17:00 REQ;</td>
+<td class="left">POWER MANAGEMENT CIRCUITS</td>
+<td class="left">S K MISHRA</td>
+
+
 </tr>
 
 <tr>
 <td class="left">CE441A</td>
 <td class="left">LEC: WF 16:00-17:00 REQ;</td>
 <td class="left">CONSTRUCTION MANAGEMENT</td>
+<td class="left">SUDHEER MISRA</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MS617</td>
 <td class="left">LEC: WF 17:00-18:30 ACMS110;</td>
 <td class="left">INTRODUCTION TO NANOMATERIALS AND NANOTECHNOLOGY</td>
-</tr>
+<td class="left">S. SIVAKUMAR</td>
 
-<tr>
-<td class="left">CE623</td>
-<td class="left">LEC: WF 17:00-18:30 REQ;</td>
-<td class="left">EXPERIMENTAL METHODS IN STRUCTURL ENGINEERING</td>
-</tr>
 
-<tr>
-<td class="left">CHM609</td>
-<td class="left">LEC: WF 17:00-18:30 REQ;</td>
-<td class="left">PRINCIPALES OF ORGANIC CHEMISTRY</td>
-</tr>
-
-<tr>
-<td class="left">CHE678</td>
-<td class="left">LEC: WF 17:00-18:30 REQ;</td>
-<td class="left">MECHANICS OF SOFT MATERIALS</td>
-</tr>
-
-<tr>
-<td class="left">MTH648</td>
-<td class="left">LEC: WF 17:00-18:30 REQ;</td>
-<td class="left">DIFFERENTIAL GEOMETRY</td>
 </tr>
 
 <tr>
 <td class="left">EE632</td>
 <td class="left">LEC: WF 17:00-18:30 REQ;</td>
 <td class="left">ECONOMIC OPERATION &amp; CONTROL OF POWER SYSTEMS</td>
+<td class="left">S N SINGH</td>
+
+
 </tr>
 
 <tr>
-<td class="left">MTH648A</td>
+<td class="left">CHE678</td>
 <td class="left">LEC: WF 17:00-18:30 REQ;</td>
-<td class="left">DIFFERENTIAL GEOMETRY</td>
+<td class="left">MECHANICS OF SOFT MATERIALS</td>
+<td class="left">A GHATAK</td>
+
+
 </tr>
 
 <tr>
 <td class="left">CHM684</td>
 <td class="left">LEC: WF 17:00-18:30 REQ;</td>
 <td class="left">COMPUTER PROGRAMMING FOR CHEMISTRY</td>
-</tr>
+<td class="left">K SRIHARI</td>
 
-<tr>
-<td class="left">EE632A</td>
-<td class="left">LEC: WF 17:00-18:30 REQ;</td>
-<td class="left">ECONOMIC OPERATION &amp; CONTROL OF POWER SYSTEMS</td>
-</tr>
 
-<tr>
-<td class="left">CHM684A</td>
-<td class="left">LEC: WF 17:00-18:30 REQ;</td>
-<td class="left">COMPUTER PROGRAMMING FOR CHEMISTRY</td>
-</tr>
-
-<tr>
-<td class="left">ME771</td>
-<td class="left">LEC: WF 17:00-18:30 REQ;</td>
-<td class="left">SMART MATERIALS AND STRUCTURE</td>
 </tr>
 
 <tr>
 <td class="left">PHY690L</td>
 <td class="left">LEC: WF 17:00-18:30 REQ;</td>
 <td class="left">QUANTUM OPTICS</td>
+<td class="left">HARSHAWARDHAN WANARE</td>
+
+
+</tr>
+
+<tr>
+<td class="left">ME771</td>
+<td class="left">LEC: WF 17:00-18:30 REQ;</td>
+<td class="left">SMART MATERIALS AND STRUCTURE</td>
+<td class="left">BISHAKH BHATTACHARYA</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CHM684A</td>
+<td class="left">LEC: WF 17:00-18:30 REQ;</td>
+<td class="left">COMPUTER PROGRAMMING FOR CHEMISTRY</td>
+<td class="left">K SRIHARI</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CHM609</td>
+<td class="left">LEC: WF 17:00-18:30 REQ;</td>
+<td class="left">PRINCIPALES OF ORGANIC CHEMISTRY</td>
+<td class="left">R RAMAPANICKER</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MTH648</td>
+<td class="left">LEC: WF 17:00-18:30 REQ;</td>
+<td class="left">DIFFERENTIAL GEOMETRY</td>
+<td class="left">G SANTHANAM</td>
+
+
+</tr>
+
+<tr>
+<td class="left">EE632A</td>
+<td class="left">LEC: WF 17:00-18:30 REQ;</td>
+<td class="left">ECONOMIC OPERATION &amp; CONTROL OF POWER SYSTEMS</td>
+<td class="left">S N SINGH</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MTH648A</td>
+<td class="left">LEC: WF 17:00-18:30 REQ;</td>
+<td class="left">DIFFERENTIAL GEOMETRY</td>
+<td class="left">G SANTHANAM</td>
+
+
+</tr>
+
+<tr>
+<td class="left">CE623</td>
+<td class="left">LEC: WF 17:00-18:30 REQ;</td>
+<td class="left">EXPERIMENTAL METHODS IN STRUCTURL ENGINEERING</td>
+<td class="left">SAMIT RAY CHOWDHURY</td>
+
+
 </tr>
 
 <tr>
 <td class="left">MSO202</td>
 <td class="left">LEC: WThF 09:00-10:00 L7;</td>
 <td class="left">COMPLEX VARIABLES</td>
-</tr>
+<td class="left">D BAHUGUNA</td>
 
-<tr>
-<td class="left">MSO202A</td>
-<td class="left">LEC: WThF 09:00-10:00 L7;T/D: M 09:00-10:00 REQ;</td>
-<td class="left">COMPLEX VARIABLES</td>
+
 </tr>
 
 <tr>
 <td class="left">MSO203B</td>
 <td class="left">LEC: WThF 09:00-10:00 L7;T/D: M 09:00-10:00 REQ;</td>
 <td class="left">PARTIAL DIFFERENTIAL EQUATIONS</td>
+<td class="left">MALAY BANERJEE</td>
+
+
+</tr>
+
+<tr>
+<td class="left">MSO202A</td>
+<td class="left">LEC: WThF 09:00-10:00 L7;T/D: M 09:00-10:00 REQ;</td>
+<td class="left">COMPLEX VARIABLES</td>
+<td class="left">D BAHUGUNA</td>
+
+
 </tr>
 
 <tr>
 <td class="left">CE211A</td>
 <td class="left">LEC: WThF 12:00-13:00 REQ;T/D: M 12:00-13:00</td>
 <td class="left">ENVIRONMENTAL QUALITY &amp; POLLUTION</td>
+<td class="left">S GUHA</td>
+
+
 </tr>
 </tbody>
 </table>
 </div>
 <div id="postamble" class="status">
-<p class="author">Author: <a href="http://rejuvyesh.com">Jayesh Kumar Gupta</a></p>
-<p class="date">Created: 2014-03-27 Thu 16:14</p>
+<p class="author">Author: Jayesh Kumar Gupta</p>
+<p class="date">Created: 2014-03-28 Fri 00:12</p>
 <p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.3.1 (<a href="http://orgmode.org">Org</a> mode 8.2.5h)</p>
 <p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
@@ -3065,16 +3861,17 @@ for the JavaScript code in this tag.
 <!-- Google Analytics -->
 <script type="text/javascript">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-35033901-1']);
-  _gaq.push(['_trackPageview']);
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-35033901-1']);
+_gaq.push(['_trackPageview']);
 
-  (function() {
-  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-  ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
-  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
 
 </script>
+
 </body>
 </html>
