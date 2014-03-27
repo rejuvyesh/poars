@@ -1,0 +1,27 @@
+   Course No:                MTH425
+   Title:                    DISTRIBUTIONS IN STATISTICS
+   Instructor(s):            D KUNDU
+   Pre-requisites:           MSO201
+   Inst. email:              kundu@iitk.ac.in
+   Units:(L-T-P-D-U)         3-1-0-0-2
+   Department:               MTH
+   Schedule:                 LEC: MWF 09:00-10:00 REQ;T/D: T 09:00-10:00 REQ;
+                             null
+   Instructor's Notes:
+   Current Status:
+   (if taken as an elective)
+
+   NOTE: Pre-requisite '#' means that the permission of the instructor is
+   required.
+
+        No Query Set by the Instructor for this course. !!!!
+
+                                    [1]Close
+   Course_no      Which Dept.     Students type      (Year if any) Action
+                                                                    
+
+References
+
+   Visible links
+   1. Close
+	file:///home/rejuvyesh/dev/python/poars/MTH425.html#

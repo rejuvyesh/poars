@@ -1,9 +1,0 @@
-+ Actually do something about parsed data. Maybe present a table.
-+ Add authentications stuff
-+ Add particular subject import
-+ Add error check during scraping
-  Maybe search for the word error
-
-  def findWholeWord(w):
-    return re.compile(r'\b({0})\b'.format(w), flags=re.IGNORECASE).search
-  

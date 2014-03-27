@@ -1,0 +1,27 @@
+   Course No:                TA101A
+   Title:                    ENGINEERING GRAPHICS
+   Instructor(s):            OARS
+   Pre-requisites:
+   Inst. email:              courses@iitk.ac.in
+   Units:(L-T-P-D-U)         2-0-3-0-9
+   Department:               ME
+   Schedule:                 LEC: TTh 14:00-15:00 L7;
+                             LAB: MTWTh 10:00-13:00 LAB;
+   Instructor's Notes:
+   Current Status:
+   (if taken as an elective)
+
+   NOTE: Pre-requisite '#' means that the permission of the instructor is
+   required.
+
+        No Query Set by the Instructor for this course. !!!!
+
+                                    [1]Close
+   Course_no      Which Dept.     Students type      (Year if any) Action
+                                                                    
+
+References
+
+   Visible links
+   1. Close
+	file:///home/rejuvyesh/dev/python/poars/TA101A.html#

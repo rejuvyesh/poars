@@ -1,0 +1,27 @@
+   Course No:                CHE601
+   Title:                    FUNDAMENTALS OF CHEMICAL ENGINEERING -I
+   Instructor(s):            R CHHABRA
+   Pre-requisites:
+   Inst. email:              chhabra@iitk.ac.in
+   Units:(L-T-P-D-U)         3-0-0-0-4
+   Department:               CHE
+   Schedule:                 LEC: TWTh 08:00-09:00 REQ;
+                             null
+   Instructor's Notes:
+   Current Status:
+   (if taken as an elective)
+
+   NOTE: Pre-requisite '#' means that the permission of the instructor is
+   required.
+
+        No Query Set by the Instructor for this course. !!!!
+
+                                    [1]Close
+   Course_no      Which Dept.     Students type      (Year if any) Action
+                                                                    
+
+References
+
+   Visible links
+   1. Close
+	file:///home/rejuvyesh/dev/python/poars/CHE601.html#

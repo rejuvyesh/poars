@@ -1,0 +1,27 @@
+   Course No:                CHM102A
+   Title:                    GENERAL CHEMISTRY
+   Instructor(s):            G ANANTHARAMAN, P SEN
+   Pre-requisites:
+   Inst. email:              garaman@iitk.ac.in
+   Units:(L-T-P-D-U)         2-1-0-0-8
+   Department:               CHM
+   Schedule:                 LEC: TF 08:00-09:00 L8;T/D: Th 08:00-09:00 L8;
+                             null
+   Instructor's Notes:
+   Current Status:
+   (if taken as an elective)
+
+   NOTE: Pre-requisite '#' means that the permission of the instructor is
+   required.
+
+        No Query Set by the Instructor for this course. !!!!
+
+                                    [1]Close
+   Course_no      Which Dept.     Students type      (Year if any) Action
+                                                                    
+
+References
+
+   Visible links
+   1. Close
+	file:///home/rejuvyesh/dev/python/poars/CHM102A.html#

@@ -1,0 +1,27 @@
+   Course No:                EE647A
+   Title:                    MICROWAVE MEASUREMENTS AND DESIGN
+   Instructor(s):            K V SRIVASTAVA
+   Pre-requisites:
+   Inst. email:              kvs@iitk.ac.in
+   Units:(L-T-P-D-U)         2-0-2-0-8
+   Department:               EE
+   Schedule:                 LEC: MTh 12:00-13:30 REQ;
+                             LAB: T 15:00-18:00 LAB;
+   Instructor's Notes:
+   Current Status:
+   (if taken as an elective)
+
+   NOTE: Pre-requisite '#' means that the permission of the instructor is
+   required.
+
+        No Query Set by the Instructor for this course. !!!!
+
+                                    [1]Close
+   Course_no      Which Dept.     Students type      (Year if any) Action
+                                                                    
+
+References
+
+   Visible links
+   1. Close
+	file:///home/rejuvyesh/dev/python/poars/EE647A.html#

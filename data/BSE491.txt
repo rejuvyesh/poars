@@ -1,0 +1,27 @@
+   Course No:                BSE491
+   Title:                    BSBE LAB IV BIOMECHANICS & BIOMATERIALS
+   Instructor(s):            DHIRENDRA S. KATTI, MAINAK DAS
+   Pre-requisites:
+   Inst. email:              dsk@iitk.ac.in
+   Units:(L-T-P-D-U)         0-0-6-0-4
+   Department:               BSBE
+   Schedule:                 LEC: T 17:00-18:00 REQ;
+                             LAB: MT 14:00-17:00 LAB;
+   Instructor's Notes:
+   Current Status:
+   (if taken as an elective)
+
+   NOTE: Pre-requisite '#' means that the permission of the instructor is
+   required.
+
+        No Query Set by the Instructor for this course. !!!!
+
+                                    [1]Close
+   Course_no      Which Dept.     Students type      (Year if any) Action
+                                                                    
+
+References
+
+   Visible links
+   1. Close
+	file:///home/rejuvyesh/dev/python/poars/BSE491.html#

@@ -1,0 +1,27 @@
+   Course No:                ME301A
+   Title:                    ENERGY SYSTEMS I
+   Instructor(s):            M K DAS
+   Pre-requisites:           ESO201A
+   Inst. email:              mkdas@iitk.ac.in
+   Units:(L-T-P-D-U)         2-0-0-0-6
+   Department:               ME
+   Schedule:                 LEC: WF 11:00-12:00 REQ;
+                             null
+   Instructor's Notes:
+   Current Status:
+   (if taken as an elective)
+
+   NOTE: Pre-requisite '#' means that the permission of the instructor is
+   required.
+
+        No Query Set by the Instructor for this course. !!!!
+
+                                    [1]Close
+   Course_no      Which Dept.     Students type      (Year if any) Action
+                                                                    
+
+References
+
+   Visible links
+   1. Close
+	file:///home/rejuvyesh/dev/python/poars/ME301A.html#

@@ -1,0 +1,27 @@
+   Course No:                CHM361A
+   Title:                    CHEMISTRY COMMUNICATION SKILLS
+   Instructor(s):            R GURUNATH
+   Pre-requisites:
+   Inst. email:              gurunath@iitk.ac.in
+   Units:(L-T-P-D-U)         0-0-2-0-2
+   Department:               CHM
+   Schedule:                 LEC:
+                             LAB: T 10:00-12:00 LAB;
+   Instructor's Notes:
+   Current Status:
+   (if taken as an elective)
+
+   NOTE: Pre-requisite '#' means that the permission of the instructor is
+   required.
+
+        No Query Set by the Instructor for this course. !!!!
+
+                                    [1]Close
+   Course_no      Which Dept.     Students type      (Year if any) Action
+                                                                    
+
+References
+
+   Visible links
+   1. Close
+	file:///home/rejuvyesh/dev/python/poars/CHM361A.html#

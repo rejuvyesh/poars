@@ -1,0 +1,27 @@
+   Course No:                MSE682
+   Title:                    COMPUTER SIMULATIONS IN MATERIALS SCIENCE
+   Instructor(s):            SOMNATH BHOWMICK
+   Pre-requisites:
+   Inst. email:              bsomnath@iitk.ac.in
+   Units:(L-T-P-D-U)         3-0-0-0-4
+   Department:               MSE
+   Schedule:                 LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;
+                             null
+   Instructor's Notes:
+   Current Status:
+   (if taken as an elective)
+
+   NOTE: Pre-requisite '#' means that the permission of the instructor is
+   required.
+
+        No Query Set by the Instructor for this course. !!!!
+
+                                    [1]Close
+   Course_no      Which Dept.     Students type      (Year if any) Action
+                                                                    
+
+References
+
+   Visible links
+   1. Close
+	file:///home/rejuvyesh/dev/python/poars/MSE682.html#

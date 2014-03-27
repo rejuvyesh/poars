@@ -1,0 +1,28 @@
+   Course No:                EE674A
+   Title:                    ARCHITECTURE OF MICRO-PROCESSORS &
+                             MICROCOMPUTERS
+   Instructor(s):            S P DAS
+   Pre-requisites:
+   Inst. email:              spdas@iitk.ac.in
+   Units:(L-T-P-D-U)         3-0-0-0-9
+   Department:               EE
+   Schedule:                 LEC: MTh 14:00-15:30 REQ;
+                             null
+   Instructor's Notes:
+   Current Status:
+   (if taken as an elective)
+
+   NOTE: Pre-requisite '#' means that the permission of the instructor is
+   required.
+
+        No Query Set by the Instructor for this course. !!!!
+
+                                    [1]Close
+   Course_no      Which Dept.     Students type      (Year if any) Action
+                                                                    
+
+References
+
+   Visible links
+   1. Close
+	file:///home/rejuvyesh/dev/python/poars/EE674A.html#

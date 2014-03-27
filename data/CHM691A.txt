@@ -1,0 +1,27 @@
+   Course No:                CHM691A
+   Title:                    FRONTIERS IN INORGANIC CHEMISTRY
+   Instructor(s):            S K KUNDU
+   Pre-requisites:
+   Inst. email:              sabuj@iitk.ac.in
+   Units:(L-T-P-D-U)         3-0-0-0-9
+   Department:               CHM
+   Schedule:                 LEC: M 17:00-18:00 REQ;WF 15:00-16:00 REQ;
+                             null
+   Instructor's Notes:
+   Current Status:
+   (if taken as an elective)
+
+   NOTE: Pre-requisite '#' means that the permission of the instructor is
+   required.
+
+        No Query Set by the Instructor for this course. !!!!
+
+                                    [1]Close
+   Course_no      Which Dept.     Students type      (Year if any) Action
+                                                                    
+
+References
+
+   Visible links
+   1. Close
+	file:///home/rejuvyesh/dev/python/poars/CHM691A.html#

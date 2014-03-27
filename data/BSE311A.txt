@@ -1,0 +1,27 @@
+   Course No:                BSE311A
+   Title:                    MOLECULAR CELL BIOLOGY
+   Instructor(s):            S. GANESH
+   Pre-requisites:
+   Inst. email:              sganesh@iitk.ac.in
+   Units:(L-T-P-D-U)         3-0-0-0-9
+   Department:               BSBE
+   Schedule:                 LEC: MF 08:00-09:00 BSBH;T 09:00-10:00 BSBH;
+                             null
+   Instructor's Notes:
+   Current Status:
+   (if taken as an elective)
+
+   NOTE: Pre-requisite '#' means that the permission of the instructor is
+   required.
+
+        No Query Set by the Instructor for this course. !!!!
+
+                                    [1]Close
+   Course_no      Which Dept.     Students type      (Year if any) Action
+                                                                    
+
+References
+
+   Visible links
+   1. Close
+	file:///home/rejuvyesh/dev/python/poars/BSE311A.html#

@@ -1,0 +1,27 @@
+   Course No:                CS639
+   Title:                    PROGRAM ANALYSIS, VERIFICATION AND TESTING
+   Instructor(s):            SUBHAJIT ROY
+   Pre-requisites:           CS201/CS210/CS340
+   Inst. email:              subhajit@iitk.ac.in
+   Units:(L-T-P-D-U)         3-0-0-0-4
+   Department:               CSE
+   Schedule:                 LEC: WF 10:30-12:00 REQ;
+                             null
+   Instructor's Notes:
+   Current Status:
+   (if taken as an elective)
+
+   NOTE: Pre-requisite '#' means that the permission of the instructor is
+   required.
+
+        No Query Set by the Instructor for this course. !!!!
+
+                                    [1]Close
+   Course_no      Which Dept.     Students type      (Year if any) Action
+                                                                    
+
+References
+
+   Visible links
+   1. Close
+	file:///home/rejuvyesh/dev/python/poars/CS639.html#

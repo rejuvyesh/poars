@@ -1,0 +1,27 @@
+   Course No:                CE674
+   Title:                    GLOBAL POSITIONING SYSTEM
+   Instructor(s):            CONVENOR DPGC
+   Pre-requisites:
+   Inst. email:              blohani@iitk.ac.in
+   Units:(L-T-P-D-U)         2-0-2-0-4
+   Department:               CE
+   Schedule:                 LEC: MTh 10:30-12:00 REQ;
+                             null
+   Instructor's Notes:
+   Current Status:
+   (if taken as an elective)
+
+   NOTE: Pre-requisite '#' means that the permission of the instructor is
+   required.
+
+        No Query Set by the Instructor for this course. !!!!
+
+                                    [1]Close
+   Course_no      Which Dept.     Students type      (Year if any) Action
+                                                                    
+
+References
+
+   Visible links
+   1. Close
+	file:///home/rejuvyesh/dev/python/poars/CE674.html#

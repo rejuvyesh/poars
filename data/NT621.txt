@@ -1,0 +1,27 @@
+   Course No:                NT621
+   Title:                    NUCLEAR MEASUREMENTS LABORATORY
+   Instructor(s):            S PRASHAD, O P SINGH
+   Pre-requisites:
+   Inst. email:              sprashad@iitk.ac.in
+   Units:(L-T-P-D-U)         1-0-6-0-4
+   Department:               NET
+   Schedule:                 LEC:
+                             LAB: WF 14:00-17:00 LAB;
+   Instructor's Notes:
+   Current Status:
+   (if taken as an elective)
+
+   NOTE: Pre-requisite '#' means that the permission of the instructor is
+   required.
+
+        No Query Set by the Instructor for this course. !!!!
+
+                                    [1]Close
+   Course_no      Which Dept.     Students type      (Year if any) Action
+                                                                    
+
+References
+
+   Visible links
+   1. Close
+	file:///home/rejuvyesh/dev/python/poars/NT621.html#

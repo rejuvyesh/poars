@@ -1,0 +1,27 @@
+   Course No:                TA202A
+   Title:                    MANUFACTURING PROCESSES II
+   Instructor(s):            OARS
+   Pre-requisites:
+   Inst. email:              courses@iitk.ac.in
+   Units:(L-T-P-D-U)         1-0-3-0-6
+   Department:               ME
+   Schedule:                 LEC: T 08:00-09:00 L7;
+                             LAB: MTWThF 14:00-17:00 LAB;
+   Instructor's Notes:
+   Current Status:
+   (if taken as an elective)
+
+   NOTE: Pre-requisite '#' means that the permission of the instructor is
+   required.
+
+        No Query Set by the Instructor for this course. !!!!
+
+                                    [1]Close
+   Course_no      Which Dept.     Students type      (Year if any) Action
+                                                                    
+
+References
+
+   Visible links
+   1. Close
+	file:///home/rejuvyesh/dev/python/poars/TA202A.html#

@@ -1,0 +1,29 @@
+   Course No:                MTH305
+   Title:                    SEVERAL VARIABLE CALCULUS & DEFFERENTIAL
+                             GEOMETRY
+   Instructor(s):            S DUTTA
+   Pre-requisites:           MTH301
+   Inst. email:              sudipta@iitk.ac.in
+   Units:(L-T-P-D-U)         3-1-0-0-4
+   Department:               MTH
+   Schedule:                 LEC: MWF 11:00-12:00 REQ;T/D: Th 11:00-12:00
+                             REQ;
+                             null
+   Instructor's Notes:
+   Current Status:
+   (if taken as an elective)
+
+   NOTE: Pre-requisite '#' means that the permission of the instructor is
+   required.
+
+        No Query Set by the Instructor for this course. !!!!
+
+                                    [1]Close
+   Course_no      Which Dept.     Students type      (Year if any) Action
+                                                                    
+
+References
+
+   Visible links
+   1. Close
+	file:///home/rejuvyesh/dev/python/poars/MTH305.html#

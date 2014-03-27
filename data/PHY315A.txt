@@ -1,0 +1,27 @@
+   Course No:                PHY315A
+   Title:                    MODERN PHYSICS LABORATORY
+   Instructor(s):            R GUPTA, S MUKHOPADHYAY
+   Pre-requisites:
+   Inst. email:              guptaraj@iitk.ac.in
+   Units:(L-T-P-D-U)         1-0-6-0-9
+   Department:               PHY
+   Schedule:                 LEC: M 08:00-09:00 REQ;
+                             LAB: TW 14:00-17:00 LAB;
+   Instructor's Notes:
+   Current Status:
+   (if taken as an elective)
+
+   NOTE: Pre-requisite '#' means that the permission of the instructor is
+   required.
+
+        No Query Set by the Instructor for this course. !!!!
+
+                                    [1]Close
+   Course_no      Which Dept.     Students type      (Year if any) Action
+                                                                    
+
+References
+
+   Visible links
+   1. Close
+	file:///home/rejuvyesh/dev/python/poars/PHY315A.html#

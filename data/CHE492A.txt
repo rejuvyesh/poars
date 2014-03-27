@@ -1,0 +1,27 @@
+   Course No:                CHE492A
+   Title:                    UNIT OPERATIONS AND PROCESS CONTROL LABORATORY
+   Instructor(s):            D KUNZRU
+   Pre-requisites:
+   Inst. email:              dkunzru@iitk.ac.in
+   Units:(L-T-P-D-U)         1-0-3-2-8
+   Department:               CHE
+   Schedule:                 LEC: W 15:00-16:00 REQ;
+                             LAB: MT 14:00-17:00 LAB;
+   Instructor's Notes:
+   Current Status:
+   (if taken as an elective)
+
+   NOTE: Pre-requisite '#' means that the permission of the instructor is
+   required.
+
+        No Query Set by the Instructor for this course. !!!!
+
+                                    [1]Close
+   Course_no      Which Dept.     Students type      (Year if any) Action
+                                                                    
+
+References
+
+   Visible links
+   1. Close
+	file:///home/rejuvyesh/dev/python/poars/CHE492A.html#

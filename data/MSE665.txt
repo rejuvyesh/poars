@@ -1,0 +1,28 @@
+   Course No:                MSE665
+   Title:                    PRACTICAL TRANSMISSION ELECTRON MICROSCOPY &
+                             NANOANALYSIS OF MATERIALS
+   Instructor(s):            GOUTHAMA
+   Pre-requisites:           MSE653
+   Inst. email:              gouthama@iitk.ac.in
+   Units:(L-T-P-D-U)         3-0-0-0-4
+   Department:               MSE
+   Schedule:                 LEC: MTh 09:00-10:30 REQ;
+                             null
+   Instructor's Notes:
+   Current Status:
+   (if taken as an elective)
+
+   NOTE: Pre-requisite '#' means that the permission of the instructor is
+   required.
+
+        No Query Set by the Instructor for this course. !!!!
+
+                                    [1]Close
+   Course_no      Which Dept.     Students type      (Year if any) Action
+                                                                    
+
+References
+
+   Visible links
+   1. Close
+	file:///home/rejuvyesh/dev/python/poars/MSE665.html#

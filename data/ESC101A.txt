@@ -1,0 +1,27 @@
+   Course No:                ESC101A
+   Title:                    FUNDAMENTAL OF COMPUTING
+   Instructor(s):            AMEY KARKARE
+   Pre-requisites:
+   Inst. email:              karkare@iitk.ac.in
+   Units:(L-T-P-D-U)         3-1-3-0-14
+   Department:               CSE
+   Schedule:                 LEC: MWF 12:00-13:00 L7;T/D: T 12:00-13:00 REQ;
+                             LAB: MTWTh 14:00-17:00 LAB;
+   Instructor's Notes:
+   Current Status:
+   (if taken as an elective)
+
+   NOTE: Pre-requisite '#' means that the permission of the instructor is
+   required.
+
+        No Query Set by the Instructor for this course. !!!!
+
+                                    [1]Close
+   Course_no      Which Dept.     Students type      (Year if any) Action
+                                                                    
+
+References
+
+   Visible links
+   1. Close
+	file:///home/rejuvyesh/dev/python/poars/ESC101A.html#

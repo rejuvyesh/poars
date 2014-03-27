@@ -1,0 +1,27 @@
+   Course No:                CS698O
+   Title:                    DATA IN BIG DATA
+   Instructor(s):            PRABHAKAR T V
+   Pre-requisites:
+   Inst. email:              tvp@iitk.ac.in
+   Units:(L-T-P-D-U)         3-0-0-0-4
+   Department:               CSE
+   Schedule:                 LEC: WF 10:30-12:00 REQ;
+                             null
+   Instructor's Notes:
+   Current Status:
+   (if taken as an elective)
+
+   NOTE: Pre-requisite '#' means that the permission of the instructor is
+   required.
+
+        No Query Set by the Instructor for this course. !!!!
+
+                                    [1]Close
+   Course_no      Which Dept.     Students type      (Year if any) Action
+                                                                    
+
+References
+
+   Visible links
+   1. Close
+	file:///home/rejuvyesh/dev/python/poars/CS698O.html#

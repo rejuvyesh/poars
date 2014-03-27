@@ -1,0 +1,27 @@
+   Course No:                EE698F
+   Title:                    POWER ELECTRONICS IN SOLAR PHOTOVOLTAIC SYSTEMS
+   Instructor(s):            S ANAND
+   Pre-requisites:
+   Inst. email:              asandeep@iitk.ac.in
+   Units:(L-T-P-D-U)         3-0-0-0-9
+   Department:               EE
+   Schedule:                 LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;
+                             null
+   Instructor's Notes:
+   Current Status:
+   (if taken as an elective)
+
+   NOTE: Pre-requisite '#' means that the permission of the instructor is
+   required.
+
+        No Query Set by the Instructor for this course. !!!!
+
+                                    [1]Close
+   Course_no      Which Dept.     Students type      (Year if any) Action
+                                                                    
+
+References
+
+   Visible links
+   1. Close
+	file:///home/rejuvyesh/dev/python/poars/EE698F.html#

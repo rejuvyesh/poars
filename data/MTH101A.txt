@@ -1,0 +1,28 @@
+   Course No:                MTH101A
+   Title:                    MATHEMATICS I
+   Instructor(s):            S CHAVAN, N NILAKANTAN
+   Pre-requisites:
+   Inst. email:              chavan@iitk.ac.in
+   Units:(L-T-P-D-U)         3-1-0-0-11
+   Department:               MTH
+   Schedule:                 LEC: MWF 10:00-11:00 L7;T 10:00-11:00 REQ;T/D:
+                             MWF 16:00-17:00 L7;T
+                             h 16:00-17:00 REQ;
+   Instructor's Notes:
+   Current Status:
+   (if taken as an elective)
+
+   NOTE: Pre-requisite '#' means that the permission of the instructor is
+   required.
+
+        No Query Set by the Instructor for this course. !!!!
+
+                                    [1]Close
+   Course_no      Which Dept.     Students type      (Year if any) Action
+                                                                    
+
+References
+
+   Visible links
+   1. Close
+	file:///home/rejuvyesh/dev/python/poars/MTH101A.html#
