@@ -15,7 +15,12 @@ sli = []
 for k in js.keys():
     sli.append(js[k]['Schedule'])
 
-l = list(zip(js.keys(), sli))
+tit = []
+for k in js.keys():
+    tit.append(js[k]['Title'])
+
+l = list(zip(js.keys(), sli, tit))
 sl = sorted(l, key=lambda x: x[1])
+print(sl)
 fout = open('sorted.csv', 'wt')
-fout.write("\n".join('%s,%s' % x for x in sl))
+fout.write("\n".join('%s,%s,%s' % x for x in sl))
