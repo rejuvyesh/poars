@@ -19,8 +19,12 @@ tit = []
 for k in js.keys():
     tit.append(js[k]['Title'])
 
-l = list(zip(js.keys(), sli, tit))
+ins = []
+for k in js.keys():
+    ins.append(js[k]['Instructor(s)'])
+
+l = list(zip(js.keys(), sli, tit, ins))
 sl = sorted(l, key=lambda x: x[1])
 print(sl)
 fout = open('sorted.csv', 'wt')
-fout.write("\n".join('%s,%s,%s' % x for x in sl))
+fout.write("\n".join('%s,%s,%s,%s' % x for x in sl))
