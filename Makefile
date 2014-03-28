@@ -22,10 +22,11 @@ json: dict jsn.py
 	python jsn.py
 
 csv: dict.json
-	$(JSON2CSV) -i  dict.json -f 'Department','Course No','Instructor(s)','Pre-requisites','Schedule','Title','Units' -o "data.csv"
+	$(JSON2CSV) -i  dict.json -f 'Department','Course No','Instructor(s)','Pre-requisites','Schedule','Title','Units','Inst. email' -o "data.csv"
 
 web: csv
 	sed -i 's/(L-T-P-D-U)//g' data.csv
+	sed -i 's/@iitk.ac.in//g' data.csv
 	cat head > data/try.html
 	ruby table.rb data.csv >> data/try.html
 	sed -i 's/<table><tr><th>Department<\/th><th>Course No<\/th><th>Instructor(s)<\/th><th>Pre-requisites<\/th><th>Schedule<\/th><th>Title<\/th><th>Units<\/th><\/tr>/<table id=\"ctable\" class=\"table table-striped table-bordered\"><thead><tr class=\"header\"><th>Department<\/th><th>Course No<\/th><th>Instructor(s)<\/th><th>Pre-requisites<\/th><th>Schedule<\/th><th>Title<\/th><th>Units<\/th><\/tr><\/thead>/g' data/try.html

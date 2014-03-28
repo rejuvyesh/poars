@@ -8,7 +8,7 @@ for w in obj:
     k = [x for x in j if x != '']
     k = list(map(lambda x: x.strip(), k))
     dic = {}
-    for i in ['Course', 'Title', 'Instructor', 'Schedule', 'Units', 'Pre', 'Department', 'Inst']:
+    for i in ['Course', 'Title', 'Instructor', 'Schedule', 'Units', 'Pre', 'Department', 'Inst. email']:
         q = next(s for s in k if s.startswith(i))
         print(q)
         #p="".join(c for c in q if c != " ").split(":",1)
