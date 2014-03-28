@@ -25,6 +25,7 @@ csv: json
 	$(JSON2CSV) -i  dict.json -f 'Course No','Instructor(s)','Pre-requisites','Schedule','Title','Units' -o "data.csv"
 
 web: csv
+	sed -i 's/(L-T-P-D-U)//g' data.csv
 	cat head > try.html
 	ruby table.rb data.csv >> try.html
 	sed -i 's/<tr><th>Course No<\/th><th>Instructor(s)<\/th><th>Pre-requisites<\/th><th>Schedule<\/th><th>Title<\/th><th>Units<\/th><\/tr>/<thead><tr class=\"header\"><th>Course No<\/th><th>Instructor(s)<\/th><th>Pre-requisites<\/th><th>Schedule<\/th><th>Title<\/th><th>Units<\/th><\/tr><\/thead>/g' try.html
