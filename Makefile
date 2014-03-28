@@ -5,6 +5,8 @@ all:
 
 scrape: poars.py
 	python poars.py
+	ruby check.rb
+	python poars.py
 
 txt: scrape dump.rb
 	ruby dump.rb
