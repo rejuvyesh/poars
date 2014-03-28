@@ -6,7 +6,6 @@ import requests
 import re
 import pickle
 import time
-from subprocess import call
 from bs4 import BeautifulSoup
 import os
 url = 'http://172.26.142.75:4040/Common/CourseListing.asp'
