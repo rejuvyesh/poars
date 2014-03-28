@@ -63,6 +63,231 @@
         "Units": "(L-T-P-D-U)         1-0-2-2-7"
     }, 
     {
+        "Course No": "AE471", 
+        "Department": "AE", 
+        "Instructor(s)": "CONVENOR DPGC", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC:", 
+        "Title": "PROJECT-I", 
+        "Units": "(L-T-P-D-U)         0-0-0-0-2"
+    }, 
+    {
+        "Course No": "AE601", 
+        "Department": "AE", 
+        "Instructor(s)": "", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC:", 
+        "Title": "INTRO TO AEROSPACE ENGG.", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    }, 
+    {
+        "Course No": "AE602", 
+        "Department": "AE", 
+        "Instructor(s)": "S MARIAPPAN", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: WF 09:00-10:30 NWTF;", 
+        "Title": "MATHEMATICS FOR AEROSPACE ENGG.", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    }, 
+    {
+        "Course No": "AE602A", 
+        "Department": "AE", 
+        "Instructor(s)": "S MARIAPPAN", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: WF 09:00-10:30 NWTF;", 
+        "Title": "MATHEMATICS FOR AEROSPACE ENGG.", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    }, 
+    {
+        "Course No": "AE603", 
+        "Department": "AE", 
+        "Instructor(s)": "T K SENGUPTA, R K MATHPAL", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: TF 12:00-13:00 REQ;", 
+        "Title": "INTRODUCTION TO SCIENTIFIC COMPUTING", 
+        "Units": "(L-T-P-D-U)         2-0-1-0-4"
+    }, 
+    {
+        "Course No": "AE605", 
+        "Department": "AE", 
+        "Instructor(s)": "T K SENGUPTA", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: MWF 17:00-18:00 AE04;", 
+        "Title": "ADVANCED COMPUTATIONAL FLUID MECHANICS", 
+        "Units": "(L-T-P-D-U)         3-0-1-0-5"
+    }, 
+    {
+        "Course No": "AE605A", 
+        "Department": "AE", 
+        "Instructor(s)": "T K SENGUPTA", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: MWF 17:00-18:00 AE04;", 
+        "Title": "ADVANCED COMPUTATIONAL FLUID MECHANICS", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    }, 
+    {
+        "Course No": "AE610", 
+        "Department": "AE", 
+        "Instructor(s)": "A C MANDAL", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: WF 17:00-18:30 NWTF;", 
+        "Title": "AERODYNAMICS-I", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    }, 
+    {
+        "Course No": "AE610A", 
+        "Department": "AE", 
+        "Instructor(s)": "A C MANDAL", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: WF 17:00-18:30 NWTF;", 
+        "Title": "AERODYNAMICS-I", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    }, 
+    {
+        "Course No": "AE611", 
+        "Department": "AE", 
+        "Instructor(s)": "D DAS", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: TF 12:00-13:30 AE04;", 
+        "Title": "MEASUREMENTS IN FLUID MECHANICS", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    }, 
+    {
+        "Course No": "AE618", 
+        "Department": "AE", 
+        "Instructor(s)": "S MITTAL", 
+        "Pre-requisites": "#", 
+        "Schedule": "LEC: MTh 09:00-10:30 AE04;", 
+        "Title": "FINITE ELEMENT METHODS FOR FLUID DYNAMICS", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    }, 
+    {
+        "Course No": "AE618A", 
+        "Department": "AE", 
+        "Instructor(s)": "S MITTAL", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: MTh 09:00-10:30 AE04;", 
+        "Title": "FINITE ELEMENT METHODS FOR FLUID DYNAMICS", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    }, 
+    {
+        "Course No": "AE647", 
+        "Department": "AE", 
+        "Instructor(s)": "A K GHOSH", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: M 17:00-18:00 REQ;WF 15:00-16:00 REQ;", 
+        "Title": "FLIGHT DYNAMICS", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    }, 
+    {
+        "Course No": "AE647A", 
+        "Department": "AE", 
+        "Instructor(s)": "A K GHOSH", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: M 17:00-18:00 REQ;WF 15:00-16:00 REQ;", 
+        "Title": "FLIGHT DYNAMICS", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    }, 
+    {
+        "Course No": "AE652", 
+        "Department": "AE", 
+        "Instructor(s)": "ASHOKE DE", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: MTh 12:00-13:30 AE04;", 
+        "Title": "AIRCRAFT PROPULSION", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    }, 
+    {
+        "Course No": "AE652A", 
+        "Department": "AE", 
+        "Instructor(s)": "ASHOKE DE", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: MTh 12:00-13:30 AE04;", 
+        "Title": "AIRCRAFT PROPULSION", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    }, 
+    {
+        "Course No": "AE662", 
+        "Department": "AE", 
+        "Instructor(s)": "D P MISHRA", 
+        "Pre-requisites": "AE651/AE342", 
+        "Schedule": "LEC: WF 10:30-12:00 AE01;", 
+        "Title": "ROCKET ENGINE DESIGN", 
+        "Units": "(L-T-P-D-U)         2-0-3-0-4"
+    }, 
+    {
+        "Course No": "AE662A", 
+        "Department": "AE", 
+        "Instructor(s)": "D P MISHRA", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: WF 10:30-12:00 REQ;", 
+        "Title": "ROCKET ENGINE DESIGN", 
+        "Units": "(L-T-P-D-U)         2-0-3-0-9"
+    }, 
+    {
+        "Course No": "AE670", 
+        "Department": "AE", 
+        "Instructor(s)": "P M MOHITE", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: TWTh 08:00-09:00 AE04;", 
+        "Title": "AEROSPACE STRUCTURAL ANALYSIS - I", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    }, 
+    {
+        "Course No": "AE670A", 
+        "Department": "AE", 
+        "Instructor(s)": "P M MOHITE", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: TWTh 08:00-09:00 AE04;", 
+        "Title": "AEROSPACE STRUCTURAL ANALYSIS - I", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    }, 
+    {
+        "Course No": "AE686", 
+        "Department": "AE", 
+        "Instructor(s)": "ABHISHEK", 
+        "Pre-requisites": "#", 
+        "Schedule": "LEC: M 15:30-17:00 NWTF;T 14:00-15:30 NWTF;", 
+        "Title": "HELICOPTER THEORY : DYNAMICS AND AEROELASTICITY", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    }, 
+    {
+        "Course No": "AE686A", 
+        "Department": "AE", 
+        "Instructor(s)": "ABHISHEK", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: M 15:30-17:00 NWTF;T 14:00-15:30 NWTF;", 
+        "Title": "HELICOPTER THEORY : DYNAMICS AND AEROELASTICITY", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    }, 
+    {
+        "Course No": "AE688", 
+        "Department": "AE", 
+        "Instructor(s)": "D YADAV", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: MTh 10:30-12:00 AE01;", 
+        "Title": "DYNAMICS AND VIBRATION", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    }, 
+    {
+        "Course No": "AE688A", 
+        "Department": "AE", 
+        "Instructor(s)": "D YADAV", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: MTh 10:30-12:00 AE01;", 
+        "Title": "DYNAMICS AND VIBRATION", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    }, 
+    {
+        "Course No": "AE689", 
+        "Department": "AE", 
+        "Instructor(s)": "C VENKATESAN", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: MTh 12:00-13:30 AE01;", 
+        "Title": "INTRODUCTION TO THE THEORY OF SMART STRUCTURES", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    }, 
+    {
         "Course No": "AE699", 
         "Department": "AE", 
         "Instructor(s)": "CONVENOR DPGC", 
@@ -1647,6 +1872,15 @@
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
     }, 
     {
+        "Course No": "CS601A", 
+        "Department": "CSE", 
+        "Instructor(s)": "RAGHUNATH TEWARI", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: WF 09:00-10:30 REQ;", 
+        "Title": "MATHEMATICS FOR COMPUTER SCIENCE", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    }, 
+    {
         "Course No": "CS602", 
         "Department": "CSE", 
         "Instructor(s)": "SANJEEV SAXENA", 
@@ -1654,6 +1888,15 @@
         "Schedule": "LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;", 
         "Title": "DESIGN AND ANALYSIS OF ALGORITHMS", 
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    }, 
+    {
+        "Course No": "CS602A", 
+        "Department": "CSE", 
+        "Instructor(s)": "SANJEEV SAXENA", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;", 
+        "Title": "DESIGN AND ANALYSIS OF ALGORITHMS", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
     }, 
     {
         "Course No": "CS632", 
@@ -1665,6 +1908,15 @@
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
     }, 
     {
+        "Course No": "CS632A", 
+        "Department": "CSE", 
+        "Instructor(s)": "RATAN K GHOSH", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: MTh 10:30-12:00 REQ;", 
+        "Title": "TOPICS IN DISTRIBUTED SYSTEMS", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    }, 
+    {
         "Course No": "CS639", 
         "Department": "CSE", 
         "Instructor(s)": "SUBHAJIT ROY", 
@@ -1672,6 +1924,15 @@
         "Schedule": "LEC: WF 10:30-12:00 REQ;", 
         "Title": "PROGRAM ANALYSIS, VERIFICATION AND TESTING", 
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    }, 
+    {
+        "Course No": "CS639A", 
+        "Department": "CSE", 
+        "Instructor(s)": "SUBHAJIT ROY", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: WF 10:30-12:00 REQ;", 
+        "Title": "PROGRAM ANALYSIS, VERIFICATION AND TESTING", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
     }, 
     {
         "Course No": "CS641", 
@@ -1683,6 +1944,15 @@
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
     }, 
     {
+        "Course No": "CS641A", 
+        "Department": "CSE", 
+        "Instructor(s)": "MANINDRA AGRAWAL", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: MTh 09:00-10:30 REQ;", 
+        "Title": "MODERN CRYPTOLOGY", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    }, 
+    {
         "Course No": "CS663", 
         "Department": "CSE", 
         "Instructor(s)": "SHASHANK MEHTA", 
@@ -1690,6 +1960,15 @@
         "Schedule": "LEC: MTh 12:00-13:30 REQ;", 
         "Title": "COMPUTATIONAL GEOMETRY", 
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    }, 
+    {
+        "Course No": "CS663A", 
+        "Department": "CSE", 
+        "Instructor(s)": "SHASHANK MEHTA", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: MTh 12:00-13:30 REQ;", 
+        "Title": "COMPUTATIONAL GEOMETRY", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
     }, 
     {
         "Course No": "CS681", 
@@ -1701,6 +1980,15 @@
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
     }, 
     {
+        "Course No": "CS681A", 
+        "Department": "CSE", 
+        "Instructor(s)": "NITIN SAXENA", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: MTh 12:00-13:30 REQ;", 
+        "Title": "COMPUTATIONAL NUMBER THEORY AND ALGEBRA", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    }, 
+    {
         "Course No": "CS682", 
         "Department": "CSE", 
         "Instructor(s)": "ANIL SETH", 
@@ -1708,6 +1996,33 @@
         "Schedule": "LEC: MTh 10:30-12:00 REQ;", 
         "Title": "QUANTUM COMPUTING", 
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    }, 
+    {
+        "Course No": "CS682A", 
+        "Department": "CSE", 
+        "Instructor(s)": "ANIL SETH", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: MTh 10:30-12:00 REQ;", 
+        "Title": "QUANTUM COMPUTING", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    }, 
+    {
+        "Course No": "CS698I", 
+        "Department": "CSE", 
+        "Instructor(s)": "T V PRABHAKAR", 
+        "Pre-requisites": "#", 
+        "Schedule": "LEC: WF 10:30-12:00 REQ;", 
+        "Title": "DATA IN BIG DATA", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    }, 
+    {
+        "Course No": "CS698J", 
+        "Department": "CSE", 
+        "Instructor(s)": "RAJAT MITTAL", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: T 11:00-12:00 REQ;WF 16:00-17:00 REQ;Th", 
+        "Title": "TOPICS IN LINEAR PROGRAMMING", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
     }, 
     {
         "Course No": "CS698O", 
@@ -4527,6 +4842,15 @@
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
     }, 
     {
+        "Course No": "PHY311A", 
+        "Department": "PHY", 
+        "Instructor(s)": "D CHOWDHURY", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: WF 10:30-12:00 REQ;", 
+        "Title": "PHYSICS OF NON-EQUILIBRIUM PHENOMENA", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    }, 
+    {
         "Course No": "PHY315A", 
         "Department": "PHY", 
         "Instructor(s)": "R GUPTA, S MUKHOPADHYAY", 
@@ -4561,6 +4885,15 @@
         "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
         "Title": "SPECIAL & GENERAL RELATIVITY", 
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    }, 
+    {
+        "Course No": "PHY407A", 
+        "Department": "PHY", 
+        "Instructor(s)": "K BHATTACHARYA", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
+        "Title": "SPECIAL & GENERAL RELATIVITY", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
     }, 
     {
         "Course No": "PHY421A", 
@@ -4896,6 +5229,15 @@
         "Units": "(L-T-P-D-U)         3-1-0-0-4"
     }, 
     {
+        "Course No": "SE305A", 
+        "Department": "PHY", 
+        "Instructor(s)": "D CHOWDHURY", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: WF 10:30-12:00 REQ;", 
+        "Title": "PHYSICS OF NON-EQUILIBRIUM PHENOMENA", 
+        "Units": "(L-T-P-D-U)         3-1-0-0-11"
+    }, 
+    {
         "Course No": "SE314", 
         "Department": "PHY", 
         "Instructor(s)": "S CHAKRABORTY", 
@@ -4905,6 +5247,15 @@
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
     }, 
     {
+        "Course No": "SE314A", 
+        "Department": "PHY", 
+        "Instructor(s)": "S CHAKRABORTY", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: TF 12:00-13:30 REQ;T/D: W 12:00-13:00 REQ;", 
+        "Title": "CLASSICAL MECHANICS", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    }, 
+    {
         "Course No": "SE315", 
         "Department": "PHY", 
         "Instructor(s)": "K BHATTACHARYA", 
@@ -4912,6 +5263,15 @@
         "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
         "Title": "SPECIAL & GENERAL RELATIVITY", 
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    }, 
+    {
+        "Course No": "SE315A", 
+        "Department": "PHY", 
+        "Instructor(s)": "K BHATTACHARYA", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
+        "Title": "SPECIAL & GENERAL RELATIVITY", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
     }, 
     {
         "Course No": "SE367", 
