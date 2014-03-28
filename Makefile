@@ -1,9 +1,7 @@
 JSON2CSV = "node_modules/json2csv/bin/json2csv.js"
 
-all: test-prereq web
-
-test-prereq:
-	test -e $(JSON2CSV)
+all:
+	test -e $(JSON2CSV) && $(MAKE) web
 
 scrape: poars.py
 	python poars.py
