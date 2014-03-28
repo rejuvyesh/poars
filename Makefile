@@ -12,6 +12,7 @@ txt: scrape dump.rb
 	ruby dump.rb
 	rm -rf data/
 	mkdir -p data
+	rm -f data.txt sorted.txt
 	cp -r *.txt data/
 
 dict: txt parse.py
@@ -30,8 +31,10 @@ web: csv
 	cat foot >> try.html
 
 pub: web
-	git add save.json dict.json
-	git commit -m 'update json'
+	if ! git diff-index --quiet HEAD --; then \
+		git add save.json dict.json; \
+		git commit -m 'update json'; \
+	fi 
 	cp -f dict.json newdict.json
 	git checkout gh-pages
 	mv -f try.html index.html
