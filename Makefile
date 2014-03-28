@@ -1,7 +1,7 @@
 JSON2CSV = "node_modules/json2csv/bin/json2csv.js"
 
 all:
-	test -e $(JSON2CSV) && $(MAKE) web
+	test -e $(JSON2CSV) && $(MAKE) pub
 
 scrape: poars.py
 	python poars.py
@@ -28,6 +28,8 @@ web: csv
 	ruby table.rb data.csv >> try.html
 	sed -i 's/<tr><th>Course No<\/th><th>Instructor(s)<\/th><th>Pre-requisites<\/th><th>Schedule<\/th><th>Title<\/th><th>Units<\/th><\/tr>/<thead><tr class=\"header\"><th>Course No<\/th><th>Instructor(s)<\/th><th>Pre-requisites<\/th><th>Schedule<\/th><th>Title<\/th><th>Units<\/th><\/tr><\/thead>/g' try.html
 	cat foot >> try.html
+
+pub: web
 	git add save.json dict.json
 	git commit -m 'update json'
 	cp -f dict.json newdict.json
