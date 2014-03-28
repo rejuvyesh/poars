@@ -32,7 +32,14 @@ if scrap == 'y':
             fout = open(i + ".html", "wt")
             url = "http://172.26.142.75:4040/Utils/CourseInfoPopup2.asp?Course=" + i
             time.sleep(3)
-            oars = requests.get(url, timeout=1)
+            attempt = 0
+            while attempt < 5:
+                try:
+                    oars = requests.get(url, timeout=1)
+                    break
+                except:
+                    attempt += 1
+
             soup = BeautifulSoup(oars.content)
 
             print((type(soup.prettify)))
