@@ -25,12 +25,12 @@ About
 
 [`check.rb`](https://github.com/rejuvyesh/poars/blob/master/check.rb): Checks and removes empty htmls.
 
-[`dump.rb`](https://github.com/rejuvyesh/poars/blob/master/dump.rb): Dumps html files to text.
+[`dump.rb` ](https://github.com/rejuvyesh/poars/blob/master/dump.rb): Dumps html files to text.
 
 [`parse.py`](https://github.com/rejuvyesh/poars/blob/master/parse.py): Parses the text files to generate a dictionary of all data.
 
-[`jsn.py`](https://github.com/rejuvyesh/poars/blob/master/jsn.py): Dumps the python dictionary as json.
+[`jsn.py`  ](https://github.com/rejuvyesh/poars/blob/master/jsn.py): Dumps the python dictionary as json.
 
 
 
-See http://rejuvyesh.com/poars/
+See in action at: http://rejuvyesh.com/poars/
