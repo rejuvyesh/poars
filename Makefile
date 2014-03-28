@@ -21,24 +21,24 @@ dict: txt parse.py
 json: dict jsn.py
 	python jsn.py
 
-csv: json
-	$(JSON2CSV) -i  dict.json -f 'Course No','Instructor(s)','Pre-requisites','Schedule','Title','Units' -o "data.csv"
+csv: dict.json
+	$(JSON2CSV) -i  dict.json -f 'Department','Course No','Instructor(s)','Pre-requisites','Schedule','Title','Units' -o "data.csv"
 
 web: csv
 	sed -i 's/(L-T-P-D-U)//g' data.csv
-	cat head > try.html
-	ruby table.rb data.csv >> try.html
-	sed -i 's/<tr><th>Course No<\/th><th>Instructor(s)<\/th><th>Pre-requisites<\/th><th>Schedule<\/th><th>Title<\/th><th>Units<\/th><\/tr>/<thead><tr class=\"header\"><th>Course No<\/th><th>Instructor(s)<\/th><th>Pre-requisites<\/th><th>Schedule<\/th><th>Title<\/th><th>Units<\/th><\/tr><\/thead>/g' try.html
-	cat foot >> try.html
+	cat head > data/try.html
+	ruby table.rb data.csv >> data/try.html
+	sed -i 's/<table><tr><th>Department<\/th><th>Course No<\/th><th>Instructor(s)<\/th><th>Pre-requisites<\/th><th>Schedule<\/th><th>Title<\/th><th>Units<\/th><\/tr>/<table id=\"ctable\" class=\"table table-striped table-bordered\"><thead><tr class=\"header\"><th>Course No<\/th><th>Instructor(s)<\/th><th>Pre-requisites<\/th><th>Schedule<\/th><th>Title<\/th><th>Units<\/th><\/tr><\/thead>/g' data/try.html
+	cat foot >> data/try.html
 
-pub: try.html
+pub: data/try.html
 	if ! git diff-index --quiet HEAD --; then \
 		git add save.json dict.json; \
 		git commit -m 'update json'; \
 	fi 
 	cp -f dict.json newdict.json
 	git checkout gh-pages
-	mv -f try.html index.html
+	mv -f data/try.html index.html
 	mv -f newdict.json dict.json
 	git add index.html dict.json
 	git commit -m "`date` update"
