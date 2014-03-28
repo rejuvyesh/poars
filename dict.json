@@ -2,7 +2,7 @@
     {
         "Course No": "AE201A", 
         "Department": "AE", 
-        "Instructor(s)": "OARS", 
+        "Instructor(s)": "S MITTAL", 
         "Pre-requisites": "", 
         "Schedule": "LEC: MWF 12:00-13:00 REQ;", 
         "Title": "INTRODUCTION TO AEROSPACE ENGINEERING", 
@@ -11,7 +11,7 @@
     {
         "Course No": "AE311A", 
         "Department": "AE", 
-        "Instructor(s)": "OARS", 
+        "Instructor(s)": "R K MATHPAL", 
         "Pre-requisites": "ESO201A,ESO204A", 
         "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
         "Title": "COMPRESSIBLE AERODYNAMICS", 
@@ -20,16 +20,16 @@
     {
         "Course No": "AE321A", 
         "Department": "AE", 
-        "Instructor(s)": "OARS", 
+        "Instructor(s)": "A K GHOSH", 
         "Pre-requisites": "", 
-        "Schedule": "LEC: T 12:00-13:00 REQ;WF 16:00-17:00 REQ;", 
+        "Schedule": "LEC: TWF 16:00-17:00 REQ;", 
         "Title": "FLIGHT MECHANICS I", 
         "Units": "(L-T-P-D-U)         3-0-0-0-9"
     }, 
     {
         "Course No": "AE331A", 
         "Department": "AE", 
-        "Instructor(s)": "OARS", 
+        "Instructor(s)": "C S UPADHYAY", 
         "Pre-requisites": "ESO202A", 
         "Schedule": "LEC: T 17:00-18:00 REQ;WF 14:00-15:00 REQ;", 
         "Title": "INTRODUCTION TO AEROSPACE STRUCTURES", 
@@ -38,7 +38,7 @@
     {
         "Course No": "AE401A", 
         "Department": "AE", 
-        "Instructor(s)": "OARS", 
+        "Instructor(s)": "C S UPADHYAY", 
         "Pre-requisites": "", 
         "Schedule": "LEC: T 10:00-11:00 REQ;", 
         "Title": "TECHNICAL COMMUNICATION", 
@@ -47,7 +47,7 @@
     {
         "Course No": "AE441A", 
         "Department": "AE", 
-        "Instructor(s)": "OARS", 
+        "Instructor(s)": "A KUSHARI", 
         "Pre-requisites": "", 
         "Schedule": "LEC: TWTh 08:00-09:00 REQ;", 
         "Title": "TURBO-MACHINERY", 
@@ -56,7 +56,7 @@
     {
         "Course No": "AE461A", 
         "Department": "AE", 
-        "Instructor(s)": "OARS", 
+        "Instructor(s)": "A TEWARI", 
         "Pre-requisites": "", 
         "Schedule": "LEC: F 15:00-16:00 REQ;", 
         "Title": "AIRCRAFT DESIGN-I", 
@@ -74,9 +74,9 @@
     {
         "Course No": "AE601", 
         "Department": "AE", 
-        "Instructor(s)": "", 
+        "Instructor(s)": "E RATHAKRISHNAN", 
         "Pre-requisites": "", 
-        "Schedule": "LEC:", 
+        "Schedule": "LEC: MF 08:00-09:00 AE01;T 09:00-10:00 AE01;", 
         "Title": "INTRO TO AEROSPACE ENGG.", 
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
     }, 
@@ -517,7 +517,7 @@
         "Department": "BSBE", 
         "Instructor(s)": "R. SHANKARARAMAKRISHNAN", 
         "Pre-requisites": "", 
-        "Schedule": "LEC:", 
+        "Schedule": "LEC: TTh 12:00-13:30 REQ;", 
         "Title": "STRUCTURAL BIOLOGY & BIOPHYSICS", 
         "Units": "(L-T-P-D-U)         3-0-0-0-9"
     }, 
@@ -714,7 +714,7 @@
         "Course No": "CE422A", 
         "Department": "CE", 
         "Instructor(s)": "CONVENOR DUGC", 
-        "Pre-requisites": "CE321A / CE322A", 
+        "Pre-requisites": "CE321A/CE322A", 
         "Schedule": "LEC: WF 10:30-12:00 REQ;", 
         "Title": "PHYSICAL AND ENVIRONMENTAL GEOLOGY", 
         "Units": "(L-T-P-D-U)         3-0-0-0-9"
@@ -749,9 +749,9 @@
     {
         "Course No": "CE451A", 
         "Department": "CE", 
-        "Instructor(s)": "", 
+        "Instructor(s)": "R SATHIAMURTHY", 
         "Pre-requisites": "CE351A, CE352A", 
-        "Schedule": "LEC:", 
+        "Schedule": "LEC: WF 15:30-17:00 REQ;", 
         "Title": "APPLICATION OF GEOTECHNICAL ENGINEERING", 
         "Units": "(L-T-P-D-U)         3-0-0-2-11"
     }, 
@@ -882,12 +882,12 @@
         "Units": "(L-T-P-D-U)         3-0-0-0-9"
     }, 
     {
-        "Course No": "CE621A", 
+        "Course No": "CE620A", 
         "Department": "CE", 
-        "Instructor(s)": "S K MISHRA", 
+        "Instructor(s)": "VINAY K GUPTA", 
         "Pre-requisites": "", 
-        "Schedule": "LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;", 
-        "Title": "ENGINEERING MECHANICS", 
+        "Schedule": "LEC: T 17:00-18:00 REQ;W 12:00-13:00 REQ;F", 
+        "Title": "STRUCTURAL DYNAMICS", 
         "Units": "(L-T-P-D-U)         3-0-0-0-9"
     }, 
     {
@@ -895,7 +895,7 @@
         "Department": "CE", 
         "Instructor(s)": "S K MISHRA", 
         "Pre-requisites": "", 
-        "Schedule": "LEC: TF 12:00-13:30 REQ;", 
+        "Schedule": "LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;", 
         "Title": "ENGINEERING MECHANICS", 
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
     }, 
@@ -1147,7 +1147,7 @@
         "Department": "CHE", 
         "Instructor(s)": "J K SINGH", 
         "Pre-requisites": "", 
-        "Schedule": "LEC: T 12:00-13:00 REQ;W 16:00-17:00 REQ;Th", 
+        "Schedule": "LEC: MWF 17:00-18:00 REQ;", 
         "Title": "MASS TRANSFER & ITS APPLICATIONS", 
         "Units": "(L-T-P-D-U)         3-0-0-0-9"
     }, 
@@ -1280,7 +1280,7 @@
     {
         "Course No": "CHE699", 
         "Department": "CHE", 
-        "Instructor(s)": "CONVENOR DUGC", 
+        "Instructor(s)": "CONVENOR DPGC", 
         "Pre-requisites": "#", 
         "Schedule": "LEC:", 
         "Title": "M TECH THESIS", 
@@ -2099,7 +2099,7 @@
     {
         "Course No": "ECO301A", 
         "Department": "ECO", 
-        "Instructor(s)": "OARS", 
+        "Instructor(s)": "SARANI SAHA", 
         "Pre-requisites": "", 
         "Schedule": "LEC: MF 08:00-09:00 REQ;T/D: T 09:00-10:00 REQ;", 
         "Title": "MICROECONOMICS II", 
@@ -2108,20 +2108,29 @@
     {
         "Course No": "ECO321A", 
         "Department": "ECO", 
-        "Instructor(s)": "OARS", 
+        "Instructor(s)": "S SAHU", 
         "Pre-requisites": "", 
-        "Schedule": "LEC: T 12:00-13:00 REQ;WF 16:00-17:00 REQ;", 
+        "Schedule": "LEC: T 17:00-18:00 REQ;WF 14:00-15:00 REQ;", 
         "Title": "MACROECONOMICS-II", 
         "Units": "(L-T-P-D-U)         3-0-0-0-9"
     }, 
     {
         "Course No": "ECO341A", 
         "Department": "ECO", 
-        "Instructor(s)": "OARS", 
+        "Instructor(s)": "S K MATHUR, M ARSHAD RAHMAN", 
         "Pre-requisites": "MSO201A", 
         "Schedule": "LEC: WF 15:00-16:00 REQ;T/D: Th 17:00-18:00 REQ;", 
         "Title": "ECONOMETRICS I", 
         "Units": "(L-T-P-D-U)         3-0-3-0-12"
+    }, 
+    {
+        "Course No": "ECO397A", 
+        "Department": "ECO", 
+        "Instructor(s)": "P M PRASAD", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC:", 
+        "Title": "TECHNICAL COMMUNICATION", 
+        "Units": "(L-T-P-D-U)         0-0-2-0-2"
     }, 
     {
         "Course No": "ECO408", 
@@ -2135,16 +2144,16 @@
     {
         "Course No": "ECO411A", 
         "Department": "ECO", 
-        "Instructor(s)": "OARS", 
+        "Instructor(s)": "P KULKHRESTHA", 
         "Pre-requisites": "", 
-        "Schedule": "LEC: T 17:00-18:00 REQ;WF 14:00-15:00 REQ;", 
+        "Schedule": "LEC: T 12:00-13:00 REQ;WF 16:00-17:00 REQ;", 
         "Title": "INDUSTRIAL ECONOMICS", 
         "Units": "(L-T-P-D-U)         3-0-0-0-9"
     }, 
     {
         "Course No": "ECO412A", 
         "Department": "ECO", 
-        "Instructor(s)": "OARS", 
+        "Instructor(s)": "S K MATHUR, M ARSHAD RAHMAN", 
         "Pre-requisites": "", 
         "Schedule": "LEC: TWTh 08:00-09:00 REQ;", 
         "Title": "INTERNATIONAL ECONOMICS AND FINANCE", 
@@ -2182,7 +2191,7 @@
         "Department": "HSS", 
         "Instructor(s)": "S K MATHUR, M ARSHAD RAHMAN", 
         "Pre-requisites": "#", 
-        "Schedule": "LEC: MTh 14:00-15:30 REQ;", 
+        "Schedule": "LEC: WF 17:00-18:30 REQ;", 
         "Title": "ECONOMETRICS", 
         "Units": "(L-T-P-D-U)         3-0-1-0-4"
     }, 
@@ -2191,7 +2200,7 @@
         "Department": "HSS", 
         "Instructor(s)": "P KULKHRESTHA", 
         "Pre-requisites": "#", 
-        "Schedule": "LEC: WF 15:30-17:00 REQ;", 
+        "Schedule": "LEC: MTh 09:00-10:30 REQ;", 
         "Title": "INDUSTRIAL ORGANISATION AND POLICY", 
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
     }, 
@@ -2200,7 +2209,7 @@
         "Department": "ECO", 
         "Instructor(s)": "K K SAXENA", 
         "Pre-requisites": "#", 
-        "Schedule": "LEC: MTh 12:00-13:30 REQ;", 
+        "Schedule": "LEC: WF 15:30-17:00 REQ;", 
         "Title": "INTER-INDUSTRY ECONOMICS", 
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
     }, 
@@ -2380,7 +2389,7 @@
         "Department": "EE", 
         "Instructor(s)": "U DAS", 
         "Pre-requisites": "#", 
-        "Schedule": "LEC: MTh 10:30-12:00 REQ;", 
+        "Schedule": "LEC: WF 10:30-12:00 REQ;", 
         "Title": "FIBER OPTIC SYSTEMS I", 
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
     }, 
@@ -2389,7 +2398,7 @@
         "Department": "EE", 
         "Instructor(s)": "U DAS", 
         "Pre-requisites": "", 
-        "Schedule": "LEC: MTh 10:30-12:00 REQ;", 
+        "Schedule": "LEC: WF 10:30-12:00 REQ;", 
         "Title": "FIBER OPTIC SYSTEMS I", 
         "Units": "(L-T-P-D-U)         3-0-0-0-9"
     }, 
@@ -2434,7 +2443,7 @@
         "Department": "EE", 
         "Instructor(s)": "A DUTTA", 
         "Pre-requisites": "#", 
-        "Schedule": "LEC: MTh 14:00-15:30 REQ;", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
         "Title": "INTEGRATED CIRCUIT FABRICATION TECHNOLOGY", 
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
     }, 
@@ -2443,7 +2452,7 @@
         "Department": "EE", 
         "Instructor(s)": "A DUTTA", 
         "Pre-requisites": "", 
-        "Schedule": "LEC: MTh 14:00-15:30 REQ;", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
         "Title": "INTEGRATED CIRCUIT FABRICATION TECHNOLOGY", 
         "Units": "(L-T-P-D-U)         3-0-0-0-9"
     }, 
@@ -2542,7 +2551,7 @@
         "Department": "EE", 
         "Instructor(s)": "A BISWAS", 
         "Pre-requisites": "#", 
-        "Schedule": "LEC: MTh 09:00-10:30 REQ;", 
+        "Schedule": "LEC: MWF 17:00-18:00 REQ;", 
         "Title": "ADVANCED ENGINEERING ELECTROMAGNETICS", 
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
     }, 
@@ -2551,7 +2560,7 @@
         "Department": "EE", 
         "Instructor(s)": "A BISWAS", 
         "Pre-requisites": "", 
-        "Schedule": "LEC: MTh 09:00-10:30 REQ;", 
+        "Schedule": "LEC: MWF 17:00-18:00 REQ;", 
         "Title": "ADVANCED ENGINEERING ELECTROMAGNETICS", 
         "Units": "(L-T-P-D-U)         3-0-0-0-9"
     }, 
@@ -2722,7 +2731,7 @@
         "Department": "EE", 
         "Instructor(s)": "A JAGANNATHAM", 
         "Pre-requisites": "#", 
-        "Schedule": "LEC: MTh 10:30-12:00 REQ;", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
         "Title": "WIRELESS COMMUNICATIONS", 
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
     }, 
@@ -2731,7 +2740,7 @@
         "Department": "EE", 
         "Instructor(s)": "A JAGANNATHAM", 
         "Pre-requisites": "", 
-        "Schedule": "LEC: MTh 10:30-12:00 REQ;", 
+        "Schedule": "LEC: MF 08:00-09:00 REQ;", 
         "Title": "WIRELESS COMMUNICATIONS", 
         "Units": "(L-T-P-D-U)         3-0-0-0-9"
     }, 
@@ -2812,7 +2821,7 @@
         "Department": "EE", 
         "Instructor(s)": "A JAGANNATHAM", 
         "Pre-requisites": "", 
-        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
+        "Schedule": "LEC: MTh 10:30-12:00 REQ;", 
         "Title": "TRANSCEIVER OPTIMIZATION FOR OFDM WIRELESS", 
         "Units": "(L-T-P-D-U)         3-0-0-0-9"
     }, 
@@ -2821,7 +2830,7 @@
         "Department": "EE", 
         "Instructor(s)": "A JAGANNATHAM", 
         "Pre-requisites": "#", 
-        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;", 
+        "Schedule": "LEC: MTh 10:30-12:00 REQ;", 
         "Title": "TRANSCEIVER OPTIMIZATION FOR OFDM WIRELESS", 
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
     }, 
@@ -2866,7 +2875,7 @@
         "Department": "CE", 
         "Instructor(s)": "ABHAS SINGH", 
         "Pre-requisites": "", 
-        "Schedule": "LEC: MTh 10:30-12:00 REQ;", 
+        "Schedule": "LEC: T 11:00-12:00 REQ;WF 16:00-17:00 REQ;", 
         "Title": "PHYSICOCHEMICAL PRINCIPLES AND PROCESS", 
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
     }, 
@@ -3008,7 +3017,7 @@
     {
         "Course No": "ESO202A", 
         "Department": "CE", 
-        "Instructor(s)": "OARS", 
+        "Instructor(s)": "S KAMLE", 
         "Pre-requisites": "", 
         "Schedule": "LEC: MWF 10:00-11:00 L17;T/D: Th 10:00-11:00", 
         "Title": "MECHANICS OF SOLIDS", 
@@ -3026,7 +3035,7 @@
     {
         "Course No": "ESO204", 
         "Department": "CE", 
-        "Instructor(s)": "OARS", 
+        "Instructor(s)": "S KAMLE", 
         "Pre-requisites": "", 
         "Schedule": "LEC: MWF 10:00-11:00 L17;T/D: Th 10:00-11:00", 
         "Title": "MECHANICS OF SOLIDS", 
@@ -3215,7 +3224,7 @@
     {
         "Course No": "LIF101A", 
         "Department": "BSBE", 
-        "Instructor(s)": "OARS", 
+        "Instructor(s)": "A BANDYOPADHYAYA, B PRAKASH", 
         "Pre-requisites": "", 
         "Schedule": "LEC: WF 14:00-15:00 L7;", 
         "Title": "INTRODUCTION TO BIOLOGY", 
@@ -3400,6 +3409,15 @@
         "Schedule": "LEC:", 
         "Title": "MECHANICAL ENGINEERING COMMUNICATION SKILLS", 
         "Units": "(L-T-P-D-U)         0-0-0-2-2"
+    }, 
+    {
+        "Course No": "ME401", 
+        "Department": "ME", 
+        "Instructor(s)": "A K SAHA", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC: TWTh 08:00-09:00 REQ;", 
+        "Title": "ENERGY SYSTEMS - II", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
     }, 
     {
         "Course No": "ME401A", 
@@ -3690,13 +3708,13 @@
         "Units": "(L-T-P-D-U)         2-0-0-0-6"
     }, 
     {
-        "Course No": "MSE302A", 
-        "Department": "MSE", 
-        "Instructor(s)": "N P GURAO", 
+        "Course No": "MS601", 
+        "Department": "MS", 
+        "Instructor(s)": "JITENDRA KUMAR, RAJ PALA", 
         "Pre-requisites": "", 
-        "Schedule": "LEC: TWTh 08:00-09:00 REQ;", 
-        "Title": "MECHANICAL BEHAVIOUR OF MATERIALS", 
-        "Units": "(L-T-P-D-U)         3-0-0-0-9"
+        "Schedule": "LEC: MTh 09:00-10:30 ACMS110;", 
+        "Title": "STRUCTURAL & MAGNETIC PROPERTIES OF MATERIALS", 
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
     }, 
     {
         "Course No": "MSE303A", 
@@ -4716,6 +4734,15 @@
         "Units": "(L-T-P-D-U)         0-0-0-0-0"
     }, 
     {
+        "Course No": "PE101A", 
+        "Department": "SPEC", 
+        "Instructor(s)": "", 
+        "Pre-requisites": "", 
+        "Schedule": "LEC:", 
+        "Title": "MORNING EXERCISE", 
+        "Units": "(L-T-P-D-U)         0-0-3-0-3"
+    }, 
+    {
         "Course No": "PHI141", 
         "Department": "HSS", 
         "Instructor(s)": "P BAGAD", 
@@ -4819,7 +4846,7 @@
         "Department": "PHY", 
         "Instructor(s)": "S A RAMAKRISHNA, S GHOSH", 
         "Pre-requisites": "PHY103N", 
-        "Schedule": "LEC:", 
+        "Schedule": "LEC: T 17:00-18:00 REQ;", 
         "Title": "OPTICS LAB", 
         "Units": "(L-T-P-D-U)         1-0-4-0-4"
     }, 
@@ -5026,7 +5053,7 @@
         "Department": "PHY", 
         "Instructor(s)": "S MUKHERJEE", 
         "Pre-requisites": "", 
-        "Schedule": "LEC: T 17:00-18:00 REQ;T/D: W 12:00-13:30 REQ;F", 
+        "Schedule": "LEC: M 14:00-15:00 REQ;T/D: TWTh 14:00-15:00", 
         "Title": "REVIEW OF CLASSICAL PHYSICS I", 
         "Units": "(L-T-P-D-U)         1-3-0-0-4"
     }, 
@@ -5035,7 +5062,7 @@
         "Department": "PHY", 
         "Instructor(s)": "M K HARBOLA", 
         "Pre-requisites": "", 
-        "Schedule": "LEC:", 
+        "Schedule": "LEC: M 15:00-16:00 REQ;T/D: TTh 15:00-16:00", 
         "Title": "REVIEW OF CLASSICAL PHYSICS II", 
         "Units": "(L-T-P-D-U)         1-3-0-0-4"
     }, 
@@ -5125,7 +5152,7 @@
         "Department": "PHY", 
         "Instructor(s)": "D CHAKRABORTI", 
         "Pre-requisites": "#", 
-        "Schedule": "LEC: MTh 12:00-13:00 REQ;", 
+        "Schedule": "LEC: M 12:00-13:30 REQ;Th 12:00-13:00 REQ;", 
         "Title": "HIGH ENERGY PHYSICS II", 
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
     }, 
