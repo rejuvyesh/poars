@@ -28,8 +28,12 @@ web: csv
 	ruby table.rb data.csv >> try.html
 	sed -i 's/<tr><th>Course No<\/th><th>Instructor(s)<\/th><th>Pre-requisites<\/th><th>Schedule<\/th><th>Title<\/th><th>Units<\/th><\/tr>/<thead><tr class=\"header\"><th>Course No<\/th><th>Instructor(s)<\/th><th>Pre-requisites<\/th><th>Schedule<\/th><th>Title<\/th><th>Units<\/th><\/tr><\/thead>/g' try.html
 	cat foot >> try.html
+	git add save.json dict.json
+	git commit -m 'update json'
+	cp -f dict.json newdict.json
 	git checkout gh-pages
 	mv -f try.html index.html
-	git add index.html
+	mv -f newdict.json dict.json
+	git add index.html dict.json
 	git commit -m "`date` update"
 	git push origin gh-pages
