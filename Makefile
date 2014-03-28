@@ -1,7 +1,7 @@
 JSON2CSV = "node_modules/json2csv/bin/json2csv.js"
 
 all:
-	test -e $(JSON2CSV) && $(MAKE) pub
+	test -e $(JSON2CSV) && $(MAKE) web
 
 scrape: poars.py
 	python poars.py
@@ -31,7 +31,7 @@ web: csv
 	sed -i 's/<tr><th>Course No<\/th><th>Instructor(s)<\/th><th>Pre-requisites<\/th><th>Schedule<\/th><th>Title<\/th><th>Units<\/th><\/tr>/<thead><tr class=\"header\"><th>Course No<\/th><th>Instructor(s)<\/th><th>Pre-requisites<\/th><th>Schedule<\/th><th>Title<\/th><th>Units<\/th><\/tr><\/thead>/g' try.html
 	cat foot >> try.html
 
-pub: web
+pub: try.html
 	if ! git diff-index --quiet HEAD --; then \
 		git add save.json dict.json; \
 		git commit -m 'update json'; \
