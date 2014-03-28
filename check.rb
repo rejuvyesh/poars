@@ -7,6 +7,8 @@
 # License: GNU GPL 3 <http://www.gnu.org/copyleft/gpl.html>
 
 Dir.glob('*.html').each do |file|
-  p file if File.zero?(file)
-  `rm -f #{file}` if File.zero?(file)
+  if File.zero?(file) || system("grep error #{file}")
+    p file
+    `rm -f #{file}`
+  end
 end
