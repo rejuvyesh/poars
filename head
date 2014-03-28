@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Saner OARS</title>
+<!-- 2014-03-28 Fri 00:12 -->
+<meta  http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta  name="author" content="Jayesh Kumar Gupta" />
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="./jquery.dynatable.css" />
+
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+
+<script type="text/javascript" src="./js/jquery.dynatable.js"></script>
+<script type="text/javascript">
+
+   $.dynatableSetup({features: {paginate: false}});
+
+</script>
+</head>
+<body>
+<div id="content" class="container">
+<h1>Saner OARS</h1>
+Type inside the search box to filter. Click on the columns to sort. <br> For example, enter 09:00-10:00, for all 9-10 courses etc.
+<br>
+
+<div id="dep" style="float: left;">
+<strong>Dept:</strong><select id="search-dep" name="department">
+  <option></option>
+  <option>AE</option>
+  <option>BSBE</option>
+  <option>CHE</option>
+  <option>CHM</option>
+  <option>CE</option>
+  <option>CSE</option>
+  <option>ECO</option>
+  <option>EE</option>
+  <option>MTH</option>
+  <option>ME</option>
+  <option>MME</option>
+  <option>MS</option>
+  <option>MSE</option>
+  <option>PHY</option>
+  <option>HSS</option>
+  <option>MDES</option>
+  <option>IME</option>
+  <option>NET</option>
+  <option>STA</option>
+</select>
+</div>
+

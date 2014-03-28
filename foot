@@ -1,0 +1,59 @@
+</div>
+
+<footer>
+<div class="container">
+<p class="author">Author: <a href="http://rejuvyesh.com">Jayesh Kumar Gupta</a></p>
+<p class="date">Created: 2014-03-28 Fri 00:12</p>
+<p class="creator"><a href="http://www.gnu.org/software/emacs/">Emacs</a> 24.3.1 (<a href="http://orgmode.org">Org</a> mode 8.2.5h)</p>
+<p class="validation"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</footer>
+
+<a href="http://github.com/rejuvyesh/poars"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
+
+<!-- Enable dynatable -->
+<script type="text/javascript">
+$('#ctable').dynatable();
+
+
+</script>
+
+<script type="text/javascript">
+
+var dynatable = $('#ctable').dynatable({
+features: {
+paginate: false,
+recordCount: false,
+}
+}).data('dynatable');
+
+$('#search-dep').change( function() {
+var value = $(this).val();
+if (value === "") {
+dynatable.queries.remove("department");
+} else {
+dynatable.queries.add("department",value);
+}
+dynatable.process();
+});
+
+</script>
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-35033901-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+</script>
+
+</body>
+
+</html>
