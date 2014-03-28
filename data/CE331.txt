@@ -1,0 +1,28 @@
+   Course No:                CE331
+   Title:                    SOIL MECHANICS
+   Instructor(s):            P GHOSH
+   Pre-requisites:           CE242
+   Inst. email:              priyog@iitk.ac.in
+   Units:(L-T-P-D-U)         3-0-2-1-4
+   Department:               CE
+   Schedule:                 LEC: TW 15:00-16:00 REQ;F 08:00-09:00 REQ;T/D: T
+                             17:00-18:00 REQ;
+                             LAB: MTTh 15:00-17:00 LAB;
+   Instructor's Notes:
+   Current Status:
+   (if taken as an elective)
+
+   NOTE: Pre-requisite '#' means that the permission of the instructor is
+   required.
+
+        No Query Set by the Instructor for this course. !!!!
+
+                                    [1]Close
+   Course_no      Which Dept.     Students type      (Year if any) Action
+                                                                    
+
+References
+
+   Visible links
+   1. Close
+	file:///home/rejuvyesh/dev/python/poars/CE331.html#

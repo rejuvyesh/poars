@@ -1,0 +1,28 @@
+   Course No:                EE395A
+   Title:                    ELECTRICAL ENGINEERING UNDER GRADUATE PROJECT
+                             III
+   Instructor(s):            CONVENOR DUGC
+   Pre-requisites:
+   Inst. email:              ynsingh@iitk.ac.in
+   Units:(L-T-P-D-U)         0-0-0-0-9
+   Department:               EE
+   Schedule:                 LEC:
+                             null
+   Instructor's Notes:
+   Current Status:
+   (if taken as an elective)
+
+   NOTE: Pre-requisite '#' means that the permission of the instructor is
+   required.
+
+        No Query Set by the Instructor for this course. !!!!
+
+                                    [1]Close
+   Course_no      Which Dept.     Students type      (Year if any) Action
+                                                                    
+
+References
+
+   Visible links
+   1. Close
+	file:///home/rejuvyesh/dev/python/poars/EE395A.html#

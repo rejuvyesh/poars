@@ -1,0 +1,27 @@
+   Course No:                PHY599
+   Title:                    M.SC. PROJECT-I
+   Instructor(s):            G SENGUPTA
+   Pre-requisites:
+   Inst. email:              sengupta@iitk.ac.in
+   Units:(L-T-P-D-U)         0-0-20-4-12
+   Department:               PHY
+   Schedule:                 LEC:
+                             null
+   Instructor's Notes:
+   Current Status:
+   (if taken as an elective)
+
+   NOTE: Pre-requisite '#' means that the permission of the instructor is
+   required.
+
+        No Query Set by the Instructor for this course. !!!!
+
+                                    [1]Close
+   Course_no      Which Dept.     Students type      (Year if any) Action
+                                                                    
+
+References
+
+   Visible links
+   1. Close
+	file:///home/rejuvyesh/dev/python/poars/PHY599.html#
