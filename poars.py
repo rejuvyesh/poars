@@ -38,8 +38,3 @@ if scrap == 'y':
             print((type(soup.prettify)))
             fout.write(oars.text)
             oars.close
-
-            if call("elinks -dump " + i + ".html" + ">" + i + ".txt", shell=True) == 0:
-                call("rm -f " + i + ".html", shell=True)
-            else:
-                print(i)
