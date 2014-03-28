@@ -9,7 +9,7 @@ import time
 from subprocess import call
 from bs4 import BeautifulSoup
 import os
-url = 'http://172.26.142.66:4040/Common/CourseListing.asp'
+url = 'http://172.26.142.75:4040/Common/CourseListing.asp'
 
 response = requests.get(url)
 
@@ -22,7 +22,7 @@ pickle.dump(cont, open('sublist.p', 'wb'))
 print(cont)
 
 response.close
-scrap = 'n'
+scrap = 'y'
 obj = pickle.load(open('sublist.p', 'rb'))
 if scrap == 'y':
     for i in obj:
@@ -31,10 +31,11 @@ if scrap == 'y':
         else:
             fout = open(i + ".html", "wt")
             url = "http://172.26.142.75:4040/Utils/CourseInfoPopup2.asp?Course=" + i
-            time.sleep(2)
+            time.sleep(3)
             oars = requests.get(url, timeout=1)
             soup = BeautifulSoup(oars.content)
 
             print((type(soup.prettify)))
             fout.write(oars.text)
             oars.close
+            print(i)
