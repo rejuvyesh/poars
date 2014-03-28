@@ -29,7 +29,7 @@ web: csv
 	sed -i 's/@iitk.ac.in//g' data.csv
 	cat head > data/try.html
 	ruby table.rb data.csv >> data/try.html
-	sed -i 's/<table><tr><th>Department<\/th><th>Course No<\/th><th>Instructor(s)<\/th><th>Pre-requisites<\/th><th>Schedule<\/th><th>Title<\/th><th>Units<\/th><\/tr>/<table id=\"ctable\" class=\"table table-striped table-bordered\"><thead><tr class=\"header\"><th>Department<\/th><th>Course No<\/th><th>Instructor(s)<\/th><th>Pre-requisites<\/th><th>Schedule<\/th><th>Title<\/th><th>Units<\/th><\/tr><\/thead>/g' data/try.html
+	sed -i 's/<table><tr><th>Department<\/th><th>Course No<\/th><th>Instructor(s)<\/th><th>Pre-requisites<\/th><th>Schedule<\/th><th>Title<\/th><th>Units<\/th><th>Inst. email<\/th><\/tr>/<table id=\"ctable\" class=\"table table-striped table-bordered\"><thead><tr class=\"header\"><th>Department<\/th><th>Course No<\/th><th>Instructor(s)<\/th><th>Pre-requisites<\/th><th>Schedule<\/th><th>Title<\/th><th>Units<\/th><th>Inst. email<\/th><\/tr><\/thead>/g' data/try.html
 	cat foot >> data/try.html
 
 pub: data/try.html
