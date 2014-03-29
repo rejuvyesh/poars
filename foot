@@ -5,13 +5,13 @@
 <div class="container">
 <div class="row">
 <div class="col-md-3">
-<p>Author: <a href="http://rejuvyesh.com">Jayesh Kumar Gupta</a></p>
+<p>Created by <a href="http://rejuvyesh.com">Jayesh Kumar Gupta</a></p>
 </div>
 <div class="col-md-3">
-<p class="text-center">Write to me: <a href="mailto:mail@rejuvyesh.com">mail@rejuvyesh.com</a></p>
+<p class="text-center"><i class="fa fa-envelope"></i> <a href="mailto:mail@rejuvyesh.com">mail@rejuvyesh.com</a></p>
 </div>
 <div class="col-md-3">
-<p class="text-center">Or message me on <a href="https://www.facebook.com/jayesh.k.gupta">facebook</a>
+<p class="text-center"><i class="fa fa-facebook"></i><a href="https://www.facebook.com/jayesh.k.gupta">facebook</a>
 </div>
 <div class="col-md-3">
 <p class="text-right"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
