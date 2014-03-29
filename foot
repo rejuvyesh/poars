@@ -8,13 +8,13 @@
 <p>Author: <a href="http://rejuvyesh.com">Jayesh Kumar Gupta</a></p>
 </div>
 <div class="col-md-3">
-<p>Write to me: <a href="mailto:mail@rejuvyesh.com">mail@rejuvyesh.com</a></p>
+<p class="text-center">Write to me: <a href="mailto:mail@rejuvyesh.com">mail@rejuvyesh.com</a></p>
 </div>
 <div class="col-md-3">
-<p>Or message me on <a href="https://www.facebook.com/jayesh.k.gupta">facebook</a>
+<p class="text-center">Or message me on <a href="https://www.facebook.com/jayesh.k.gupta">facebook</a>
 </div>
 <div class="col-md-3">
-<p><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+<p class="text-right"><a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
 </div>
 </div>
 </footer>
