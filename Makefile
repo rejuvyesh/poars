@@ -44,3 +44,4 @@ pub: data/try.html
 	git add index.html dict.json
 	git commit -m "`date` update"
 	git push origin gh-pages
+	git checkout master
