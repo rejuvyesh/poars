@@ -1,7 +1,7 @@
 JSON2CSV = "node_modules/json2csv/bin/json2csv.js"
 
 all:
-	test -e $(JSON2CSV) && $(MAKE) web
+	test -e $(JSON2CSV) && $(MAKE) json && $(MAKE) web
 
 scrape: poars.py
 	python poars.py
