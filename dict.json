@@ -1400,6 +1400,16 @@
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
     },
     {
+        "Course No": "CHE618A",
+        "Department": "CHE",
+        "Inst. email": "pkbhatta@iitk.ac.in",
+        "Instructor(s)": "P K BHATTACHARYA",
+        "Pre-requisites": "CHE313A",
+        "Schedule": "LEC: MTh 10:30-12:00 REQ;",
+        "Title": "NEW SEPARATION PROCESSES",
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    },
+    {
         "Course No": "CHE631",
         "Department": "CHE",
         "Inst. email": "dkunzru@iitk.ac.in",
@@ -1408,6 +1418,16 @@
         "Schedule": "LEC: MTh 09:00-10:30 REQ;",
         "Title": "CHEMICAL REACTION ENGINEERING",
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    },
+    {
+        "Course No": "CHE631A",
+        "Department": "CHE",
+        "Inst. email": "dkunzru@iitk.ac.in",
+        "Instructor(s)": "D KUNZRU",
+        "Pre-requisites": "",
+        "Schedule": "LEC: MTh 09:00-10:30 REQ;",
+        "Title": "CHEMICAL REACTION ENGINEERING",
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
     },
     {
         "Course No": "CHE633",
@@ -1420,6 +1440,16 @@
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
     },
     {
+        "Course No": "CHE633A",
+        "Department": "CHE",
+        "Inst. email": "goutam@iitk.ac.in",
+        "Instructor(s)": "G DEO",
+        "Pre-requisites": "",
+        "Schedule": "LEC: WF 10:30-12:00 REQ;",
+        "Title": "PRINCIPLES OF HETEROGENEOUS CATALYSIS",
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    },
+    {
         "Course No": "CHE641",
         "Department": "CHE",
         "Inst. email": "rpala@iitk.ac.in",
@@ -1428,6 +1458,16 @@
         "Schedule": "LEC: MTh 12:00-13:30 REQ;",
         "Title": "MATHEMATICAL METHODS IN CHEMICAL ENGINEERING",
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    },
+    {
+        "Course No": "CHE641A",
+        "Department": "CHE",
+        "Inst. email": "rpala@iitk.ac.in",
+        "Instructor(s)": "R PALA",
+        "Pre-requisites": "",
+        "Schedule": "LEC: WF 09:00-10:30 REQ;",
+        "Title": "MATHEMATICAL METHODS IN CHEMICAL ENGINEERING",
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
     },
     {
         "Course No": "CHE661",
@@ -1440,6 +1480,16 @@
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
     },
     {
+        "Course No": "CHE661A",
+        "Department": "CHE",
+        "Inst. email": "guptark@iitk.ac.in",
+        "Instructor(s)": "R K GUPTA",
+        "Pre-requisites": "",
+        "Schedule": "LEC: MTh 12:00-13:30 REQ;",
+        "Title": "ANALYTICAL & MATERIAL CHARACTERIZATION",
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    },
+    {
         "Course No": "CHE674",
         "Department": "CHE",
         "Inst. email": "srisiva@iitk.ac.in",
@@ -1450,6 +1500,16 @@
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
     },
     {
+        "Course No": "CHE674A",
+        "Department": "CHE",
+        "Inst. email": "srisiva@iitk.ac.in",
+        "Instructor(s)": "S SIVAKUMAR",
+        "Pre-requisites": "",
+        "Schedule": "LEC: TTh 17:00-18:30 REQ;",
+        "Title": "INTRODUCTION TO NANOSCIENCE AND TECHNOLOGY",
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    },
+    {
         "Course No": "CHE678",
         "Department": "CHE",
         "Inst. email": "aghatak@iitk.ac.in",
@@ -1458,6 +1518,36 @@
         "Schedule": "LEC: WF 17:00-18:30 REQ;",
         "Title": "MECHANICS OF SOFT MATERIALS",
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    },
+    {
+        "Course No": "CHE678A",
+        "Department": "CHE",
+        "Inst. email": "aghatak@iitk.ac.in",
+        "Instructor(s)": "A GHATAK",
+        "Pre-requisites": "",
+        "Schedule": "LEC: WF 17:00-18:30 REQ;",
+        "Title": "MECHANICS OF SOFT MATERIALS",
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    },
+    {
+        "Course No": "CHE679",
+        "Department": "CHE",
+        "Inst. email": "ashuto@iitk.ac.in",
+        "Instructor(s)": "A SHARMA",
+        "Pre-requisites": "#",
+        "Schedule": "LEC: WF 17:00-18:30 REQ;",
+        "Title": "NANOFABRICATION",
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    },
+    {
+        "Course No": "CHE679A",
+        "Department": "CHE",
+        "Inst. email": "ashuto@iitk.ac.in",
+        "Instructor(s)": "A SHARMA",
+        "Pre-requisites": "",
+        "Schedule": "LEC: WF 17:00-18:30 REQ;",
+        "Title": "NANOFABRICATION",
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
     },
     {
         "Course No": "CHE699",
