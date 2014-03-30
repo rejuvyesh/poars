@@ -1,0 +1,28 @@
+   Course No:                PHY603A
+   Title:                    REVIEW OF CLASSICAL PHYSICS II
+   Instructor(s):            M K HARBOLA
+   Pre-requisites:
+   Inst. email:              mkh@iitk.ac.in
+   Units:(L-T-P-D-U)         1-3-0-0-9
+   Department:               PHY
+   Schedule:                 LEC: M 15:00-16:00 REQ;T/D: TTh 15:00-16:00
+                             REQ;F 14:00-15:00 REQ;
+                             null
+   Instructor's Notes:
+   Current Status:
+   (if taken as an elective)
+
+   NOTE: Pre-requisite '#' means that the permission of the instructor is
+   required.
+
+        No Query Set by the Instructor for this course. !!!!
+
+                                    [1]Close
+   Course_no      Which Dept.     Students type      (Year if any) Action
+                                                                    
+
+References
+
+   Visible links
+   1. Close
+	file:///home/rejuvyesh/dev/python/poars/PHY603A.html#

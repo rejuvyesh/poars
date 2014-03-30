@@ -1,8 +1,8 @@
    Course No:                ESO202A
    Title:                    MECHANICS OF SOLIDS
-   Instructor(s):            OARS
+   Instructor(s):            S KAMLE
    Pre-requisites:
-   Inst. email:              courses@iitk.ac.in
+   Inst. email:              kamle@iitk.ac.in
    Units:(L-T-P-D-U)         3-1-0-0-11
    Department:               CE
    Schedule:                 LEC: MWF 10:00-11:00 L17;T/D: Th 10:00-11:00

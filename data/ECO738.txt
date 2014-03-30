@@ -5,7 +5,7 @@
    Inst. email:              kks@iitk.ac.in
    Units:(L-T-P-D-U)         3-0-0-0-4
    Department:               ECO
-   Schedule:                 LEC: MTh 12:00-13:30 REQ;
+   Schedule:                 LEC: WF 15:30-17:00 REQ;
                              null
    Instructor's Notes:
    Current Status:

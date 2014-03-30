@@ -5,7 +5,7 @@
    Inst. email:              rsankar@iitk.ac.in
    Units:(L-T-P-D-U)         3-0-0-0-9
    Department:               BSBE
-   Schedule:                 LEC:
+   Schedule:                 LEC: TTh 12:00-13:30 REQ;
                              null
    Instructor's Notes:
    Current Status:

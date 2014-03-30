@@ -1,8 +1,8 @@
    Course No:                ECO341A
    Title:                    ECONOMETRICS I
-   Instructor(s):            OARS
+   Instructor(s):            S K MATHUR, M ARSHAD RAHMAN
    Pre-requisites:           MSO201A
-   Inst. email:              courses@iitk.ac.in
+   Inst. email:              skmathur@iitk.ac.in
    Units:(L-T-P-D-U)         3-0-3-0-12
    Department:               ECO
    Schedule:                 LEC: WF 15:00-16:00 REQ;T/D: Th 17:00-18:00 REQ;

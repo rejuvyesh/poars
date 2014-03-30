@@ -5,7 +5,7 @@
    Inst. email:              pravk@iitk.ac.in
    Units:(L-T-P-D-U)         3-0-0-0-4
    Department:               HSS
-   Schedule:                 LEC: WF 15:30-17:00 REQ;
+   Schedule:                 LEC: MTh 09:00-10:30 REQ;
                              null
    Instructor's Notes:
    Current Status:

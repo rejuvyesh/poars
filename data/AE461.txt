@@ -1,0 +1,27 @@
+   Course No:                AE461
+   Title:                    AIRCRAFT DESIGN-I
+   Instructor(s):            A TEWARI
+   Pre-requisites:           AE211 AE321 AE322 AE341
+   Inst. email:              ashtew@iitk.ac.in
+   Units:(L-T-P-D-U)         2-0-4-0-5
+   Department:               AE
+   Schedule:                 LEC: F 15:00-16:00 REQ;
+                             LAB: Th 14:00-17:00 LAB;
+   Instructor's Notes:
+   Current Status:
+   (if taken as an elective)
+
+   NOTE: Pre-requisite '#' means that the permission of the instructor is
+   required.
+
+        No Query Set by the Instructor for this course. !!!!
+
+                                    [1]Close
+   Course_no      Which Dept.     Students type      (Year if any) Action
+                                                                    
+
+References
+
+   Visible links
+   1. Close
+	file:///home/rejuvyesh/dev/python/poars/AE461.html#

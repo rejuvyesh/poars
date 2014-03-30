@@ -1,11 +1,11 @@
    Course No:                CE451A
    Title:                    APPLICATION OF GEOTECHNICAL ENGINEERING
-   Instructor(s):
+   Instructor(s):            R SATHIAMURTHY
    Pre-requisites:           CE351A, CE352A
-   Inst. email:
+   Inst. email:              hsrajesh@iitk.ac.in
    Units:(L-T-P-D-U)         3-0-0-2-11
    Department:               CE
-   Schedule:                 LEC:
+   Schedule:                 LEC: WF 15:30-17:00 REQ;
                              null
    Instructor's Notes:
    Current Status:

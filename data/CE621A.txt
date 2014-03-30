@@ -1,11 +1,12 @@
-   Course No:                CE621A
-   Title:                    ENGINEERING MECHANICS
-   Instructor(s):            S K MISHRA
+   Course No:                CE620A
+   Title:                    STRUCTURAL DYNAMICS
+   Instructor(s):            VINAY K GUPTA
    Pre-requisites:
-   Inst. email:              smishra@iitk.ac.in
+   Inst. email:              vinaykg@iitk.ac.in
    Units:(L-T-P-D-U)         3-0-0-0-9
    Department:               CE
-   Schedule:                 LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;
+   Schedule:                 LEC: T 17:00-18:00 REQ;W 12:00-13:00 REQ;F
+                             14:00-15:00 REQ;
                              null
    Instructor's Notes:
    Current Status:

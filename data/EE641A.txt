@@ -5,7 +5,7 @@
    Inst. email:              abiswas@iitk.ac.in
    Units:(L-T-P-D-U)         3-0-0-0-9
    Department:               EE
-   Schedule:                 LEC: MTh 09:00-10:30 REQ;
+   Schedule:                 LEC: MWF 17:00-18:00 REQ;
                              null
    Instructor's Notes:
    Current Status:

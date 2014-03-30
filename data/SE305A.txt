@@ -1,0 +1,27 @@
+   Course No:                SE305A
+   Title:                    PHYSICS OF NON-EQUILIBRIUM PHENOMENA
+   Instructor(s):            D CHOWDHURY
+   Pre-requisites:
+   Inst. email:              debch@iitk.ac.in
+   Units:(L-T-P-D-U)         3-1-0-0-11
+   Department:               PHY
+   Schedule:                 LEC: WF 10:30-12:00 REQ;
+                             null
+   Instructor's Notes:
+   Current Status:
+   (if taken as an elective)
+
+   NOTE: Pre-requisite '#' means that the permission of the instructor is
+   required.
+
+        No Query Set by the Instructor for this course. !!!!
+
+                                    [1]Close
+   Course_no      Which Dept.     Students type      (Year if any) Action
+                                                                    
+
+References
+
+   Visible links
+   1. Close
+	file:///home/rejuvyesh/dev/python/poars/SE305A.html#

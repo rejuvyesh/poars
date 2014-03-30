@@ -1,8 +1,8 @@
    Course No:                LIF101A
    Title:                    INTRODUCTION TO BIOLOGY
-   Instructor(s):            OARS
+   Instructor(s):            A BANDYOPADHYAYA, B PRAKASH
    Pre-requisites:
-   Inst. email:              courses@iitk.ac.in
+   Inst. email:              abandopa@iitk.ac.in
    Units:(L-T-P-D-U)         2-0-0-0-6
    Department:               BSBE
    Schedule:                 LEC: WF 14:00-15:00 L7;

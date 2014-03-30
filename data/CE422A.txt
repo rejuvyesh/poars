@@ -1,7 +1,7 @@
    Course No:                CE422A
    Title:                    PHYSICAL AND ENVIRONMENTAL GEOLOGY
    Instructor(s):            CONVENOR DUGC
-   Pre-requisites:           CE321A / CE322A
+   Pre-requisites:           CE321A/CE322A
    Inst. email:              adas@iitk.ac.in
    Units:(L-T-P-D-U)         3-0-0-0-9
    Department:               CE

@@ -1,8 +1,8 @@
    Course No:                ECO301A
    Title:                    MICROECONOMICS II
-   Instructor(s):            OARS
+   Instructor(s):            SARANI SAHA
    Pre-requisites:
-   Inst. email:              courses@iitk.ac.in
+   Inst. email:              sarani@iitk.ac.in
    Units:(L-T-P-D-U)         3-0-0-0-9
    Department:               ECO
    Schedule:                 LEC: MF 08:00-09:00 REQ;T/D: T 09:00-10:00 REQ;

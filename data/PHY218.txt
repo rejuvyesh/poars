@@ -5,8 +5,8 @@
    Inst. email:              sar@iitk.ac.in
    Units:(L-T-P-D-U)         1-0-4-0-4
    Department:               PHY
-   Schedule:                 LEC:
-                             null
+   Schedule:                 LEC: T 17:00-18:00 REQ;
+                             LAB: ThF 14:00-17:00 LAB;
    Instructor's Notes:
    Current Status:
    (if taken as an elective)

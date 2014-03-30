@@ -5,7 +5,7 @@
    Inst. email:              adityaj@iitk.ac.in
    Units:(L-T-P-D-U)         3-0-0-0-4
    Department:               EE
-   Schedule:                 LEC: MTh 10:30-12:00 REQ;
+   Schedule:                 LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;
                              null
    Instructor's Notes:
    Current Status:

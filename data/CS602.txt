@@ -7,7 +7,10 @@
    Department:               CSE
    Schedule:                 LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;
                              null
-   Instructor's Notes:
+                             This is a remedial course is for new (1st sem)
+   Instructor's Notes:       M.Tech. students only. UG students of any dept
+                             (including CSE) can *NOT* register for this
+                             course.
    Current Status:
    (if taken as an elective)
 

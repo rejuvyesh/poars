@@ -1,8 +1,8 @@
    Course No:                CHE699
    Title:                    M TECH THESIS
-   Instructor(s):            CONVENOR DUGC
+   Instructor(s):            CONVENOR DPGC
    Pre-requisites:           #
-   Inst. email:              rpala@iitk.ac.in
+   Inst. email:              vshankar@iitk.ac.in
    Units:(L-T-P-D-U)         0-0-0-0-0
    Department:               CHE
    Schedule:                 LEC:

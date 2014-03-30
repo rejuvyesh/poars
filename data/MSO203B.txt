@@ -7,7 +7,8 @@
    Department:               MTH
    Schedule:                 LEC: WThF 09:00-10:00 L7;T/D: M 09:00-10:00 REQ;
                              null
-   Instructor's Notes:
+   Instructor's Notes:       This is a compulsory course for AE, CE, EE, ME
+                             and MSE only.
    Current Status:
    (if taken as an elective)
 

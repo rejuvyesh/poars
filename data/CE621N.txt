@@ -5,7 +5,7 @@
    Inst. email:              smishra@iitk.ac.in
    Units:(L-T-P-D-U)         3-0-0-0-4
    Department:               CE
-   Schedule:                 LEC: TF 12:00-13:30 REQ;
+   Schedule:                 LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;
                              null
    Instructor's Notes:
    Current Status:

@@ -1,0 +1,27 @@
+   Course No:                AE451A
+   Title:                    EXPERIMENTS IN AEROSPACE ENGINEERING
+   Instructor(s):            R KITEY, A KUSHARI
+   Pre-requisites:           AE351A
+   Inst. email:              rkitey@iitk.ac.in
+   Units:(L-T-P-D-U)         0-0-3-2-5
+   Department:               AE
+   Schedule:                 LEC:
+                             null
+   Instructor's Notes:
+   Current Status:
+   (if taken as an elective)
+
+   NOTE: Pre-requisite '#' means that the permission of the instructor is
+   required.
+
+        No Query Set by the Instructor for this course. !!!!
+
+                                    [1]Close
+   Course_no      Which Dept.     Students type      (Year if any) Action
+                                                                    
+
+References
+
+   Visible links
+   1. Close
+	file:///home/rejuvyesh/dev/python/poars/AE451A.html#

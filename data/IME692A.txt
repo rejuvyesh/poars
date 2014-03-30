@@ -1,0 +1,28 @@
+   Course No:                IME692A
+   Title:                    ADVANCED STATISTICAL METHODS FOR BUSINESS
+                             ANALYTICS
+   Instructor(s):            N K SHARMA
+   Pre-requisites:
+   Inst. email:              nksharma@iitk.ac.in
+   Units:(L-T-P-D-U)         3-0-0-0-9
+   Department:               IME
+   Schedule:                 LEC: MTh 09:00-10:30 REQ;
+                             null
+   Instructor's Notes:
+   Current Status:
+   (if taken as an elective)
+
+   NOTE: Pre-requisite '#' means that the permission of the instructor is
+   required.
+
+        No Query Set by the Instructor for this course. !!!!
+
+                                    [1]Close
+   Course_no      Which Dept.     Students type      (Year if any) Action
+                                                                    
+
+References
+
+   Visible links
+   1. Close
+	file:///home/rejuvyesh/dev/python/poars/IME692A.html#

@@ -5,8 +5,8 @@
    Inst. email:              sutapam@iitk.ac.in
    Units:(L-T-P-D-U)         1-3-0-0-4
    Department:               PHY
-   Schedule:                 LEC: T 17:00-18:00 REQ;T/D: W 12:00-13:30 REQ;F
-                             14:00-15:30 REQ;
+   Schedule:                 LEC: M 14:00-15:00 REQ;T/D: TWTh 14:00-15:00
+                             REQ;
                              null
    Instructor's Notes:
    Current Status:

@@ -5,8 +5,7 @@
    Inst. email:              courses@iitk.ac.in
    Units:(L-T-P-D-U)         3-0-0-0-9
    Department:               CHE
-   Schedule:                 LEC: T 12:00-13:00 REQ;W 16:00-17:00 REQ;Th
-                             17:00-18:00 REQ;
+   Schedule:                 LEC: MWF 17:00-18:00 REQ;
                              null
    Instructor's Notes:
    Current Status:

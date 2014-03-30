@@ -7,7 +7,9 @@
    Department:               CE
    Schedule:                 LEC: MTh 09:00-10:30 REQ;
                              null
-   Instructor's Notes:
+                             This is a DE-B elective for Y11 or later CE
+   Instructor's Notes:       B.Tech./Dual degree students. No one else
+                             allowed.
    Current Status:
    (if taken as an elective)
 

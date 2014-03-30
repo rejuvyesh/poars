@@ -1,11 +1,11 @@
    Course No:                ECO321A
    Title:                    MACROECONOMICS-II
-   Instructor(s):            OARS
+   Instructor(s):            S SAHU
    Pre-requisites:
-   Inst. email:              courses@iitk.ac.in
+   Inst. email:              ssahu@iitk.ac.in
    Units:(L-T-P-D-U)         3-0-0-0-9
    Department:               ECO
-   Schedule:                 LEC: T 12:00-13:00 REQ;WF 16:00-17:00 REQ;
+   Schedule:                 LEC: T 17:00-18:00 REQ;WF 14:00-15:00 REQ;
                              null
    Instructor's Notes:
    Current Status:

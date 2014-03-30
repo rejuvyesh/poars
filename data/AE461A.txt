@@ -1,8 +1,8 @@
    Course No:                AE461A
    Title:                    AIRCRAFT DESIGN-I
-   Instructor(s):            OARS
+   Instructor(s):            A TEWARI
    Pre-requisites:
-   Inst. email:              courses@iitk.ac.in
+   Inst. email:              ashtew@iitk.ac.in
    Units:(L-T-P-D-U)         1-0-2-2-7
    Department:               AE
    Schedule:                 LEC: F 15:00-16:00 REQ;

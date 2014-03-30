@@ -1,8 +1,8 @@
    Course No:                AE311A
    Title:                    COMPRESSIBLE AERODYNAMICS
-   Instructor(s):            OARS
+   Instructor(s):            R K MATHPAL
    Pre-requisites:           ESO201A,ESO204A
-   Inst. email:              oars@iitk.ac.in
+   Inst. email:              rkm@iitk.ac.in
    Units:(L-T-P-D-U)         3-0-0-0-9
    Department:               AE
    Schedule:                 LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;

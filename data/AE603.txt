@@ -1,0 +1,27 @@
+   Course No:                AE603
+   Title:                    INTRODUCTION TO SCIENTIFIC COMPUTING
+   Instructor(s):            T K SENGUPTA, R K MATHPAL
+   Pre-requisites:
+   Inst. email:              tksen@iitk.ac.in
+   Units:(L-T-P-D-U)         2-0-1-0-4
+   Department:               AE
+   Schedule:                 LEC: TF 12:00-13:00 REQ;
+                             null
+   Instructor's Notes:
+   Current Status:
+   (if taken as an elective)
+
+   NOTE: Pre-requisite '#' means that the permission of the instructor is
+   required.
+
+        No Query Set by the Instructor for this course. !!!!
+
+                                    [1]Close
+   Course_no      Which Dept.     Students type      (Year if any) Action
+                                                                    
+
+References
+
+   Visible links
+   1. Close
+	file:///home/rejuvyesh/dev/python/poars/AE603.html#

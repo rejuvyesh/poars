@@ -1,11 +1,11 @@
    Course No:                AE321A
    Title:                    FLIGHT MECHANICS I
-   Instructor(s):            OARS
+   Instructor(s):            A K GHOSH
    Pre-requisites:
-   Inst. email:              courses@iitk.ac.in
+   Inst. email:              akg@iitk.ac.in
    Units:(L-T-P-D-U)         3-0-0-0-9
    Department:               AE
-   Schedule:                 LEC: T 12:00-13:00 REQ;WF 16:00-17:00 REQ;
+   Schedule:                 LEC: TWF 16:00-17:00 REQ;
                              null
    Instructor's Notes:
    Current Status:

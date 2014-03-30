@@ -5,7 +5,7 @@
    Inst. email:              skmathur@iitk.ac.in
    Units:(L-T-P-D-U)         3-0-1-0-4
    Department:               HSS
-   Schedule:                 LEC: MTh 14:00-15:30 REQ;
+   Schedule:                 LEC: WF 17:00-18:30 REQ;
                              null
    Instructor's Notes:
    Current Status:

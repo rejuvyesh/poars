@@ -1,8 +1,8 @@
    Course No:                AE331A
    Title:                    INTRODUCTION TO AEROSPACE STRUCTURES
-   Instructor(s):            OARS
+   Instructor(s):            C S UPADHYAY
    Pre-requisites:           ESO202A
-   Inst. email:              courses@iitk.ac.in
+   Inst. email:              shekhar@iitk.ac.in
    Units:(L-T-P-D-U)         3-0-0-0-9
    Department:               AE
    Schedule:                 LEC: T 17:00-18:00 REQ;WF 14:00-15:00 REQ;

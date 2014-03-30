@@ -1,8 +1,8 @@
    Course No:                ECO412A
    Title:                    INTERNATIONAL ECONOMICS AND FINANCE
-   Instructor(s):            OARS
+   Instructor(s):            S K MATHUR, M ARSHAD RAHMAN
    Pre-requisites:
-   Inst. email:              courses@iitk.ac.in
+   Inst. email:              skmathur@iitk.ac.in
    Units:(L-T-P-D-U)         3-0-0-0-9
    Department:               ECO
    Schedule:                 LEC: TWTh 08:00-09:00 REQ;

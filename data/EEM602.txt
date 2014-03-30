@@ -5,7 +5,7 @@
    Inst. email:              abhas@iitk.ac.in
    Units:(L-T-P-D-U)         3-0-0-0-4
    Department:               CE
-   Schedule:                 LEC: MTh 10:30-12:00 REQ;
+   Schedule:                 LEC: T 11:00-12:00 REQ;WF 16:00-17:00 REQ;
                              null
    Instructor's Notes:
    Current Status:

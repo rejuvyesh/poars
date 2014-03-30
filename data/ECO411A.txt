@@ -1,11 +1,11 @@
    Course No:                ECO411A
    Title:                    INDUSTRIAL ECONOMICS
-   Instructor(s):            OARS
+   Instructor(s):            P KULKHRESTHA
    Pre-requisites:
-   Inst. email:              courses@iitk.ac.in
+   Inst. email:              pravk@iitk.ac.in
    Units:(L-T-P-D-U)         3-0-0-0-9
    Department:               ECO
-   Schedule:                 LEC: T 17:00-18:00 REQ;WF 14:00-15:00 REQ;
+   Schedule:                 LEC: T 12:00-13:00 REQ;WF 16:00-17:00 REQ;
                              null
    Instructor's Notes:
    Current Status:

@@ -1,8 +1,8 @@
    Course No:                AE201A
    Title:                    INTRODUCTION TO AEROSPACE ENGINEERING
-   Instructor(s):            OARS
+   Instructor(s):            S MITTAL
    Pre-requisites:
-   Inst. email:              courses@iitk.ac.in
+   Inst. email:              smittal@iitk.ac.in
    Units:(L-T-P-D-U)         3-0-0-0-5
    Department:               AE
    Schedule:                 LEC: MWF 12:00-13:00 REQ;

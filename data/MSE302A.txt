@@ -1,11 +1,11 @@
-   Course No:                MSE302A
-   Title:                    MECHANICAL BEHAVIOUR OF MATERIALS
-   Instructor(s):            N P GURAO
+   Course No:                MS601
+   Title:                    STRUCTURAL & MAGNETIC PROPERTIES OF MATERIALS
+   Instructor(s):            JITENDRA KUMAR, RAJ PALA
    Pre-requisites:
-   Inst. email:              npgurao@iitk.ac.in
-   Units:(L-T-P-D-U)         3-0-0-0-9
-   Department:               MSE
-   Schedule:                 LEC: TWTh 08:00-09:00 REQ;
+   Inst. email:              jk@iitk.ac.in
+   Units:(L-T-P-D-U)         3-0-0-0-4
+   Department:               MS
+   Schedule:                 LEC: MTh 09:00-10:30 ACMS110;
                              null
    Instructor's Notes:
    Current Status:
