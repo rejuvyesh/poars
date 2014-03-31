@@ -40,6 +40,16 @@
         "Units": "(L-T-P-D-U)         3-0-0-0-9"
     },
     {
+        "Course No": "AE391A",
+        "Department": "AE",
+        "Inst. email": "shekhar@iitk.ac.in",
+        "Instructor(s)": "CONVENOR DUGC",
+        "Pre-requisites": "",
+        "Schedule": "LEC:",
+        "Title": "UG PROJECT (UGP-I)",
+        "Units": "(L-T-P-D-U)         0-0-0-0-4"
+    },
+    {
         "Course No": "AE401A",
         "Department": "AE",
         "Inst. email": "shekhar@iitk.ac.in",
@@ -450,6 +460,16 @@
         "Units": "(L-T-P-D-U)         3-0-0-0-9"
     },
     {
+        "Course No": "BSE212",
+        "Department": "BSBE",
+        "Inst. email": "sganesh@iitk.ac.in",
+        "Instructor(s)": "S GANESH",
+        "Pre-requisites": "",
+        "Schedule": "LEC: MF 08:00-09:00 BSBH;T 09:00-10:00 BSBH;",
+        "Title": "MOLECULAR BIOLOGY",
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    },
+    {
         "Course No": "BSE301A",
         "Department": "BSBE",
         "Inst. email": "pradips@iitk.ac.in",
@@ -478,6 +498,16 @@
         "Schedule": "LEC: Th 17:00-18:00 BSBH;",
         "Title": "MOLECULAR BIOLOGY LAB",
         "Units": "(L-T-P-D-U)         1-0-6-0-9"
+    },
+    {
+        "Course No": "BSE352",
+        "Department": "BSBE",
+        "Inst. email": "dsk@iitk.ac.in",
+        "Instructor(s)": "D S KATTI",
+        "Pre-requisites": "#",
+        "Schedule": "LEC: TWTh 08:00-09:00 BSBH;",
+        "Title": "BIOMATERIALS",
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
     },
     {
         "Course No": "BSE398A",
@@ -518,6 +548,16 @@
         "Schedule": "LEC: T 17:00-18:00 REQ;",
         "Title": "BSBE LAB IV BIOMECHANICS & BIOMATERIALS",
         "Units": "(L-T-P-D-U)         0-0-6-0-4"
+    },
+    {
+        "Course No": "BSE492",
+        "Department": "BSBE",
+        "Inst. email": "ashokkum@iitk.ac.in",
+        "Instructor(s)": "ASHOK KUMAR",
+        "Pre-requisites": "",
+        "Schedule": "LEC: MTh 09:00-10:30 REQ;",
+        "Title": "METHODS IN BIOTECHNOLOGY-I, EXPERIMENTAL",
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
     },
     {
         "Course No": "BSE492A",
@@ -590,6 +630,16 @@
         "Units": "(L-T-P-D-U)         3-0-0-0-9"
     },
     {
+        "Course No": "BSE621",
+        "Department": "BSBE",
+        "Inst. email": "saran@iitk.ac.in",
+        "Instructor(s)": "S MATHESWARAN",
+        "Pre-requisites": "",
+        "Schedule": "LEC: MTh 10:30-12:00 REQ;",
+        "Title": "MODERN INSTRUMENTAL METHODS IN BIOLOGICAL",
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    },
+    {
         "Course No": "BSE621A",
         "Department": "BSBE",
         "Inst. email": "saran@iitk.ac.in",
@@ -598,6 +648,16 @@
         "Schedule": "LEC: MTh 10:30-12:00 REQ;",
         "Title": "MODERN INSTRUMENTAL METHODS IN BIOLOGICAL",
         "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    },
+    {
+        "Course No": "BSE629",
+        "Department": "BSBE",
+        "Inst. email": "jonaki@iitk.ac.in",
+        "Instructor(s)": "JONAKI SEN",
+        "Pre-requisites": "",
+        "Schedule": "LEC: WF 10:30-12:00 REQ;",
+        "Title": "NEUROBIOLOGY",
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
     },
     {
         "Course No": "BSE629A",
@@ -610,6 +670,16 @@
         "Units": "(L-T-P-D-U)         3-0-0-0-9"
     },
     {
+        "Course No": "BSE632",
+        "Department": "BSBE",
+        "Inst. email": "rsankar@iitk.ac.in",
+        "Instructor(s)": "R SANKARARAMAKRISHNAN",
+        "Pre-requisites": "",
+        "Schedule": "LEC: TTh 12:00-13:30 REQ;",
+        "Title": "STRUCTURAL BIOLOGY & BIOPHYSICS",
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    },
+    {
         "Course No": "BSE632A",
         "Department": "BSBE",
         "Inst. email": "rsankar@iitk.ac.in",
@@ -618,6 +688,16 @@
         "Schedule": "LEC: TTh 12:00-13:30 REQ;",
         "Title": "STRUCTURAL BIOLOGY & BIOPHYSICS",
         "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    },
+    {
+        "Course No": "BSE640",
+        "Department": "BSBE",
+        "Inst. email": "dsk@iitk.ac.in",
+        "Instructor(s)": "D S KATTI",
+        "Pre-requisites": "",
+        "Schedule": "LEC: TWTh 08:00-09:00 REQ;",
+        "Title": "BIOMATERIALS",
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
     },
     {
         "Course No": "BSE640A",
@@ -2100,6 +2180,16 @@
         "Units": "(L-T-P-D-U)         3-0-0-0-9"
     },
     {
+        "Course No": "CS210",
+        "Department": "CSE",
+        "Inst. email": "sbaswana@iitk.ac.in",
+        "Instructor(s)": "SURENDER BASWANA",
+        "Pre-requisites": "ESC101N",
+        "Schedule": "LEC: TWF 12:00-13:00 REQ;",
+        "Title": "DATA STRUCTURES AND ALGORITHMS I",
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    },
+    {
         "Course No": "CS210A",
         "Department": "CSE",
         "Inst. email": "sbaswana@iitk.ac.in",
@@ -2180,6 +2270,16 @@
         "Units": "(L-T-P-D-U)         3-0-0-0-9"
     },
     {
+        "Course No": "CS360",
+        "Department": "CSE",
+        "Inst. email": "vinaypn@iitk.ac.in",
+        "Instructor(s)": "VINAY NAMBOODIRI",
+        "Pre-requisites": "",
+        "Schedule": "LEC: WF 15:30-17:00 REQ;",
+        "Title": "INTRODUCTION TO COMPUTER GRAPHICS",
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    },
+    {
         "Course No": "CS360A",
         "Department": "CSE",
         "Inst. email": "vinaypn@iitk.ac.in",
@@ -2200,6 +2300,16 @@
         "Units": "(L-T-P-D-U)         0-0-0-0-4"
     },
     {
+        "Course No": "CS425",
+        "Department": "CSE",
+        "Inst. email": "dheeraj@iitk.ac.in",
+        "Instructor(s)": "DHEERAJ SANGHI",
+        "Pre-requisites": "",
+        "Schedule": "LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;",
+        "Title": "COMPUTER NETWORKS",
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    },
+    {
         "Course No": "CS425A",
         "Department": "CSE",
         "Inst. email": "dheeraj@iitk.ac.in",
@@ -2208,6 +2318,16 @@
         "Schedule": "LEC: M 15:30-17:00 REQ;T 14:00-15:30 REQ;",
         "Title": "COMPUTER NETWORKS",
         "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    },
+    {
+        "Course No": "CS433",
+        "Department": "CSE",
+        "Inst. email": "ajain@iitk.ac.in",
+        "Instructor(s)": "AJAI JAIN",
+        "Pre-requisites": "ESC101N,CS210/ESO211,CS220,",
+        "Schedule": "LEC: WF 12:00-13:30 REQ;",
+        "Title": "PARALLEL PROGRAMMING",
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
     },
     {
         "Course No": "CS433A",
@@ -2688,6 +2808,16 @@
         "Schedule": "LEC: TWTh 08:00-09:00 REQ;T/D: F 15:00-16:00",
         "Title": "PRINCIPLES OF COMMUNICATION",
         "Units": "(L-T-P-D-U)         3-1-0-0-11"
+    },
+    {
+        "Course No": "EE330",
+        "Department": "EE",
+        "Inst. email": "saikatc@iitk.ac.in",
+        "Instructor(s)": "S CHAKRABARTI",
+        "Pre-requisites": "ESO210",
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;T/D:",
+        "Title": "POWER SYSTEMS",
+        "Units": "(L-T-P-D-U)         3-1-0-0-4"
     },
     {
         "Course No": "EE330A",
@@ -3530,6 +3660,26 @@
         "Units": "(L-T-P-D-U)         0-0-0-0-0"
     },
     {
+        "Course No": "ES699",
+        "Department": "ES",
+        "Inst. email": "rsinha@iitk.ac.in",
+        "Instructor(s)": "CONVENOR DPGC",
+        "Pre-requisites": "",
+        "Schedule": "LEC:",
+        "Title": "M TECH THESIS",
+        "Units": "(L-T-P-D-U)         0-0-0-0-0"
+    },
+    {
+        "Course No": "ES799",
+        "Department": "ES",
+        "Inst. email": "rsinha@iitk.ac.in",
+        "Instructor(s)": "CONVENOR DPGC",
+        "Pre-requisites": "",
+        "Schedule": "LEC:",
+        "Title": "PH D THESIS",
+        "Units": "(L-T-P-D-U)         0-0-0-0-0"
+    },
+    {
         "Course No": "ESC101A",
         "Department": "CSE",
         "Inst. email": "karkare@iitk.ac.in",
@@ -3538,6 +3688,16 @@
         "Schedule": "LEC: MWF 12:00-13:00 L7;T/D: T 12:00-13:00 REQ;",
         "Title": "FUNDAMENTAL OF COMPUTING",
         "Units": "(L-T-P-D-U)         3-1-3-0-14"
+    },
+    {
+        "Course No": "ESC102N",
+        "Department": "EE",
+        "Inst. email": "rhegde@iitk.ac.in",
+        "Instructor(s)": "RAJESH HEGDE",
+        "Pre-requisites": "",
+        "Schedule": "LEC: MWF 08:00-09:00 REQ;T/D: Th 08:00-09:00",
+        "Title": "INTRODUCTION TO ELECTRONICS",
+        "Units": "(L-T-P-D-U)         3-1-3-0-5"
     },
     {
         "Course No": "ESC201A",
@@ -3980,6 +4140,16 @@
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
     },
     {
+        "Course No": "MBA631A",
+        "Department": "IME",
+        "Inst. email": "ssmishra@iitk.ac.in",
+        "Instructor(s)": "S S MISHRA",
+        "Pre-requisites": "",
+        "Schedule": "LEC: WF 10:30-12:00 REQ;",
+        "Title": "MARKETING MANAGEMENT",
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    },
+    {
         "Course No": "MBA637",
         "Department": "IME",
         "Inst. email": "ssmishra@iitk.ac.in",
@@ -4000,6 +4170,16 @@
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
     },
     {
+        "Course No": "MBA639A",
+        "Department": "IME",
+        "Inst. email": "jayanta@iitk.ac.in",
+        "Instructor(s)": "JAYANTA CHATTERJEE, S S MISHRA",
+        "Pre-requisites": "",
+        "Schedule": "LEC: W 17:00-18:30 REQ;F 15:30-17:00 REQ;",
+        "Title": "STRATEGIC MARKETING-CONTEMPORARY ISSUES",
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    },
+    {
         "Course No": "MBA641",
         "Department": "IME",
         "Inst. email": "subhasm@iitk.ac.in",
@@ -4010,6 +4190,16 @@
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
     },
     {
+        "Course No": "MBA641A",
+        "Department": "IME",
+        "Inst. email": "subhams@iitk.ac,.in",
+        "Instructor(s)": "S C MISHRA",
+        "Pre-requisites": "",
+        "Schedule": "LEC: WF 10:30-12:00 REQ;",
+        "Title": "COMPUTING FOR MANAGEMENT",
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    },
+    {
         "Course No": "MBA646",
         "Department": "IME",
         "Inst. email": "veena@iitk.ac.in",
@@ -4018,6 +4208,16 @@
         "Schedule": "LEC: T 10:30-12:00 REQ;W 15:30-17:00 REQ;",
         "Title": "ENTERPRISE INTEGRATION WITH IT",
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    },
+    {
+        "Course No": "MBA646A",
+        "Department": "IME",
+        "Inst. email": "veena@iitk.ac.in",
+        "Instructor(s)": "VEENA BANSAL",
+        "Pre-requisites": "",
+        "Schedule": "LEC: T 10:30-12:00 REQ;W 15:30-17:00 REQ;",
+        "Title": "ENTERPRISE INTEGRATION WITH IT",
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
     },
     {
         "Course No": "MBA651",
@@ -4228,6 +4428,16 @@
         "Schedule": "LEC:",
         "Title": "PROJECT - I",
         "Units": "(L-T-P-D-U)         0-0-6-0-4"
+    },
+    {
+        "Course No": "ME451A",
+        "Department": "ME",
+        "Inst. email": "sovandas@iitk.ac.in",
+        "Instructor(s)": "CONVENOR DUGC",
+        "Pre-requisites": "",
+        "Schedule": "LEC:",
+        "Title": "ME PROJECT-1",
+        "Units": "(L-T-P-D-U)         0-0-0-0-9"
     },
     {
         "Course No": "ME621",
@@ -4478,6 +4688,16 @@
         "Schedule": "LEC: WF 12:00-13:30 REQ;",
         "Title": "ALTERNATIVE FUELS & ADVANCE IN IC ENGINES",
         "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    },
+    {
+        "Course No": "ME698M",
+        "Department": "ME",
+        "Inst. email": "sbasu@iitk.ac.in",
+        "Instructor(s)": "SUMIT BASU",
+        "Pre-requisites": "",
+        "Schedule": "LEC: WF 15:30-17:00 REQ;",
+        "Title": "NON - LINEAR FINITE ELEMENT TECHNIQUES IN SOLID",
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
     },
     {
         "Course No": "ME698N",
@@ -4768,6 +4988,26 @@
         "Schedule": "LEC:",
         "Title": "MECHANICAL BEHAVIOUR LABORATORY",
         "Units": "(L-T-P-D-U)         0-0-3-0-3"
+    },
+    {
+        "Course No": "MSE349A",
+        "Department": "MSE",
+        "Inst. email": "shashank@iitk.ac.in",
+        "Instructor(s)": "CONVENER DUGC",
+        "Pre-requisites": "",
+        "Schedule": "LEC:",
+        "Title": "UNDER GRADUATE PROJECT I",
+        "Units": "(L-T-P-D-U)         0-0-2-0-4"
+    },
+    {
+        "Course No": "MSE497A",
+        "Department": "MSE",
+        "Inst. email": "shashank@iitk.ac.in",
+        "Instructor(s)": "CONVENER DUGC",
+        "Pre-requisites": "",
+        "Schedule": "LEC:",
+        "Title": "UNDER GRADUATE PROJECT III",
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
     },
     {
         "Course No": "MSE498",
@@ -6070,6 +6310,16 @@
         "Units": "(L-T-P-D-U)         1-0-4-0-4"
     },
     {
+        "Course No": "PHY224",
+        "Department": "PHY",
+        "Inst. email": "sar@iitk.ac.in",
+        "Instructor(s)": "S A RAMAKRISHNA, S GHOSH",
+        "Pre-requisites": "PHY103N",
+        "Schedule": "LEC: TW 17:00-18:00 REQ;",
+        "Title": "OPTICAL PHYSICS",
+        "Units": "(L-T-P-D-U)         3-1-0-0-4"
+    },
+    {
         "Course No": "PHY224A",
         "Department": "PHY",
         "Inst. email": "sar@iitk.ac.in",
@@ -6160,6 +6410,16 @@
         "Units": "(L-T-P-D-U)         3-0-0-0-9"
     },
     {
+        "Course No": "PHY421",
+        "Department": "PHY",
+        "Inst. email": "tkghosh@iitk.ac.in",
+        "Instructor(s)": "T K GHOSE",
+        "Pre-requisites": "",
+        "Schedule": "LEC: MTh 12:00-13:30 REQ;T/D: F 08:00-09:00 REQ;",
+        "Title": "MATHEMATICAL METHODS I",
+        "Units": "(L-T-P-D-U)         3-1-0-0-4"
+    },
+    {
         "Course No": "PHY421A",
         "Department": "PHY",
         "Inst. email": "tkghosh@iitk.ac.in",
@@ -6168,6 +6428,16 @@
         "Schedule": "LEC: MTh 12:00-13:30 REQ;T/D: F 08:00-09:00 REQ;",
         "Title": "MATHEMATICAL METHODS I",
         "Units": "(L-T-P-D-U)         3-1-0-0-11"
+    },
+    {
+        "Course No": "PHY431",
+        "Department": "PHY",
+        "Inst. email": "tapo@iitk.ac.in",
+        "Instructor(s)": "T SARKAR",
+        "Pre-requisites": "",
+        "Schedule": "LEC: MTh 09:00-10:30 REQ;T/D: T 09:00-10:00 REQ;",
+        "Title": "QUANTUM MECHANICS I",
+        "Units": "(L-T-P-D-U)         3-1-0-0-4"
     },
     {
         "Course No": "PHY431A",
@@ -6210,6 +6480,16 @@
         "Units": "(L-T-P-D-U)         0-0-8-0-4"
     },
     {
+        "Course No": "PHY461A",
+        "Department": "PHY",
+        "Inst. email": "zakir@iitk.ac.in",
+        "Instructor(s)": "Z HOSSAIN",
+        "Pre-requisites": "",
+        "Schedule": "LEC:",
+        "Title": "EXPERIMENTAL PHYSICS I",
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    },
+    {
         "Course No": "PHY462",
         "Department": "PHY",
         "Inst. email": "zakir@iitk.ac.in",
@@ -6218,6 +6498,16 @@
         "Schedule": "LEC:",
         "Title": "EXPERIMENTAL PHYSICS II",
         "Units": "(L-T-P-D-U)         0-0-8-0-4"
+    },
+    {
+        "Course No": "PHY462A",
+        "Department": "PHY",
+        "Inst. email": "zakir@iitk.ac.in",
+        "Instructor(s)": "Z HOSSAIN",
+        "Pre-requisites": "",
+        "Schedule": "LEC:",
+        "Title": "EXPERIMENTAL PHYSICS II",
+        "Units": "(L-T-P-D-U)         0-0-8-0-9"
     },
     {
         "Course No": "PHY501",
