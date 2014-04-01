@@ -1450,6 +1450,26 @@
         "Units": "(L-T-P-D-U)         0-0-4-0-2"
     },
     {
+        "Course No": "CHE494A",
+        "Department": "CHE",
+        "Inst. email": "nithish@iitk.ac.in",
+        "Instructor(s)": "N VERMA",
+        "Pre-requisites": "",
+        "Schedule": "LEC:",
+        "Title": "SUMMER IN-PLANT TRAINING",
+        "Units": "(L-T-P-D-U)         0-4-0-0-4"
+    },
+    {
+        "Course No": "CHE497A",
+        "Department": "CHE",
+        "Inst. email": "rpala@iitk.ac.in",
+        "Instructor(s)": "CONVENOR DUGC",
+        "Pre-requisites": "",
+        "Schedule": "LEC:",
+        "Title": "UNDER GRADUATE PROJECT-II",
+        "Units": "(L-T-P-D-U)         0-0-0-0-9"
+    },
+    {
         "Course No": "CHE601",
         "Department": "CHE",
         "Inst. email": "chhabra@iitk.ac.in",
@@ -1468,6 +1488,16 @@
         "Schedule": "LEC: WF 12:00-13:30 REQ;",
         "Title": "TRANSPORT PHENOMENA",
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    },
+    {
+        "Course No": "CHE611A",
+        "Department": "CHE",
+        "Inst. email": "naveent@iitk.ac.in",
+        "Instructor(s)": "N TEWARI",
+        "Pre-requisites": "",
+        "Schedule": "LEC: W 12:00-13:30 REQ;F 12:00-13:00 REQ;",
+        "Title": "TRANSPORT PHENOMENA",
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
     },
     {
         "Course No": "CHE618",
@@ -2340,6 +2370,16 @@
         "Units": "(L-T-P-D-U)         3-0-0-0-9"
     },
     {
+        "Course No": "CS498A",
+        "Department": "CSE",
+        "Inst. email": "skmehta@iitk.ac.in",
+        "Instructor(s)": "CONVENOR DUGC",
+        "Pre-requisites": "",
+        "Schedule": "LEC:",
+        "Title": "UNDER GRADUATE PROJECT-III",
+        "Units": "(L-T-P-D-U)         0-0-0-0-9"
+    },
+    {
         "Course No": "CS601",
         "Department": "CSE",
         "Inst. email": "rtewari@iitk.ac.in",
@@ -2498,6 +2538,16 @@
         "Schedule": "LEC: MTh 10:30-12:00 REQ;",
         "Title": "QUANTUM COMPUTING",
         "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    },
+    {
+        "Course No": "CS697",
+        "Department": "CSE",
+        "Inst. email": "ajain@iitk.ac.in",
+        "Instructor(s)": "CONVENOR DPGC",
+        "Pre-requisites": "",
+        "Schedule": "LEC:",
+        "Title": "SPECIAL TOPICS IN COMPUTER SCIENCE",
+        "Units": "(L-T-P-D-U)         0-0-0-0-4"
     },
     {
         "Course No": "CS698I",
@@ -2690,6 +2740,16 @@
         "Units": "(L-T-P-D-U)         0-0-2-0-2"
     },
     {
+        "Course No": "ECO398A",
+        "Department": "ECO",
+        "Inst. email": "ssahu@iitk.ac.in",
+        "Instructor(s)": "CONVENOR DUGC",
+        "Pre-requisites": "",
+        "Schedule": "LEC:",
+        "Title": "UG PROJECT (UGP-I)",
+        "Units": "(L-T-P-D-U)         0-0-0-0-4"
+    },
+    {
         "Course No": "ECO408",
         "Department": "HSS",
         "Inst. email": "vk@iitk.ac.in",
@@ -2720,6 +2780,16 @@
         "Units": "(L-T-P-D-U)         3-0-0-0-9"
     },
     {
+        "Course No": "ECO498A",
+        "Department": "ECO",
+        "Inst. email": "ssahu@iitk.ac.in",
+        "Instructor(s)": "CONVENOR DUGC",
+        "Pre-requisites": "",
+        "Schedule": "LEC:",
+        "Title": "UNDER GRADUATE PROJECT-III",
+        "Units": "(L-T-P-D-U)         0-0-0-0-9"
+    },
+    {
         "Course No": "ECO501",
         "Department": "HSS",
         "Inst. email": "pmprasad@iitk.ac.in",
@@ -2748,6 +2818,26 @@
         "Schedule": "LEC: WF 12:00-13:30 REQ;",
         "Title": "PUBLIC ECONOMICS",
         "Units": "(L-T-P-D-U)         3-1-0-0-4"
+    },
+    {
+        "Course No": "ECO598",
+        "Department": "HSS",
+        "Inst. email": "ssahu@iitk.ac.in",
+        "Instructor(s)": "CONVENOR DUGC",
+        "Pre-requisites": "",
+        "Schedule": "LEC:",
+        "Title": "PROJECT-I",
+        "Units": "(L-T-P-D-U)         0-0-4-0-4"
+    },
+    {
+        "Course No": "ECO599",
+        "Department": "HSS",
+        "Inst. email": "ssahu@iitk.ac.in",
+        "Instructor(s)": "CONVENOR DUGC",
+        "Pre-requisites": "",
+        "Schedule": "LEC:",
+        "Title": "PROJECT-II",
+        "Units": "(L-T-P-D-U)         0-0-4-0-4"
     },
     {
         "Course No": "ECO732",
@@ -4843,6 +4933,16 @@
         "Course No": "ME799",
         "Department": "ME",
         "Inst. email": "sbasu@iitk.ac.in",
+        "Instructor(s)": "CONVENOR DPGC",
+        "Pre-requisites": "",
+        "Schedule": "LEC:",
+        "Title": "PHD THESIS",
+        "Units": "(L-T-P-D-U)         0-0-0-0-0"
+    },
+    {
+        "Course No": "MME799",
+        "Department": "MME",
+        "Inst. email": "sarang@iitk.ac.in",
         "Instructor(s)": "CONVENOR DPGC",
         "Pre-requisites": "",
         "Schedule": "LEC:",
@@ -7060,6 +7160,16 @@
         "Units": "(L-T-P-D-U)         1-0-3-0-6"
     },
     {
+        "Course No": "TA201N",
+        "Department": "MSE",
+        "Inst. email": "shashank@iitk.ac.in",
+        "Instructor(s)": "SHASHANK SHEKHAR",
+        "Pre-requisites": "",
+        "Schedule": "LEC: T 09:00-10:00 L7;",
+        "Title": "INTRODUCTION TO MANUFACTURING PROCESSES",
+        "Units": "(L-T-P-D-U)         1-0-6-0-3"
+    },
+    {
         "Course No": "TA202A",
         "Department": "ME",
         "Inst. email": "vkjain@iitk.ac.in",
@@ -7068,5 +7178,15 @@
         "Schedule": "LEC: T 08:00-09:00 L7;",
         "Title": "MANUFACTURING PROCESSES II",
         "Units": "(L-T-P-D-U)         1-0-3-0-6"
+    },
+    {
+        "Course No": "TA202N",
+        "Department": "ME",
+        "Inst. email": "vkjain@iitk.ac.in",
+        "Instructor(s)": "V K JAIN",
+        "Pre-requisites": "",
+        "Schedule": "LEC: T 08:00-09:00 L7;",
+        "Title": "MANUFACTURING PROCESSES",
+        "Units": "(L-T-P-D-U)         1-0-3-0-3"
     }
 ]
