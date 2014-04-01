@@ -990,6 +990,46 @@
         "Units": "(L-T-P-D-U)         3-1-0-0-11"
     },
     {
+        "Course No": "CE491",
+        "Department": "CE",
+        "Inst. email": "prishati@iitk.ac.in",
+        "Instructor(s)": "CONVENOR DUGC",
+        "Pre-requisites": "",
+        "Schedule": "LEC:",
+        "Title": "PROJECT-I",
+        "Units": "(L-T-P-D-U)         2-0-6-2-2"
+    },
+    {
+        "Course No": "CE491A",
+        "Department": "CE",
+        "Inst. email": "prishati@iitk.ac.in",
+        "Instructor(s)": "CONVENOR DUGC",
+        "Pre-requisites": "",
+        "Schedule": "LEC:",
+        "Title": "UNDER GRADUATE RESEARCH -I",
+        "Units": "(L-T-P-D-U)         0-0-0-0-9"
+    },
+    {
+        "Course No": "CE492",
+        "Department": "CE",
+        "Inst. email": "prishati@iitk.ac.in",
+        "Instructor(s)": "CONVENOR DUGC",
+        "Pre-requisites": "",
+        "Schedule": "LEC:",
+        "Title": "PROJECT II",
+        "Units": "(L-T-P-D-U)         0-0-8-0-3"
+    },
+    {
+        "Course No": "CE492A",
+        "Department": "CE",
+        "Inst. email": "prishati@iitk.ac.in",
+        "Instructor(s)": "CONVENOR DUGC",
+        "Pre-requisites": "",
+        "Schedule": "LEC:",
+        "Title": "UNDER GRADUATE RESEARCH -II",
+        "Units": "(L-T-P-D-U)         0-0-0-0-9"
+    },
+    {
         "Course No": "CE601",
         "Department": "CE",
         "Inst. email": "mukesh@iitk.ac.in",
