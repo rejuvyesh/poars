@@ -10,6 +10,16 @@
         "Units": "(L-T-P-D-U)         3-0-0-0-5"
     },
     {
+        "Course No": "AE232",
+        "Department": "AE",
+        "Inst. email": "shekhar@iitk.ac.in",
+        "Instructor(s)": "C S UPADHYAY",
+        "Pre-requisites": "ESO204",
+        "Schedule": "LEC: T 17:00-18:00 REQ;WTh 14:00-15:00 REQ;",
+        "Title": "AIRCRAFT STRUCTURES - I",
+        "Units": "(L-T-P-D-U)         3-0-0-1-4"
+    },
+    {
         "Course No": "AE311A",
         "Department": "AE",
         "Inst. email": "rkm@iitk.ac.in",
@@ -18,6 +28,26 @@
         "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;",
         "Title": "COMPRESSIBLE AERODYNAMICS",
         "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    },
+    {
+        "Course No": "AE312",
+        "Department": "AE",
+        "Inst. email": "rkm@iitk.ac.in",
+        "Instructor(s)": "R K MATHPAL",
+        "Pre-requisites": "AE211",
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;",
+        "Title": "AERODYNAMICS-II",
+        "Units": "(L-T-P-D-U)         3-0-0-1-4"
+    },
+    {
+        "Course No": "AE321",
+        "Department": "AE",
+        "Inst. email": "akg@iitk.ac.in",
+        "Instructor(s)": "A K GHOSH",
+        "Pre-requisites": "",
+        "Schedule": "LEC: T 12:00-13:00 REQ;WF 16:00-17:00 REQ;",
+        "Title": "FLIGHT MECHANICS - I",
+        "Units": "(L-T-P-D-U)         3-0-0-1-4"
     },
     {
         "Course No": "AE321A",
@@ -1840,6 +1870,16 @@
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
     },
     {
+        "Course No": "CHM404",
+        "Department": "CHM",
+        "Inst. email": "moorthy@iitk.ac.in",
+        "Instructor(s)": "J N MOORTHY",
+        "Pre-requisites": "#",
+        "Schedule": "LEC:",
+        "Title": "ORGANIC CHEMISTRY LAB.",
+        "Units": "(L-T-P-D-U)         0-0-6-0-2"
+    },
+    {
         "Course No": "CHM421",
         "Department": "CHM",
         "Inst. email": "dgoswami@iitk.ac.in",
@@ -2300,6 +2340,16 @@
         "Units": "(L-T-P-D-U)         0-0-2-0-2"
     },
     {
+        "Course No": "CS330",
+        "Department": "CSE",
+        "Inst. email": "mainakc@iitk.ac.in",
+        "Instructor(s)": "MAINAK CHAUDHURI",
+        "Pre-requisites": "CS220 CS210/ESO211 ESC101N",
+        "Schedule": "LEC: TWTh 08:00-09:00 REQ;",
+        "Title": "OPERATING SYSTEMS",
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    },
+    {
         "Course No": "CS330A",
         "Department": "CSE",
         "Inst. email": "mainakc@iitk.ac.in",
@@ -2750,6 +2800,16 @@
         "Units": "(L-T-P-D-U)         3-0-0-0-9"
     },
     {
+        "Course No": "ECO321",
+        "Department": "HSS",
+        "Inst. email": "pravk@iitk.ac.in",
+        "Instructor(s)": "P KULKHRESTHA",
+        "Pre-requisites": "",
+        "Schedule": "LEC: T 12:00-13:00 REQ;WF 16:00-17:00 REQ;",
+        "Title": "INDUSTRIAL ECONOMICS",
+        "Units": "(L-T-P-D-U)         3-1-0-0-4"
+    },
+    {
         "Course No": "ECO321A",
         "Department": "ECO",
         "Inst. email": "ssahu@iitk.ac.in",
@@ -2788,6 +2848,16 @@
         "Schedule": "LEC:",
         "Title": "UG PROJECT (UGP-I)",
         "Units": "(L-T-P-D-U)         0-0-0-0-4"
+    },
+    {
+        "Course No": "ECO402",
+        "Department": "HSS",
+        "Inst. email": "ssahu@iitk.ac.in",
+        "Instructor(s)": "S SAHU",
+        "Pre-requisites": "ECO202",
+        "Schedule": "LEC: T 17:00-18:00 REQ;WF 14:00-15:00 REQ;",
+        "Title": "MACROECONOMICS II",
+        "Units": "(L-T-P-D-U)         3-1-0-0-4"
     },
     {
         "Course No": "ECO408",
@@ -3820,6 +3890,16 @@
         "Units": "(L-T-P-D-U)         3-1-3-0-14"
     },
     {
+        "Course No": "ESC101N",
+        "Department": "CSE",
+        "Inst. email": "karkare@iitk.ac.in",
+        "Instructor(s)": "AMAY KARKARE",
+        "Pre-requisites": "",
+        "Schedule": "LEC: MWF 12:00-13:00 REQ;T/D: T 12:00-13:00 REQ;",
+        "Title": "FUNDAMENTAL OF COMPUTING",
+        "Units": "(L-T-P-D-U)         3-1-3-0-5"
+    },
+    {
         "Course No": "ESC102N",
         "Department": "EE",
         "Inst. email": "rhegde@iitk.ac.in",
@@ -4030,6 +4110,16 @@
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
     },
     {
+        "Course No": "IME602A",
+        "Department": "IME",
+        "Inst. email": "raghus@iitk.ac.in",
+        "Instructor(s)": "R N SENGUPTA",
+        "Pre-requisites": "",
+        "Schedule": "LEC: WF 09:00-10:30 REQ;",
+        "Title": "PROBABILITY AND STATISTICS",
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    },
+    {
         "Course No": "IME603",
         "Department": "IME",
         "Inst. email": "dphilip@iitk.ac.in",
@@ -4110,6 +4200,16 @@
         "Units": "(L-T-P-D-U)         3-0-0-0-9"
     },
     {
+        "Course No": "IME697",
+        "Department": "IME",
+        "Inst. email": "veena@iitk.ac.in",
+        "Instructor(s)": "CONVENOR DPGC",
+        "Pre-requisites": "",
+        "Schedule": "LEC:",
+        "Title": "INDUSTRIAL PROJECT",
+        "Units": "(L-T-P-D-U)         0-0-0-0-0"
+    },
+    {
         "Course No": "IME698",
         "Department": "IME",
         "Inst. email": "veena@iitk.ac.in",
@@ -4157,6 +4257,16 @@
         "Pre-requisites": "",
         "Schedule": "LEC:",
         "Title": "M TECH THESIS",
+        "Units": "(L-T-P-D-U)         0-0-0-0-0"
+    },
+    {
+        "Course No": "LT799",
+        "Department": "LT",
+        "Inst. email": "hwanare@iitk.ac.in",
+        "Instructor(s)": "H WANARE",
+        "Pre-requisites": "",
+        "Schedule": "LEC:",
+        "Title": "PHD THESIS",
         "Units": "(L-T-P-D-U)         0-0-0-0-0"
     },
     {
@@ -4360,6 +4470,16 @@
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
     },
     {
+        "Course No": "MBA651A",
+        "Department": "IME",
+        "Inst. email": "raghus@iitk.ac.in",
+        "Instructor(s)": "R N SENGUPTA",
+        "Pre-requisites": "",
+        "Schedule": "LEC: MTh 09:00-10:30 REQ;",
+        "Title": "QUANTITATIVE METHODS FOR DECISION MAKING",
+        "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    },
+    {
         "Course No": "MBA654",
         "Department": "IME",
         "Inst. email": "udays@iitk.ac.in",
@@ -4430,6 +4550,16 @@
         "Units": "(L-T-P-D-U)         3-0-0-0-4"
     },
     {
+        "Course No": "MBA697",
+        "Department": "IME",
+        "Inst. email": "veena@iitk.ac.in",
+        "Instructor(s)": "CONVENOR DPGC",
+        "Pre-requisites": "",
+        "Schedule": "LEC:",
+        "Title": "SUMMER PROJECT",
+        "Units": "(L-T-P-D-U)         0-0-0-0-0"
+    },
+    {
         "Course No": "MBA698",
         "Department": "IME",
         "Inst. email": "veena@iitk.ac.in",
@@ -4468,6 +4598,16 @@
         "Schedule": "LEC: WF 11:00-12:00 REQ;",
         "Title": "ENERGY SYSTEMS I",
         "Units": "(L-T-P-D-U)         2-0-0-0-6"
+    },
+    {
+        "Course No": "ME321",
+        "Department": "ME",
+        "Inst. email": "bls@iitk.ac.in",
+        "Instructor(s)": "B L SHARMA",
+        "Pre-requisites": "ESO204",
+        "Schedule": "LEC: MTh 11:00-12:30 REQ;",
+        "Title": "ADVANCED MECHANICS OF SOLIDS",
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
     },
     {
         "Course No": "ME321A",
@@ -5130,6 +5270,16 @@
         "Units": "(L-T-P-D-U)         0-0-3-0-3"
     },
     {
+        "Course No": "MSE340",
+        "Department": "MSE",
+        "Inst. email": "kbiswas@iitk.ac.in",
+        "Instructor(s)": "KRISHANU BISWAS",
+        "Pre-requisites": "MSE330/MME330",
+        "Schedule": "LEC: TTh 17:00-18:30 REQ;",
+        "Title": "PHASE TRANSFORMATIONS IN MATERIALS",
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    },
+    {
         "Course No": "MSE349A",
         "Department": "MSE",
         "Inst. email": "shashank@iitk.ac.in",
@@ -5138,6 +5288,16 @@
         "Schedule": "LEC:",
         "Title": "UNDER GRADUATE PROJECT I",
         "Units": "(L-T-P-D-U)         0-0-2-0-4"
+    },
+    {
+        "Course No": "MSE410",
+        "Department": "MSE",
+        "Inst. email": "agaur@iitk.ac.in",
+        "Instructor(s)": "ANSHU GAUR",
+        "Pre-requisites": "",
+        "Schedule": "LEC: MF 08:00-09:00 REQ;T 09:00-10:00 REQ;",
+        "Title": "ELECTRONIC & MAGNETIC PROPERTIES OF MATERIALS",
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
     },
     {
         "Course No": "MSE497A",
@@ -5528,6 +5688,16 @@
         "Schedule": "LEC: WThF 09:00-10:00 L7;T/D: M 09:00-10:00 REQ;",
         "Title": "COMPLEX VARIABLES",
         "Units": "(L-T-P-D-U)         3-1-0-0-6"
+    },
+    {
+        "Course No": "MSO203",
+        "Department": "MTH",
+        "Inst. email": "malayb@iitk.ac.in",
+        "Instructor(s)": "MALAY BANERJEE",
+        "Pre-requisites": "",
+        "Schedule": "LEC: WThF 09:00-10:00 REQ;T/D: M 09:00-10:00",
+        "Title": "PARTIAL DIFFERENTIAL EQUATIONS",
+        "Units": "(L-T-P-D-U)         3-1-0-0-2"
     },
     {
         "Course No": "MSO203B",
@@ -6428,6 +6598,16 @@
         "Schedule": "LEC: MWF 15:00-16:00 L7;T/D: Th 15:00-16:00 REQ;",
         "Title": "PHYSICS-I",
         "Units": "(L-T-P-D-U)         3-1-0-0-11"
+    },
+    {
+        "Course No": "PHY102N",
+        "Department": "PHY",
+        "Inst. email": "amitag@iitk.ac.in",
+        "Instructor(s)": "AMIT AGARWAL, R PRASAD",
+        "Pre-requisites": "",
+        "Schedule": "LEC: MWF 15:00-16:00 REQ;T/D: Th 15:00-16:00",
+        "Title": "PHYSICS-I",
+        "Units": "(L-T-P-D-U)         3-1-0-1-4"
     },
     {
         "Course No": "PHY103A",
