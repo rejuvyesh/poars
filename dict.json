@@ -1490,6 +1490,16 @@
         "Units": "(L-T-P-D-U)         1-0-2-0-5"
     },
     {
+        "Course No": "CHE453",
+        "Department": "CHE",
+        "Inst. email": "nkaistha@iitk.ac.in",
+        "Instructor(s)": "N KAISHTHA",
+        "Pre-requisites": "CHE251",
+        "Schedule": "LEC: TWTh 08:00-09:00 REQ;",
+        "Title": "CHEMICAL ENGINEERING DESIGN",
+        "Units": "(L-T-P-D-U)         3-1-0-1-4"
+    },
+    {
         "Course No": "CHE453A",
         "Department": "CHE",
         "Inst. email": "nkaistha@iitk.ac.in",
@@ -1498,6 +1508,16 @@
         "Schedule": "LEC: TWTh 08:00-09:00 REQ;",
         "Title": "CHEMICAL ENGINEERING DESIGN",
         "Units": "(L-T-P-D-U)         3-0-2-0-11"
+    },
+    {
+        "Course No": "CHE492",
+        "Department": "CHE",
+        "Inst. email": "dkunzru@iitk.ac.in",
+        "Instructor(s)": "D KUNZRU",
+        "Pre-requisites": "",
+        "Schedule": "LEC: W 15:00-16:00 REQ;",
+        "Title": "UNIT OPERATION LAB II",
+        "Units": "(L-T-P-D-U)         0-0-6-0-4"
     },
     {
         "Course No": "CHE492A",
@@ -3000,6 +3020,16 @@
         "Units": "(L-T-P-D-U)         3-1-0-0-11"
     },
     {
+        "Course No": "EE320",
+        "Department": "EE",
+        "Inst. email": "vasu@iitk.ac.in",
+        "Instructor(s)": "K VASUDEVAN",
+        "Pre-requisites": "EE200",
+        "Schedule": "LEC: TWTh 08:00-09:00 REQ;T/D: F 15:00-16:00",
+        "Title": "PRINCIPLES OF COMMUNICATIONS",
+        "Units": "(L-T-P-D-U)         3-1-0-0-4"
+    },
+    {
         "Course No": "EE320A",
         "Department": "EE",
         "Inst. email": "vasu@iitk.ac.in",
@@ -3848,6 +3878,66 @@
         "Schedule": "LEC: TWF 12:00-13:00 REQ;",
         "Title": "LANGAUGES OF SOUTH ASIA",
         "Units": "(L-T-P-D-U)         3-0-0-0-9"
+    },
+    {
+        "Course No": "ENG701",
+        "Department": "HSS",
+        "Inst. email": "achla@iitk.ac.in",
+        "Instructor(s)": "A M RAINA",
+        "Pre-requisites": "",
+        "Schedule": "LEC: MTh 10:30-12:00 REQ;",
+        "Title": "FUNDAMENTALS OF MODERN LINGUISTICS",
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    },
+    {
+        "Course No": "ENG709",
+        "Department": "HSS",
+        "Inst. email": "chai@iitk.ac.in",
+        "Instructor(s)": "C PUTTASWAMY",
+        "Pre-requisites": "",
+        "Schedule": "LEC: WF 10:30-12:00 REQ;",
+        "Title": "LINGUISTIC ANALYSIS",
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    },
+    {
+        "Course No": "ENG715",
+        "Department": "HSS",
+        "Inst. email": "gn@iitk.ac.in",
+        "Instructor(s)": "G NEELAKANTAN",
+        "Pre-requisites": "",
+        "Schedule": "LEC: WF 10:30-12:00 REQ;",
+        "Title": "METHODOLOGY OF TEACHING AND RESEARCH IN",
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    },
+    {
+        "Course No": "ENG716",
+        "Department": "HSS",
+        "Inst. email": "gn@iitk.ac.in",
+        "Instructor(s)": "G NEELAKANTAN, A M RAINA",
+        "Pre-requisites": "#",
+        "Schedule": "LEC: WF 15:30-17:00 REQ;",
+        "Title": "INDIVIDUAL PROJECTS",
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    },
+    {
+        "Course No": "ENG735",
+        "Department": "HSS",
+        "Inst. email": "suchitra@iitk.ac.in",
+        "Instructor(s)": "S MATHUR",
+        "Pre-requisites": "",
+        "Schedule": "LEC: TF 12:00-13:00 REQ;W 14:00-15:00 REQ;",
+        "Title": "COMMONWEALTH LITERATURE",
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
+    },
+    {
+        "Course No": "ENG752",
+        "Department": "HSS",
+        "Inst. email": "minic@iitk.ac.in",
+        "Instructor(s)": "MINI CHANDRAN",
+        "Pre-requisites": "",
+        "Schedule": "LEC: MTh 10:30-12:00 REQ;",
+        "Title": "COMPARATIVE AESTHETICS",
+        "Units": "(L-T-P-D-U)         3-0-0-0-4"
     },
     {
         "Course No": "ENG799",
@@ -7368,6 +7458,16 @@
         "Schedule": "LEC: TTh 14:00-15:00 L7;",
         "Title": "ENGINEERING GRAPHICS",
         "Units": "(L-T-P-D-U)         2-0-3-0-9"
+    },
+    {
+        "Course No": "TA101N",
+        "Department": "ME",
+        "Inst. email": "vinodv@iitk.ac.in",
+        "Instructor(s)": "VINOD VASUDEVAN",
+        "Pre-requisites": "",
+        "Schedule": "LEC: TTh 14:00-15:00 L7;",
+        "Title": "ENGINEERING GRAPHICS",
+        "Units": "(L-T-P-D-U)         2-0-3-1-4"
     },
     {
         "Course No": "TA201A",
