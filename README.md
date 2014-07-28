@@ -1,5 +1,7 @@
-Saner OARS
+Saner OARS [DEPRECATED]
 ==========
+
+**Deprecated**: Use http://navya.github.io/oars/ which now uses [scrapoars](https://github.com/navya/scrapoars) as it's backend, which is a lot less hacky.
 
 What's this?
 ------------
